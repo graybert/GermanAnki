@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "assignment_strategy": "alternate_by_curriculum_order",
+  "profiles": [
+    {
+      "key": "marlene_lark",
+      "display_name": "Marlene Lark",
+      "voice_id": "MTTjXkEpZepLTqO0xH0f",
+      "gender": "female"
+    },
+    {
+      "key": "markus",
+      "display_name": "Markus",
+      "voice_id": "IeQubAjK1ujbppIdhJw4",
+      "gender": "male"
+    }
+  ]
+}

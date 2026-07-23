@@ -19,3 +19,6 @@ __pycache__/
 # Generated TTS media and partial downloads
 data/audio/generated/
 *.part
+
+# Local API credentials (never commit)
+secrets/

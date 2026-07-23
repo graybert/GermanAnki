@@ -41,20 +41,20 @@ Preview a paid run without calling the API:
 
 ```powershell
 python tools/build_audio_manifest.py
-python tools/generate_elevenlabs_audio.py `
-  --voice-id YOUR_APPROVED_GERMAN_VOICE_ID `
-  --limit 5 `
-  --dry-run
+python tools/generate_elevenlabs_audio.py --limit 10 --dry-run
 ```
 
 Generate the first five after setting the secret locally:
 
 ```powershell
-$env:ELEVENLABS_API_KEY = "your-key"
-python tools/generate_elevenlabs_audio.py `
-  --voice-id YOUR_APPROVED_GERMAN_VOICE_ID `
-  --limit 5
+python tools/generate_elevenlabs_audio.py --limit 10
 ```
+
+The committed voice configuration alternates Marlene Lark on odd curriculum
+positions and Markus on even positions. `--voice-id` can still override that
+configuration for a one-voice experiment. The API key is read from the
+environment first, then from the ignored
+`secrets/elevenlabs-api-key.txt` file.
 
 The default model is `eleven_multilingual_v2` and the output is
 `mp3_44100_128`. Existing files are skipped, so interrupted runs resume safely.
