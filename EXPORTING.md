@@ -2,7 +2,7 @@
 
 The current test artifact is:
 
-`dist/German-Core-Test-0001-0010.apkg`
+`dist/German-Core-Test-0001-0010-v2.apkg`
 
 It contains one German-to-English recognition card for each frequency rank from
 1 through 10. Import it by double-clicking the file or using **File → Import**
@@ -15,12 +15,12 @@ but not imported directly into the AnkiWeb website.
 python -m pip install --target .deps -r requirements-export.txt
 python tools/build_curriculum_order.py
 python tools/export_anki.py
-python tools/validate_apkg.py dist/German-Core-Test-0001-0010.apkg --expected-notes 10
+python tools/validate_apkg.py dist/German-Core-Test-0001-0010-v2.apkg --expected-notes 10
 ```
 
-`genanki` is installed into the ignored `.deps/` directory and is pinned in
-`requirements-export.txt`. The resulting `.apkg` is committed so testers do not
-need Python or the repository.
+The pinned exporter dependencies are installed into the ignored `.deps/`
+directory. The resulting `.apkg` is committed so testers do not need Python or
+the repository.
 
 ## Stable identities and updates
 
@@ -97,23 +97,24 @@ all draft cards.
 1. The project originally had Anki-looking templates but no note model,
    database, media map, or package exporter; JSONL files cannot be imported as
    an Anki deck by themselves.
-2. Creating `.apkg` files requires a packaging library. We pinned
-   `genanki==0.13.1` for reproducibility instead of depending on an unrecorded
-   global installation.
-3. `genanki 0.13.1` emits a valid legacy package but does not attach the newer
-   per-field and per-template IDs recommended for conflict-aware merging in
-   Anki 23.10+. Current Anki falls back to name matching, so field and template
-   names must remain stable.
-4. The first validator implementation used `NamedTemporaryFile`; Windows locks
-   an open temporary file and prevented SQLite from reopening it. Validation
-   now extracts into a temporary directory and closes SQLite before cleanup.
+2. Creating `.apkg` files requires packaging dependencies. We pin
+   `genanki==0.13.1` to construct the source notes and `anki==26.5` to import
+   them into an isolated collection and export Anki's current package format.
+3. The first artifact used genanki's legacy package format. Although a real
+   current-Anki import test proved that it contained 10 working cards, GitHub
+   cannot preview an `.apkg`, and its nested deck name made the result less
+   obvious. Version 2 is exported by Anki's current backend and uses the flat
+   deck name `German Core Test 0001-0010`.
+4. The validator now performs a real import into a disposable collection using
+   Anki's current backend. It checks note/card counts, import warnings, field
+   counts, rendered fronts and backs, the note type, and packaged audio
+   references.
 5. The installed user's Anki collection was open and locked, so it was
    deliberately not modified or used for testing. Package validation is
    isolated and cannot damage the user's collection.
-6. The package has been structurally inspected but not automatically imported
-   through the Anki GUI. A human import into a test profile is still required
-   to confirm interactive `<details>` behavior and visual rendering across
-   Anki Desktop, AnkiMobile, and AnkiDroid.
+6. Automated import and rendering pass in Anki's current backend. A human GUI
+   check is still required to confirm interactive `<details>` behavior and
+   visual rendering across Anki Desktop, AnkiMobile, and AnkiDroid.
 7. The audio packaging path has been tested with a temporary placeholder file,
    but no pronunciation or real codec quality has been tested because actual
    TTS generation has not started.
