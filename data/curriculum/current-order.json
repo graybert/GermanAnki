@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "card_count": 500,
+  "card_count": 550,
   "active_units": [],
   "pending_units": [
     {
@@ -3195,6 +3195,306 @@
       "curriculum_order": 500,
       "semantic_id": "de-DE:verb:verändern:0500",
       "frequency_rank": 500,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 501,
+      "semantic_id": "de-DE:noun:Wohnung:0501",
+      "frequency_rank": 501,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 502,
+      "semantic_id": "de-DE:verb:gelingen:0502",
+      "frequency_rank": 502,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 503,
+      "semantic_id": "de-DE:adverb:bald:0503",
+      "frequency_rank": 503,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 504,
+      "semantic_id": "de-DE:adjective:gering:0504",
+      "frequency_rank": 504,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 505,
+      "semantic_id": "de-DE:noun:Film:0505",
+      "frequency_rank": 505,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 506,
+      "semantic_id": "de-DE:verb:kaufen:0506",
+      "frequency_rank": 506,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 507,
+      "semantic_id": "de-DE:verb:ansehen:0507",
+      "frequency_rank": 507,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 508,
+      "semantic_id": "de-DE:verb:öffnen:0508",
+      "frequency_rank": 508,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 509,
+      "semantic_id": "de-DE:noun:Musik:0509",
+      "frequency_rank": 509,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 510,
+      "semantic_id": "de-DE:verb:schauen:0510",
+      "frequency_rank": 510,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 511,
+      "semantic_id": "de-DE:noun:Stück:0511",
+      "frequency_rank": 511,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 512,
+      "semantic_id": "de-DE:adjective-nominalized-adjective:besondere (r, s):0512",
+      "frequency_rank": 512,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 513,
+      "semantic_id": "de-DE:adjective:tot:0513",
+      "frequency_rank": 513,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 514,
+      "semantic_id": "de-DE:noun:Gott:0514",
+      "frequency_rank": 514,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 515,
+      "semantic_id": "de-DE:adjective-adverb:völlig:0515",
+      "frequency_rank": 515,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 516,
+      "semantic_id": "de-DE:adjective-adverb:positiv:0516",
+      "frequency_rank": 516,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 517,
+      "semantic_id": "de-DE:noun:Gespräch:0517",
+      "frequency_rank": 517,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 518,
+      "semantic_id": "de-DE:pronominal-adverb:darum:0518",
+      "frequency_rank": 518,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 519,
+      "semantic_id": "de-DE:noun:Kunde:0519",
+      "frequency_rank": 519,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 520,
+      "semantic_id": "de-DE:noun:Menge:0520",
+      "frequency_rank": 520,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 521,
+      "semantic_id": "de-DE:noun:Regierung:0521",
+      "frequency_rank": 521,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 522,
+      "semantic_id": "de-DE:noun:Antwort:0522",
+      "frequency_rank": 522,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 523,
+      "semantic_id": "de-DE:verb:annehmen:0523",
+      "frequency_rank": 523,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 524,
+      "semantic_id": "de-DE:adjective-adverb:falsch:0524",
+      "frequency_rank": 524,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 525,
+      "semantic_id": "de-DE:noun:Zusammenhang:0525",
+      "frequency_rank": 525,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 526,
+      "semantic_id": "de-DE:adjective-adverb:langsam:0526",
+      "frequency_rank": 526,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 527,
+      "semantic_id": "de-DE:noun:Arm:0527",
+      "frequency_rank": 527,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 528,
+      "semantic_id": "de-DE:subordinating-conjunction:nachdem:0528",
+      "frequency_rank": 528,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 529,
+      "semantic_id": "de-DE:noun:Tisch:0529",
+      "frequency_rank": 529,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 530,
+      "semantic_id": "de-DE:verb:rufen:0530",
+      "frequency_rank": 530,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 531,
+      "semantic_id": "de-DE:verb:bieten:0531",
+      "frequency_rank": 531,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 532,
+      "semantic_id": "de-DE:noun:Herz:0532",
+      "frequency_rank": 532,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 533,
+      "semantic_id": "de-DE:adverb:zusammen:0533",
+      "frequency_rank": 533,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 534,
+      "semantic_id": "de-DE:adverb:inzwischen:0534",
+      "frequency_rank": 534,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 535,
+      "semantic_id": "de-DE:adverb:ebenso:0535",
+      "frequency_rank": 535,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 536,
+      "semantic_id": "de-DE:noun:Boden:0536",
+      "frequency_rank": 536,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 537,
+      "semantic_id": "de-DE:subordinating-conjunction:bevor:0537",
+      "frequency_rank": 537,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 538,
+      "semantic_id": "de-DE:verb:verwenden:0538",
+      "frequency_rank": 538,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 539,
+      "semantic_id": "de-DE:noun:Politik:0539",
+      "frequency_rank": 539,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 540,
+      "semantic_id": "de-DE:noun:Tod:0540",
+      "frequency_rank": 540,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 541,
+      "semantic_id": "de-DE:noun:Erfolg:0541",
+      "frequency_rank": 541,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 542,
+      "semantic_id": "de-DE:adverb:zudem:0542",
+      "frequency_rank": 542,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 543,
+      "semantic_id": "de-DE:noun:Bank:0543",
+      "frequency_rank": 543,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 544,
+      "semantic_id": "de-DE:preposition-adverb-prefix:ab:0544",
+      "frequency_rank": 544,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 545,
+      "semantic_id": "de-DE:adjective-adverb:persönlich:0545",
+      "frequency_rank": 545,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 546,
+      "semantic_id": "de-DE:noun:Präsident:0546",
+      "frequency_rank": 546,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 547,
+      "semantic_id": "de-DE:verb:holen:0547",
+      "frequency_rank": 547,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 548,
+      "semantic_id": "de-DE:noun:Junge:0548",
+      "frequency_rank": 548,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 549,
+      "semantic_id": "de-DE:adjective:sogenannt:0549",
+      "frequency_rank": 549,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 550,
+      "semantic_id": "de-DE:noun:Polizei:0550",
+      "frequency_rank": 550,
       "unit_id": null
     }
   ]
