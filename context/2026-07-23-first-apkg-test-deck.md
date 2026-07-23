@@ -3,7 +3,7 @@
 `tools/export_anki.py` now turns canonical frequency cards into an Anki package
 with a stable deck ID, note-model ID, semantic-ID-derived note GUIDs, generated
 curriculum due order, and the existing native templates and CSS. The first
-verified replacement is `dist/German-Core-Test-0001-0010-v2.apkg`.
+verified replacement is `dist/German-Core-Test-0001-0010-v3.apkg`.
 
 The package contains 10 notes and 10 German-to-English recognition cards for
 ranks 1–10. It contains one note model with 16 fields, including hidden identity,
@@ -25,11 +25,12 @@ Problems encountered and their disposition:
 
 - The project previously had no package exporter; one is now implemented.
 - `genanki==0.13.1` and `anki==26.5` are pinned and installed locally under
-  ignored `.deps/`. Genanki constructs the notes, then current Anki imports them
-  into an isolated collection and produces the final modern package.
-- The original artifact was valid but used the legacy format and a nested deck
-  name. Version 2 uses Anki's current package format and the unambiguous flat
-  deck name `German Core Test 0001-0010`.
+  ignored `.deps/`. Genanki produces the compatibility package; current Anki
+  imports it into an isolated collection for validation and rendering tests.
+- Version 2 put the real cards in `collection.anki21b`, while its
+  `collection.anki2` compatibility database contained only Anki placeholders.
+  Version 3 stores all 10 real cards in `collection.anki2` and uses the
+  unambiguous flat deck name `German Core Test 0001-0010`.
 - The user's live Anki collection was locked and was not touched. Import and
   rendering tests are isolated; a manual GUI check remains useful for final
   visual and interaction testing.

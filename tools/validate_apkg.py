@@ -5,6 +5,7 @@ from __future__ import annotations
 import argparse
 import os
 import re
+import sqlite3
 import sys
 import tempfile
 import zipfile
@@ -36,12 +37,34 @@ def validate(path: Path, expected_notes: int) -> None:
     errors = []
     with zipfile.ZipFile(path) as package:
         names = set(package.namelist())
-        if "meta" not in names:
-            errors.append("missing modern package metadata")
-        if "collection.anki21b" not in names:
-            errors.append("missing modern collection.anki21b database")
+        if "collection.anki2" not in names:
+            errors.append("missing legacy-compatible collection.anki2 database")
         if "media" not in names:
             errors.append("missing media map")
+        if "collection.anki2" in names:
+            with tempfile.TemporaryDirectory() as database_temp:
+                database_path = Path(database_temp) / "collection.anki2"
+                database_path.write_bytes(package.read("collection.anki2"))
+                database = sqlite3.connect(database_path)
+                try:
+                    legacy_notes = database.execute(
+                        "SELECT count(*) FROM notes"
+                    ).fetchone()[0]
+                    legacy_cards = database.execute(
+                        "SELECT count(*) FROM cards"
+                    ).fetchone()[0]
+                finally:
+                    database.close()
+                if legacy_notes != expected_notes:
+                    errors.append(
+                        f"compatibility database contains {legacy_notes} notes, "
+                        f"expected {expected_notes}"
+                    )
+                if legacy_cards != expected_notes:
+                    errors.append(
+                        f"compatibility database contains {legacy_cards} cards, "
+                        f"expected {expected_notes}"
+                    )
 
     with tempfile.TemporaryDirectory() as temp_dir:
         collection = Collection(str(Path(temp_dir) / "collection.anki2"))

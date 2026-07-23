@@ -101,7 +101,7 @@ Current prototype note:
 ## Important status and cautions
 
 - Ranks 1–200 have complete draft text and are pending human review.
-- `dist/German-Core-Test-0001-0010-v2.apkg` is the verified importable test package:
+- `dist/German-Core-Test-0001-0010-v3.apkg` is the verified importable test package:
   ten notes/cards, stable note identities, no audio, and draft text.
 - `tools/export_anki.py` builds rank-bounded packages and can include
   deterministic sentence-audio MP3s later; `tools/validate_apkg.py` inspects

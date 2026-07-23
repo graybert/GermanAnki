@@ -2,7 +2,7 @@
 
 The current test artifact is:
 
-`dist/German-Core-Test-0001-0010-v2.apkg`
+`dist/German-Core-Test-0001-0010-v3.apkg`
 
 It contains one German-to-English recognition card for each frequency rank from
 1 through 10. Import it by double-clicking the file or using **File → Import**
@@ -15,7 +15,7 @@ but not imported directly into the AnkiWeb website.
 python -m pip install --target .deps -r requirements-export.txt
 python tools/build_curriculum_order.py
 python tools/export_anki.py
-python tools/validate_apkg.py dist/German-Core-Test-0001-0010-v2.apkg --expected-notes 10
+python tools/validate_apkg.py dist/German-Core-Test-0001-0010-v3.apkg --expected-notes 10
 ```
 
 The pinned exporter dependencies are installed into the ignored `.deps/`
@@ -103,8 +103,10 @@ all draft cards.
 3. The first artifact used genanki's legacy package format. Although a real
    current-Anki import test proved that it contained 10 working cards, GitHub
    cannot preview an `.apkg`, and its nested deck name made the result less
-   obvious. Version 2 is exported by Anki's current backend and uses the flat
-   deck name `German Core Test 0001-0010`.
+   obvious. Version 3 uses the flat deck name
+   `German Core Test 0001-0010` and stores all real cards directly in the
+   broadly compatible `collection.anki2` database. Anki's current backend is
+   then used to test-import and render the finished file.
 4. The validator now performs a real import into a disposable collection using
    Anki's current backend. It checks note/card counts, import warnings, field
    counts, rendered fronts and backs, the note type, and packaged audio

@@ -8,7 +8,6 @@ import html
 import json
 import re
 import sys
-import tempfile
 from pathlib import Path
 
 
@@ -25,26 +24,11 @@ except ImportError as exc:  # pragma: no cover - exercised only without dependen
         "python -m pip install --target .deps -r requirements-export.txt"
     ) from exc
 
-try:
-    from anki.collection import Collection
-    from anki.import_export_pb2 import (
-        ExportAnkiPackageOptions,
-        ExportLimit,
-        ImportAnkiPackageOptions,
-        ImportAnkiPackageRequest,
-    )
-except ImportError as exc:  # pragma: no cover - exercised only without dependency
-    raise SystemExit(
-        "Anki's current backend is required. Run: "
-        "python -m pip install --target .deps -r requirements-export.txt"
-    ) from exc
-
-
 MODEL_ID = 1_603_739_214
 DECK_ID = 2_053_940_118
 MODEL_NAME = "German Core Recognition v1"
 DECK_NAME = "German Core Test 0001-0010"
-DEFAULT_OUTPUT = ROOT / "dist" / "German-Core-Test-0001-0010-v2.apkg"
+DEFAULT_OUTPUT = ROOT / "dist" / "German-Core-Test-0001-0010-v3.apkg"
 FIELD_NAMES = [
     "SemanticID",
     "CurriculumOrder",
@@ -228,46 +212,10 @@ def export(
         deck.add_note(note)
 
     output.parent.mkdir(parents=True, exist_ok=True)
-    with tempfile.TemporaryDirectory() as temp_dir:
-        seed_path = Path(temp_dir) / "legacy-seed.apkg"
-        collection_path = Path(temp_dir) / "collection.anki2"
-        genanki.Package(deck, media_files=media_files).write_to_file(seed_path)
-        collection = Collection(str(collection_path))
-        try:
-            result = collection.import_anki_package(
-                ImportAnkiPackageRequest(
-                    package_path=str(seed_path),
-                    options=ImportAnkiPackageOptions(
-                        merge_notetypes=True,
-                        with_scheduling=False,
-                        with_deck_configs=False,
-                    ),
-                )
-            )
-            imported_count = len(result.log.new)
-            if imported_count != len(cards):
-                raise RuntimeError(
-                    f"Anki imported {imported_count} of {len(cards)} seed notes"
-                )
-            deck_id = collection.decks.id_for_name(deck_name)
-            if deck_id is None:
-                raise RuntimeError(f"Imported deck not found: {deck_name}")
-            exported_count = collection.export_anki_package(
-                out_path=str(output.resolve()),
-                options=ExportAnkiPackageOptions(
-                    with_scheduling=False,
-                    with_deck_configs=False,
-                    with_media=True,
-                    legacy=False,
-                ),
-                limit=ExportLimit(deck_id=deck_id),
-            )
-            if exported_count != len(cards):
-                raise RuntimeError(
-                    f"Anki exported {exported_count} of {len(cards)} notes"
-                )
-        finally:
-            collection.close()
+    # Keep the real notes/cards in collection.anki2. Current Anki's modern and
+    # "legacy" exporters put only placeholders there and move the real data to
+    # collection.anki21[b], which can look empty in older clients.
+    genanki.Package(deck, media_files=media_files).write_to_file(output)
     return len(cards), len(media_files)
 
 
