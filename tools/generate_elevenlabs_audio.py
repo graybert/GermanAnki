@@ -7,6 +7,7 @@ The script is resumable: existing non-empty files are skipped unless
 from __future__ import annotations
 
 import argparse
+import datetime
 import json
 import os
 import time
@@ -17,6 +18,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_MANIFEST = ROOT / "data" / "audio" / "main-sentence-manifest.jsonl"
+DEFAULT_WORD_MANIFEST = ROOT / "data" / "audio" / "headword-manifest.jsonl"
 DEFAULT_OUTPUT = ROOT / "data" / "audio" / "generated"
 DEFAULT_VOICE_CONFIG = ROOT / "data" / "audio" / "voice-profiles.json"
 DEFAULT_API_KEY_FILE = ROOT / "secrets" / "elevenlabs-api-key.txt"
@@ -72,7 +74,7 @@ def generate(
     output_format: str,
     api_key: str,
     timeout: int,
-) -> bytes:
+) -> tuple[bytes, dict]:
     url = f"{API_BASE}/{voice_id}?output_format={output_format}"
     body = json.dumps(
         {
@@ -97,12 +99,16 @@ def generate(
         },
     )
     with urllib.request.urlopen(request, timeout=timeout) as response:
-        return response.read()
+        return response.read(), {
+            "character_cost": response.headers.get("character-cost"),
+            "request_id": response.headers.get("request-id"),
+        }
 
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser()
     parser.add_argument("--manifest", type=Path, default=DEFAULT_MANIFEST)
+    parser.add_argument("--include-headwords", action="store_true")
     parser.add_argument("--output-dir", type=Path, default=DEFAULT_OUTPUT)
     parser.add_argument("--voice-id")
     parser.add_argument("--voice-config", type=Path, default=DEFAULT_VOICE_CONFIG)
@@ -121,9 +127,13 @@ def parse_args() -> argparse.Namespace:
 
 def main() -> None:
     args = parse_args()
+    manifest_paths = [args.manifest]
+    if args.include_headwords:
+        manifest_paths.append(DEFAULT_WORD_MANIFEST)
     jobs = [
         job
-        for job in load_jobs(args.manifest)
+        for manifest_path in manifest_paths
+        for job in load_jobs(manifest_path)
         if job["frequency_rank"] >= args.start_rank
         and (args.end_rank is None or job["frequency_rank"] <= args.end_rank)
     ]
@@ -138,9 +148,10 @@ def main() -> None:
         if args.voice_id
         else load_voice_profiles(args.voice_config)
     )
-    total_characters = sum(len(job["german_sentence"]) for job in jobs)
+    jobs.sort(key=lambda job: (job["curriculum_order"], job["audio_kind"]))
+    total_characters = sum(len(job["text"]) for job in jobs)
     print(
-        f"Selected {len(jobs)} main sentences ({total_characters} characters), "
+        f"Selected {len(jobs)} audio jobs ({total_characters} characters), "
         f"model={args.model_id}, voices="
         f"{', '.join(profile['display_name'] for profile in profiles)}"
     )
@@ -149,8 +160,9 @@ def main() -> None:
             voice = assigned_voice(job, profiles)
             print(
                 job["audio_filename"],
+                f"[{job['audio_kind']}]",
                 f"[{voice['display_name']} | {voice['voice_id']}]",
-                job["german_sentence"],
+                job["text"],
             )
         return
 
@@ -161,7 +173,9 @@ def main() -> None:
             f"{args.api_key_file} before generating paid audio."
         )
     args.output_dir.mkdir(parents=True, exist_ok=True)
+    receipts_path = args.output_dir / "generation-receipts.jsonl"
     generated = skipped = 0
+    charged_credits = 0
     for index, job in enumerate(jobs, 1):
         voice = assigned_voice(job, profiles)
         destination = args.output_dir / job["audio_filename"]
@@ -174,8 +188,8 @@ def main() -> None:
             f"with {voice['display_name']}"
         )
         try:
-            audio = generate(
-                text=job["german_sentence"],
+            audio, response_metadata = generate(
+                text=job["text"],
                 voice_id=voice["voice_id"],
                 model_id=args.model_id,
                 output_format=args.output_format,
@@ -190,10 +204,38 @@ def main() -> None:
         temporary = destination.with_suffix(destination.suffix + ".part")
         temporary.write_bytes(audio)
         temporary.replace(destination)
+        raw_cost = response_metadata["character_cost"]
+        request_cost = int(raw_cost) if raw_cost and raw_cost.isdigit() else None
+        if request_cost is not None:
+            charged_credits += request_cost
+        receipt = {
+            "generated_at_utc": datetime.datetime.now(
+                datetime.timezone.utc
+            ).isoformat(),
+            "semantic_id": job["semantic_id"],
+            "frequency_rank": job["frequency_rank"],
+            "audio_kind": job["audio_kind"],
+            "audio_filename": job["audio_filename"],
+            "text": job["text"],
+            "text_characters": len(job["text"]),
+            "voice_key": voice["key"],
+            "voice_name": voice["display_name"],
+            "voice_id": voice["voice_id"],
+            "model_id": args.model_id,
+            "output_format": args.output_format,
+            "character_cost": request_cost,
+            "request_id": response_metadata["request_id"],
+            "file_bytes": len(audio),
+        }
+        with receipts_path.open("a", encoding="utf-8") as receipts:
+            receipts.write(json.dumps(receipt, ensure_ascii=False) + "\n")
         generated += 1
         if index < len(jobs):
             time.sleep(args.pause_seconds)
-    print(f"Done: {generated} generated, {skipped} already present.")
+    print(
+        f"Done: {generated} generated, {skipped} already present, "
+        f"{charged_credits} credits reported by ElevenLabs."
+    )
 
 
 if __name__ == "__main__":

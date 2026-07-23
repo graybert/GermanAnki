@@ -70,3 +70,15 @@ python tools/export_anki.py `
 Do not commit an API key. Before a bulk run, choose a voice whose verified
 language/accent is German, generate a small review batch, and have a German
 speaker approve it.
+
+## First paid dual-voice batch
+
+Ranks 1–10 were generated as 10 headwords plus 10 main sentences. Marlene Lark
+handles odd curriculum positions and Markus handles even positions; each
+card's word and sentence share one voice. ElevenLabs reported 192 credits:
+21 for headwords and 171 for sentences. The raw input was 346 characters.
+Aggregate, non-secret accounting is committed in
+`data/audio/generation-batches/2026-07-23-first-10.json`; request-level receipts
+remain local in the ignored generated-audio directory. The 20 reviewed-as-test
+source MP3s are committed under `data/audio/test-v7-first-10/` so the V7 package
+can be rebuilt without another paid generation run.

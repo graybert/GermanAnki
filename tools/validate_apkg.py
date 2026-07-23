@@ -107,7 +107,7 @@ def validate(
             field_counts = {
                 len(collection.get_note(note_id).fields) for note_id in note_ids
             }
-            if field_counts != {18}:
+            if field_counts != {19}:
                 errors.append(f"unexpected note field counts: {sorted(field_counts)}")
             for card_id in card_ids:
                 card = collection.get_card(card_id)

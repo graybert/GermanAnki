@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "batch_id": "first-10-dual-voice",
+  "generated_at": "2026-07-23",
+  "provider": "ElevenLabs",
+  "model_id": "eleven_multilingual_v2",
+  "output_format": "mp3_44100_128",
+  "frequency_ranks": {
+    "start": 1,
+    "end": 10
+  },
+  "voice_assignment": {
+    "strategy": "alternate_by_curriculum_order",
+    "odd": {
+      "name": "Marlene Lark",
+      "voice_id": "MTTjXkEpZepLTqO0xH0f"
+    },
+    "even": {
+      "name": "Markus",
+      "voice_id": "IeQubAjK1ujbppIdhJw4"
+    }
+  },
+  "jobs": {
+    "headwords": 10,
+    "main_sentences": 10,
+    "total": 20
+  },
+  "input_characters": {
+    "headwords": 35,
+    "main_sentences": 311,
+    "total": 346
+  },
+  "credits_reported": {
+    "headwords": 21,
+    "main_sentences": 171,
+    "total": 192
+  },
+  "subscription": {
+    "tier": "creator",
+    "limit_at_generation": 131000,
+    "used_after_generation": 192,
+    "remaining_after_generation": 130808
+  },
+  "media": {
+    "files": 20,
+    "bytes": 477765
+  },
+  "slow_playback": {
+    "method": "runtime_playback_rate",
+    "rates": [
+      0.5,
+      0.6,
+      0.7
+    ],
+    "additional_credits": 0,
+    "additional_media_files": 0
+  }
+}

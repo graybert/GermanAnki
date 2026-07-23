@@ -27,11 +27,11 @@ except ImportError as exc:  # pragma: no cover - exercised only without dependen
 MODEL_ID = 1_603_739_214
 DECK_ID = 2_053_940_118
 MODEL_NAME = "German Core Recognition v1"
-TEST_MODEL_ID = 1_603_739_217
-TEST_DECK_ID = 2_053_940_121
-TEST_RELEASE = "V6"
-DECK_NAME = "German Core Audio Speed Test V6 - 10 Cards"
-DEFAULT_OUTPUT = ROOT / "dist" / "German-Core-Audio-Speed-Test-V6-10-Cards.apkg"
+TEST_MODEL_ID = 1_603_739_218
+TEST_DECK_ID = 2_053_940_122
+TEST_RELEASE = "V7"
+DECK_NAME = "German Core Dual Voice Audio Test V7 - 10 Cards"
+DEFAULT_OUTPUT = ROOT / "dist" / "German-Core-Dual-Voice-Audio-Test-V7-10-Cards.apkg"
 FIELD_NAMES = [
     "SemanticID",
     "CurriculumOrder",
@@ -48,6 +48,7 @@ FIELD_NAMES = [
     "WordAudio",
     "SentenceAudio",
     "SentenceAudioFile",
+    "VoiceProfile",
     "Register",
     "Variety",
     "TextStatus",
@@ -72,6 +73,11 @@ def load_curriculum_order() -> dict[str, int]:
         entry["semantic_id"]: entry["curriculum_order"]
         for entry in curriculum["cards"]
     }
+
+
+def load_voice_profiles() -> list[dict]:
+    path = ROOT / "data" / "audio" / "voice-profiles.json"
+    return json.loads(path.read_text(encoding="utf-8"))["profiles"]
 
 
 def label(key: str) -> str:
@@ -155,6 +161,7 @@ def field_values(
     audio_dir: Path | None,
     media_files: list[str],
     require_audio: bool,
+    voice_profile: dict,
 ) -> list[str]:
     sentence_filename = audio_filename(card)
     word_filename = word_audio_filename(card)
@@ -190,6 +197,7 @@ def field_values(
         "WordAudio": word_audio,
         "SentenceAudio": sentence_audio,
         "SentenceAudioFile": sentence_filename if sentence_audio else "",
+        "VoiceProfile": json.dumps(voice_profile, ensure_ascii=False),
         "Register": html.escape(card["register"]),
         "Variety": html.escape(card["variety"]),
         "TextStatus": html.escape(card["text_status"]),
@@ -225,12 +233,19 @@ def export(
     )
     deck = genanki.Deck(TEST_DECK_ID if is_test_release else DECK_ID, deck_name)
     media_files: list[str] = []
+    voice_profiles = load_voice_profiles()
     for card in cards:
         curriculum_order = order[card["semantic_id"]]
+        voice_profile = voice_profiles[(curriculum_order - 1) % len(voice_profiles)]
         note = genanki.Note(
             model=model,
             fields=field_values(
-                card, curriculum_order, audio_dir, media_files, require_audio
+                card,
+                curriculum_order,
+                audio_dir,
+                media_files,
+                require_audio,
+                voice_profile,
             ),
             guid=genanki.guid_for(
                 f"test-{TEST_RELEASE}:{card['semantic_id']}"
