@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "card_count": 1100,
+  "card_count": 1150,
   "active_units": [],
   "pending_units": [
     {
       "unit_id": "numbers-core",
       "title": "Core numbers",
-      "available": 11,
+      "available": 12,
       "required": 29,
       "missing": [
         {
@@ -74,10 +74,6 @@
           "frequency_rank": 3028
         },
         {
-          "label": "hundert",
-          "frequency_rank": 1107
-        },
-        {
           "label": "tausend",
           "frequency_rank": 1177
         }
@@ -86,7 +82,7 @@
     {
       "unit_id": "weekdays",
       "title": "Days of the week",
-      "available": 3,
+      "available": 4,
       "required": 7,
       "missing": [
         {
@@ -100,23 +96,15 @@
         {
           "label": "Donnerstag",
           "frequency_rank": 1244
-        },
-        {
-          "label": "Samstag",
-          "frequency_rank": 1112
         }
       ]
     },
     {
       "unit_id": "months",
       "title": "Months of the year",
-      "available": 6,
+      "available": 7,
       "required": 12,
       "missing": [
-        {
-          "label": "Juni",
-          "frequency_rank": 1148
-        },
         {
           "label": "Juli",
           "frequency_rank": 1544
@@ -6739,6 +6727,306 @@
       "curriculum_order": 1100,
       "semantic_id": "de-DE:coordinating-conjunction-pronoun:entweder:1100",
       "frequency_rank": 1100,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1101,
+      "semantic_id": "de-DE:verb:behaupten:1101",
+      "frequency_rank": 1101,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1102,
+      "semantic_id": "de-DE:noun:Hoffnung:1102",
+      "frequency_rank": 1102,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1103,
+      "semantic_id": "de-DE:noun:Verantwortung:1103",
+      "frequency_rank": 1103,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1104,
+      "semantic_id": "de-DE:verb:schreien:1104",
+      "frequency_rank": 1104,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1105,
+      "semantic_id": "de-DE:adverb:andererseits:1105",
+      "frequency_rank": 1105,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1106,
+      "semantic_id": "de-DE:noun:Besuch:1106",
+      "frequency_rank": 1106,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1107,
+      "semantic_id": "de-DE:numeral:hundert:1107",
+      "frequency_rank": 1107,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1108,
+      "semantic_id": "de-DE:noun:Quelle:1108",
+      "frequency_rank": 1108,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1109,
+      "semantic_id": "de-DE:adjective-adverb:typisch:1109",
+      "frequency_rank": 1109,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1110,
+      "semantic_id": "de-DE:noun:Gebiet:1110",
+      "frequency_rank": 1110,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1111,
+      "semantic_id": "de-DE:noun:Behörde:1111",
+      "frequency_rank": 1111,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1112,
+      "semantic_id": "de-DE:noun:Samstag:1112",
+      "frequency_rank": 1112,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1113,
+      "semantic_id": "de-DE:noun:Organisation:1113",
+      "frequency_rank": 1113,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1114,
+      "semantic_id": "de-DE:noun:Summe:1114",
+      "frequency_rank": 1114,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1115,
+      "semantic_id": "de-DE:noun:Job:1115",
+      "frequency_rank": 1115,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1116,
+      "semantic_id": "de-DE:verb:ausreichen:1116",
+      "frequency_rank": 1116,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1117,
+      "semantic_id": "de-DE:noun:Grad:1117",
+      "frequency_rank": 1117,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1118,
+      "semantic_id": "de-DE:indefinite-determiner-pronoun:irgendein:1118",
+      "frequency_rank": 1118,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1119,
+      "semantic_id": "de-DE:verb:benutzen:1119",
+      "frequency_rank": 1119,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1120,
+      "semantic_id": "de-DE:indefinite-pronoun:irgendetwas, irgendwas:1120",
+      "frequency_rank": 1120,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1121,
+      "semantic_id": "de-DE:adverb-adjective:teilweise:1121",
+      "frequency_rank": 1121,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1122,
+      "semantic_id": "de-DE:verb:vertrauen:1122",
+      "frequency_rank": 1122,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1123,
+      "semantic_id": "de-DE:noun:Jahrzehnt:1123",
+      "frequency_rank": 1123,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1124,
+      "semantic_id": "de-DE:noun:Wind:1124",
+      "frequency_rank": 1124,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1125,
+      "semantic_id": "de-DE:adjective-adverb:unmittelbar:1125",
+      "frequency_rank": 1125,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1126,
+      "semantic_id": "de-DE:noun:Bund:1126",
+      "frequency_rank": 1126,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1127,
+      "semantic_id": "de-DE:adjective-adverb:extrem:1127",
+      "frequency_rank": 1127,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1128,
+      "semantic_id": "de-DE:noun:Merkmal:1128",
+      "frequency_rank": 1128,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1129,
+      "semantic_id": "de-DE:adjective-adverb:theoretisch:1129",
+      "frequency_rank": 1129,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1130,
+      "semantic_id": "de-DE:verb:ermitteln:1130",
+      "frequency_rank": 1130,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1131,
+      "semantic_id": "de-DE:noun:Papa:1131",
+      "frequency_rank": 1131,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1132,
+      "semantic_id": "de-DE:noun:Krankheit:1132",
+      "frequency_rank": 1132,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1133,
+      "semantic_id": "de-DE:noun:Voraussetzung:1133",
+      "frequency_rank": 1133,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1134,
+      "semantic_id": "de-DE:verb:töten:1134",
+      "frequency_rank": 1134,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1135,
+      "semantic_id": "de-DE:verb:formulieren:1135",
+      "frequency_rank": 1135,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1136,
+      "semantic_id": "de-DE:noun:Substanz:1136",
+      "frequency_rank": 1136,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1137,
+      "semantic_id": "de-DE:noun:Zeitpunkt:1137",
+      "frequency_rank": 1137,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1138,
+      "semantic_id": "de-DE:adverb:wenigstens:1138",
+      "frequency_rank": 1138,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1139,
+      "semantic_id": "de-DE:noun:Gang:1139",
+      "frequency_rank": 1139,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1140,
+      "semantic_id": "de-DE:noun:Politiker:1140",
+      "frequency_rank": 1140,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1141,
+      "semantic_id": "de-DE:noun:Unterstützung:1141",
+      "frequency_rank": 1141,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1142,
+      "semantic_id": "de-DE:interjection:hey:1142",
+      "frequency_rank": 1142,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1143,
+      "semantic_id": "de-DE:verb:brechen:1143",
+      "frequency_rank": 1143,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1144,
+      "semantic_id": "de-DE:verb:fassen:1144",
+      "frequency_rank": 1144,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1145,
+      "semantic_id": "de-DE:noun:Zentrum:1145",
+      "frequency_rank": 1145,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1146,
+      "semantic_id": "de-DE:verb:anrufen:1146",
+      "frequency_rank": 1146,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1147,
+      "semantic_id": "de-DE:verb:entfernen:1147",
+      "frequency_rank": 1147,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1148,
+      "semantic_id": "de-DE:noun:Juni:1148",
+      "frequency_rank": 1148,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1149,
+      "semantic_id": "de-DE:noun:Haut:1149",
+      "frequency_rank": 1149,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1150,
+      "semantic_id": "de-DE:verb:verfolgen:1150",
+      "frequency_rank": 1150,
       "unit_id": null
     }
   ]
