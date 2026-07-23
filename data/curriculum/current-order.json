@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "card_count": 300,
+  "card_count": 350,
   "active_units": [],
   "pending_units": [
     {
       "unit_id": "numbers-core",
       "title": "Core numbers",
-      "available": 4,
+      "available": 5,
       "required": 29,
       "missing": [
         {
@@ -28,10 +28,6 @@
         {
           "label": "neun",
           "frequency_rank": 1053
-        },
-        {
-          "label": "zehn",
-          "frequency_rank": 333
         },
         {
           "label": "elf",
@@ -2003,6 +1999,306 @@
       "curriculum_order": 300,
       "semantic_id": "de-DE:noun:Buch:0300",
       "frequency_rank": 300,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 301,
+      "semantic_id": "de-DE:indefinite-pronoun-noun:bisschen, bissel:0301",
+      "frequency_rank": 301,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 302,
+      "semantic_id": "de-DE:adjective-adverb:deutlich:0302",
+      "frequency_rank": 302,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 303,
+      "semantic_id": "de-DE:adverb-adjective:anders:0303",
+      "frequency_rank": 303,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 304,
+      "semantic_id": "de-DE:adjective-adverb:politisch:0304",
+      "frequency_rank": 304,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 305,
+      "semantic_id": "de-DE:verb:lesen:0305",
+      "frequency_rank": 305,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 306,
+      "semantic_id": "de-DE:noun:Blick:0306",
+      "frequency_rank": 306,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 307,
+      "semantic_id": "de-DE:noun:Form:0307",
+      "frequency_rank": 307,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 308,
+      "semantic_id": "de-DE:adjective-adverb:einzeln:0308",
+      "frequency_rank": 308,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 309,
+      "semantic_id": "de-DE:verb:erreichen:0309",
+      "frequency_rank": 309,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 310,
+      "semantic_id": "de-DE:verb:vergehen:0310",
+      "frequency_rank": 310,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 311,
+      "semantic_id": "de-DE:adjective-adverb:leicht:0311",
+      "frequency_rank": 311,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 312,
+      "semantic_id": "de-DE:adverb-preposition:je:0312",
+      "frequency_rank": 312,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 313,
+      "semantic_id": "de-DE:verb:verlieren:0313",
+      "frequency_rank": 313,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 314,
+      "semantic_id": "de-DE:adjective:beste (r, s):0314",
+      "frequency_rank": 314,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 315,
+      "semantic_id": "de-DE:verb:bilden:0315",
+      "frequency_rank": 315,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 316,
+      "semantic_id": "de-DE:noun:Monat:0316",
+      "frequency_rank": 316,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 317,
+      "semantic_id": "de-DE:noun:Lösung:0317",
+      "frequency_rank": 317,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 318,
+      "semantic_id": "de-DE:noun:Sache:0318",
+      "frequency_rank": 318,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 319,
+      "semantic_id": "de-DE:adjective:bekannt:0319",
+      "frequency_rank": 319,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 320,
+      "semantic_id": "de-DE:noun:Ziel:0320",
+      "frequency_rank": 320,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 321,
+      "semantic_id": "de-DE:verb:steigen:0321",
+      "frequency_rank": 321,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 322,
+      "semantic_id": "de-DE:adverb:eher:0322",
+      "frequency_rank": 322,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 323,
+      "semantic_id": "de-DE:verb:essen:0323",
+      "frequency_rank": 323,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 324,
+      "semantic_id": "de-DE:noun:Minute:0324",
+      "frequency_rank": 324,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 325,
+      "semantic_id": "de-DE:noun:Nacht:0325",
+      "frequency_rank": 325,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 326,
+      "semantic_id": "de-DE:noun:Platz:0326",
+      "frequency_rank": 326,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 327,
+      "semantic_id": "de-DE:adjective-adverb:schlecht:0327",
+      "frequency_rank": 327,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 328,
+      "semantic_id": "de-DE:noun:Spiel:0328",
+      "frequency_rank": 328,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 329,
+      "semantic_id": "de-DE:noun:Familie:0329",
+      "frequency_rank": 329,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 330,
+      "semantic_id": "de-DE:indefinite-pronoun:jemand:0330",
+      "frequency_rank": 330,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 331,
+      "semantic_id": "de-DE:relative-possessive-pronoun:dessen:0331",
+      "frequency_rank": 331,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 332,
+      "semantic_id": "de-DE:verb:fallen:0332",
+      "frequency_rank": 332,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 333,
+      "semantic_id": "de-DE:cardinal-number:zehn:0333",
+      "frequency_rank": 333,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 334,
+      "semantic_id": "de-DE:noun:Preis:0334",
+      "frequency_rank": 334,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 335,
+      "semantic_id": "de-DE:adjective:europäisch:0335",
+      "frequency_rank": 335,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 336,
+      "semantic_id": "de-DE:adverb-conjunction:sonst:0336",
+      "frequency_rank": 336,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 337,
+      "semantic_id": "de-DE:noun:Staat:0337",
+      "frequency_rank": 337,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 338,
+      "semantic_id": "de-DE:verb:helfen:0338",
+      "frequency_rank": 338,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 339,
+      "semantic_id": "de-DE:noun:Bereich:0339",
+      "frequency_rank": 339,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 340,
+      "semantic_id": "de-DE:adjective-adverb:tatsächlich:0340",
+      "frequency_rank": 340,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 341,
+      "semantic_id": "de-DE:noun:Ort:0341",
+      "frequency_rank": 341,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 342,
+      "semantic_id": "de-DE:noun:Abend:0342",
+      "frequency_rank": 342,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 343,
+      "semantic_id": "de-DE:adjective:einzig:0343",
+      "frequency_rank": 343,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 344,
+      "semantic_id": "de-DE:noun:Stelle:0344",
+      "frequency_rank": 344,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 345,
+      "semantic_id": "de-DE:adjective-adverb:unterschiedlich:0345",
+      "frequency_rank": 345,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 346,
+      "semantic_id": "de-DE:noun:Gesicht:0346",
+      "frequency_rank": 346,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 347,
+      "semantic_id": "de-DE:noun:Entwicklung:0347",
+      "frequency_rank": 347,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 348,
+      "semantic_id": "de-DE:noun:Uhr:0348",
+      "frequency_rank": 348,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 349,
+      "semantic_id": "de-DE:indefinite-determiner-pronoun:mehrere:0349",
+      "frequency_rank": 349,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 350,
+      "semantic_id": "de-DE:verb:schließen:0350",
+      "frequency_rank": 350,
       "unit_id": null
     }
   ]
