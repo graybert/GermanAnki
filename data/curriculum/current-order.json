@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "card_count": 650,
+  "card_count": 700,
   "active_units": [],
   "pending_units": [
     {
@@ -4087,6 +4087,306 @@
       "curriculum_order": 650,
       "semantic_id": "de-DE:verb:zunehmen:0650",
       "frequency_rank": 650,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 651,
+      "semantic_id": "de-DE:noun:Molekül:0651",
+      "frequency_rank": 651,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 652,
+      "semantic_id": "de-DE:verb:stattfinden:0652",
+      "frequency_rank": 652,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 653,
+      "semantic_id": "de-DE:verb:ankommen:0653",
+      "frequency_rank": 653,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 654,
+      "semantic_id": "de-DE:verb-noun:auftreten:0654",
+      "frequency_rank": 654,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 655,
+      "semantic_id": "de-DE:adverb:insbesondere:0655",
+      "frequency_rank": 655,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 656,
+      "semantic_id": "de-DE:adjective-adverb:technisch:0656",
+      "frequency_rank": 656,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 657,
+      "semantic_id": "de-DE:interrogative-relative-adverb:wann:0657",
+      "frequency_rank": 657,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 658,
+      "semantic_id": "de-DE:adjective-adverb-particle:los:0658",
+      "frequency_rank": 658,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 659,
+      "semantic_id": "de-DE:noun:Bett:0659",
+      "frequency_rank": 659,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 660,
+      "semantic_id": "de-DE:noun:Höhe:0660",
+      "frequency_rank": 660,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 661,
+      "semantic_id": "de-DE:adjective-adverb:wesentlich:0661",
+      "frequency_rank": 661,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 662,
+      "semantic_id": "de-DE:adjective-adverb:englisch:0662",
+      "frequency_rank": 662,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 663,
+      "semantic_id": "de-DE:adverb:zuletzt:0663",
+      "frequency_rank": 663,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 664,
+      "semantic_id": "de-DE:adjective-adverb:rein:0664",
+      "frequency_rank": 664,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 665,
+      "semantic_id": "de-DE:noun:Zimmer:0665",
+      "frequency_rank": 665,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 666,
+      "semantic_id": "de-DE:subordinating-conjunction:indem:0666",
+      "frequency_rank": 666,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 667,
+      "semantic_id": "de-DE:verb:bauen:0667",
+      "frequency_rank": 667,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 668,
+      "semantic_id": "de-DE:noun:Verhältnis:0668",
+      "frequency_rank": 668,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 669,
+      "semantic_id": "de-DE:adjective-adverb:selten:0669",
+      "frequency_rank": 669,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 670,
+      "semantic_id": "de-DE:noun:Zeitung:0670",
+      "frequency_rank": 670,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 671,
+      "semantic_id": "de-DE:adjective-nominalized-adjective:innere (r, s):0671",
+      "frequency_rank": 671,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 672,
+      "semantic_id": "de-DE:adverb:beispielsweise, bspw.:0672",
+      "frequency_rank": 672,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 673,
+      "semantic_id": "de-DE:noun:Bedingung:0673",
+      "frequency_rank": 673,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 674,
+      "semantic_id": "de-DE:noun:Fenster:0674",
+      "frequency_rank": 674,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 675,
+      "semantic_id": "de-DE:noun:Zug:0675",
+      "frequency_rank": 675,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 676,
+      "semantic_id": "de-DE:adverb:derzeit:0676",
+      "frequency_rank": 676,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 677,
+      "semantic_id": "de-DE:verb:funktionieren:0677",
+      "frequency_rank": 677,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 678,
+      "semantic_id": "de-DE:coordinating-conjunction:sowohl:0678",
+      "frequency_rank": 678,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 679,
+      "semantic_id": "de-DE:verb:schlafen:0679",
+      "frequency_rank": 679,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 680,
+      "semantic_id": "de-DE:preposition-conjunction:statt:0680",
+      "frequency_rank": 680,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 681,
+      "semantic_id": "de-DE:noun:Werk:0681",
+      "frequency_rank": 681,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 682,
+      "semantic_id": "de-DE:adjective:grün:0682",
+      "frequency_rank": 682,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 683,
+      "semantic_id": "de-DE:noun:Bürger:0683",
+      "frequency_rank": 683,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 684,
+      "semantic_id": "de-DE:verb:dienen:0684",
+      "frequency_rank": 684,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 685,
+      "semantic_id": "de-DE:adjective-adverb:echt:0685",
+      "frequency_rank": 685,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 686,
+      "semantic_id": "de-DE:noun:Firma:0686",
+      "frequency_rank": 686,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 687,
+      "semantic_id": "de-DE:noun:Wirtschaft:0687",
+      "frequency_rank": 687,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 688,
+      "semantic_id": "de-DE:verb:stecken:0688",
+      "frequency_rank": 688,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 689,
+      "semantic_id": "de-DE:verb:hoffen:0689",
+      "frequency_rank": 689,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 690,
+      "semantic_id": "de-DE:verb-adjective:erfahren:0690",
+      "frequency_rank": 690,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 691,
+      "semantic_id": "de-DE:noun:Mittel:0691",
+      "frequency_rank": 691,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 692,
+      "semantic_id": "de-DE:noun:Folie:0692",
+      "frequency_rank": 692,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 693,
+      "semantic_id": "de-DE:verb:leisten:0693",
+      "frequency_rank": 693,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 694,
+      "semantic_id": "de-DE:noun:Tochter:0694",
+      "frequency_rank": 694,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 695,
+      "semantic_id": "de-DE:noun:Lehrer:0695",
+      "frequency_rank": 695,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 696,
+      "semantic_id": "de-DE:verb:passen:0696",
+      "frequency_rank": 696,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 697,
+      "semantic_id": "de-DE:verb:beobachten:0697",
+      "frequency_rank": 697,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 698,
+      "semantic_id": "de-DE:noun:Einführung:0698",
+      "frequency_rank": 698,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 699,
+      "semantic_id": "de-DE:noun:Element:0699",
+      "frequency_rank": 699,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 700,
+      "semantic_id": "de-DE:verb:klingen:0700",
+      "frequency_rank": 700,
       "unit_id": null
     }
   ]
