@@ -1,0 +1,39 @@
+* { box-sizing: border-box; }
+html { min-height: 100%; background: #e8e4dc; }
+body { min-height: 100vh; margin: 0; color: #20231f; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif; }
+button, select { font: inherit; }
+.toolbar { position: sticky; z-index: 10; top: 0; display: flex; align-items: center; justify-content: space-between; gap: 20px; min-height: 68px; padding: 12px 24px; border-bottom: 1px solid #d4cec2; background: rgba(245, 241, 232, .94); backdrop-filter: blur(12px); }
+.brand { display: flex; flex-direction: column; }
+.brand strong { font-family: Georgia, "Times New Roman", serif; font-size: 1.15rem; }
+.brand span, .shortcut-help, .review-meta { color: #6d726b; font-size: .78rem; }
+.controls { display: flex; align-items: center; gap: 8px; }
+.controls button, .controls select { min-height: 40px; border: 1px solid #cfc8bc; border-radius: 10px; background: #fffdf8; color: #20231f; cursor: pointer; }
+.controls button { min-width: 42px; padding: 6px 12px; font-weight: 700; }
+.controls select { max-width: 240px; padding: 6px 30px 6px 10px; }
+.picker-label { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0,0,0,0); }
+.review-shell { width: min(100%, 780px); margin: 0 auto; padding: 22px 20px 44px; }
+.review-meta { display: flex; justify-content: space-between; padding: 0 6px 10px; }
+.card-stage { min-height: 650px; border-radius: 28px; }
+.card-stage .note { min-height: 600px; }
+.muted-audio { color: var(--muted); font-size: .72rem; letter-spacing: .08em; text-transform: uppercase; }
+.part-of-speech { margin-top: 9px; color: var(--muted); font-size: .82rem; text-transform: capitalize; }
+.review-actions { display: flex; align-items: center; justify-content: center; gap: 18px; margin-top: 16px; }
+.flip-button { min-width: 180px; padding: 13px 22px; border: 0; border-radius: 12px; background: #9f2f2f; color: white; cursor: pointer; font-weight: 750; box-shadow: 0 6px 18px rgba(100, 22, 22, .2); }
+.forms-table th { white-space: nowrap; }
+.forms-table td { overflow-wrap: anywhere; }
+.forms-table td:nth-child(2) { font-family: inherit; font-size: .9rem; font-weight: 400; }
+body.dark { background: #0f110f; color: #f4f0e7; }
+body.dark .toolbar { border-color: #343832; background: rgba(21, 23, 20, .94); }
+body.dark .brand span, body.dark .shortcut-help, body.dark .review-meta { color: #aeb4aa; }
+body.dark .controls button, body.dark .controls select { border-color: #3a3f38; background: #20231f; color: #f4f0e7; }
+body.dark .card-stage { --bg:#151714; --surface:#20231f; --ink:#f4f0e7; --muted:#aeb4aa; --accent:#ef8b82; --accent-soft:#4b2928; --line:#3a3f38; --shadow:none; }
+body.dark .flip-button { background: #d8655e; color: #17100f; }
+@media (max-width: 620px) {
+  .toolbar { align-items: flex-start; padding: 10px 12px; }
+  .brand span, .shortcut-help { display: none; }
+  .controls { flex: 1; justify-content: flex-end; }
+  .controls select { width: min(44vw, 200px); }
+  .review-shell { padding: 12px 8px 30px; }
+  .card-stage { min-height: 570px; border-radius: 18px; }
+  .card-stage .note { min-height: 540px; }
+}

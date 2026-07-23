@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>German Core — Complete First Card</title>
+  <link rel="stylesheet" href="anki/style.css">
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; padding: 28px; background: #e8e4dc; color: #20231f; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif; }
+    .preview-title { max-width: 1180px; margin: 0 auto 20px; }
+    .preview-title h1 { margin: 0 0 6px; font-size: 1.25rem; }
+    .preview-title p { margin: 0; color: #656962; }
+    .grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; max-width: 1180px; margin: auto; }
+    .frame { padding: 18px; border-radius: 26px; background: var(--bg); }
+    .frame-label { margin: 0 0 10px; color: #60655e; font-size: .76rem; font-weight: 700; letter-spacing: .11em; text-transform: uppercase; }
+    .frame .card { min-height: 650px; }
+    .mock-audio { display: grid; place-items: center; width: 42px; height: 42px; border: 0; border-radius: 50%; background: var(--accent); color: white; font-size: 1rem; }
+    .dark { --bg:#151714; --surface:#20231f; --ink:#f4f0e7; --muted:#aeb4aa; --accent:#ef8b82; --accent-soft:#4b2928; --line:#3a3f38; --shadow:none; }
+    .dark .frame-label { color: #b5bbb1; }
+    @media (max-width: 800px) { body { padding: 12px; } .grid { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+  <header class="preview-title">
+    <h1>Complete first-card prototype: <span lang="de">wer</span></h1>
+    <p>Nested example rows reveal their translations independently. Audio controls remain visual mocks.</p>
+  </header>
+  <div class="grid">
+    <section class="frame">
+      <div class="frame-label">Front · light</div>
+      <div class="card"><main class="note" lang="de"><section class="target-block"><div class="target">wer</div></section><section class="audio-row"><button class="mock-audio" aria-label="Replay sentence">▶</button></section></main></div>
+    </section>
+    <section class="frame">
+      <div class="frame-label">Back · light · examples expanded for review</div>
+      <div class="card">REPLACE_WITH_BACK</div>
+    </section>
+    <section class="frame dark">
+      <div class="frame-label">Front · dark</div>
+      <div class="card"><main class="note" lang="de"><section class="target-block"><div class="target">wer</div></section><section class="audio-row"><button class="mock-audio" aria-label="Replay sentence">▶</button></section></main></div>
+    </section>
+    <section class="frame dark">
+      <div class="frame-label">Back · dark · examples expanded for review</div>
+      <div class="card">REPLACE_WITH_BACK</div>
+    </section>
+  </div>
+  <template id="card-back">
+    <main class="note answer" lang="de">
+      <section class="target-block compact"><div class="target">wer</div></section>
+      <section class="audio-row"><button class="mock-audio" aria-label="Replay sentence">▶</button></section>
+      <details class="reveal"><summary>Show meaning</summary><div class="reveal-content" lang="en"><div class="meaning">who</div></div></details>
+      <section class="sentence-block"><div class="german-sentence">Wer ist das?</div></section>
+      <details class="reveal"><summary>Show translation</summary><div class="reveal-content" lang="en"><div class="english-sentence">Who is that?</div></div></details>
+      <details class="reveal secondary" open>
+        <summary>More examples</summary>
+        <div class="reveal-content">
+          <details class="example-item"><summary><span class="example-case">Nom.</span>Wer kommt heute mit?</summary><div class="example-translation" lang="en">Who is coming along today?</div></details>
+          <details class="example-item"><summary><span class="example-case">Nom.</span>Wer hat das gesagt?</summary><div class="example-translation" lang="en">Who said that?</div></details>
+          <details class="example-item"><summary><span class="example-case">Akk.</span>Wen suchst du?</summary><div class="example-translation" lang="en">Who are you looking for?</div></details>
+          <details class="example-item"><summary><span class="example-case">Akk.</span>Wen hast du eingeladen?</summary><div class="example-translation" lang="en">Who did you invite?</div></details>
+          <details class="example-item"><summary><span class="example-case">Dat.</span>Wem gehört das?</summary><div class="example-translation" lang="en">Who does that belong to?</div></details>
+          <details class="example-item"><summary><span class="example-case">Dat.</span>Wem hast du geholfen?</summary><div class="example-translation" lang="en">Who did you help?</div></details>
+          <details class="example-item"><summary><span class="example-case">Gen.</span>Wessen Handy ist das?</summary><div class="example-translation" lang="en">Whose phone is that?</div></details>
+        </div>
+      </details>
+      <details class="reveal secondary">
+        <summary>Case forms</summary>
+        <div class="reveal-content forms"><table class="forms-table"><tr><th>Nominative</th><td>wer</td><td>subject</td></tr><tr><th>Accusative</th><td>wen</td><td>direct object</td></tr><tr><th>Dative</th><td>wem</td><td>indirect object</td></tr><tr><th>Genitive</th><td>wessen</td><td>possession</td></tr></table></div>
+      </details>
+      <details class="reveal secondary"><summary>Usage note</summary><div class="reveal-content usage" lang="en">Use <i>wer</i> for a person as the subject. Its form changes with case: <i>wen</i> (accusative), <i>wem</i> (dative), and <i>wessen</i> (genitive/possessive). In natural English, <i>wen</i> and <i>wem</i> are usually still translated as “who,” while <i>wessen</i> means “whose.”</div></details>
+    </main>
+  </template>
+  <script>
+    const back = document.querySelector('#card-back').innerHTML;
+    document.querySelectorAll('.card').forEach((card) => {
+      if (card.textContent.trim() === 'REPLACE_WITH_BACK') card.innerHTML = back;
+    });
+  </script>
+</body>
+</html>

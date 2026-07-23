@@ -1,0 +1,17 @@
+# Local analysis dependencies
+.agents/
+.deps/
+.vendor/
+
+# Uploaded proprietary references are local-only
+Source Materials/
+data/source/
+
+# Python caches and environments
+__pycache__/
+*.py[cod]
+.venv/
+
+# Secrets
+.env
+.env.*
