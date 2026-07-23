@@ -1,18 +1,14 @@
 {
   "schema_version": 1,
-  "card_count": 750,
+  "card_count": 800,
   "active_units": [],
   "pending_units": [
     {
       "unit_id": "numbers-core",
       "title": "Core numbers",
-      "available": 8,
+      "available": 9,
       "required": 29,
       "missing": [
-        {
-          "label": "eins",
-          "frequency_rank": 774
-        },
         {
           "label": "neun",
           "frequency_rank": 1053
@@ -4687,6 +4683,306 @@
       "curriculum_order": 750,
       "semantic_id": "de-DE:verb:spüren:0750",
       "frequency_rank": 750,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 751,
+      "semantic_id": "de-DE:adjective-adverb:unabhängig:0751",
+      "frequency_rank": 751,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 752,
+      "semantic_id": "de-DE:adverb:morgen:0752",
+      "frequency_rank": 752,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 753,
+      "semantic_id": "de-DE:noun:Rahmen:0753",
+      "frequency_rank": 753,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 754,
+      "semantic_id": "de-DE:adverb:übrigens:0754",
+      "frequency_rank": 754,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 755,
+      "semantic_id": "de-DE:noun:Einheit:0755",
+      "frequency_rank": 755,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 756,
+      "semantic_id": "de-DE:adverb:überall:0756",
+      "frequency_rank": 756,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 757,
+      "semantic_id": "de-DE:verb:feststellen:0757",
+      "frequency_rank": 757,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 758,
+      "semantic_id": "de-DE:noun:Stoff:0758",
+      "frequency_rank": 758,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 759,
+      "semantic_id": "de-DE:noun:Rede:0759",
+      "frequency_rank": 759,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 760,
+      "semantic_id": "de-DE:verb:unterstützen:0760",
+      "frequency_rank": 760,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 761,
+      "semantic_id": "de-DE:adjective-adverb:chemisch:0761",
+      "frequency_rank": 761,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 762,
+      "semantic_id": "de-DE:adjective-adverb:schlimm:0762",
+      "frequency_rank": 762,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 763,
+      "semantic_id": "de-DE:proper-noun:Schweiz:0763",
+      "frequency_rank": 763,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 764,
+      "semantic_id": "de-DE:adverb:irgendwann:0764",
+      "frequency_rank": 764,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 765,
+      "semantic_id": "de-DE:noun:Geschäft:0765",
+      "frequency_rank": 765,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 766,
+      "semantic_id": "de-DE:coordinating-conjunction:weder:0766",
+      "frequency_rank": 766,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 767,
+      "semantic_id": "de-DE:noun:Anteil:0767",
+      "frequency_rank": 767,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 768,
+      "semantic_id": "de-DE:noun:Angabe:0768",
+      "frequency_rank": 768,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 769,
+      "semantic_id": "de-DE:noun:Team:0769",
+      "frequency_rank": 769,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 770,
+      "semantic_id": "de-DE:preposition-conjunction:außer:0770",
+      "frequency_rank": 770,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 771,
+      "semantic_id": "de-DE:noun:Sommer:0771",
+      "frequency_rank": 771,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 772,
+      "semantic_id": "de-DE:noun:Hotel:0772",
+      "frequency_rank": 772,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 773,
+      "semantic_id": "de-DE:adjective-adverb:laut:0773",
+      "frequency_rank": 773,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 774,
+      "semantic_id": "de-DE:numeral-pronoun:eins:0774",
+      "frequency_rank": 774,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 775,
+      "semantic_id": "de-DE:noun:Alter:0775",
+      "frequency_rank": 775,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 776,
+      "semantic_id": "de-DE:noun:Sicherheit:0776",
+      "frequency_rank": 776,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 777,
+      "semantic_id": "de-DE:proper-noun-abbreviation:SPD:0777",
+      "frequency_rank": 777,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 778,
+      "semantic_id": "de-DE:adjective-adverb:niedrig:0778",
+      "frequency_rank": 778,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 779,
+      "semantic_id": "de-DE:adjective-adverb:ständig:0779",
+      "frequency_rank": 779,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 780,
+      "semantic_id": "de-DE:noun:Einsatz:0780",
+      "frequency_rank": 780,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 781,
+      "semantic_id": "de-DE:verb:liefern:0781",
+      "frequency_rank": 781,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 782,
+      "semantic_id": "de-DE:verb:betonen:0782",
+      "frequency_rank": 782,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 783,
+      "semantic_id": "de-DE:noun:Erde:0783",
+      "frequency_rank": 783,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 784,
+      "semantic_id": "de-DE:noun:Studie:0784",
+      "frequency_rank": 784,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 785,
+      "semantic_id": "de-DE:adverb:vorne, vorn:0785",
+      "frequency_rank": 785,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 786,
+      "semantic_id": "de-DE:adjective-nominalized-adjective:rechte (r, s):0786",
+      "frequency_rank": 786,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 787,
+      "semantic_id": "de-DE:noun:Meinung:0787",
+      "frequency_rank": 787,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 788,
+      "semantic_id": "de-DE:verb:drehen:0788",
+      "frequency_rank": 788,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 789,
+      "semantic_id": "de-DE:noun:Künstler:0789",
+      "frequency_rank": 789,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 790,
+      "semantic_id": "de-DE:adjective-adverb:aktiv:0790",
+      "frequency_rank": 790,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 791,
+      "semantic_id": "de-DE:noun:Versuch:0791",
+      "frequency_rank": 791,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 792,
+      "semantic_id": "de-DE:adverb:somit:0792",
+      "frequency_rank": 792,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 793,
+      "semantic_id": "de-DE:verb:bezahlen:0793",
+      "frequency_rank": 793,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 794,
+      "semantic_id": "de-DE:noun:Eigenschaft:0794",
+      "frequency_rank": 794,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 795,
+      "semantic_id": "de-DE:adverb:längst:0795",
+      "frequency_rank": 795,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 796,
+      "semantic_id": "de-DE:noun:Methode:0796",
+      "frequency_rank": 796,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 797,
+      "semantic_id": "de-DE:noun:Ordnung:0797",
+      "frequency_rank": 797,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 798,
+      "semantic_id": "de-DE:proper-noun:Russland:0798",
+      "frequency_rank": 798,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 799,
+      "semantic_id": "de-DE:noun:Wahl:0799",
+      "frequency_rank": 799,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 800,
+      "semantic_id": "de-DE:pronominal-adverb:daraus:0800",
+      "frequency_rank": 800,
       "unit_id": null
     }
   ]
