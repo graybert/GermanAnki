@@ -8,11 +8,13 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
+START = 501
+END = 1000
 SOURCE = ROOT / "data" / "source" / "frequency-all-5009.jsonl"
 OUT = ROOT / "data" / "canonical" / "frequency-0501-1000.jsonl"
 DATA_FILES = tuple(
     ROOT / "tools" / f"batch_005_{start:04}_{start + 49:04}.txt"
-    for start in range(501, 1001, 50)
+    for start in range(START, END + 1, 50)
 )
 
 
@@ -84,18 +86,18 @@ def build() -> list[dict]:
             "created_for": "complete frequency curriculum",
         })
     ranks = [row["frequency_rank"] for row in rows]
-    if ranks and ranks != list(range(501, 501 + len(ranks))):
-        raise ValueError("Authored ranks must be consecutive from 501")
+    if ranks and ranks != list(range(START, START + len(ranks))):
+        raise ValueError(f"Authored ranks must be consecutive from {START}")
     return rows
 
 
 def main() -> None:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--require-through", type=int, default=500)
+    parser.add_argument("--require-through", type=int, default=START - 1)
     args = parser.parse_args()
     rows = build()
-    if args.require_through >= 501:
-        expected_count = args.require_through - 500
+    if args.require_through >= START:
+        expected_count = args.require_through - START + 1
         if len(rows) != expected_count:
             raise ValueError(
                 f"Expected {expected_count} cards through rank {args.require_through}, "
@@ -105,7 +107,7 @@ def main() -> None:
         "".join(json.dumps(row, ensure_ascii=False) + "\n" for row in rows),
         encoding="utf-8",
     )
-    print(f"Wrote {len(rows)} cards through rank {500 + len(rows)} to {OUT}")
+    print(f"Wrote {len(rows)} cards through rank {START - 1 + len(rows)} to {OUT}")
 
 
 if __name__ == "__main__":
