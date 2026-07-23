@@ -6,6 +6,7 @@ has been generated.
 
 Try the public browser demo at
 [graybert.github.io/GermanAnki](https://graybert.github.io/GermanAnki/).
+The landing page also offers an importable 10-card `.apkg` test deck.
 
 Open `prototype/card-preview.html` to review the proposed front, back, light,
 dark, desktop, and mobile layouts. The Anki-native templates are in
@@ -20,4 +21,13 @@ The validator checks the full canonical corpus and rejects reused German
 sentences.
 
 The repository currently contains structured Anki note data and Anki-compatible
-HTML/CSS templates, but it does not yet produce an importable `.apkg` deck.
+HTML/CSS templates. To rebuild the test package:
+
+```powershell
+python -m pip install --target .deps -r requirements-export.txt
+python tools/export_anki.py
+python tools/validate_apkg.py dist/German-Core-Test-0001-0010.apkg --expected-notes 10
+```
+
+See `EXPORTING.md` for the field schema, audio convention, limitations, and the
+path to expanding the export from 10 cards to the full curriculum.

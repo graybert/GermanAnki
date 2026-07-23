@@ -101,9 +101,11 @@ Current prototype note:
 ## Important status and cautions
 
 - Ranks 1–200 have complete draft text and are pending human review.
-- No `.apkg` has been produced by this project.
-- The Anki templates are usable building blocks, but the canonical JSONL cannot
-  be imported directly into Anki; an exporter/model/package step remains.
+- `dist/German-Core-Test-0001-0010.apkg` is the first importable test package:
+  ten notes/cards, stable note identities, no audio, and draft text.
+- `tools/export_anki.py` builds rank-bounded packages and can include
+  deterministic sentence-audio MP3s later; `tools/validate_apkg.py` inspects
+  package structure without touching a user collection.
 - No paid API calls or TTS generation have occurred.
 - The frequency PDF was identified as the copyrighted 2020 Routledge second
   edition by Erwin Tschirner and Jupp Möhring (315 PDF pages). Its ranking may be
@@ -139,5 +141,5 @@ and request community review using `REDDIT_POST.md`. Review ranks 1–200 in the
 local viewer and revise or lock the text. Run
 `python tools/validate_cards.py` after every change; never reuse a full German
 sentence. After the text pattern is approved, test audio on a small sample
-before selecting a deck-wide TTS pipeline. Build an Anki `.apkg` exporter before
-describing the repository as a downloadable deck.
+before selecting a deck-wide TTS pipeline. Human-test the 10-card package in a
+separate Anki profile before exporting all 200 draft cards.
