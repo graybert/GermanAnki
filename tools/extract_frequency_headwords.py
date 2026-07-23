@@ -16,7 +16,8 @@ from pypdf import PdfReader
 
 ROOT = Path(__file__).resolve().parents[1]
 PDF = ROOT / "Source Materials" / "German Frequency Dictionary.pdf"
-OUTPUT = ROOT / "data" / "source" / "frequency-first-500.jsonl"
+OUTPUT = ROOT / "data" / "source" / "frequency-all-5009.jsonl"
+FINAL_RANK = 5009
 POS_MARKERS = ("art", "aux", "conj", "inf", "interj", "num", "part", "prep", "pron", "verb", "adj", "adv")
 
 
@@ -41,8 +42,8 @@ def main() -> None:
     reader = PdfReader(PDF)
     records: list[dict[str, object]] = []
     expected = 1
-    # PDF indices 19..45 contain ranks 1 through at least 500.
-    for page_index in range(19, 46):
+    # PDF indices 19..254 contain the complete continuous ranked section.
+    for page_index in range(19, 255):
         text = reader.pages[page_index].extract_text() or ""
         lines = text.splitlines()
         for line in lines:
@@ -57,13 +58,17 @@ def main() -> None:
                 "source_page": page_index + 1,
             })
             expected += 1
-            if expected == 501:
+            if expected == FINAL_RANK + 1:
                 break
-        if expected == 501:
+        if expected == FINAL_RANK + 1:
             break
 
-    if expected != 501:
-        print(f"Extraction stopped before rank 500 (next expected: {expected}).", file=sys.stderr)
+    if expected != FINAL_RANK + 1:
+        print(
+            f"Extraction stopped before rank {FINAL_RANK} "
+            f"(next expected: {expected}).",
+            file=sys.stderr,
+        )
         raise SystemExit(1)
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT.write_text("".join(json.dumps(r, ensure_ascii=False) + "\n" for r in records), encoding="utf-8")

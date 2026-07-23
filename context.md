@@ -17,12 +17,14 @@ new conversation can resume without relying on chat history.
 
 ## Current stage
 
-The **first 50 frequency cards** have been independently authored as complete
-text-only drafts, alongside the earlier `wer` prototype. The first 500 ranks and
-headwords have been extracted as curriculum metadata. A corpus-wide validator
-now rejects duplicate German sentences. Audio and paid APIs remain out of scope.
+The **first 200 frequency cards** have been independently authored as complete
+text-only drafts, alongside the earlier `wer` prototype. All 5,009 continuous
+ranks and headwords have been extracted as local curriculum metadata. A
+corpus-wide validator rejects duplicate German sentences and now enforces
+continuous unique ranks, complete translations, and three extra examples per
+frequency card. Audio and paid APIs remain out of scope.
 
-A public-preview landing page, continuous 50-card browser demo, GitHub Pages
+A public-preview landing page, continuous 200-card browser demo, GitHub Pages
 deployment workflow, and draft r/German feedback post are ready. Repository
 changes should now be committed after each completed change and pushed whenever
 a remote is available.
@@ -44,16 +46,20 @@ Current prototype note:
 ## Existing artifacts
 
 - `data/canonical/prototype-note.jsonl` — sole prototype note.
-- `data/source/frequency-first-500.jsonl` — rank/headword/POS/page metadata only;
+- `data/source/frequency-all-5009.jsonl` — rank/headword/POS/page metadata only;
   dictionary definitions and examples are deliberately excluded.
 - `data/canonical/frequency-0001-0010.jsonl` — ten complete draft cards with
   forms, original main and extra examples, translations, and usage notes.
 - `data/canonical/frequency-0011-0050.jsonl` — forty more complete draft cards
   in the same canonical schema.
+- `data/canonical/frequency-0051-0200.jsonl` — 150 complete draft cards in the
+  same canonical schema.
 - `tools/extract_frequency_headwords.py` — reproducible metadata extractor.
 - `tools/build_batch_001.py` — compact authored source and canonical builder.
 - `tools/build_batch_002.py` — authored source and canonical builder for ranks
   11–50.
+- `tools/build_batch_003.py` and its three text data files — authored source and
+  canonical builder for ranks 51–200.
 - `tools/validate_cards.py` — required fields, identity, sequence, and global
   German-sentence uniqueness checks.
 - `prototype/card-preview.html` — standalone visual review of front/back in
@@ -87,14 +93,14 @@ Current prototype note:
 
 ## Important status and cautions
 
-- Ranks 1–50 have complete draft text and are pending human review.
+- Ranks 1–200 have complete draft text and are pending human review.
 - No `.apkg` has been produced by this project.
 - No paid API calls or TTS generation have occurred.
 - The frequency PDF was identified as the copyrighted 2020 Routledge second
   edition by Erwin Tschirner and Jupp Möhring (315 PDF pages). Its ranking may be
   used as a private curriculum reference, but its definitions and examples must
   not be copied into public artifacts.
-- PDF extraction succeeded for ranks 1–500. The local parser dependency is in
+- PDF extraction succeeded for all ranks 1–5,009. The local parser dependency is in
   ignored `.vendor/`; extraction is slow but reproducible.
 - The source `.apkg` and PDF have not been modified.
 - The repository is currently uncommitted (`README.md`, `Source Materials/`,
@@ -120,7 +126,7 @@ For every material change:
 ## Next action
 
 Confirm the GitHub Pages deployment at `https://graybert.github.io/GermanAnki/`
-and request community review using `REDDIT_POST.md`. Review ranks 1–50 in the
+and request community review using `REDDIT_POST.md`. Review ranks 1–200 in the
 local viewer and revise or lock the text. Run
 `python tools/validate_cards.py` after every change; never reuse a full German
 sentence. After the text pattern is approved, test audio on a small sample

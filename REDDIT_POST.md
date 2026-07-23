@@ -7,7 +7,7 @@ Feedback on my free German Anki deck?
 ## Post
 
 Hi everyone! I’m creating a free German Anki deck that will eventually include
-native-sounding AI audio. I made a browser demo, so you can try the first 50
+native-sounding AI audio. I made a browser demo, so you can try the first 200
 cards without downloading Anki:
 
 https://graybert.github.io/GermanAnki/

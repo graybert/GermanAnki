@@ -60,6 +60,7 @@ async function start() {
   const batchPaths = [
     '../data/canonical/frequency-0001-0010.jsonl',
     '../data/canonical/frequency-0011-0050.jsonl',
+    '../data/canonical/frequency-0051-0200.jsonl',
   ];
   const responses = await Promise.all(batchPaths.map((path) => fetch(path)));
   const failed = responses.find((response) => !response.ok);

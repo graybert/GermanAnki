@@ -1,7 +1,7 @@
 # Public preview prepared — 2026-07-23
 
 A public landing page now introduces the project and links to the continuous
-50-card browser reviewer. A GitHub Actions workflow deploys the `GermanAnki/`
+browser reviewer. A GitHub Actions workflow deploys the repository
 directory to GitHub Pages on every push to `main`.
 
 `REDDIT_POST.md` contains a transparent r/German feedback request that explains
@@ -12,6 +12,9 @@ the specific linguistic and pedagogical questions on which feedback is needed.
 The repository was made public and GitHub Pages was configured to use GitHub
 Actions. The expected demo URL was added to the README and Reddit draft; the
 resulting push triggers the first deployment.
+
+The public reviewer and landing-page copy were later expanded from 50 to 200
+frequency cards.
 
 The repository was initialized independently so it cannot accidentally commit
 into the unrelated parent repository. Proprietary source materials and the
