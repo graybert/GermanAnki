@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "card_count": 900,
+  "card_count": 950,
   "active_units": [],
   "pending_units": [
     {
@@ -5579,6 +5579,306 @@
       "curriculum_order": 900,
       "semantic_id": "de-DE:noun:Atom:0900",
       "frequency_rank": 900,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 901,
+      "semantic_id": "de-DE:adjective-adverb:historisch:0901",
+      "frequency_rank": 901,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 902,
+      "semantic_id": "de-DE:verb:sinken:0902",
+      "frequency_rank": 902,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 903,
+      "semantic_id": "de-DE:verb:kosten:0903",
+      "frequency_rank": 903,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 904,
+      "semantic_id": "de-DE:noun:Vorstellung:0904",
+      "frequency_rank": 904,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 905,
+      "semantic_id": "de-DE:adjective-adverb:entscheidend:0905",
+      "frequency_rank": 905,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 906,
+      "semantic_id": "de-DE:verb:teilen:0906",
+      "frequency_rank": 906,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 907,
+      "semantic_id": "de-DE:noun:Typ:0907",
+      "frequency_rank": 907,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 908,
+      "semantic_id": "de-DE:verb:stammen:0908",
+      "frequency_rank": 908,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 909,
+      "semantic_id": "de-DE:adjective-adverb:wissenschaftlich:0909",
+      "frequency_rank": 909,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 910,
+      "semantic_id": "de-DE:interrogative-adverb:wieso:0910",
+      "frequency_rank": 910,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 911,
+      "semantic_id": "de-DE:noun:Faktor:0911",
+      "frequency_rank": 911,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 912,
+      "semantic_id": "de-DE:noun:Bindung:0912",
+      "frequency_rank": 912,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 913,
+      "semantic_id": "de-DE:noun:Literatur:0913",
+      "frequency_rank": 913,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 914,
+      "semantic_id": "de-DE:verb:überraschen:0914",
+      "frequency_rank": 914,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 915,
+      "semantic_id": "de-DE:verb:bestätigen:0915",
+      "frequency_rank": 915,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 916,
+      "semantic_id": "de-DE:adjective-adverb:bewusst:0916",
+      "frequency_rank": 916,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 917,
+      "semantic_id": "de-DE:noun:Abschnitt:0917",
+      "frequency_rank": 917,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 918,
+      "semantic_id": "de-DE:noun:Nähe:0918",
+      "frequency_rank": 918,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 919,
+      "semantic_id": "de-DE:adjective:zahlreich:0919",
+      "frequency_rank": 919,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 920,
+      "semantic_id": "de-DE:adjective-adverb:medizinisch:0920",
+      "frequency_rank": 920,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 921,
+      "semantic_id": "de-DE:adjective-adverb:übrig:0921",
+      "frequency_rank": 921,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 922,
+      "semantic_id": "de-DE:proper-noun:Türkei:0922",
+      "frequency_rank": 922,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 923,
+      "semantic_id": "de-DE:noun:Produktion:0923",
+      "frequency_rank": 923,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 924,
+      "semantic_id": "de-DE:verb:drücken:0924",
+      "frequency_rank": 924,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 925,
+      "semantic_id": "de-DE:verb:drohen:0925",
+      "frequency_rank": 925,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 926,
+      "semantic_id": "de-DE:noun:Linie:0926",
+      "frequency_rank": 926,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 927,
+      "semantic_id": "de-DE:noun:Gas:0927",
+      "frequency_rank": 927,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 928,
+      "semantic_id": "de-DE:verb:schicken:0928",
+      "frequency_rank": 928,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 929,
+      "semantic_id": "de-DE:noun:Hälfte:0929",
+      "frequency_rank": 929,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 930,
+      "semantic_id": "de-DE:noun:Kontakt:0930",
+      "frequency_rank": 930,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 931,
+      "semantic_id": "de-DE:noun:Interview:0931",
+      "frequency_rank": 931,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 932,
+      "semantic_id": "de-DE:adjective-adverb:egal:0932",
+      "frequency_rank": 932,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 933,
+      "semantic_id": "de-DE:verb:reisen:0933",
+      "frequency_rank": 933,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 934,
+      "semantic_id": "de-DE:noun:Berg:0934",
+      "frequency_rank": 934,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 935,
+      "semantic_id": "de-DE:adverb:irgendwo:0935",
+      "frequency_rank": 935,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 936,
+      "semantic_id": "de-DE:verb:trennen:0936",
+      "frequency_rank": 936,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 937,
+      "semantic_id": "de-DE:verb:benötigen:0937",
+      "frequency_rank": 937,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 938,
+      "semantic_id": "de-DE:noun:Erinnerung:0938",
+      "frequency_rank": 938,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 939,
+      "semantic_id": "de-DE:verb:verhindern:0939",
+      "frequency_rank": 939,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 940,
+      "semantic_id": "de-DE:noun:Sicht:0940",
+      "frequency_rank": 940,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 941,
+      "semantic_id": "de-DE:noun:Dollar:0941",
+      "frequency_rank": 941,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 942,
+      "semantic_id": "de-DE:verb:leiden:0942",
+      "frequency_rank": 942,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 943,
+      "semantic_id": "de-DE:noun:Anspruch:0943",
+      "frequency_rank": 943,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 944,
+      "semantic_id": "de-DE:noun:Position:0944",
+      "frequency_rank": 944,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 945,
+      "semantic_id": "de-DE:noun:Sport:0945",
+      "frequency_rank": 945,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 946,
+      "semantic_id": "de-DE:proper-noun-abbreviation:BGB (Bürgerliches Gesetzbuch):0946",
+      "frequency_rank": 946,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 947,
+      "semantic_id": "de-DE:noun:Nachfrage:0947",
+      "frequency_rank": 947,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 948,
+      "semantic_id": "de-DE:adjective:blau:0948",
+      "frequency_rank": 948,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 949,
+      "semantic_id": "de-DE:verb:anschauen:0949",
+      "frequency_rank": 949,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 950,
+      "semantic_id": "de-DE:adjective-adverb:teuer:0950",
+      "frequency_rank": 950,
       "unit_id": null
     }
   ]
