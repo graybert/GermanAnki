@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "card_count": 200,
+  "card_count": 250,
   "active_units": [],
   "pending_units": [
     {
@@ -1407,6 +1407,306 @@
       "curriculum_order": 200,
       "semantic_id": "de-DE:cardinal-number:vier:0200",
       "frequency_rank": 200,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 201,
+      "semantic_id": "de-DE:adjective-adverb:besser:0201",
+      "frequency_rank": 201,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 202,
+      "semantic_id": "de-DE:adverb:fast:0202",
+      "frequency_rank": 202,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 203,
+      "semantic_id": "de-DE:adjective-adverb:schnell:0203",
+      "frequency_rank": 203,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 204,
+      "semantic_id": "de-DE:noun:Stadt:0204",
+      "frequency_rank": 204,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 205,
+      "semantic_id": "de-DE:verb:spielen:0205",
+      "frequency_rank": 205,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 206,
+      "semantic_id": "de-DE:adverb:zwar:0206",
+      "frequency_rank": 206,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 207,
+      "semantic_id": "de-DE:noun:Euro:0207",
+      "frequency_rank": 207,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 208,
+      "semantic_id": "de-DE:noun:Arbeit:0208",
+      "frequency_rank": 208,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 209,
+      "semantic_id": "de-DE:noun:Million, Mio.:0209",
+      "frequency_rank": 209,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 210,
+      "semantic_id": "de-DE:noun:Problem:0210",
+      "frequency_rank": 210,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 211,
+      "semantic_id": "de-DE:verb:verstehen:0211",
+      "frequency_rank": 211,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 212,
+      "semantic_id": "de-DE:verb:bekommen:0212",
+      "frequency_rank": 212,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 213,
+      "semantic_id": "de-DE:verb:meinen:0213",
+      "frequency_rank": 213,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 214,
+      "semantic_id": "de-DE:pronominal-adverb:davon:0214",
+      "frequency_rank": 214,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 215,
+      "semantic_id": "de-DE:verb:fahren:0215",
+      "frequency_rank": 215,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 216,
+      "semantic_id": "de-DE:verb:kennen:0216",
+      "frequency_rank": 216,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 217,
+      "semantic_id": "de-DE:personal-pronoun:dich:0217",
+      "frequency_rank": 217,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 218,
+      "semantic_id": "de-DE:noun:Mutter:0218",
+      "frequency_rank": 218,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 219,
+      "semantic_id": "de-DE:noun:Woche:0219",
+      "frequency_rank": 219,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 220,
+      "semantic_id": "de-DE:noun:Weg:0220",
+      "frequency_rank": 220,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 221,
+      "semantic_id": "de-DE:adverb-adjective:weiter:0221",
+      "frequency_rank": 221,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 222,
+      "semantic_id": "de-DE:noun:Auge:0222",
+      "frequency_rank": 222,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 223,
+      "semantic_id": "de-DE:adverb:oft:0223",
+      "frequency_rank": 223,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 224,
+      "semantic_id": "de-DE:plural-noun:Leute:0224",
+      "frequency_rank": 224,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 225,
+      "semantic_id": "de-DE:adverb:allerdings:0225",
+      "frequency_rank": 225,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 226,
+      "semantic_id": "de-DE:focus-particle:sogar:0226",
+      "frequency_rank": 226,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 227,
+      "semantic_id": "de-DE:adverb-conjunction:jedoch:0227",
+      "frequency_rank": 227,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 228,
+      "semantic_id": "de-DE:verb:setzen:0228",
+      "frequency_rank": 228,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 229,
+      "semantic_id": "de-DE:conjunctive-adverb:deshalb:0229",
+      "frequency_rank": 229,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 230,
+      "semantic_id": "de-DE:adjective-adverb:weit:0230",
+      "frequency_rank": 230,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 231,
+      "semantic_id": "de-DE:verb:sitzen:0231",
+      "frequency_rank": 231,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 232,
+      "semantic_id": "de-DE:noun:Vater:0232",
+      "frequency_rank": 232,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 233,
+      "semantic_id": "de-DE:possessive-determiner-pronoun:dein:0233",
+      "frequency_rank": 233,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 234,
+      "semantic_id": "de-DE:verb:arbeiten:0234",
+      "frequency_rank": 234,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 235,
+      "semantic_id": "de-DE:noun:Geld:0235",
+      "frequency_rank": 235,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 236,
+      "semantic_id": "de-DE:noun:Unternehmen:0236",
+      "frequency_rank": 236,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 237,
+      "semantic_id": "de-DE:adjective:nächste (r, s):0237",
+      "frequency_rank": 237,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 238,
+      "semantic_id": "de-DE:verb:erklären:0238",
+      "frequency_rank": 238,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 239,
+      "semantic_id": "de-DE:adjective-adverb:klar:0239",
+      "frequency_rank": 239,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 240,
+      "semantic_id": "de-DE:noun-title:Doktor, Dr.:0240",
+      "frequency_rank": 240,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 241,
+      "semantic_id": "de-DE:noun-quantifier:Paar:0241",
+      "frequency_rank": 241,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 242,
+      "semantic_id": "de-DE:noun-adjective:Recht:0242",
+      "frequency_rank": 242,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 243,
+      "semantic_id": "de-DE:preposition:wegen:0243",
+      "frequency_rank": 243,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 244,
+      "semantic_id": "de-DE:personal-pronoun:dir:0244",
+      "frequency_rank": 244,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 245,
+      "semantic_id": "de-DE:noun:Wasser:0245",
+      "frequency_rank": 245,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 246,
+      "semantic_id": "de-DE:verb:bestehen:0246",
+      "frequency_rank": 246,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 247,
+      "semantic_id": "de-DE:verb:versuchen:0247",
+      "frequency_rank": 247,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 248,
+      "semantic_id": "de-DE:noun:Punkt:0248",
+      "frequency_rank": 248,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 249,
+      "semantic_id": "de-DE:noun:Grund:0249",
+      "frequency_rank": 249,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 250,
+      "semantic_id": "de-DE:noun:Kopf:0250",
+      "frequency_rank": 250,
       "unit_id": null
     }
   ]

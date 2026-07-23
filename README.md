@@ -1,8 +1,8 @@
 # German Core Deck
 
-This repository contains a complete formatting prototype plus the first 200
-fully developed draft cards from a 5,009-entry frequency curriculum. No paid audio
-has been generated.
+This repository contains a complete formatting prototype plus the first 250
+fully developed draft cards from a 5,009-entry frequency curriculum. The V7
+test deck contains paid dual-voice word and sentence audio for ranks 1–10.
 
 Try the public browser demo at
 [graybert.github.io/GermanAnki](https://graybert.github.io/GermanAnki/).
@@ -13,8 +13,9 @@ dark, desktop, and mobile layouts. The Anki-native templates are in
 `prototype/anki/` and the sole prototype note is in
 `data/canonical/prototype-note.jsonl`.
 
-Rebuild the batches with `python tools/build_batch_001.py` and
-`python tools/build_batch_002.py`, then `python tools/build_batch_003.py` and
+Rebuild the batches with `python tools/build_batch_001.py`,
+`python tools/build_batch_002.py`, `python tools/build_batch_003.py`, and
+`python tools/build_batch_004.py --require-through 250`, then
 run `python tools/build_curriculum_order.py` followed by
 `python tools/validate_cards.py`.
 The validator checks the full canonical corpus and rejects reused German

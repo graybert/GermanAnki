@@ -136,10 +136,10 @@ For every material change:
 
 ## Next action
 
-Confirm the GitHub Pages deployment at `https://graybert.github.io/GermanAnki/`
-and request community review using `REDDIT_POST.md`. Review ranks 1–200 in the
-local viewer and revise or lock the text. Run
-`python tools/validate_cards.py` after every change; never reuse a full German
-sentence. After the text pattern is approved, test audio on a small sample
-before selecting a deck-wide TTS pipeline. Human-test the 10-card package in a
-separate Anki profile before exporting all 200 draft cards.
+Continue batch 004 through rank 500. The first milestone is ranks 201–350, then
+continue through 351–500 without pausing. Preserve source rank order, three
+independent examples, explicit polysemy notes, and globally unique German
+sentences. Run `python tools/validate_cards.py` and rebuild curriculum order
+after every authored sub-batch. Commit and push each completed batch. Human-test
+the V7 dual-voice package while text authoring continues without further API
+usage.
