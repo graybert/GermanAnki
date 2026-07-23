@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "card_count": 1000,
+  "card_count": 1050,
   "active_units": [],
   "pending_units": [
     {
@@ -94,13 +94,9 @@
     {
       "unit_id": "weekdays",
       "title": "Days of the week",
-      "available": 2,
+      "available": 3,
       "required": 7,
       "missing": [
-        {
-          "label": "Montag",
-          "frequency_rank": 1044
-        },
         {
           "label": "Dienstag",
           "frequency_rank": 1356
@@ -122,7 +118,7 @@
     {
       "unit_id": "months",
       "title": "Months of the year",
-      "available": 1,
+      "available": 4,
       "required": 12,
       "missing": [
         {
@@ -132,14 +128,6 @@
         {
           "label": "Februar",
           "frequency_rank": 1093
-        },
-        {
-          "label": "April",
-          "frequency_rank": 1004
-        },
-        {
-          "label": "Mai",
-          "frequency_rank": 1048
         },
         {
           "label": "Juni",
@@ -152,10 +140,6 @@
         {
           "label": "August",
           "frequency_rank": 1929
-        },
-        {
-          "label": "September",
-          "frequency_rank": 1035
         },
         {
           "label": "Oktober",
@@ -6171,6 +6155,306 @@
       "curriculum_order": 1000,
       "semantic_id": "de-DE:verb:produzieren:1000",
       "frequency_rank": 1000,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1001,
+      "semantic_id": "de-DE:noun:Kritik:1001",
+      "frequency_rank": 1001,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1002,
+      "semantic_id": "de-DE:adjective-adverb:erneut:1002",
+      "frequency_rank": 1002,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1003,
+      "semantic_id": "de-DE:noun:Trainer:1003",
+      "frequency_rank": 1003,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1004,
+      "semantic_id": "de-DE:noun:April:1004",
+      "frequency_rank": 1004,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1005,
+      "semantic_id": "de-DE:verb:melden:1005",
+      "frequency_rank": 1005,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1006,
+      "semantic_id": "de-DE:adverb:wiederum:1006",
+      "frequency_rank": 1006,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1007,
+      "semantic_id": "de-DE:noun:Opfer:1007",
+      "frequency_rank": 1007,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1008,
+      "semantic_id": "de-DE:directional-adverb:hinaus:1008",
+      "frequency_rank": 1008,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1009,
+      "semantic_id": "de-DE:adjective:vorhanden:1009",
+      "frequency_rank": 1009,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1010,
+      "semantic_id": "de-DE:noun-combining-form:Westen, West-:1010",
+      "frequency_rank": 1010,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1011,
+      "semantic_id": "de-DE:noun:Titel:1011",
+      "frequency_rank": 1011,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1012,
+      "semantic_id": "de-DE:noun:Eindruck:1012",
+      "frequency_rank": 1012,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1013,
+      "semantic_id": "de-DE:noun:Baum:1013",
+      "frequency_rank": 1013,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1014,
+      "semantic_id": "de-DE:verb:lauten:1014",
+      "frequency_rank": 1014,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1015,
+      "semantic_id": "de-DE:noun:Diskussion:1015",
+      "frequency_rank": 1015,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1016,
+      "semantic_id": "de-DE:adverb-conjunctional-adverb:hingegen:1016",
+      "frequency_rank": 1016,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1017,
+      "semantic_id": "de-DE:noun:Student:1017",
+      "frequency_rank": 1017,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1018,
+      "semantic_id": "de-DE:noun:Bevölkerung:1018",
+      "frequency_rank": 1018,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1019,
+      "semantic_id": "de-DE:noun:Finger:1019",
+      "frequency_rank": 1019,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1020,
+      "semantic_id": "de-DE:nominalized-adjective-proper-noun:Grüne:1020",
+      "frequency_rank": 1020,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1021,
+      "semantic_id": "de-DE:adjective-adverb:total:1021",
+      "frequency_rank": 1021,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1022,
+      "semantic_id": "de-DE:noun:Abstand:1022",
+      "frequency_rank": 1022,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1023,
+      "semantic_id": "de-DE:noun:Schulter:1023",
+      "frequency_rank": 1023,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1024,
+      "semantic_id": "de-DE:noun:Maßnahme:1024",
+      "frequency_rank": 1024,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1025,
+      "semantic_id": "de-DE:noun:Band:1025",
+      "frequency_rank": 1025,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1026,
+      "semantic_id": "de-DE:pronominal-adverb:darunter:1026",
+      "frequency_rank": 1026,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1027,
+      "semantic_id": "de-DE:demonstrative-pronoun:derjenige, diejenige, dasjenige:1027",
+      "frequency_rank": 1027,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1028,
+      "semantic_id": "de-DE:noun:Wald:1028",
+      "frequency_rank": 1028,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1029,
+      "semantic_id": "de-DE:noun:Insel:1029",
+      "frequency_rank": 1029,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1030,
+      "semantic_id": "de-DE:noun:Schluss:1030",
+      "frequency_rank": 1030,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1031,
+      "semantic_id": "de-DE:adjective-adverb:anschließend:1031",
+      "frequency_rank": 1031,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1032,
+      "semantic_id": "de-DE:noun:Volk:1032",
+      "frequency_rank": 1032,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1033,
+      "semantic_id": "de-DE:adjective-adverb:kulturell:1033",
+      "frequency_rank": 1033,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1034,
+      "semantic_id": "de-DE:verb:definieren:1034",
+      "frequency_rank": 1034,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1035,
+      "semantic_id": "de-DE:noun:September:1035",
+      "frequency_rank": 1035,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1036,
+      "semantic_id": "de-DE:noun:Beruf:1036",
+      "frequency_rank": 1036,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1037,
+      "semantic_id": "de-DE:noun:Ansatz:1037",
+      "frequency_rank": 1037,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1038,
+      "semantic_id": "de-DE:adjective-adverb:nötig:1038",
+      "frequency_rank": 1038,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1039,
+      "semantic_id": "de-DE:verb:herrschen:1039",
+      "frequency_rank": 1039,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1040,
+      "semantic_id": "de-DE:noun:Sieg:1040",
+      "frequency_rank": 1040,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1041,
+      "semantic_id": "de-DE:noun:Küche:1041",
+      "frequency_rank": 1041,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1042,
+      "semantic_id": "de-DE:adjective-adverb:verantwortlich:1042",
+      "frequency_rank": 1042,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1043,
+      "semantic_id": "de-DE:adjective-adverb:täglich:1043",
+      "frequency_rank": 1043,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1044,
+      "semantic_id": "de-DE:noun:Montag:1044",
+      "frequency_rank": 1044,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1045,
+      "semantic_id": "de-DE:noun:Spaß:1045",
+      "frequency_rank": 1045,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1046,
+      "semantic_id": "de-DE:verb:herstellen:1046",
+      "frequency_rank": 1046,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1047,
+      "semantic_id": "de-DE:verb-adjective:überlegen:1047",
+      "frequency_rank": 1047,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1048,
+      "semantic_id": "de-DE:noun:Mai:1048",
+      "frequency_rank": 1048,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1049,
+      "semantic_id": "de-DE:verb:umfassen:1049",
+      "frequency_rank": 1049,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1050,
+      "semantic_id": "de-DE:adjective-adverb:ernst:1050",
+      "frequency_rank": 1050,
       "unit_id": null
     }
   ]
