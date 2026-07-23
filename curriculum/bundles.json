@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "policy": {
+    "activation": "when_complete",
+    "description": "A bundle activates only when every member has a canonical card. Active members are removed from frequency order and inserted after the anchor, preserving declared bundle order."
+  },
+  "bundles": [
+    {
+      "unit_id": "numbers-core",
+      "title": "Core numbers",
+      "insert_after_frequency_rank": 200,
+      "members": [
+        {"label": "eins", "frequency_rank": 774},
+        {"label": "zwei", "frequency_rank": 70},
+        {"label": "drei", "frequency_rank": 106},
+        {"label": "vier", "frequency_rank": 200},
+        {"label": "fünf", "frequency_rank": 274},
+        {"label": "sechs", "frequency_rank": 428},
+        {"label": "sieben", "frequency_rank": 611},
+        {"label": "acht", "frequency_rank": 645},
+        {"label": "neun", "frequency_rank": 1053},
+        {"label": "zehn", "frequency_rank": 333},
+        {"label": "elf", "frequency_rank": 1507},
+        {"label": "zwölf", "frequency_rank": 1080},
+        {"label": "dreizehn", "frequency_rank": 4772},
+        {"label": "vierzehn", "frequency_rank": 3950},
+        {"label": "fünfzehn", "frequency_rank": 2858},
+        {"label": "sechzehn", "frequency_rank": 4924},
+        {"label": "siebzehn", "supplemental_id": "de-DE:number:siebzehn:supplemental"},
+        {"label": "achtzehn", "frequency_rank": 3741},
+        {"label": "neunzehn", "supplemental_id": "de-DE:number:neunzehn:supplemental"},
+        {"label": "zwanzig", "frequency_rank": 1359},
+        {"label": "dreißig", "frequency_rank": 2046},
+        {"label": "vierzig", "frequency_rank": 2907},
+        {"label": "fünfzig", "frequency_rank": 2390},
+        {"label": "sechzig", "frequency_rank": 2448},
+        {"label": "siebzig", "frequency_rank": 2609},
+        {"label": "achtzig", "frequency_rank": 3301},
+        {"label": "neunzig", "frequency_rank": 3028},
+        {"label": "hundert", "frequency_rank": 1107},
+        {"label": "tausend", "frequency_rank": 1177}
+      ]
+    },
+    {
+      "unit_id": "weekdays",
+      "title": "Days of the week",
+      "insert_after_frequency_rank": 200,
+      "members": [
+        {"label": "Montag", "frequency_rank": 1044},
+        {"label": "Dienstag", "frequency_rank": 1356},
+        {"label": "Mittwoch", "frequency_rank": 1187},
+        {"label": "Donnerstag", "frequency_rank": 1244},
+        {"label": "Freitag", "frequency_rank": 981},
+        {"label": "Samstag", "frequency_rank": 1112},
+        {"label": "Sonntag", "frequency_rank": 804}
+      ]
+    },
+    {
+      "unit_id": "months",
+      "title": "Months of the year",
+      "insert_after_frequency_rank": 200,
+      "members": [
+        {"label": "Januar", "frequency_rank": 1052},
+        {"label": "Februar", "frequency_rank": 1093},
+        {"label": "März", "frequency_rank": 987},
+        {"label": "April", "frequency_rank": 1004},
+        {"label": "Mai", "frequency_rank": 1048},
+        {"label": "Juni", "frequency_rank": 1148},
+        {"label": "Juli", "frequency_rank": 1544},
+        {"label": "August", "frequency_rank": 1929},
+        {"label": "September", "frequency_rank": 1035},
+        {"label": "Oktober", "frequency_rank": 1223},
+        {"label": "November", "frequency_rank": 1273},
+        {"label": "Dezember", "frequency_rank": 1527}
+      ]
+    }
+  ]
+}

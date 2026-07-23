@@ -62,11 +62,25 @@ async function start() {
     '../data/canonical/frequency-0011-0050.jsonl',
     '../data/canonical/frequency-0051-0200.jsonl',
   ];
-  const responses = await Promise.all(batchPaths.map((path) => fetch(path)));
+  const orderPath = '../data/curriculum/current-order.json';
+  const [responses, orderResponse] = await Promise.all([
+    Promise.all(batchPaths.map((path) => fetch(path))),
+    fetch(orderPath),
+  ]);
   const failed = responses.find((response) => !response.ok);
   if (failed) throw new Error(`Could not load cards (${failed.status})`);
+  if (!orderResponse.ok) {
+    throw new Error(`Could not load curriculum order (${orderResponse.status})`);
+  }
   const texts = await Promise.all(responses.map((response) => response.text()));
   state.cards = texts.flatMap((body) => body.trim().split(/\r?\n/).map(JSON.parse));
+  const curriculum = await orderResponse.json();
+  const orderById = new Map(
+    curriculum.cards.map((entry) => [entry.semantic_id, entry.curriculum_order])
+  );
+  state.cards.sort((left, right) =>
+    orderById.get(left.semantic_id) - orderById.get(right.semantic_id)
+  );
   state.cards.forEach((card, index) => {
     const option = document.createElement('option');
     option.value = String(index);

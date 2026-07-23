@@ -1,0 +1,1413 @@
+{
+  "schema_version": 1,
+  "card_count": 200,
+  "active_units": [],
+  "pending_units": [
+    {
+      "unit_id": "numbers-core",
+      "title": "Core numbers",
+      "available": 3,
+      "required": 29,
+      "missing": [
+        {
+          "label": "eins",
+          "frequency_rank": 774
+        },
+        {
+          "label": "fünf",
+          "frequency_rank": 274
+        },
+        {
+          "label": "sechs",
+          "frequency_rank": 428
+        },
+        {
+          "label": "sieben",
+          "frequency_rank": 611
+        },
+        {
+          "label": "acht",
+          "frequency_rank": 645
+        },
+        {
+          "label": "neun",
+          "frequency_rank": 1053
+        },
+        {
+          "label": "zehn",
+          "frequency_rank": 333
+        },
+        {
+          "label": "elf",
+          "frequency_rank": 1507
+        },
+        {
+          "label": "zwölf",
+          "frequency_rank": 1080
+        },
+        {
+          "label": "dreizehn",
+          "frequency_rank": 4772
+        },
+        {
+          "label": "vierzehn",
+          "frequency_rank": 3950
+        },
+        {
+          "label": "fünfzehn",
+          "frequency_rank": 2858
+        },
+        {
+          "label": "sechzehn",
+          "frequency_rank": 4924
+        },
+        {
+          "label": "siebzehn",
+          "supplemental_id": "de-DE:number:siebzehn:supplemental"
+        },
+        {
+          "label": "achtzehn",
+          "frequency_rank": 3741
+        },
+        {
+          "label": "neunzehn",
+          "supplemental_id": "de-DE:number:neunzehn:supplemental"
+        },
+        {
+          "label": "zwanzig",
+          "frequency_rank": 1359
+        },
+        {
+          "label": "dreißig",
+          "frequency_rank": 2046
+        },
+        {
+          "label": "vierzig",
+          "frequency_rank": 2907
+        },
+        {
+          "label": "fünfzig",
+          "frequency_rank": 2390
+        },
+        {
+          "label": "sechzig",
+          "frequency_rank": 2448
+        },
+        {
+          "label": "siebzig",
+          "frequency_rank": 2609
+        },
+        {
+          "label": "achtzig",
+          "frequency_rank": 3301
+        },
+        {
+          "label": "neunzig",
+          "frequency_rank": 3028
+        },
+        {
+          "label": "hundert",
+          "frequency_rank": 1107
+        },
+        {
+          "label": "tausend",
+          "frequency_rank": 1177
+        }
+      ]
+    },
+    {
+      "unit_id": "weekdays",
+      "title": "Days of the week",
+      "available": 0,
+      "required": 7,
+      "missing": [
+        {
+          "label": "Montag",
+          "frequency_rank": 1044
+        },
+        {
+          "label": "Dienstag",
+          "frequency_rank": 1356
+        },
+        {
+          "label": "Mittwoch",
+          "frequency_rank": 1187
+        },
+        {
+          "label": "Donnerstag",
+          "frequency_rank": 1244
+        },
+        {
+          "label": "Freitag",
+          "frequency_rank": 981
+        },
+        {
+          "label": "Samstag",
+          "frequency_rank": 1112
+        },
+        {
+          "label": "Sonntag",
+          "frequency_rank": 804
+        }
+      ]
+    },
+    {
+      "unit_id": "months",
+      "title": "Months of the year",
+      "available": 0,
+      "required": 12,
+      "missing": [
+        {
+          "label": "Januar",
+          "frequency_rank": 1052
+        },
+        {
+          "label": "Februar",
+          "frequency_rank": 1093
+        },
+        {
+          "label": "März",
+          "frequency_rank": 987
+        },
+        {
+          "label": "April",
+          "frequency_rank": 1004
+        },
+        {
+          "label": "Mai",
+          "frequency_rank": 1048
+        },
+        {
+          "label": "Juni",
+          "frequency_rank": 1148
+        },
+        {
+          "label": "Juli",
+          "frequency_rank": 1544
+        },
+        {
+          "label": "August",
+          "frequency_rank": 1929
+        },
+        {
+          "label": "September",
+          "frequency_rank": 1035
+        },
+        {
+          "label": "Oktober",
+          "frequency_rank": 1223
+        },
+        {
+          "label": "November",
+          "frequency_rank": 1273
+        },
+        {
+          "label": "Dezember",
+          "frequency_rank": 1527
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "curriculum_order": 1,
+      "semantic_id": "de-DE:definite-article:der:0001",
+      "frequency_rank": 1,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2,
+      "semantic_id": "de-DE:coordinating-conjunction:und:0002",
+      "frequency_rank": 2,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 3,
+      "semantic_id": "de-DE:two-way-preposition:in:0003",
+      "frequency_rank": 3,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 4,
+      "semantic_id": "de-DE:verb-/-auxiliary:sein:0004",
+      "frequency_rank": 4,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 5,
+      "semantic_id": "de-DE:indefinite-article-/-pronoun:ein:0005",
+      "frequency_rank": 5,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 6,
+      "semantic_id": "de-DE:verb-/-auxiliary:haben:0006",
+      "frequency_rank": 6,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 7,
+      "semantic_id": "de-DE:personal-pronoun:sie:0007",
+      "frequency_rank": 7,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 8,
+      "semantic_id": "de-DE:verb-/-auxiliary:werden:0008",
+      "frequency_rank": 8,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 9,
+      "semantic_id": "de-DE:dative-preposition:von:0009",
+      "frequency_rank": 9,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 10,
+      "semantic_id": "de-DE:personal-pronoun:ich:0010",
+      "frequency_rank": 10,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 11,
+      "semantic_id": "de-DE:negation-particle:nicht:0011",
+      "frequency_rank": 11,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 12,
+      "semantic_id": "de-DE:personal---impersonal-pronoun:es:0012",
+      "frequency_rank": 12,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 13,
+      "semantic_id": "de-DE:dative-preposition:mit:0013",
+      "frequency_rank": 13,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 14,
+      "semantic_id": "de-DE:reflexive-pronoun:sich:0014",
+      "frequency_rank": 14,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 15,
+      "semantic_id": "de-DE:personal-pronoun:er:0015",
+      "frequency_rank": 15,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 16,
+      "semantic_id": "de-DE:two-way-preposition:auf:0016",
+      "frequency_rank": 16,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 17,
+      "semantic_id": "de-DE:accusative-preposition:für:0017",
+      "frequency_rank": 17,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 18,
+      "semantic_id": "de-DE:adverb---focus-particle:auch:0018",
+      "frequency_rank": 18,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 19,
+      "semantic_id": "de-DE:two-way-preposition:an:0019",
+      "frequency_rank": 19,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 20,
+      "semantic_id": "de-DE:subordinating-conjunction:dass:0020",
+      "frequency_rank": 20,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 21,
+      "semantic_id": "de-DE:dative-preposition---infinitive-marker---adverb:zu:0021",
+      "frequency_rank": 21,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 22,
+      "semantic_id": "de-DE:subordinating-conjunction---comparative-marker:als:0022",
+      "frequency_rank": 22,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 23,
+      "semantic_id": "de-DE:modal-verb:können:0023",
+      "frequency_rank": 23,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 24,
+      "semantic_id": "de-DE:demonstrative-determiner---pronoun:dies:0024",
+      "frequency_rank": 24,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 25,
+      "semantic_id": "de-DE:question-word---conjunction:wie:0025",
+      "frequency_rank": 25,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 26,
+      "semantic_id": "de-DE:personal-pronoun:wir:0026",
+      "frequency_rank": 26,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 27,
+      "semantic_id": "de-DE:personal---possessive-pronoun:ihr:0027",
+      "frequency_rank": 27,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 28,
+      "semantic_id": "de-DE:adverb---particle:so:0028",
+      "frequency_rank": 28,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 29,
+      "semantic_id": "de-DE:dative-preposition:bei:0029",
+      "frequency_rank": 29,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 30,
+      "semantic_id": "de-DE:possessive-determiner---pronoun:sein:0030",
+      "frequency_rank": 30,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 31,
+      "semantic_id": "de-DE:coordinating-conjunction---particle:aber:0031",
+      "frequency_rank": 31,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 32,
+      "semantic_id": "de-DE:indefinite-pronoun:man:0032",
+      "frequency_rank": 32,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 33,
+      "semantic_id": "de-DE:adverb---particle:noch:0033",
+      "frequency_rank": 33,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 34,
+      "semantic_id": "de-DE:dative-preposition---adverb:nach:0034",
+      "frequency_rank": 34,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 35,
+      "semantic_id": "de-DE:coordinating-conjunction:oder:0035",
+      "frequency_rank": 35,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 36,
+      "semantic_id": "de-DE:indefinite-determiner---pronoun:all:0036",
+      "frequency_rank": 36,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 37,
+      "semantic_id": "de-DE:dative-preposition:aus:0037",
+      "frequency_rank": 37,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 38,
+      "semantic_id": "de-DE:interrogative---relative-pronoun:was:0038",
+      "frequency_rank": 38,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 39,
+      "semantic_id": "de-DE:adverb---focus-particle:nur:0039",
+      "frequency_rank": 39,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 40,
+      "semantic_id": "de-DE:verb:sagen:0040",
+      "frequency_rank": 40,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 41,
+      "semantic_id": "de-DE:adverb:dann:0041",
+      "frequency_rank": 41,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 42,
+      "semantic_id": "de-DE:subordinating-conjunction:wenn:0042",
+      "frequency_rank": 42,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 43,
+      "semantic_id": "de-DE:modal-verb:müssen:0043",
+      "frequency_rank": 43,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 44,
+      "semantic_id": "de-DE:two-way-preposition---conjunction:um:0044",
+      "frequency_rank": 44,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 45,
+      "semantic_id": "de-DE:response---modal-particle:ja:0045",
+      "frequency_rank": 45,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 46,
+      "semantic_id": "de-DE:negative-determiner---pronoun:kein:0046",
+      "frequency_rank": 46,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 47,
+      "semantic_id": "de-DE:two-way-preposition---adverb:über:0047",
+      "frequency_rank": 47,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 48,
+      "semantic_id": "de-DE:adverb---subordinating-conjunction:da:0048",
+      "frequency_rank": 48,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 49,
+      "semantic_id": "de-DE:verb:geben:0049",
+      "frequency_rank": 49,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 50,
+      "semantic_id": "de-DE:two-way-preposition---adverb:vor:0050",
+      "frequency_rank": 50,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 51,
+      "semantic_id": "de-DE:possessive-determiner---pronoun:mein:0051",
+      "frequency_rank": 51,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 52,
+      "semantic_id": "de-DE:adverb---determiner:mehr:0052",
+      "frequency_rank": 52,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 53,
+      "semantic_id": "de-DE:noun:Jahr:0053",
+      "frequency_rank": 53,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 54,
+      "semantic_id": "de-DE:personal-pronoun:du:0054",
+      "frequency_rank": 54,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 55,
+      "semantic_id": "de-DE:accusative-preposition:durch:0055",
+      "frequency_rank": 55,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 56,
+      "semantic_id": "de-DE:indefinite-determiner---pronoun:viel:0056",
+      "frequency_rank": 56,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 57,
+      "semantic_id": "de-DE:modal-verb:wollen:0057",
+      "frequency_rank": 57,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 58,
+      "semantic_id": "de-DE:verb:machen:0058",
+      "frequency_rank": 58,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 59,
+      "semantic_id": "de-DE:adjective---pronoun:andere:0059",
+      "frequency_rank": 59,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 60,
+      "semantic_id": "de-DE:modal-verb:sollen:0060",
+      "frequency_rank": 60,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 61,
+      "semantic_id": "de-DE:adverb---modal-particle:schon:0061",
+      "frequency_rank": 61,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 62,
+      "semantic_id": "de-DE:verb:kommen:0062",
+      "frequency_rank": 62,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 63,
+      "semantic_id": "de-DE:personal-pronoun:mir:0063",
+      "frequency_rank": 63,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 64,
+      "semantic_id": "de-DE:adverb:immer:0064",
+      "frequency_rank": 64,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 65,
+      "semantic_id": "de-DE:personal-pronoun:mich:0065",
+      "frequency_rank": 65,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 66,
+      "semantic_id": "de-DE:verb:gehen:0066",
+      "frequency_rank": 66,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 67,
+      "semantic_id": "de-DE:adjective:groß:0067",
+      "frequency_rank": 67,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 68,
+      "semantic_id": "de-DE:adverb:hier:0068",
+      "frequency_rank": 68,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 69,
+      "semantic_id": "de-DE:adjective---adverb:ganz:0069",
+      "frequency_rank": 69,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 70,
+      "semantic_id": "de-DE:cardinal-number:zwei:0070",
+      "frequency_rank": 70,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 71,
+      "semantic_id": "de-DE:adverb---discourse-marker:also:0071",
+      "frequency_rank": 71,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 72,
+      "semantic_id": "de-DE:adverb:jetzt:0072",
+      "frequency_rank": 72,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 73,
+      "semantic_id": "de-DE:adverb---modal-particle:doch:0073",
+      "frequency_rank": 73,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 74,
+      "semantic_id": "de-DE:adverb:wieder:0074",
+      "frequency_rank": 74,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 75,
+      "semantic_id": "de-DE:personal-pronoun:uns:0075",
+      "frequency_rank": 75,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 76,
+      "semantic_id": "de-DE:adjective---adverb:gut:0076",
+      "frequency_rank": 76,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 77,
+      "semantic_id": "de-DE:preposition---conjunction:bis:0077",
+      "frequency_rank": 77,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 78,
+      "semantic_id": "de-DE:verb:wissen:0078",
+      "frequency_rank": 78,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 79,
+      "semantic_id": "de-DE:verb:sehen:0079",
+      "frequency_rank": 79,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 80,
+      "semantic_id": "de-DE:indefinite-pronoun:einer:0080",
+      "frequency_rank": 80,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 81,
+      "semantic_id": "de-DE:adverb:sehr:0081",
+      "frequency_rank": 81,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 82,
+      "semantic_id": "de-DE:noun---adverbial-counter:Mal:0082",
+      "frequency_rank": 82,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 83,
+      "semantic_id": "de-DE:verb:lassen:0083",
+      "frequency_rank": 83,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 84,
+      "semantic_id": "de-DE:adjective:neu:0084",
+      "frequency_rank": 84,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 85,
+      "semantic_id": "de-DE:verb:stehen:0085",
+      "frequency_rank": 85,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 86,
+      "semantic_id": "de-DE:possessive-determiner---pronoun:unser:0086",
+      "frequency_rank": 86,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 87,
+      "semantic_id": "de-DE:indefinite-determiner---pronoun:jeder:0087",
+      "frequency_rank": 87,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 88,
+      "semantic_id": "de-DE:subordinating-conjunction:weil:0088",
+      "frequency_rank": 88,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 89,
+      "semantic_id": "de-DE:two-way-preposition:unter:0089",
+      "frequency_rank": 89,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 90,
+      "semantic_id": "de-DE:noun:Mensch:0090",
+      "frequency_rank": 90,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 91,
+      "semantic_id": "de-DE:personal-pronoun:ihm:0091",
+      "frequency_rank": 91,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 92,
+      "semantic_id": "de-DE:personal-pronoun:ihn:0092",
+      "frequency_rank": 92,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 93,
+      "semantic_id": "de-DE:coordinating-conjunction---modal-particle:denn:0093",
+      "frequency_rank": 93,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 94,
+      "semantic_id": "de-DE:noun:Beispiel:0094",
+      "frequency_rank": 94,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 95,
+      "semantic_id": "de-DE:ordinal-adjective:erste:0095",
+      "frequency_rank": 95,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 96,
+      "semantic_id": "de-DE:noun:Zeit:0096",
+      "frequency_rank": 96,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 97,
+      "semantic_id": "de-DE:adjective---adverb:lang:0097",
+      "frequency_rank": 97,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 98,
+      "semantic_id": "de-DE:verb:leben:0098",
+      "frequency_rank": 98,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 99,
+      "semantic_id": "de-DE:noun:Frau:0099",
+      "frequency_rank": 99,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 100,
+      "semantic_id": "de-DE:indefinite-pronoun---adverb:etwas:0100",
+      "frequency_rank": 100,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 101,
+      "semantic_id": "de-DE:focus-particle---pronoun:selbst:0101",
+      "frequency_rank": 101,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 102,
+      "semantic_id": "de-DE:indefinite-determiner---pronoun:wenig:0102",
+      "frequency_rank": 102,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 103,
+      "semantic_id": "de-DE:verb:finden:0103",
+      "frequency_rank": 103,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 104,
+      "semantic_id": "de-DE:accusative-preposition:gegen:0104",
+      "frequency_rank": 104,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 105,
+      "semantic_id": "de-DE:two-way-preposition:zwischen:0105",
+      "frequency_rank": 105,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 106,
+      "semantic_id": "de-DE:cardinal-number:drei:0106",
+      "frequency_rank": 106,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 107,
+      "semantic_id": "de-DE:verb:liegen:0107",
+      "frequency_rank": 107,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 108,
+      "semantic_id": "de-DE:question---relative-adverb:wo:0108",
+      "frequency_rank": 108,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 109,
+      "semantic_id": "de-DE:indefinite-pronoun:nichts:0109",
+      "frequency_rank": 109,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 110,
+      "semantic_id": "de-DE:adjective:klein:0110",
+      "frequency_rank": 110,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 111,
+      "semantic_id": "de-DE:noun:Tag:0111",
+      "frequency_rank": 111,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 112,
+      "semantic_id": "de-DE:adjective---language-name:deutsch:0112",
+      "frequency_rank": 112,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 113,
+      "semantic_id": "de-DE:verb:bleiben:0113",
+      "frequency_rank": 113,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 114,
+      "semantic_id": "de-DE:adverb---discourse-marker:nun:0114",
+      "frequency_rank": 114,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 115,
+      "semantic_id": "de-DE:coordinating-conjunction:sondern:0115",
+      "frequency_rank": 115,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 116,
+      "semantic_id": "de-DE:adverb:heute:0116",
+      "frequency_rank": 116,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 117,
+      "semantic_id": "de-DE:pronoun---determiner:beide:0117",
+      "frequency_rank": 117,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 118,
+      "semantic_id": "de-DE:adjective---adverb:hoch:0118",
+      "frequency_rank": 118,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 119,
+      "semantic_id": "de-DE:pronominal-adverb---conjunction:damit:0119",
+      "frequency_rank": 119,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 120,
+      "semantic_id": "de-DE:accusative-preposition---conjunction:ohne:0120",
+      "frequency_rank": 120,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 121,
+      "semantic_id": "de-DE:noun:Mann:0121",
+      "frequency_rank": 121,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 122,
+      "semantic_id": "de-DE:interrogative---relative-determiner:welcher:0122",
+      "frequency_rank": 122,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 123,
+      "semantic_id": "de-DE:verb:tun:0123",
+      "frequency_rank": 123,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 124,
+      "semantic_id": "de-DE:adverb:einmal:0124",
+      "frequency_rank": 124,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 125,
+      "semantic_id": "de-DE:personal-pronoun:ihnen:0125",
+      "frequency_rank": 125,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 126,
+      "semantic_id": "de-DE:verb:heißen:0126",
+      "frequency_rank": 126,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 127,
+      "semantic_id": "de-DE:subordinating-conjunction:ob:0127",
+      "frequency_rank": 127,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 128,
+      "semantic_id": "de-DE:verb:denken:0128",
+      "frequency_rank": 128,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 129,
+      "semantic_id": "de-DE:pronominal-adverb:dabei:0129",
+      "frequency_rank": 129,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 130,
+      "semantic_id": "de-DE:dative-preposition---conjunction:seit:0130",
+      "frequency_rank": 130,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 131,
+      "semantic_id": "de-DE:adjective---adverb---particle:einfach:0131",
+      "frequency_rank": 131,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 132,
+      "semantic_id": "de-DE:adverb---focus-particle:erst:0132",
+      "frequency_rank": 132,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 133,
+      "semantic_id": "de-DE:noun:Kind:0133",
+      "frequency_rank": 133,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 134,
+      "semantic_id": "de-DE:noun:Land:0134",
+      "frequency_rank": 134,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 135,
+      "semantic_id": "de-DE:verb:stellen:0135",
+      "frequency_rank": 135,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 136,
+      "semantic_id": "de-DE:verb:zeigen:0136",
+      "frequency_rank": 136,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 137,
+      "semantic_id": "de-DE:adjective---adverb---response:natürlich:0137",
+      "frequency_rank": 137,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 138,
+      "semantic_id": "de-DE:adjective:alt:0138",
+      "frequency_rank": 138,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 139,
+      "semantic_id": "de-DE:adverb:dort:0139",
+      "frequency_rank": 139,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 140,
+      "semantic_id": "de-DE:proper-noun:Deutschland:0140",
+      "frequency_rank": 140,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 141,
+      "semantic_id": "de-DE:adjective---adverb:gleich:0141",
+      "frequency_rank": 141,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 142,
+      "semantic_id": "de-DE:verb:nehmen:0142",
+      "frequency_rank": 142,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 143,
+      "semantic_id": "de-DE:modal-verb:dürfen:0143",
+      "frequency_rank": 143,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 144,
+      "semantic_id": "de-DE:adjective:wichtig:0144",
+      "frequency_rank": 144,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 145,
+      "semantic_id": "de-DE:adverb---response-particle:vielleicht:0145",
+      "frequency_rank": 145,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 146,
+      "semantic_id": "de-DE:verb:hören:0146",
+      "frequency_rank": 146,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 147,
+      "semantic_id": "de-DE:noun:Haus:0147",
+      "frequency_rank": 147,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 148,
+      "semantic_id": "de-DE:response-particle:nein:0148",
+      "frequency_rank": 148,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 149,
+      "semantic_id": "de-DE:interrogative---relative-pronoun:wer:0149",
+      "frequency_rank": 149,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 150,
+      "semantic_id": "de-DE:pronominal-adverb:dazu:0150",
+      "frequency_rank": 150,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 151,
+      "semantic_id": "de-DE:adverb---modal-particle:eigentlich:0151",
+      "frequency_rank": 151,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 152,
+      "semantic_id": "de-DE:adjective:letzte:0152",
+      "frequency_rank": 152,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 153,
+      "semantic_id": "de-DE:verb:fragen:0153",
+      "frequency_rank": 153,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 154,
+      "semantic_id": "de-DE:noun---title:Herr:0154",
+      "frequency_rank": 154,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 155,
+      "semantic_id": "de-DE:verb:halten:0155",
+      "frequency_rank": 155,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 156,
+      "semantic_id": "de-DE:verb:glauben:0156",
+      "frequency_rank": 156,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 157,
+      "semantic_id": "de-DE:noun:Frage:0157",
+      "frequency_rank": 157,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 158,
+      "semantic_id": "de-DE:verb:gelten:0158",
+      "frequency_rank": 158,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 159,
+      "semantic_id": "de-DE:adjective---adverb---particle:gerade:0159",
+      "frequency_rank": 159,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 160,
+      "semantic_id": "de-DE:verb:folgen:0160",
+      "frequency_rank": 160,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 161,
+      "semantic_id": "de-DE:verb:sprechen:0161",
+      "frequency_rank": 161,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 162,
+      "semantic_id": "de-DE:verb:führen:0162",
+      "frequency_rank": 162,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 163,
+      "semantic_id": "de-DE:verb:bringen:0163",
+      "frequency_rank": 163,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 164,
+      "semantic_id": "de-DE:noun:Welt:0164",
+      "frequency_rank": 164,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 165,
+      "semantic_id": "de-DE:adverb---intensifier:gar:0165",
+      "frequency_rank": 165,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 166,
+      "semantic_id": "de-DE:adjective:eigen:0166",
+      "frequency_rank": 166,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 167,
+      "semantic_id": "de-DE:adjective---adverb---response:genau:0167",
+      "frequency_rank": 167,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 168,
+      "semantic_id": "de-DE:verb---modal-verb:mögen:0168",
+      "frequency_rank": 168,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 169,
+      "semantic_id": "de-DE:adjective---adverb:spät:0169",
+      "frequency_rank": 169,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 170,
+      "semantic_id": "de-DE:adverb:bereits:0170",
+      "frequency_rank": 170,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 171,
+      "semantic_id": "de-DE:adjective:möglich:0171",
+      "frequency_rank": 171,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 172,
+      "semantic_id": "de-DE:noun:Prozent:0172",
+      "frequency_rank": 172,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 173,
+      "semantic_id": "de-DE:genitive-preposition---conjunction:während:0173",
+      "frequency_rank": 173,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 174,
+      "semantic_id": "de-DE:indefinite-determiner---pronoun:einige:0174",
+      "frequency_rank": 174,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 175,
+      "semantic_id": "de-DE:pronominal-adverb:dafür:0175",
+      "frequency_rank": 175,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 176,
+      "semantic_id": "de-DE:adjective---adverb:kurz:0176",
+      "frequency_rank": 176,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 177,
+      "semantic_id": "de-DE:adjective---adverb:richtig:0177",
+      "frequency_rank": 177,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 178,
+      "semantic_id": "de-DE:adjective---adverb:stark:0178",
+      "frequency_rank": 178,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 179,
+      "semantic_id": "de-DE:verb:brauchen:0179",
+      "frequency_rank": 179,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 180,
+      "semantic_id": "de-DE:noun:Hand:0180",
+      "frequency_rank": 180,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 181,
+      "semantic_id": "de-DE:adverb---particle:etwa:0181",
+      "frequency_rank": 181,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 182,
+      "semantic_id": "de-DE:adjective---pronoun:weitere:0182",
+      "frequency_rank": 182,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 183,
+      "semantic_id": "de-DE:noun:Ende:0183",
+      "frequency_rank": 183,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 184,
+      "semantic_id": "de-DE:verb:schreiben:0184",
+      "frequency_rank": 184,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 185,
+      "semantic_id": "de-DE:demonstrative-determiner---pronoun:solch:0185",
+      "frequency_rank": 185,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 186,
+      "semantic_id": "de-DE:adverb:nie:0186",
+      "frequency_rank": 186,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 187,
+      "semantic_id": "de-DE:noun:Fall:0187",
+      "frequency_rank": 187,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 188,
+      "semantic_id": "de-DE:adjective---adverb:schön:0188",
+      "frequency_rank": 188,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 189,
+      "semantic_id": "de-DE:adjective---adverb:wirklich:0189",
+      "frequency_rank": 189,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 190,
+      "semantic_id": "de-DE:relative---demonstrative-pronoun:denen:0190",
+      "frequency_rank": 190,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 191,
+      "semantic_id": "de-DE:verb:nennen:0191",
+      "frequency_rank": 191,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 192,
+      "semantic_id": "de-DE:question-adverb:warum:0192",
+      "frequency_rank": 192,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 193,
+      "semantic_id": "de-DE:verb:ziehen:0193",
+      "frequency_rank": 193,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 194,
+      "semantic_id": "de-DE:noun:Wort:0194",
+      "frequency_rank": 194,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 195,
+      "semantic_id": "de-DE:pronominal-adverb:darauf:0195",
+      "frequency_rank": 195,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 196,
+      "semantic_id": "de-DE:adjective---adverb---modal-particle:eben:0196",
+      "frequency_rank": 196,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 197,
+      "semantic_id": "de-DE:noun:Seite:0197",
+      "frequency_rank": 197,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 198,
+      "semantic_id": "de-DE:noun:Teil:0198",
+      "frequency_rank": 198,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 199,
+      "semantic_id": "de-DE:adjective:jung:0199",
+      "frequency_rank": 199,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 200,
+      "semantic_id": "de-DE:cardinal-number:vier:0200",
+      "frequency_rank": 200,
+      "unit_id": null
+    }
+  ]
+}

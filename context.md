@@ -29,6 +29,11 @@ deployment workflow, and draft r/German feedback post are ready. Repository
 changes should now be committed after each completed change and pushed whenever
 a remote is available.
 
+Deterministic curriculum bundles are defined for core numbers, weekdays, and
+months. A generated curriculum-order artifact leaves a unit pending until every
+member has a canonical card, then moves the complete unit after its configured
+anchor without changing frequency metadata.
+
 Current prototype note:
 
 - Sequence: 1
@@ -62,6 +67,8 @@ Current prototype note:
   canonical builder for ranks 51–200.
 - `tools/validate_cards.py` — required fields, identity, sequence, and global
   German-sentence uniqueness checks.
+- `curriculum/bundles.json` and `tools/build_curriculum_order.py` — deterministic
+  theme definitions and generated learning order.
 - `prototype/card-preview.html` — standalone visual review of front/back in
   light/dark layouts; audio controls are nonfunctional layout mocks.
 - `prototype/card-preview.png` and `prototype/card-preview-v2.png` — rendered
@@ -95,6 +102,8 @@ Current prototype note:
 
 - Ranks 1–200 have complete draft text and are pending human review.
 - No `.apkg` has been produced by this project.
+- The Anki templates are usable building blocks, but the canonical JSONL cannot
+  be imported directly into Anki; an exporter/model/package step remains.
 - No paid API calls or TTS generation have occurred.
 - The frequency PDF was identified as the copyrighted 2020 Routledge second
   edition by Erwin Tschirner and Jupp Möhring (315 PDF pages). Its ranking may be
@@ -130,4 +139,5 @@ and request community review using `REDDIT_POST.md`. Review ranks 1–200 in the
 local viewer and revise or lock the text. Run
 `python tools/validate_cards.py` after every change; never reuse a full German
 sentence. After the text pattern is approved, test audio on a small sample
-before selecting a deck-wide TTS pipeline.
+before selecting a deck-wide TTS pipeline. Build an Anki `.apkg` exporter before
+describing the repository as a downloadable deck.

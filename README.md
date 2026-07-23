@@ -14,6 +14,10 @@ dark, desktop, and mobile layouts. The Anki-native templates are in
 
 Rebuild the batches with `python tools/build_batch_001.py` and
 `python tools/build_batch_002.py`, then `python tools/build_batch_003.py` and
-run `python tools/validate_cards.py`.
+run `python tools/build_curriculum_order.py` followed by
+`python tools/validate_cards.py`.
 The validator checks the full canonical corpus and rejects reused German
 sentences.
+
+The repository currently contains structured Anki note data and Anki-compatible
+HTML/CSS templates, but it does not yet produce an importable `.apkg` deck.

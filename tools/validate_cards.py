@@ -27,6 +27,7 @@ def main() -> None:
     semantic_ids: set[str] = set()
     sequences: set[int] = set()
     frequency_ranks: dict[int, str] = {}
+    frequency_semantic_ids: set[str] = set()
     count = 0
     for path in paths:
         for line_no, line in enumerate(path.read_text(encoding="utf-8").splitlines(), 1):
@@ -61,6 +62,8 @@ def main() -> None:
                     )
                 else:
                     frequency_ranks[frequency_rank] = label
+                if isinstance(sid, str):
+                    frequency_semantic_ids.add(sid)
             extras = card.get("extra_examples", [])
             if len(extras) != 3 and frequency_rank is not None:
                 errors.append(
@@ -92,6 +95,22 @@ def main() -> None:
                 "frequency ranks are not continuous through "
                 f"{maximum_rank}: missing {missing_ranks}"
             )
+    curriculum_path = ROOT / "data" / "curriculum" / "current-order.json"
+    if curriculum_path.exists():
+        curriculum = json.loads(curriculum_path.read_text(encoding="utf-8"))
+        ordered_cards = curriculum.get("cards", [])
+        ordered_ids = [entry.get("semantic_id") for entry in ordered_cards]
+        ordered_positions = [
+            entry.get("curriculum_order") for entry in ordered_cards
+        ]
+        if set(ordered_ids) != frequency_semantic_ids:
+            errors.append(
+                "curriculum order semantic IDs do not match frequency cards"
+            )
+        if len(ordered_ids) != len(set(ordered_ids)):
+            errors.append("curriculum order contains duplicate semantic IDs")
+        if ordered_positions != list(range(1, len(ordered_cards) + 1)):
+            errors.append("curriculum_order values are not continuous from 1")
     if errors:
         print("\n".join(errors), file=sys.stderr)
         raise SystemExit(1)
