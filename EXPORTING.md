@@ -2,7 +2,7 @@
 
 The current test artifact is:
 
-`dist/German-Core-Test-0001-0010-v3.apkg`
+`dist/German-Core-Test-V4-10-Cards.apkg`
 
 It contains one German-to-English recognition card for each frequency rank from
 1 through 10. Import it by double-clicking the file or using **File → Import**
@@ -15,7 +15,7 @@ but not imported directly into the AnkiWeb website.
 python -m pip install --target .deps -r requirements-export.txt
 python tools/build_curriculum_order.py
 python tools/export_anki.py
-python tools/validate_apkg.py dist/German-Core-Test-0001-0010-v3.apkg --expected-notes 10
+python tools/validate_apkg.py dist/German-Core-Test-V4-10-Cards.apkg --expected-notes 10
 ```
 
 The pinned exporter dependencies are installed into the ignored `.deps/`
@@ -29,7 +29,10 @@ the repository.
 - Note GUID: deterministically derived from each canonical `semantic_id`
 - New-card due order: generated `curriculum_order`
 
-These values must remain stable. Rebuilding a note with the same semantic ID
+Release V4 of the isolated 10-card test uses deck ID `2053940119`, model ID
+`1603739215`, and `test-V4:`-namespaced note GUIDs. This deliberately allows it
+to coexist with earlier tests and makes a successful new import obvious. The
+production values above must remain stable. Rebuilding a production note with the same semantic ID
 therefore preserves its note identity for later package imports. The note type
 contains these 16 fields:
 

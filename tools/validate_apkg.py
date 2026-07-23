@@ -33,7 +33,12 @@ except ImportError as exc:  # pragma: no cover
 SOUND_RE = re.compile(r"\[sound:([^\]]+)\]")
 
 
-def validate(path: Path, expected_notes: int) -> None:
+def validate(
+    path: Path,
+    expected_notes: int,
+    expected_deck: str | None = None,
+    required_rendered_text: str | None = None,
+) -> None:
     errors = []
     with zipfile.ZipFile(path) as package:
         names = set(package.namelist())
@@ -106,10 +111,20 @@ def validate(path: Path, expected_notes: int) -> None:
                 errors.append(f"unexpected note field counts: {sorted(field_counts)}")
             for card_id in card_ids:
                 card = collection.get_card(card_id)
-                if not card.question().strip():
+                question = card.question()
+                answer = card.answer()
+                if not question.strip():
                     errors.append(f"card {card_id} has an empty rendered question")
-                if not card.answer().strip():
+                if not answer.strip():
                     errors.append(f"card {card_id} has an empty rendered answer")
+                if required_rendered_text and (
+                    required_rendered_text not in question
+                    or required_rendered_text not in answer
+                ):
+                    errors.append(
+                        f"card {card_id} does not render required text "
+                        f"{required_rendered_text!r} on both sides"
+                    )
             sound_files = {
                 filename
                 for note_id in note_ids
@@ -127,10 +142,17 @@ def validate(path: Path, expected_notes: int) -> None:
                 )
             matching_models = [
                 item for item in collection.models.all_names_and_ids()
-                if item.name == "German Core Recognition v1"
+                if item.name.startswith("German Core Recognition")
             ]
             if len(matching_models) != 1:
-                errors.append("expected one German Core Recognition v1 note model")
+                errors.append("expected one German Core Recognition note model")
+            if expected_deck:
+                matching_decks = [
+                    item for item in collection.decks.all_names_and_ids()
+                    if item.name == expected_deck
+                ]
+                if len(matching_decks) != 1:
+                    errors.append(f"expected deck named {expected_deck!r}")
         finally:
             collection.close()
 
@@ -146,8 +168,15 @@ def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("path", type=Path)
     parser.add_argument("--expected-notes", type=int, required=True)
+    parser.add_argument("--expected-deck")
+    parser.add_argument("--required-rendered-text")
     args = parser.parse_args()
-    validate(args.path, args.expected_notes)
+    validate(
+        args.path,
+        args.expected_notes,
+        args.expected_deck,
+        args.required_rendered_text,
+    )
 
 
 if __name__ == "__main__":

@@ -27,8 +27,11 @@ except ImportError as exc:  # pragma: no cover - exercised only without dependen
 MODEL_ID = 1_603_739_214
 DECK_ID = 2_053_940_118
 MODEL_NAME = "German Core Recognition v1"
-DECK_NAME = "German Core Test 0001-0010"
-DEFAULT_OUTPUT = ROOT / "dist" / "German-Core-Test-0001-0010-v3.apkg"
+TEST_MODEL_ID = 1_603_739_215
+TEST_DECK_ID = 2_053_940_119
+TEST_RELEASE = "V4"
+DECK_NAME = "German Core Test V4 - 10 Cards"
+DEFAULT_OUTPUT = ROOT / "dist" / "German-Core-Test-V4-10-Cards.apkg"
 FIELD_NAMES = [
     "SemanticID",
     "CurriculumOrder",
@@ -111,13 +114,22 @@ def audio_filename(card: dict) -> str:
     return f"ga_{rank_part}_{target_slug}_{digest}.mp3"
 
 
-def build_model() -> genanki.Model:
+def build_model(is_test_release: bool = False) -> genanki.Model:
     front = (ROOT / "prototype" / "anki" / "front.html").read_text(encoding="utf-8")
     back = (ROOT / "prototype" / "anki" / "back.html").read_text(encoding="utf-8")
     css = (ROOT / "prototype" / "anki" / "style.css").read_text(encoding="utf-8")
+    if is_test_release:
+        marker = (
+            '<div style="margin:0 auto 12px;padding:6px 10px;max-width:220px;'
+            'border-radius:999px;background:#7c3aed;color:white;font:700 12px '
+            'sans-serif;letter-spacing:.08em;text-align:center">'
+            "GERMAN CORE TEST V4</div>"
+        )
+        front = marker + front
+        back = marker + back
     return genanki.Model(
-        MODEL_ID,
-        MODEL_NAME,
+        TEST_MODEL_ID if is_test_release else MODEL_ID,
+        f"German Core Recognition Test {TEST_RELEASE}" if is_test_release else MODEL_NAME,
         fields=[{"name": name} for name in FIELD_NAMES],
         templates=[{
             "name": "German → English",
@@ -186,12 +198,13 @@ def export(
             f"Expected ranks {start_rank}-{end_rank}, got {actual_ranks}"
         )
 
-    model = build_model()
+    is_test_release = (start_rank, end_rank) == (1, 10)
+    model = build_model(is_test_release)
     deck_name = (
-        DECK_NAME if (start_rank, end_rank) == (1, 10)
+        DECK_NAME if is_test_release
         else f"German Core {start_rank:04}-{end_rank:04}"
     )
-    deck = genanki.Deck(DECK_ID, deck_name)
+    deck = genanki.Deck(TEST_DECK_ID if is_test_release else DECK_ID, deck_name)
     media_files: list[str] = []
     for card in cards:
         curriculum_order = order[card["semantic_id"]]
@@ -200,9 +213,13 @@ def export(
             fields=field_values(
                 card, curriculum_order, audio_dir, media_files, require_audio
             ),
-            guid=genanki.guid_for(card["semantic_id"]),
+            guid=genanki.guid_for(
+                f"test-{TEST_RELEASE}:{card['semantic_id']}"
+                if is_test_release else card["semantic_id"]
+            ),
             tags=[
                 "GermanCore",
+                *(["release::v4"] if is_test_release else []),
                 "source::frequency",
                 f"rank::{card['frequency_rank']:04}",
                 "status::draft",

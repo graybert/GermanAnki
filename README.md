@@ -26,7 +26,7 @@ HTML/CSS templates. To rebuild the test package:
 ```powershell
 python -m pip install --target .deps -r requirements-export.txt
 python tools/export_anki.py
-python tools/validate_apkg.py dist/German-Core-Test-0001-0010-v3.apkg --expected-notes 10
+python tools/validate_apkg.py dist/German-Core-Test-V4-10-Cards.apkg --expected-notes 10
 ```
 
 See `EXPORTING.md` for the field schema, audio convention, limitations, and the
