@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "card_count": 1150,
+  "card_count": 1200,
   "active_units": [],
   "pending_units": [
     {
       "unit_id": "numbers-core",
       "title": "Core numbers",
-      "available": 12,
+      "available": 13,
       "required": 29,
       "missing": [
         {
@@ -72,26 +72,18 @@
         {
           "label": "neunzig",
           "frequency_rank": 3028
-        },
-        {
-          "label": "tausend",
-          "frequency_rank": 1177
         }
       ]
     },
     {
       "unit_id": "weekdays",
       "title": "Days of the week",
-      "available": 4,
+      "available": 5,
       "required": 7,
       "missing": [
         {
           "label": "Dienstag",
           "frequency_rank": 1356
-        },
-        {
-          "label": "Mittwoch",
-          "frequency_rank": 1187
         },
         {
           "label": "Donnerstag",
@@ -7027,6 +7019,306 @@
       "curriculum_order": 1150,
       "semantic_id": "de-DE:verb:verfolgen:1150",
       "frequency_rank": 1150,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1151,
+      "semantic_id": "de-DE:adjective-adverb:gesellschaftlich:1151",
+      "frequency_rank": 1151,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1152,
+      "semantic_id": "de-DE:noun:Schutz:1152",
+      "frequency_rank": 1152,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1153,
+      "semantic_id": "de-DE:noun:Generation:1153",
+      "frequency_rank": 1153,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1154,
+      "semantic_id": "de-DE:adjective-adverb:chinesisch:1154",
+      "frequency_rank": 1154,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1155,
+      "semantic_id": "de-DE:noun:Zeichen:1155",
+      "frequency_rank": 1155,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1156,
+      "semantic_id": "de-DE:noun:Wahrheit:1156",
+      "frequency_rank": 1156,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1157,
+      "semantic_id": "de-DE:noun:Haushalt:1157",
+      "frequency_rank": 1157,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1158,
+      "semantic_id": "de-DE:noun:Garten:1158",
+      "frequency_rank": 1158,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1159,
+      "semantic_id": "de-DE:adverb:hinten:1159",
+      "frequency_rank": 1159,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1160,
+      "semantic_id": "de-DE:verb:auffallen:1160",
+      "frequency_rank": 1160,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1161,
+      "semantic_id": "de-DE:noun:Gegensatz:1161",
+      "frequency_rank": 1161,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1162,
+      "semantic_id": "de-DE:verb:verteilen:1162",
+      "frequency_rank": 1162,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1163,
+      "semantic_id": "de-DE:noun:Papier:1163",
+      "frequency_rank": 1163,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1164,
+      "semantic_id": "de-DE:adjective-adverb:physikalisch:1164",
+      "frequency_rank": 1164,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1165,
+      "semantic_id": "de-DE:preposition:angesichts:1165",
+      "frequency_rank": 1165,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1166,
+      "semantic_id": "de-DE:adjective-adverb:leise:1166",
+      "frequency_rank": 1166,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1167,
+      "semantic_id": "de-DE:adverb-adjective:vermutlich:1167",
+      "frequency_rank": 1167,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1168,
+      "semantic_id": "de-DE:adjective-adverb:eindeutig:1168",
+      "frequency_rank": 1168,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1169,
+      "semantic_id": "de-DE:directional-adverb:heraus:1169",
+      "frequency_rank": 1169,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1170,
+      "semantic_id": "de-DE:subordinating-conjunction:falls:1170",
+      "frequency_rank": 1170,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1171,
+      "semantic_id": "de-DE:adverb:erstmals:1171",
+      "frequency_rank": 1171,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1172,
+      "semantic_id": "de-DE:noun:Partner:1172",
+      "frequency_rank": 1172,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1173,
+      "semantic_id": "de-DE:verb:nachdenken:1173",
+      "frequency_rank": 1173,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1174,
+      "semantic_id": "de-DE:noun:Ausbildung:1174",
+      "frequency_rank": 1174,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1175,
+      "semantic_id": "de-DE:noun:Wagen:1175",
+      "frequency_rank": 1175,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1176,
+      "semantic_id": "de-DE:noun:Schiff:1176",
+      "frequency_rank": 1176,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1177,
+      "semantic_id": "de-DE:numeral:tausend:1177",
+      "frequency_rank": 1177,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1178,
+      "semantic_id": "de-DE:noun:Tat:1178",
+      "frequency_rank": 1178,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1179,
+      "semantic_id": "de-DE:adjective-nominalized-adjective:obere (r, s):1179",
+      "frequency_rank": 1179,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1180,
+      "semantic_id": "de-DE:noun:Gleichung:1180",
+      "frequency_rank": 1180,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1181,
+      "semantic_id": "de-DE:noun:Stein:1181",
+      "frequency_rank": 1181,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1182,
+      "semantic_id": "de-DE:verb:kümmern (sich):1182",
+      "frequency_rank": 1182,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1183,
+      "semantic_id": "de-DE:adjective-nominalized-adjective:mittlere (r, s):1183",
+      "frequency_rank": 1183,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1184,
+      "semantic_id": "de-DE:verb:erheben:1184",
+      "frequency_rank": 1184,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1185,
+      "semantic_id": "de-DE:noun:Erklärung:1185",
+      "frequency_rank": 1185,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1186,
+      "semantic_id": "de-DE:noun:Konzept:1186",
+      "frequency_rank": 1186,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1187,
+      "semantic_id": "de-DE:noun:Mittwoch:1187",
+      "frequency_rank": 1187,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1188,
+      "semantic_id": "de-DE:verb:stören:1188",
+      "frequency_rank": 1188,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1189,
+      "semantic_id": "de-DE:noun:Spur:1189",
+      "frequency_rank": 1189,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1190,
+      "semantic_id": "de-DE:adjective:berliner:1190",
+      "frequency_rank": 1190,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1191,
+      "semantic_id": "de-DE:noun:Herausforderung:1191",
+      "frequency_rank": 1191,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1192,
+      "semantic_id": "de-DE:verb:starten:1192",
+      "frequency_rank": 1192,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1193,
+      "semantic_id": "de-DE:adjective-adverb:staatlich:1193",
+      "frequency_rank": 1193,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1194,
+      "semantic_id": "de-DE:verb:verbessern:1194",
+      "frequency_rank": 1194,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1195,
+      "semantic_id": "de-DE:adjective-adverb:heiß:1195",
+      "frequency_rank": 1195,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1196,
+      "semantic_id": "de-DE:noun:Vergangenheit:1196",
+      "frequency_rank": 1196,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1197,
+      "semantic_id": "de-DE:noun:Gleichgewicht:1197",
+      "frequency_rank": 1197,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1198,
+      "semantic_id": "de-DE:proper-noun:Griechenland:1198",
+      "frequency_rank": 1198,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1199,
+      "semantic_id": "de-DE:noun:Maß:1199",
+      "frequency_rank": 1199,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1200,
+      "semantic_id": "de-DE:verb:abgeben:1200",
+      "frequency_rank": 1200,
       "unit_id": null
     }
   ]
