@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "card_count": 850,
+  "card_count": 900,
   "active_units": [],
   "pending_units": [
     {
@@ -5279,6 +5279,306 @@
       "curriculum_order": 850,
       "semantic_id": "de-DE:noun:Bildung:0850",
       "frequency_rank": 850,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 851,
+      "semantic_id": "de-DE:noun:Blut:0851",
+      "frequency_rank": 851,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 852,
+      "semantic_id": "de-DE:noun:Meer:0852",
+      "frequency_rank": 852,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 853,
+      "semantic_id": "de-DE:noun:Anzahl:0853",
+      "frequency_rank": 853,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 854,
+      "semantic_id": "de-DE:noun:Veränderung:0854",
+      "frequency_rank": 854,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 855,
+      "semantic_id": "de-DE:adverb:durchaus:0855",
+      "frequency_rank": 855,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 856,
+      "semantic_id": "de-DE:noun:Mund:0856",
+      "frequency_rank": 856,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 857,
+      "semantic_id": "de-DE:verb:berechnen:0857",
+      "frequency_rank": 857,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 858,
+      "semantic_id": "de-DE:verb:betragen:0858",
+      "frequency_rank": 858,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 859,
+      "semantic_id": "de-DE:adjective-adverb:fremd:0859",
+      "frequency_rank": 859,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 860,
+      "semantic_id": "de-DE:noun:Untersuchung:0860",
+      "frequency_rank": 860,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 861,
+      "semantic_id": "de-DE:noun:Fehler:0861",
+      "frequency_rank": 861,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 862,
+      "semantic_id": "de-DE:adverb:mittlerweile:0862",
+      "frequency_rank": 862,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 863,
+      "semantic_id": "de-DE:verb:aufbauen:0863",
+      "frequency_rank": 863,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 864,
+      "semantic_id": "de-DE:noun:Sonne:0864",
+      "frequency_rank": 864,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 865,
+      "semantic_id": "de-DE:noun:Prinzip:0865",
+      "frequency_rank": 865,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 866,
+      "semantic_id": "de-DE:adverb:vorher:0866",
+      "frequency_rank": 866,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 867,
+      "semantic_id": "de-DE:noun:Kampf:0867",
+      "frequency_rank": 867,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 868,
+      "semantic_id": "de-DE:noun:Verfügung:0868",
+      "frequency_rank": 868,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 869,
+      "semantic_id": "de-DE:verb:feiern:0869",
+      "frequency_rank": 869,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 870,
+      "semantic_id": "de-DE:noun:Programm:0870",
+      "frequency_rank": 870,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 871,
+      "semantic_id": "de-DE:adjective-nominalized-adjective:linke (r, s):0871",
+      "frequency_rank": 871,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 872,
+      "semantic_id": "de-DE:noun:Einfluss:0872",
+      "frequency_rank": 872,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 873,
+      "semantic_id": "de-DE:noun:Temperatur:0873",
+      "frequency_rank": 873,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 874,
+      "semantic_id": "de-DE:adjective-adverb:leer:0874",
+      "frequency_rank": 874,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 875,
+      "semantic_id": "de-DE:verb:mitteilen:0875",
+      "frequency_rank": 875,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 876,
+      "semantic_id": "de-DE:noun:Verfahren:0876",
+      "frequency_rank": 876,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 877,
+      "semantic_id": "de-DE:interjection-verb-form:danke:0877",
+      "frequency_rank": 877,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 878,
+      "semantic_id": "de-DE:verb:beziehen:0878",
+      "frequency_rank": 878,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 879,
+      "semantic_id": "de-DE:verb:verlangen:0879",
+      "frequency_rank": 879,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 880,
+      "semantic_id": "de-DE:adverb:zuerst:0880",
+      "frequency_rank": 880,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 881,
+      "semantic_id": "de-DE:noun:Analyse:0881",
+      "frequency_rank": 881,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 882,
+      "semantic_id": "de-DE:adjective-adverb:klassisch:0882",
+      "frequency_rank": 882,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 883,
+      "semantic_id": "de-DE:adjective:ehemalig:0883",
+      "frequency_rank": 883,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 884,
+      "semantic_id": "de-DE:noun:Bein:0884",
+      "frequency_rank": 884,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 885,
+      "semantic_id": "de-DE:noun:Glas:0885",
+      "frequency_rank": 885,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 886,
+      "semantic_id": "de-DE:verb:untersuchen:0886",
+      "frequency_rank": 886,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 887,
+      "semantic_id": "de-DE:adjective-adverb:kalt:0887",
+      "frequency_rank": 887,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 888,
+      "semantic_id": "de-DE:noun:Sorge:0888",
+      "frequency_rank": 888,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 889,
+      "semantic_id": "de-DE:noun:Himmel:0889",
+      "frequency_rank": 889,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 890,
+      "semantic_id": "de-DE:adjective-adverb:künftig:0890",
+      "frequency_rank": 890,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 891,
+      "semantic_id": "de-DE:adjective-adverb:national:0891",
+      "frequency_rank": 891,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 892,
+      "semantic_id": "de-DE:noun:Kirche:0892",
+      "frequency_rank": 892,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 893,
+      "semantic_id": "de-DE:adverb:links:0893",
+      "frequency_rank": 893,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 894,
+      "semantic_id": "de-DE:proper-noun-abbreviation:CDU:0894",
+      "frequency_rank": 894,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 895,
+      "semantic_id": "de-DE:adverb:bislang:0895",
+      "frequency_rank": 895,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 896,
+      "semantic_id": "de-DE:verb:messen:0896",
+      "frequency_rank": 896,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 897,
+      "semantic_id": "de-DE:adjective-adverb:lieb:0897",
+      "frequency_rank": 897,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 898,
+      "semantic_id": "de-DE:adverb-adjective:unbedingt:0898",
+      "frequency_rank": 898,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 899,
+      "semantic_id": "de-DE:noun:Verein:0899",
+      "frequency_rank": 899,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 900,
+      "semantic_id": "de-DE:noun:Atom:0900",
+      "frequency_rank": 900,
       "unit_id": null
     }
   ]
