@@ -1,6 +1,6 @@
 # German Core Deck
 
-This repository contains a complete formatting prototype plus the first 950
+This repository contains a complete formatting prototype plus the first 1,000
 fully developed draft cards from a 5,009-entry frequency curriculum. The V7
 test deck contains paid dual-voice word and sentence audio for ranks 1–10.
 
@@ -16,7 +16,7 @@ dark, desktop, and mobile layouts. The Anki-native templates are in
 Rebuild the batches with `python tools/build_batch_001.py`,
 `python tools/build_batch_002.py`, `python tools/build_batch_003.py`, and
 `python tools/build_batch_004.py --require-through 500`,
-`python tools/build_batch_005.py --require-through 950`, then
+`python tools/build_batch_005.py --require-through 1000`, then
 run `python tools/build_curriculum_order.py` followed by
 `python tools/validate_cards.py`.
 The validator checks the full canonical corpus and rejects reused German

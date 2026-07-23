@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "card_count": 950,
+  "card_count": 1000,
   "active_units": [],
   "pending_units": [
     {
@@ -94,7 +94,7 @@
     {
       "unit_id": "weekdays",
       "title": "Days of the week",
-      "available": 1,
+      "available": 2,
       "required": 7,
       "missing": [
         {
@@ -114,10 +114,6 @@
           "frequency_rank": 1244
         },
         {
-          "label": "Freitag",
-          "frequency_rank": 981
-        },
-        {
           "label": "Samstag",
           "frequency_rank": 1112
         }
@@ -126,7 +122,7 @@
     {
       "unit_id": "months",
       "title": "Months of the year",
-      "available": 0,
+      "available": 1,
       "required": 12,
       "missing": [
         {
@@ -136,10 +132,6 @@
         {
           "label": "Februar",
           "frequency_rank": 1093
-        },
-        {
-          "label": "März",
-          "frequency_rank": 987
         },
         {
           "label": "April",
@@ -5879,6 +5871,306 @@
       "curriculum_order": 950,
       "semantic_id": "de-DE:adjective-adverb:teuer:0950",
       "frequency_rank": 950,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 951,
+      "semantic_id": "de-DE:plural-noun:Medien:0951",
+      "frequency_rank": 951,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 952,
+      "semantic_id": "de-DE:verb:richten:0952",
+      "frequency_rank": 952,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 953,
+      "semantic_id": "de-DE:noun:Institut:0953",
+      "frequency_rank": 953,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 954,
+      "semantic_id": "de-DE:noun:Plan:0954",
+      "frequency_rank": 954,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 955,
+      "semantic_id": "de-DE:adverb:immerhin:0955",
+      "frequency_rank": 955,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 956,
+      "semantic_id": "de-DE:noun:Tor:0956",
+      "frequency_rank": 956,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 957,
+      "semantic_id": "de-DE:noun:Betrieb:0957",
+      "frequency_rank": 957,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 958,
+      "semantic_id": "de-DE:adjective:komplex:0958",
+      "frequency_rank": 958,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 959,
+      "semantic_id": "de-DE:noun:Dorf:0959",
+      "frequency_rank": 959,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 960,
+      "semantic_id": "de-DE:verb:eignen (sich):0960",
+      "frequency_rank": 960,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 961,
+      "semantic_id": "de-DE:noun:Klasse:0961",
+      "frequency_rank": 961,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 962,
+      "semantic_id": "de-DE:verb:eingehen:0962",
+      "frequency_rank": 962,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 963,
+      "semantic_id": "de-DE:verb:erlauben:0963",
+      "frequency_rank": 963,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 964,
+      "semantic_id": "de-DE:verb:treiben:0964",
+      "frequency_rank": 964,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 965,
+      "semantic_id": "de-DE:adverb:weg:0965",
+      "frequency_rank": 965,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 966,
+      "semantic_id": "de-DE:verb:aufstehen:0966",
+      "frequency_rank": 966,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 967,
+      "semantic_id": "de-DE:noun:Absatz, Abs.:0967",
+      "frequency_rank": 967,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 968,
+      "semantic_id": "de-DE:adverb-adjective:unterwegs:0968",
+      "frequency_rank": 968,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 969,
+      "semantic_id": "de-DE:noun:Vertrag:0969",
+      "frequency_rank": 969,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 970,
+      "semantic_id": "de-DE:noun:Ausdruck:0970",
+      "frequency_rank": 970,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 971,
+      "semantic_id": "de-DE:verb:geraten:0971",
+      "frequency_rank": 971,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 972,
+      "semantic_id": "de-DE:adjective-adverb:toll:0972",
+      "frequency_rank": 972,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 973,
+      "semantic_id": "de-DE:verb:schweigen:0973",
+      "frequency_rank": 973,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 974,
+      "semantic_id": "de-DE:noun:Schwester:0974",
+      "frequency_rank": 974,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 975,
+      "semantic_id": "de-DE:noun:Chef:0975",
+      "frequency_rank": 975,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 976,
+      "semantic_id": "de-DE:verb:greifen:0976",
+      "frequency_rank": 976,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 977,
+      "semantic_id": "de-DE:noun:Risiko:0977",
+      "frequency_rank": 977,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 978,
+      "semantic_id": "de-DE:adjective-adverb:schwach:0978",
+      "frequency_rank": 978,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 979,
+      "semantic_id": "de-DE:noun:Tabelle:0979",
+      "frequency_rank": 979,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 980,
+      "semantic_id": "de-DE:verb:ermöglichen:0980",
+      "frequency_rank": 980,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 981,
+      "semantic_id": "de-DE:noun:Freitag:0981",
+      "frequency_rank": 981,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 982,
+      "semantic_id": "de-DE:noun:Hinweis:0982",
+      "frequency_rank": 982,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 983,
+      "semantic_id": "de-DE:noun:Vorteil:0983",
+      "frequency_rank": 983,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 984,
+      "semantic_id": "de-DE:noun:Protein:0984",
+      "frequency_rank": 984,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 985,
+      "semantic_id": "de-DE:noun:Gewinn:0985",
+      "frequency_rank": 985,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 986,
+      "semantic_id": "de-DE:adjective-adverb:grundsätzlich:0986",
+      "frequency_rank": 986,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 987,
+      "semantic_id": "de-DE:noun:März:0987",
+      "frequency_rank": 987,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 988,
+      "semantic_id": "de-DE:verb:wiederholen:0988",
+      "frequency_rank": 988,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 989,
+      "semantic_id": "de-DE:noun:Ruhe:0989",
+      "frequency_rank": 989,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 990,
+      "semantic_id": "de-DE:noun:Darstellung:0990",
+      "frequency_rank": 990,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 991,
+      "semantic_id": "de-DE:adjective-adverb:ruhig:0991",
+      "frequency_rank": 991,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 992,
+      "semantic_id": "de-DE:noun:Traum:0992",
+      "frequency_rank": 992,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 993,
+      "semantic_id": "de-DE:verb:behandeln:0993",
+      "frequency_rank": 993,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 994,
+      "semantic_id": "de-DE:adverb:stets:0994",
+      "frequency_rank": 994,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 995,
+      "semantic_id": "de-DE:verb:aufhören:0995",
+      "frequency_rank": 995,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 996,
+      "semantic_id": "de-DE:verb:schützen:0996",
+      "frequency_rank": 996,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 997,
+      "semantic_id": "de-DE:verb:diskutieren:0997",
+      "frequency_rank": 997,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 998,
+      "semantic_id": "de-DE:noun:Ferse:0998",
+      "frequency_rank": 998,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 999,
+      "semantic_id": "de-DE:noun:Sprecher:0999",
+      "frequency_rank": 999,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1000,
+      "semantic_id": "de-DE:verb:produzieren:1000",
+      "frequency_rank": 1000,
       "unit_id": null
     }
   ]
