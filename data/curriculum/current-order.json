@@ -1,21 +1,17 @@
 {
   "schema_version": 1,
-  "card_count": 400,
+  "card_count": 450,
   "active_units": [],
   "pending_units": [
     {
       "unit_id": "numbers-core",
       "title": "Core numbers",
-      "available": 5,
+      "available": 6,
       "required": 29,
       "missing": [
         {
           "label": "eins",
           "frequency_rank": 774
-        },
-        {
-          "label": "sechs",
-          "frequency_rank": 428
         },
         {
           "label": "sieben",
@@ -2599,6 +2595,306 @@
       "curriculum_order": 400,
       "semantic_id": "de-DE:noun:Reaktion:0400",
       "frequency_rank": 400,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 401,
+      "semantic_id": "de-DE:verb:wirken:0401",
+      "frequency_rank": 401,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 402,
+      "semantic_id": "de-DE:verb:darstellen:0402",
+      "frequency_rank": 402,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 403,
+      "semantic_id": "de-DE:noun:Raum:0403",
+      "frequency_rank": 403,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 404,
+      "semantic_id": "de-DE:noun:Eltern:0404",
+      "frequency_rank": 404,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 405,
+      "semantic_id": "de-DE:verb:bezeichnen:0405",
+      "frequency_rank": 405,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 406,
+      "semantic_id": "de-DE:noun:Funktion:0406",
+      "frequency_rank": 406,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 407,
+      "semantic_id": "de-DE:adjective-adverb:häufig:0407",
+      "frequency_rank": 407,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 408,
+      "semantic_id": "de-DE:verb:erscheinen:0408",
+      "frequency_rank": 408,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 409,
+      "semantic_id": "de-DE:proper-noun:USA (Vereinigte Staaten von Amerika):0409",
+      "frequency_rank": 409,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 410,
+      "semantic_id": "de-DE:noun:Flüchtling:0410",
+      "frequency_rank": 410,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 411,
+      "semantic_id": "de-DE:adverb-adjective:früher:0411",
+      "frequency_rank": 411,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 412,
+      "semantic_id": "de-DE:preposition-adverb:pro:0412",
+      "frequency_rank": 412,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 413,
+      "semantic_id": "de-DE:verb:ergeben:0413",
+      "frequency_rank": 413,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 414,
+      "semantic_id": "de-DE:verb:entscheiden:0414",
+      "frequency_rank": 414,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 415,
+      "semantic_id": "de-DE:noun:Universität, Uni:0415",
+      "frequency_rank": 415,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 416,
+      "semantic_id": "de-DE:verb:betreffen:0416",
+      "frequency_rank": 416,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 417,
+      "semantic_id": "de-DE:adverb:oben:0417",
+      "frequency_rank": 417,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 418,
+      "semantic_id": "de-DE:noun:Richtung:0418",
+      "frequency_rank": 418,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 419,
+      "semantic_id": "de-DE:verb:bestimmen:0419",
+      "frequency_rank": 419,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 420,
+      "semantic_id": "de-DE:verb:fehlen:0420",
+      "frequency_rank": 420,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 421,
+      "semantic_id": "de-DE:noun:Sprache:0421",
+      "frequency_rank": 421,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 422,
+      "semantic_id": "de-DE:noun:Produkt:0422",
+      "frequency_rank": 422,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 423,
+      "semantic_id": "de-DE:noun:Situation:0423",
+      "frequency_rank": 423,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 424,
+      "semantic_id": "de-DE:adverb:außerdem:0424",
+      "frequency_rank": 424,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 425,
+      "semantic_id": "de-DE:particle-adverb:nämlich:0425",
+      "frequency_rank": 425,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 426,
+      "semantic_id": "de-DE:adjective-adverb:international:0426",
+      "frequency_rank": 426,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 427,
+      "semantic_id": "de-DE:noun:Anfang:0427",
+      "frequency_rank": 427,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 428,
+      "semantic_id": "de-DE:numeral:sechs:0428",
+      "frequency_rank": 428,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 429,
+      "semantic_id": "de-DE:verb:nutzen:0429",
+      "frequency_rank": 429,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 430,
+      "semantic_id": "de-DE:adjective-adverb:sozial:0430",
+      "frequency_rank": 430,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 431,
+      "semantic_id": "de-DE:noun:Folge:0431",
+      "frequency_rank": 431,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 432,
+      "semantic_id": "de-DE:noun:Satz:0432",
+      "frequency_rank": 432,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 433,
+      "semantic_id": "de-DE:pronoun-determiner:manche (r, s):0433",
+      "frequency_rank": 433,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 434,
+      "semantic_id": "de-DE:noun:Verbindung:0434",
+      "frequency_rank": 434,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 435,
+      "semantic_id": "de-DE:verb:beschreiben:0435",
+      "frequency_rank": 435,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 436,
+      "semantic_id": "de-DE:noun:Licht:0436",
+      "frequency_rank": 436,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 437,
+      "semantic_id": "de-DE:adjective:ähnlich:0437",
+      "frequency_rank": 437,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 438,
+      "semantic_id": "de-DE:noun:Regel:0438",
+      "frequency_rank": 438,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 439,
+      "semantic_id": "de-DE:preposition-adverb:gegenüber:0439",
+      "frequency_rank": 439,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 440,
+      "semantic_id": "de-DE:noun:Kollege:0440",
+      "frequency_rank": 440,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 441,
+      "semantic_id": "de-DE:adverb:bisher:0441",
+      "frequency_rank": 441,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 442,
+      "semantic_id": "de-DE:adjective-adverb:tief:0442",
+      "frequency_rank": 442,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 443,
+      "semantic_id": "de-DE:adjective-adverb:halb:0443",
+      "frequency_rank": 443,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 444,
+      "semantic_id": "de-DE:verb:lachen:0444",
+      "frequency_rank": 444,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 445,
+      "semantic_id": "de-DE:adverb:ebenfalls:0445",
+      "frequency_rank": 445,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 446,
+      "semantic_id": "de-DE:adverb:sofort:0446",
+      "frequency_rank": 446,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 447,
+      "semantic_id": "de-DE:noun:Grenze:0447",
+      "frequency_rank": 447,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 448,
+      "semantic_id": "de-DE:verb:ändern:0448",
+      "frequency_rank": 448,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 449,
+      "semantic_id": "de-DE:noun:Entscheidung:0449",
+      "frequency_rank": 449,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 450,
+      "semantic_id": "de-DE:verb:verlassen:0450",
+      "frequency_rank": 450,
       "unit_id": null
     }
   ]
