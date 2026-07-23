@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "card_count": 450,
+  "card_count": 500,
   "active_units": [],
   "pending_units": [
     {
@@ -2895,6 +2895,306 @@
       "curriculum_order": 450,
       "semantic_id": "de-DE:verb:verlassen:0450",
       "frequency_rank": 450,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 451,
+      "semantic_id": "de-DE:noun:Idee:0451",
+      "frequency_rank": 451,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 452,
+      "semantic_id": "de-DE:verb:verbinden:0452",
+      "frequency_rank": 452,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 453,
+      "semantic_id": "de-DE:noun:Milliarde, Mrd.:0453",
+      "frequency_rank": 453,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 454,
+      "semantic_id": "de-DE:adverb-adjective:endlich:0454",
+      "frequency_rank": 454,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 455,
+      "semantic_id": "de-DE:noun:Energie:0455",
+      "frequency_rank": 455,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 456,
+      "semantic_id": "de-DE:adjective-adverb:plötzlich:0456",
+      "frequency_rank": 456,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 457,
+      "semantic_id": "de-DE:pronominal-adverb:danach:0457",
+      "frequency_rank": 457,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 458,
+      "semantic_id": "de-DE:noun:Kraft:0458",
+      "frequency_rank": 458,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 459,
+      "semantic_id": "de-DE:adverb:lieber:0459",
+      "frequency_rank": 459,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 460,
+      "semantic_id": "de-DE:verb:gehören:0460",
+      "frequency_rank": 460,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 461,
+      "semantic_id": "de-DE:verb:einsetzen:0461",
+      "frequency_rank": 461,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 462,
+      "semantic_id": "de-DE:noun:Gefühl:0462",
+      "frequency_rank": 462,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 463,
+      "semantic_id": "de-DE:adverb:trotzdem:0463",
+      "frequency_rank": 463,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 464,
+      "semantic_id": "de-DE:verb:befinden (sich):0464",
+      "frequency_rank": 464,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 465,
+      "semantic_id": "de-DE:noun:Information:0465",
+      "frequency_rank": 465,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 466,
+      "semantic_id": "de-DE:pronominal-adverb:dadurch:0466",
+      "frequency_rank": 466,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 467,
+      "semantic_id": "de-DE:pronominal-adverb:dagegen:0467",
+      "frequency_rank": 467,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 468,
+      "semantic_id": "de-DE:noun:Weise:0468",
+      "frequency_rank": 468,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 469,
+      "semantic_id": "de-DE:noun:Zukunft:0469",
+      "frequency_rank": 469,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 470,
+      "semantic_id": "de-DE:verb:wachsen:0470",
+      "frequency_rank": 470,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 471,
+      "semantic_id": "de-DE:particle-adverb:bitte:0471",
+      "frequency_rank": 471,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 472,
+      "semantic_id": "de-DE:adjective:weiß:0472",
+      "frequency_rank": 472,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 473,
+      "semantic_id": "de-DE:noun:Text:0473",
+      "frequency_rank": 473,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 474,
+      "semantic_id": "de-DE:adjective:schwarz:0474",
+      "frequency_rank": 474,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 475,
+      "semantic_id": "de-DE:verb:sterben:0475",
+      "frequency_rank": 475,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 476,
+      "semantic_id": "de-DE:noun:Markt:0476",
+      "frequency_rank": 476,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 477,
+      "semantic_id": "de-DE:adjective:rot:0477",
+      "frequency_rank": 477,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 478,
+      "semantic_id": "de-DE:modal-particle:halt:0478",
+      "frequency_rank": 478,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 479,
+      "semantic_id": "de-DE:noun:Meter, m:0479",
+      "frequency_rank": 479,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 480,
+      "semantic_id": "de-DE:adjective-adverb-preposition:nahe,:0480",
+      "frequency_rank": 480,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 481,
+      "semantic_id": "de-DE:noun:Hilfe:0481",
+      "frequency_rank": 481,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 482,
+      "semantic_id": "de-DE:noun:Kapitel:0482",
+      "frequency_rank": 482,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 483,
+      "semantic_id": "de-DE:verb:ausgehen:0483",
+      "frequency_rank": 483,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 484,
+      "semantic_id": "de-DE:noun:Bedeutung:0484",
+      "frequency_rank": 484,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 485,
+      "semantic_id": "de-DE:verb:betrachten:0485",
+      "frequency_rank": 485,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 486,
+      "semantic_id": "de-DE:noun:Chemie:0486",
+      "frequency_rank": 486,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 487,
+      "semantic_id": "de-DE:noun:Luft:0487",
+      "frequency_rank": 487,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 488,
+      "semantic_id": "de-DE:noun:Körper:0488",
+      "frequency_rank": 488,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 489,
+      "semantic_id": "de-DE:noun:Struktur:0489",
+      "frequency_rank": 489,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 490,
+      "semantic_id": "de-DE:verb:stimmen:0490",
+      "frequency_rank": 490,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 491,
+      "semantic_id": "de-DE:verb:bitten:0491",
+      "frequency_rank": 491,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 492,
+      "semantic_id": "de-DE:noun:Jahrhundert:0492",
+      "frequency_rank": 492,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 493,
+      "semantic_id": "de-DE:adjective-adverb:wahrscheinlich:0493",
+      "frequency_rank": 493,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 494,
+      "semantic_id": "de-DE:adjective-adverb:öffentlich:0494",
+      "frequency_rank": 494,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 495,
+      "semantic_id": "de-DE:pronoun:euch:0495",
+      "frequency_rank": 495,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 496,
+      "semantic_id": "de-DE:adverb:insgesamt:0496",
+      "frequency_rank": 496,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 497,
+      "semantic_id": "de-DE:verb:anfangen:0497",
+      "frequency_rank": 497,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 498,
+      "semantic_id": "de-DE:adverb-determiner:genug:0498",
+      "frequency_rank": 498,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 499,
+      "semantic_id": "de-DE:noun:Deutsche:0499",
+      "frequency_rank": 499,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 500,
+      "semantic_id": "de-DE:verb:verändern:0500",
+      "frequency_rank": 500,
       "unit_id": null
     }
   ]
