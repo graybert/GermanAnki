@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "card_count": 1200,
+  "card_count": 1250,
   "active_units": [],
   "pending_units": [
     {
@@ -78,23 +78,19 @@
     {
       "unit_id": "weekdays",
       "title": "Days of the week",
-      "available": 5,
+      "available": 6,
       "required": 7,
       "missing": [
         {
           "label": "Dienstag",
           "frequency_rank": 1356
-        },
-        {
-          "label": "Donnerstag",
-          "frequency_rank": 1244
         }
       ]
     },
     {
       "unit_id": "months",
       "title": "Months of the year",
-      "available": 7,
+      "available": 8,
       "required": 12,
       "missing": [
         {
@@ -104,10 +100,6 @@
         {
           "label": "August",
           "frequency_rank": 1929
-        },
-        {
-          "label": "Oktober",
-          "frequency_rank": 1223
         },
         {
           "label": "November",
@@ -7319,6 +7311,306 @@
       "curriculum_order": 1200,
       "semantic_id": "de-DE:verb:abgeben:1200",
       "frequency_rank": 1200,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1201,
+      "semantic_id": "de-DE:noun:Bericht:1201",
+      "frequency_rank": 1201,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1202,
+      "semantic_id": "de-DE:noun:Qualität:1202",
+      "frequency_rank": 1202,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1203,
+      "semantic_id": "de-DE:noun:Rand:1203",
+      "frequency_rank": 1203,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1204,
+      "semantic_id": "de-DE:proper-noun:Italien:1204",
+      "frequency_rank": 1204,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1205,
+      "semantic_id": "de-DE:noun:Kern:1205",
+      "frequency_rank": 1205,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1206,
+      "semantic_id": "de-DE:noun:Winter:1206",
+      "frequency_rank": 1206,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1207,
+      "semantic_id": "de-DE:noun:Hintergrund:1207",
+      "frequency_rank": 1207,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1208,
+      "semantic_id": "de-DE:noun-combining-form:Osten, Ost-:1208",
+      "frequency_rank": 1208,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1209,
+      "semantic_id": "de-DE:proper-noun:Amerika:1209",
+      "frequency_rank": 1209,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1210,
+      "semantic_id": "de-DE:adjective-participle:geboren:1210",
+      "frequency_rank": 1210,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1211,
+      "semantic_id": "de-DE:adjective-adverb:gefährlich:1211",
+      "frequency_rank": 1211,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1212,
+      "semantic_id": "de-DE:verb:zwingen:1212",
+      "frequency_rank": 1212,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1213,
+      "semantic_id": "de-DE:noun:Bier:1213",
+      "frequency_rank": 1213,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1214,
+      "semantic_id": "de-DE:verb:ansprechen:1214",
+      "frequency_rank": 1214,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1215,
+      "semantic_id": "de-DE:adjective-adverb:komplett:1215",
+      "frequency_rank": 1215,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1216,
+      "semantic_id": "de-DE:noun:Forderung:1216",
+      "frequency_rank": 1216,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1217,
+      "semantic_id": "de-DE:verb:gelangen:1217",
+      "frequency_rank": 1217,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1218,
+      "semantic_id": "de-DE:noun:Nachricht:1218",
+      "frequency_rank": 1218,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1219,
+      "semantic_id": "de-DE:verb:sammeln:1219",
+      "frequency_rank": 1219,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1220,
+      "semantic_id": "de-DE:verb:ablehnen:1220",
+      "frequency_rank": 1220,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1221,
+      "semantic_id": "de-DE:verb:stoßen:1221",
+      "frequency_rank": 1221,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1222,
+      "semantic_id": "de-DE:adjective-adverb:konstant:1222",
+      "frequency_rank": 1222,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1223,
+      "semantic_id": "de-DE:noun:Oktober:1223",
+      "frequency_rank": 1223,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1224,
+      "semantic_id": "de-DE:verb:umgehen:1224",
+      "frequency_rank": 1224,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1225,
+      "semantic_id": "de-DE:verb:angehen:1225",
+      "frequency_rank": 1225,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1226,
+      "semantic_id": "de-DE:verb:verlaufen:1226",
+      "frequency_rank": 1226,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1227,
+      "semantic_id": "de-DE:adverb:demnach:1227",
+      "frequency_rank": 1227,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1228,
+      "semantic_id": "de-DE:verb:auftauchen:1228",
+      "frequency_rank": 1228,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1229,
+      "semantic_id": "de-DE:adjective-adverb:böse:1229",
+      "frequency_rank": 1229,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1230,
+      "semantic_id": "de-DE:verb:auslösen:1230",
+      "frequency_rank": 1230,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1231,
+      "semantic_id": "de-DE:verb:weitergehen:1231",
+      "frequency_rank": 1231,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1232,
+      "semantic_id": "de-DE:verb:abhängen:1232",
+      "frequency_rank": 1232,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1233,
+      "semantic_id": "de-DE:noun:Geschwindigkeit:1233",
+      "frequency_rank": 1233,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1234,
+      "semantic_id": "de-DE:adjective-adverb:ideal:1234",
+      "frequency_rank": 1234,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1235,
+      "semantic_id": "de-DE:noun:Augenblick:1235",
+      "frequency_rank": 1235,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1236,
+      "semantic_id": "de-DE:verb:reduzieren:1236",
+      "frequency_rank": 1236,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1237,
+      "semantic_id": "de-DE:noun:Maschine:1237",
+      "frequency_rank": 1237,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1238,
+      "semantic_id": "de-DE:adjective-adverb:linear:1238",
+      "frequency_rank": 1238,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1239,
+      "semantic_id": "de-DE:verb:ausmachen:1239",
+      "frequency_rank": 1239,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1240,
+      "semantic_id": "de-DE:verb:eintreten:1240",
+      "frequency_rank": 1240,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1241,
+      "semantic_id": "de-DE:adjective-adverb:kritisch:1241",
+      "frequency_rank": 1241,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1242,
+      "semantic_id": "de-DE:hesitation-particle:äh:1242",
+      "frequency_rank": 1242,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1243,
+      "semantic_id": "de-DE:noun:Wochenende:1243",
+      "frequency_rank": 1243,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1244,
+      "semantic_id": "de-DE:noun:Donnerstag:1244",
+      "frequency_rank": 1244,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1245,
+      "semantic_id": "de-DE:noun:Saison:1245",
+      "frequency_rank": 1245,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1246,
+      "semantic_id": "de-DE:noun:Forscher:1246",
+      "frequency_rank": 1246,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1247,
+      "semantic_id": "de-DE:verb:gründen:1247",
+      "frequency_rank": 1247,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1248,
+      "semantic_id": "de-DE:adjective-adverb:offensichtlich:1248",
+      "frequency_rank": 1248,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1249,
+      "semantic_id": "de-DE:noun:Teilchen:1249",
+      "frequency_rank": 1249,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1250,
+      "semantic_id": "de-DE:verb:genügen:1250",
+      "frequency_rank": 1250,
       "unit_id": null
     }
   ]
