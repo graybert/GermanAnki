@@ -23,6 +23,14 @@ Source pages:
 - https://commons.wikimedia.org/wiki/File:De-der.ogg
 - https://commons.wikimedia.org/wiki/File:De-Wo_ist_das_Buch._Es_liegt_auf_dem_Tisch..ogg
 
+## V6 playback-speed test
+
+V6 reuses the same single embedded sentence MP3 and exposes three additional
+buttons on the `der` card: 0.5×, 0.6×, and 0.7×. The buttons use the Anki
+WebView's HTML audio playback rate, so comparing speeds consumes no additional
+ElevenLabs credits and does not duplicate media. The normal word-then-sentence
+autoplay queue remains unchanged.
+
 ## Main-sentence generation
 
 `data/audio/main-sentence-manifest.jsonl` is the canonical queue. It contains

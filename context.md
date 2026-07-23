@@ -101,7 +101,7 @@ Current prototype note:
 ## Important status and cautions
 
 - Ranks 1–200 have complete draft text and are pending human review.
-- `dist/German-Core-Audio-Test-V5-10-Cards.apkg` is the verified audio test package:
+- `dist/German-Core-Audio-Speed-Test-V6-10-Cards.apkg` is the verified audio-speed test package:
   ten notes/cards, stable note identities, no audio, and draft text.
 - `tools/export_anki.py` builds rank-bounded packages and can include
   deterministic sentence-audio MP3s later; `tools/validate_apkg.py` inspects

@@ -26,10 +26,10 @@ HTML/CSS templates. To rebuild the test package:
 ```powershell
 python -m pip install --target .deps -r requirements-export.txt
 python tools/export_anki.py --audio-dir data\audio\demo-v5
-python tools/validate_apkg.py dist/German-Core-Audio-Test-V5-10-Cards.apkg `
+python tools/validate_apkg.py dist/German-Core-Audio-Speed-Test-V6-10-Cards.apkg `
   --expected-notes 10 `
-  --expected-deck "German Core Audio Test V5 - 10 Cards" `
-  --required-rendered-text "GERMAN CORE AUDIO TEST V5"
+  --expected-deck "German Core Audio Speed Test V6 - 10 Cards" `
+  --required-rendered-text "GERMAN CORE AUDIO TEST V6"
 ```
 
 See `AUDIO.md` for sources and ElevenLabs generation, and `EXPORTING.md` for the

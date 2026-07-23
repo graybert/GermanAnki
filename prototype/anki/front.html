@@ -12,4 +12,28 @@
     <span class="audio-control">{{SentenceAudio}}</span>
   </section>
   {{/SentenceAudio}}
+
+  {{#SentenceAudioFile}}
+  <section class="speed-row" aria-label="Slow sentence playback">
+    <span class="audio-caption">Slow</span>
+    <button type="button" class="speed-button" data-audio-file="{{SentenceAudioFile}}" data-speed="0.5">0.5×</button>
+    <button type="button" class="speed-button" data-audio-file="{{SentenceAudioFile}}" data-speed="0.6">0.6×</button>
+    <button type="button" class="speed-button" data-audio-file="{{SentenceAudioFile}}" data-speed="0.7">0.7×</button>
+  </section>
+  <script>
+    (() => {
+      let activeAudio = null;
+      document.querySelectorAll(".speed-button").forEach((button) => {
+        button.addEventListener("click", () => {
+          if (activeAudio) {
+            activeAudio.pause();
+          }
+          activeAudio = new Audio(button.dataset.audioFile);
+          activeAudio.playbackRate = Number(button.dataset.speed);
+          activeAudio.play();
+        });
+      });
+    })();
+  </script>
+  {{/SentenceAudioFile}}
 </main>

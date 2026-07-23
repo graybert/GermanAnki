@@ -27,11 +27,11 @@ except ImportError as exc:  # pragma: no cover - exercised only without dependen
 MODEL_ID = 1_603_739_214
 DECK_ID = 2_053_940_118
 MODEL_NAME = "German Core Recognition v1"
-TEST_MODEL_ID = 1_603_739_216
-TEST_DECK_ID = 2_053_940_120
-TEST_RELEASE = "V5"
-DECK_NAME = "German Core Audio Test V5 - 10 Cards"
-DEFAULT_OUTPUT = ROOT / "dist" / "German-Core-Audio-Test-V5-10-Cards.apkg"
+TEST_MODEL_ID = 1_603_739_217
+TEST_DECK_ID = 2_053_940_121
+TEST_RELEASE = "V6"
+DECK_NAME = "German Core Audio Speed Test V6 - 10 Cards"
+DEFAULT_OUTPUT = ROOT / "dist" / "German-Core-Audio-Speed-Test-V6-10-Cards.apkg"
 FIELD_NAMES = [
     "SemanticID",
     "CurriculumOrder",
@@ -47,6 +47,7 @@ FIELD_NAMES = [
     "UsageNote",
     "WordAudio",
     "SentenceAudio",
+    "SentenceAudioFile",
     "Register",
     "Variety",
     "TextStatus",
@@ -188,6 +189,7 @@ def field_values(
         "UsageNote": html.escape(card["usage_note"]),
         "WordAudio": word_audio,
         "SentenceAudio": sentence_audio,
+        "SentenceAudioFile": sentence_filename if sentence_audio else "",
         "Register": html.escape(card["register"]),
         "Variety": html.escape(card["variety"]),
         "TextStatus": html.escape(card["text_status"]),

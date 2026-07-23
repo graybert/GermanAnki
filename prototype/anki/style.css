@@ -79,6 +79,28 @@
   letter-spacing: 0.04em;
   text-transform: uppercase;
 }
+.speed-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 8px auto 0;
+}
+.speed-button {
+  appearance: none;
+  padding: 8px 12px;
+  border: 1px solid var(--accent);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--accent);
+  cursor: pointer;
+  font: 700 0.82rem/1 -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+}
+.speed-button:active {
+  background: var(--accent);
+  color: var(--surface);
+}
 
 .sentence-block {
   margin: 22px 0 14px;
