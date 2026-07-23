@@ -1,25 +1,17 @@
 {
   "schema_version": 1,
-  "card_count": 1050,
+  "card_count": 1100,
   "active_units": [],
   "pending_units": [
     {
       "unit_id": "numbers-core",
       "title": "Core numbers",
-      "available": 9,
+      "available": 11,
       "required": 29,
       "missing": [
         {
-          "label": "neun",
-          "frequency_rank": 1053
-        },
-        {
           "label": "elf",
           "frequency_rank": 1507
-        },
-        {
-          "label": "zwölf",
-          "frequency_rank": 1080
         },
         {
           "label": "dreizehn",
@@ -118,17 +110,9 @@
     {
       "unit_id": "months",
       "title": "Months of the year",
-      "available": 4,
+      "available": 6,
       "required": 12,
       "missing": [
-        {
-          "label": "Januar",
-          "frequency_rank": 1052
-        },
-        {
-          "label": "Februar",
-          "frequency_rank": 1093
-        },
         {
           "label": "Juni",
           "frequency_rank": 1148
@@ -6455,6 +6439,306 @@
       "curriculum_order": 1050,
       "semantic_id": "de-DE:adjective-adverb:ernst:1050",
       "frequency_rank": 1050,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1051,
+      "semantic_id": "de-DE:noun:Roman:1051",
+      "frequency_rank": 1051,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1052,
+      "semantic_id": "de-DE:noun:Januar:1052",
+      "frequency_rank": 1052,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1053,
+      "semantic_id": "de-DE:numeral:neun:1053",
+      "frequency_rank": 1053,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1054,
+      "semantic_id": "de-DE:verb:kämpfen:1054",
+      "frequency_rank": 1054,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1055,
+      "semantic_id": "de-DE:adjective:jeweilig:1055",
+      "frequency_rank": 1055,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1056,
+      "semantic_id": "de-DE:verb:versprechen:1056",
+      "frequency_rank": 1056,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1057,
+      "semantic_id": "de-DE:noun:Definition:1057",
+      "frequency_rank": 1057,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1058,
+      "semantic_id": "de-DE:adjective-adverb:vollständig:1058",
+      "frequency_rank": 1058,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1059,
+      "semantic_id": "de-DE:verb:heben:1059",
+      "frequency_rank": 1059,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1060,
+      "semantic_id": "de-DE:noun:Rücken:1060",
+      "frequency_rank": 1060,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1061,
+      "semantic_id": "de-DE:verb:existieren:1061",
+      "frequency_rank": 1061,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1062,
+      "semantic_id": "de-DE:noun:Masse:1062",
+      "frequency_rank": 1062,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1063,
+      "semantic_id": "de-DE:verb:singen:1063",
+      "frequency_rank": 1063,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1064,
+      "semantic_id": "de-DE:noun:Theorie:1064",
+      "frequency_rank": 1064,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1065,
+      "semantic_id": "de-DE:noun:Inhalt:1065",
+      "frequency_rank": 1065,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1066,
+      "semantic_id": "de-DE:verb:scheitern:1066",
+      "frequency_rank": 1066,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1067,
+      "semantic_id": "de-DE:noun:Ereignis:1067",
+      "frequency_rank": 1067,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1068,
+      "semantic_id": "de-DE:adverb:lediglich:1068",
+      "frequency_rank": 1068,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1069,
+      "semantic_id": "de-DE:adjective-adverb:organisch:1069",
+      "frequency_rank": 1069,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1070,
+      "semantic_id": "de-DE:adjective-adverb:glücklich:1070",
+      "frequency_rank": 1070,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1071,
+      "semantic_id": "de-DE:noun:Rest:1071",
+      "frequency_rank": 1071,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1072,
+      "semantic_id": "de-DE:noun:Wunsch:1072",
+      "frequency_rank": 1072,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1073,
+      "semantic_id": "de-DE:verb:beschließen:1073",
+      "frequency_rank": 1073,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1074,
+      "semantic_id": "de-DE:adjective-adverb:dick:1074",
+      "frequency_rank": 1074,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1075,
+      "semantic_id": "de-DE:adjective-adverb:riesig:1075",
+      "frequency_rank": 1075,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1076,
+      "semantic_id": "de-DE:adjective:heutig:1076",
+      "frequency_rank": 1076,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1077,
+      "semantic_id": "de-DE:interjection:hallo:1077",
+      "frequency_rank": 1077,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1078,
+      "semantic_id": "de-DE:noun:Museum:1078",
+      "frequency_rank": 1078,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1079,
+      "semantic_id": "de-DE:noun:Farbe:1079",
+      "frequency_rank": 1079,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1080,
+      "semantic_id": "de-DE:numeral:zwölf:1080",
+      "frequency_rank": 1080,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1081,
+      "semantic_id": "de-DE:preposition:per:1081",
+      "frequency_rank": 1081,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1082,
+      "semantic_id": "de-DE:adjective-adverb:regelmäßig:1082",
+      "frequency_rank": 1082,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1083,
+      "semantic_id": "de-DE:directional-adverb:her:1083",
+      "frequency_rank": 1083,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1084,
+      "semantic_id": "de-DE:verb:wechseln:1084",
+      "frequency_rank": 1084,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1085,
+      "semantic_id": "de-DE:verb:einstellen:1085",
+      "frequency_rank": 1085,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1086,
+      "semantic_id": "de-DE:noun:Theater:1086",
+      "frequency_rank": 1086,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1087,
+      "semantic_id": "de-DE:noun:König:1087",
+      "frequency_rank": 1087,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1088,
+      "semantic_id": "de-DE:noun:Ohr:1088",
+      "frequency_rank": 1088,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1089,
+      "semantic_id": "de-DE:verb:fördern:1089",
+      "frequency_rank": 1089,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1090,
+      "semantic_id": "de-DE:adjective-adverb:elektrisch:1090",
+      "frequency_rank": 1090,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1091,
+      "semantic_id": "de-DE:noun:Aufbau:1091",
+      "frequency_rank": 1091,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1092,
+      "semantic_id": "de-DE:noun:Beitrag:1092",
+      "frequency_rank": 1092,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1093,
+      "semantic_id": "de-DE:noun:Februar:1093",
+      "frequency_rank": 1093,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1094,
+      "semantic_id": "de-DE:verb:durchführen:1094",
+      "frequency_rank": 1094,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1095,
+      "semantic_id": "de-DE:verb:einfallen:1095",
+      "frequency_rank": 1095,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1096,
+      "semantic_id": "de-DE:verb:verletzen:1096",
+      "frequency_rank": 1096,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1097,
+      "semantic_id": "de-DE:noun:Kontrolle:1097",
+      "frequency_rank": 1097,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1098,
+      "semantic_id": "de-DE:noun:Macht:1098",
+      "frequency_rank": 1098,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1099,
+      "semantic_id": "de-DE:noun:Mannschaft:1099",
+      "frequency_rank": 1099,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1100,
+      "semantic_id": "de-DE:coordinating-conjunction-pronoun:entweder:1100",
+      "frequency_rank": 1100,
       "unit_id": null
     }
   ]
