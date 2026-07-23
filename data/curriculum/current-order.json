@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "card_count": 800,
+  "card_count": 850,
   "active_units": [],
   "pending_units": [
     {
@@ -94,7 +94,7 @@
     {
       "unit_id": "weekdays",
       "title": "Days of the week",
-      "available": 0,
+      "available": 1,
       "required": 7,
       "missing": [
         {
@@ -120,10 +120,6 @@
         {
           "label": "Samstag",
           "frequency_rank": 1112
-        },
-        {
-          "label": "Sonntag",
-          "frequency_rank": 804
         }
       ]
     },
@@ -4983,6 +4979,306 @@
       "curriculum_order": 800,
       "semantic_id": "de-DE:pronominal-adverb:daraus:0800",
       "frequency_rank": 800,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 801,
+      "semantic_id": "de-DE:verb:erfüllen:0801",
+      "frequency_rank": 801,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 802,
+      "semantic_id": "de-DE:noun:Mama:0802",
+      "frequency_rank": 802,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 803,
+      "semantic_id": "de-DE:noun:Region:0803",
+      "frequency_rank": 803,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 804,
+      "semantic_id": "de-DE:noun:Sonntag:0804",
+      "frequency_rank": 804,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 805,
+      "semantic_id": "de-DE:noun:Internet:0805",
+      "frequency_rank": 805,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 806,
+      "semantic_id": "de-DE:noun:Nummer:0806",
+      "frequency_rank": 806,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 807,
+      "semantic_id": "de-DE:verb:lächeln:0807",
+      "frequency_rank": 807,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 808,
+      "semantic_id": "de-DE:adverb:genauso:0808",
+      "frequency_rank": 808,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 809,
+      "semantic_id": "de-DE:verb:überzeugen:0809",
+      "frequency_rank": 809,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 810,
+      "semantic_id": "de-DE:adjective-adverb:interessant:0810",
+      "frequency_rank": 810,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 811,
+      "semantic_id": "de-DE:adjective-adverb:menschlich:0811",
+      "frequency_rank": 811,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 812,
+      "semantic_id": "de-DE:noun:Elektron:0812",
+      "frequency_rank": 812,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 813,
+      "semantic_id": "de-DE:proper-noun:Frankreich:0813",
+      "frequency_rank": 813,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 814,
+      "semantic_id": "de-DE:noun:Freiheit:0814",
+      "frequency_rank": 814,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 815,
+      "semantic_id": "de-DE:adjective-adverb:speziell:0815",
+      "frequency_rank": 815,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 816,
+      "semantic_id": "de-DE:adjective-adverb:französisch:0816",
+      "frequency_rank": 816,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 817,
+      "semantic_id": "de-DE:adjective-adverb:negativ:0817",
+      "frequency_rank": 817,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 818,
+      "semantic_id": "de-DE:adjective-adverb:zentral:0818",
+      "frequency_rank": 818,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 819,
+      "semantic_id": "de-DE:noun:Ebene:0819",
+      "frequency_rank": 819,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 820,
+      "semantic_id": "de-DE:verb:besuchen:0820",
+      "frequency_rank": 820,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 821,
+      "semantic_id": "de-DE:adverb:gestern:0821",
+      "frequency_rank": 821,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 822,
+      "semantic_id": "de-DE:noun:Spieler:0822",
+      "frequency_rank": 822,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 823,
+      "semantic_id": "de-DE:adjective-adverb:absolut:0823",
+      "frequency_rank": 823,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 824,
+      "semantic_id": "de-DE:verb:fliegen:0824",
+      "frequency_rank": 824,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 825,
+      "semantic_id": "de-DE:noun:Hund:0825",
+      "frequency_rank": 825,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 826,
+      "semantic_id": "de-DE:verb:antworten:0826",
+      "frequency_rank": 826,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 827,
+      "semantic_id": "de-DE:adverb:weiterhin:0827",
+      "frequency_rank": 827,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 828,
+      "semantic_id": "de-DE:noun:Wand:0828",
+      "frequency_rank": 828,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 829,
+      "semantic_id": "de-DE:adverb:rechts:0829",
+      "frequency_rank": 829,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 830,
+      "semantic_id": "de-DE:adjective-adverb:konkret:0830",
+      "frequency_rank": 830,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 831,
+      "semantic_id": "de-DE:adjective-adverb:russisch:0831",
+      "frequency_rank": 831,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 832,
+      "semantic_id": "de-DE:verb:zahlen:0832",
+      "frequency_rank": 832,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 833,
+      "semantic_id": "de-DE:adverb:zugleich:0833",
+      "frequency_rank": 833,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 834,
+      "semantic_id": "de-DE:noun:Feld:0834",
+      "frequency_rank": 834,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 835,
+      "semantic_id": "de-DE:verb:verdienen:0835",
+      "frequency_rank": 835,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 836,
+      "semantic_id": "de-DE:adjective-adverb:amerikanisch:0836",
+      "frequency_rank": 836,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 837,
+      "semantic_id": "de-DE:noun:Sekunde:0837",
+      "frequency_rank": 837,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 838,
+      "semantic_id": "de-DE:noun:Brief:0838",
+      "frequency_rank": 838,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 839,
+      "semantic_id": "de-DE:noun:Mitglied:0839",
+      "frequency_rank": 839,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 840,
+      "semantic_id": "de-DE:adjective-adverb:praktisch:0840",
+      "frequency_rank": 840,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 841,
+      "semantic_id": "de-DE:noun:Gefahr:0841",
+      "frequency_rank": 841,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 842,
+      "semantic_id": "de-DE:verb:binden:0842",
+      "frequency_rank": 842,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 843,
+      "semantic_id": "de-DE:adjective-adverb:weltweit:0843",
+      "frequency_rank": 843,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 844,
+      "semantic_id": "de-DE:noun:Liebe:0844",
+      "frequency_rank": 844,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 845,
+      "semantic_id": "de-DE:noun:Beginn:0845",
+      "frequency_rank": 845,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 846,
+      "semantic_id": "de-DE:proper-noun:China:0846",
+      "frequency_rank": 846,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 847,
+      "semantic_id": "de-DE:adjective-adverb:breit:0847",
+      "frequency_rank": 847,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 848,
+      "semantic_id": "de-DE:adverb:draußen:0848",
+      "frequency_rank": 848,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 849,
+      "semantic_id": "de-DE:noun:Wirkung:0849",
+      "frequency_rank": 849,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 850,
+      "semantic_id": "de-DE:noun:Bildung:0850",
+      "frequency_rank": 850,
       "unit_id": null
     }
   ]
