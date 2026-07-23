@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "card_count": 350,
+  "card_count": 400,
   "active_units": [],
   "pending_units": [
     {
@@ -2299,6 +2299,306 @@
       "curriculum_order": 350,
       "semantic_id": "de-DE:verb:schließen:0350",
       "frequency_rank": 350,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 351,
+      "semantic_id": "de-DE:adverb:schließlich:0351",
+      "frequency_rank": 351,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 352,
+      "semantic_id": "de-DE:verb:legen:0352",
+      "frequency_rank": 352,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 353,
+      "semantic_id": "de-DE:adjective-adverb:direkt:0353",
+      "frequency_rank": 353,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 354,
+      "semantic_id": "de-DE:pronominal-conjunctive-adverb:daher:0354",
+      "frequency_rank": 354,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 355,
+      "semantic_id": "de-DE:adjective-adverb:offen:0355",
+      "frequency_rank": 355,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 356,
+      "semantic_id": "de-DE:verb:erkennen:0356",
+      "frequency_rank": 356,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 357,
+      "semantic_id": "de-DE:noun:Person:0357",
+      "frequency_rank": 357,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 358,
+      "semantic_id": "de-DE:noun:Moment:0358",
+      "frequency_rank": 358,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 359,
+      "semantic_id": "de-DE:noun:Schule:0359",
+      "frequency_rank": 359,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 360,
+      "semantic_id": "de-DE:pronominal-adverb:darin, drin, drinnen:0360",
+      "frequency_rank": 360,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 361,
+      "semantic_id": "de-DE:noun:Auto:0361",
+      "frequency_rank": 361,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 362,
+      "semantic_id": "de-DE:indefinite-pronoun:niemand:0362",
+      "frequency_rank": 362,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 363,
+      "semantic_id": "de-DE:noun:Gesellschaft:0363",
+      "frequency_rank": 363,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 364,
+      "semantic_id": "de-DE:verb:warten:0364",
+      "frequency_rank": 364,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 365,
+      "semantic_id": "de-DE:separable-inseparable-reflexive-verb:vorstellen:0365",
+      "frequency_rank": 365,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 366,
+      "semantic_id": "de-DE:adjective-adverb:früh:0366",
+      "frequency_rank": 366,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 367,
+      "semantic_id": "de-DE:verb:treten:0367",
+      "frequency_rank": 367,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 368,
+      "semantic_id": "de-DE:verb:reden:0368",
+      "frequency_rank": 368,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 369,
+      "semantic_id": "de-DE:noun:Gruppe:0369",
+      "frequency_rank": 369,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 370,
+      "semantic_id": "de-DE:noun:Ding:0370",
+      "frequency_rank": 370,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 371,
+      "semantic_id": "de-DE:particle-interjection:na:0371",
+      "frequency_rank": 371,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 372,
+      "semantic_id": "de-DE:verb:gewinnen:0372",
+      "frequency_rank": 372,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 373,
+      "semantic_id": "de-DE:adverb:zunächst:0373",
+      "frequency_rank": 373,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 374,
+      "semantic_id": "de-DE:conjunction-pronominal-adverb:damit:0374",
+      "frequency_rank": 374,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 375,
+      "semantic_id": "de-DE:noun:Tür:0375",
+      "frequency_rank": 375,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 376,
+      "semantic_id": "de-DE:noun:Schritt:0376",
+      "frequency_rank": 376,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 377,
+      "semantic_id": "de-DE:verb:entwickeln:0377",
+      "frequency_rank": 377,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 378,
+      "semantic_id": "de-DE:adjective-pronoun:meiste:0378",
+      "frequency_rank": 378,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 379,
+      "semantic_id": "de-DE:noun:Möglichkeit:0379",
+      "frequency_rank": 379,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 380,
+      "semantic_id": "de-DE:noun:Sinn:0380",
+      "frequency_rank": 380,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 381,
+      "semantic_id": "de-DE:verb:passieren:0381",
+      "frequency_rank": 381,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 382,
+      "semantic_id": "de-DE:adverb:manchmal:0382",
+      "frequency_rank": 382,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 383,
+      "semantic_id": "de-DE:noun:Vergleich:0383",
+      "frequency_rank": 383,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 384,
+      "semantic_id": "de-DE:noun:System:0384",
+      "frequency_rank": 384,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 385,
+      "semantic_id": "de-DE:noun:Rolle:0385",
+      "frequency_rank": 385,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 386,
+      "semantic_id": "de-DE:noun:Ergebnis:0386",
+      "frequency_rank": 386,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 387,
+      "semantic_id": "de-DE:verb:vergleichen:0387",
+      "frequency_rank": 387,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 388,
+      "semantic_id": "de-DE:adjective-adverb:voll:0388",
+      "frequency_rank": 388,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 389,
+      "semantic_id": "de-DE:verb:erwarten:0389",
+      "frequency_rank": 389,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 390,
+      "semantic_id": "de-DE:subordinating-conjunction:obwohl:0390",
+      "frequency_rank": 390,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 391,
+      "semantic_id": "de-DE:noun:Straße:0391",
+      "frequency_rank": 391,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 392,
+      "semantic_id": "de-DE:noun:Angst:0392",
+      "frequency_rank": 392,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 393,
+      "semantic_id": "de-DE:adjective-adverb:allgemein:0393",
+      "frequency_rank": 393,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 394,
+      "semantic_id": "de-DE:verb:fühlen:0394",
+      "frequency_rank": 394,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 395,
+      "semantic_id": "de-DE:demonstrative-pronoun-determiner:jene (r, s):0395",
+      "frequency_rank": 395,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 396,
+      "semantic_id": "de-DE:verb:erinnern:0396",
+      "frequency_rank": 396,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 397,
+      "semantic_id": "de-DE:interjection:oh:0397",
+      "frequency_rank": 397,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 398,
+      "semantic_id": "de-DE:verb:bedeuten:0398",
+      "frequency_rank": 398,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 399,
+      "semantic_id": "de-DE:noun:Stimme:0399",
+      "frequency_rank": 399,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 400,
+      "semantic_id": "de-DE:noun:Reaktion:0400",
+      "frequency_rank": 400,
       "unit_id": null
     }
   ]
