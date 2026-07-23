@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "card_count": 700,
+  "card_count": 750,
   "active_units": [],
   "pending_units": [
     {
@@ -4387,6 +4387,306 @@
       "curriculum_order": 700,
       "semantic_id": "de-DE:verb:klingen:0700",
       "frequency_rank": 700,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 701,
+      "semantic_id": "de-DE:verb:lieben:0701",
+      "frequency_rank": 701,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 702,
+      "semantic_id": "de-DE:noun:Dame:0702",
+      "frequency_rank": 702,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 703,
+      "semantic_id": "de-DE:noun:Vorlesung:0703",
+      "frequency_rank": 703,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 704,
+      "semantic_id": "de-DE:verb:zählen:0704",
+      "frequency_rank": 704,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 705,
+      "semantic_id": "de-DE:adverb:meist:0705",
+      "frequency_rank": 705,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 706,
+      "semantic_id": "de-DE:adjective-adverb:dunkel:0706",
+      "frequency_rank": 706,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 707,
+      "semantic_id": "de-DE:proper-noun:Österreich:0707",
+      "frequency_rank": 707,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 708,
+      "semantic_id": "de-DE:noun:Modell:0708",
+      "frequency_rank": 708,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 709,
+      "semantic_id": "de-DE:noun:Bewegung:0709",
+      "frequency_rank": 709,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 710,
+      "semantic_id": "de-DE:adverb:unten:0710",
+      "frequency_rank": 710,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 711,
+      "semantic_id": "de-DE:noun:Mitte:0711",
+      "frequency_rank": 711,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 712,
+      "semantic_id": "de-DE:directional-adverb:hin:0712",
+      "frequency_rank": 712,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 713,
+      "semantic_id": "de-DE:preposition:aufgrund:0713",
+      "frequency_rank": 713,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 714,
+      "semantic_id": "de-DE:verb:beschäftigen:0714",
+      "frequency_rank": 714,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 715,
+      "semantic_id": "de-DE:adverb:zuvor:0715",
+      "frequency_rank": 715,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 716,
+      "semantic_id": "de-DE:reciprocal-adverb:miteinander:0716",
+      "frequency_rank": 716,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 717,
+      "semantic_id": "de-DE:adverb:dennoch:0717",
+      "frequency_rank": 717,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 718,
+      "semantic_id": "de-DE:verb:werfen:0718",
+      "frequency_rank": 718,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 719,
+      "semantic_id": "de-DE:noun:Angebot:0719",
+      "frequency_rank": 719,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 720,
+      "semantic_id": "de-DE:noun:Projekt:0720",
+      "frequency_rank": 720,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 721,
+      "semantic_id": "de-DE:verb:verkaufen:0721",
+      "frequency_rank": 721,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 722,
+      "semantic_id": "de-DE:verb:reagieren:0722",
+      "frequency_rank": 722,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 723,
+      "semantic_id": "de-DE:noun:Autor:0723",
+      "frequency_rank": 723,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 724,
+      "semantic_id": "de-DE:verb:kriegen:0724",
+      "frequency_rank": 724,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 725,
+      "semantic_id": "de-DE:adverb:zirka, ca.:0725",
+      "frequency_rank": 725,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 726,
+      "semantic_id": "de-DE:proper-noun:EU (Europäische Union):0726",
+      "frequency_rank": 726,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 727,
+      "semantic_id": "de-DE:noun:Größe:0727",
+      "frequency_rank": 727,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 728,
+      "semantic_id": "de-DE:adjective-adverb:hart:0728",
+      "frequency_rank": 728,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 729,
+      "semantic_id": "de-DE:adjective-adverb:offenbar:0729",
+      "frequency_rank": 729,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 730,
+      "semantic_id": "de-DE:noun:Bruder:0730",
+      "frequency_rank": 730,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 731,
+      "semantic_id": "de-DE:verb:beteiligen:0731",
+      "frequency_rank": 731,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 732,
+      "semantic_id": "de-DE:noun:Phase:0732",
+      "frequency_rank": 732,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 733,
+      "semantic_id": "de-DE:verb:angeben:0733",
+      "frequency_rank": 733,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 734,
+      "semantic_id": "de-DE:noun:Reise:0734",
+      "frequency_rank": 734,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 735,
+      "semantic_id": "de-DE:adjective-adverb:erfolgreich:0735",
+      "frequency_rank": 735,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 736,
+      "semantic_id": "de-DE:noun:Zustand:0736",
+      "frequency_rank": 736,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 737,
+      "semantic_id": "de-DE:adjective:wahr:0737",
+      "frequency_rank": 737,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 738,
+      "semantic_id": "de-DE:noun:Reihe:0738",
+      "frequency_rank": 738,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 739,
+      "semantic_id": "de-DE:noun:Natur:0739",
+      "frequency_rank": 739,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 740,
+      "semantic_id": "de-DE:verb:rechnen:0740",
+      "frequency_rank": 740,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 741,
+      "semantic_id": "de-DE:adjective-adverb-particle:bloß:0741",
+      "frequency_rank": 741,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 742,
+      "semantic_id": "de-DE:adjective-adverb:notwendig:0742",
+      "frequency_rank": 742,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 743,
+      "semantic_id": "de-DE:verb:entdecken:0743",
+      "frequency_rank": 743,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 744,
+      "semantic_id": "de-DE:verb:dauern:0744",
+      "frequency_rank": 744,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 745,
+      "semantic_id": "de-DE:adjective-adverb:wirtschaftlich:0745",
+      "frequency_rank": 745,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 746,
+      "semantic_id": "de-DE:adjective-adverb:privat:0746",
+      "frequency_rank": 746,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 747,
+      "semantic_id": "de-DE:adjective-adverb:modern:0747",
+      "frequency_rank": 747,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 748,
+      "semantic_id": "de-DE:noun:Haar:0748",
+      "frequency_rank": 748,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 749,
+      "semantic_id": "de-DE:adverb:deswegen:0749",
+      "frequency_rank": 749,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 750,
+      "semantic_id": "de-DE:verb:spüren:0750",
+      "frequency_rank": 750,
       "unit_id": null
     }
   ]
