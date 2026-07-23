@@ -1,21 +1,17 @@
 {
   "schema_version": 1,
-  "card_count": 250,
+  "card_count": 300,
   "active_units": [],
   "pending_units": [
     {
       "unit_id": "numbers-core",
       "title": "Core numbers",
-      "available": 3,
+      "available": 4,
       "required": 29,
       "missing": [
         {
           "label": "eins",
           "frequency_rank": 774
-        },
-        {
-          "label": "fünf",
-          "frequency_rank": 274
         },
         {
           "label": "sechs",
@@ -1707,6 +1703,306 @@
       "curriculum_order": 250,
       "semantic_id": "de-DE:noun:Kopf:0250",
       "frequency_rank": 250,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 251,
+      "semantic_id": "de-DE:verb:beginnen:0251",
+      "frequency_rank": 251,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 252,
+      "semantic_id": "de-DE:verb:laufen:0252",
+      "frequency_rank": 252,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 253,
+      "semantic_id": "de-DE:noun:Bild:0253",
+      "frequency_rank": 253,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 254,
+      "semantic_id": "de-DE:adjective:verschieden:0254",
+      "frequency_rank": 254,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 255,
+      "semantic_id": "de-DE:noun:Name:0255",
+      "frequency_rank": 255,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 256,
+      "semantic_id": "de-DE:noun:Aufgabe:0256",
+      "frequency_rank": 256,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 257,
+      "semantic_id": "de-DE:adjective-adverb:schwer:0257",
+      "frequency_rank": 257,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 258,
+      "semantic_id": "de-DE:verb:entsprechen:0258",
+      "frequency_rank": 258,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 259,
+      "semantic_id": "de-DE:verb:treffen:0259",
+      "frequency_rank": 259,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 260,
+      "semantic_id": "de-DE:noun:Art:0260",
+      "frequency_rank": 260,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 261,
+      "semantic_id": "de-DE:modal-adverb:wohl:0261",
+      "frequency_rank": 261,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 262,
+      "semantic_id": "de-DE:noun:Geschichte:0262",
+      "frequency_rank": 262,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 263,
+      "semantic_id": "de-DE:verb:erzählen:0263",
+      "frequency_rank": 263,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 264,
+      "semantic_id": "de-DE:verb:entstehen:0264",
+      "frequency_rank": 264,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 265,
+      "semantic_id": "de-DE:adjective-adverb:sicher:0265",
+      "frequency_rank": 265,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 266,
+      "semantic_id": "de-DE:preposition:neben:0266",
+      "frequency_rank": 266,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 267,
+      "semantic_id": "de-DE:adjective-adverb:allein, alleine:0267",
+      "frequency_rank": 267,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 268,
+      "semantic_id": "de-DE:noun:Abbildung, Abb.:0268",
+      "frequency_rank": 268,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 269,
+      "semantic_id": "de-DE:preposition:hinter:0269",
+      "frequency_rank": 269,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 270,
+      "semantic_id": "de-DE:adverb-adjective:besonders:0270",
+      "frequency_rank": 270,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 271,
+      "semantic_id": "de-DE:verb:tragen:0271",
+      "frequency_rank": 271,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 272,
+      "semantic_id": "de-DE:adverb:kaum:0272",
+      "frequency_rank": 272,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 273,
+      "semantic_id": "de-DE:noun:Freund:0273",
+      "frequency_rank": 273,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 274,
+      "semantic_id": "de-DE:cardinal-number:fünf:0274",
+      "frequency_rank": 274,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 275,
+      "semantic_id": "de-DE:verb:scheinen:0275",
+      "frequency_rank": 275,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 276,
+      "semantic_id": "de-DE:noun:Stunde:0276",
+      "frequency_rank": 276,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 277,
+      "semantic_id": "de-DE:separable-verb:aussehen:0277",
+      "frequency_rank": 277,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 278,
+      "semantic_id": "de-DE:adverb:gern, gerne:0278",
+      "frequency_rank": 278,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 279,
+      "semantic_id": "de-DE:adverb-focus-particle:überhaupt:0279",
+      "frequency_rank": 279,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 280,
+      "semantic_id": "de-DE:adjective-adverb:bestimmt:0280",
+      "frequency_rank": 280,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 281,
+      "semantic_id": "de-DE:conjunction:sowie:0281",
+      "frequency_rank": 281,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 282,
+      "semantic_id": "de-DE:noun:Professor:0282",
+      "frequency_rank": 282,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 283,
+      "semantic_id": "de-DE:pronominal-adverb:darüber, drüber:0283",
+      "frequency_rank": 283,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 284,
+      "semantic_id": "de-DE:relative-possessive-pronoun:deren:0284",
+      "frequency_rank": 284,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 285,
+      "semantic_id": "de-DE:verb:schaffen:0285",
+      "frequency_rank": 285,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 286,
+      "semantic_id": "de-DE:adverb:damals:0286",
+      "frequency_rank": 286,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 287,
+      "semantic_id": "de-DE:verb:erhalten:0287",
+      "frequency_rank": 287,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 288,
+      "semantic_id": "de-DE:verb:lernen:0288",
+      "frequency_rank": 288,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 289,
+      "semantic_id": "de-DE:adjective-adverb:frei:0289",
+      "frequency_rank": 289,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 290,
+      "semantic_id": "de-DE:noun:Wert:0290",
+      "frequency_rank": 290,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 291,
+      "semantic_id": "de-DE:conjunction-adverb:beziehungsweise, bzw.:0291",
+      "frequency_rank": 291,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 292,
+      "semantic_id": "de-DE:pronominal-adverb:daran, dran:0292",
+      "frequency_rank": 292,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 293,
+      "semantic_id": "de-DE:verb:suchen:0293",
+      "frequency_rank": 293,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 294,
+      "semantic_id": "de-DE:proper-noun:Europa:0294",
+      "frequency_rank": 294,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 295,
+      "semantic_id": "de-DE:adjective-adverb:gemeinsam:0295",
+      "frequency_rank": 295,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 296,
+      "semantic_id": "de-DE:adjective-adverb-preposition:rund:0296",
+      "frequency_rank": 296,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 297,
+      "semantic_id": "de-DE:noun:Zahl:0297",
+      "frequency_rank": 297,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 298,
+      "semantic_id": "de-DE:noun:Thema:0298",
+      "frequency_rank": 298,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 299,
+      "semantic_id": "de-DE:verb:handeln:0299",
+      "frequency_rank": 299,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 300,
+      "semantic_id": "de-DE:noun:Buch:0300",
+      "frequency_rank": 300,
       "unit_id": null
     }
   ]
