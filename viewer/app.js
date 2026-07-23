@@ -2,6 +2,49 @@ const state = { cards: [], index: 0, answer: false };
 const stage = document.querySelector('#card-stage');
 const picker = document.querySelector('#card-picker');
 const flip = document.querySelector('#flip');
+let activeAudio = null;
+
+const audioFiles = {
+  1: ['ga_word_der_e415f41056.mp3', 'ga_f0001_der_e415f41056.mp3'],
+  2: ['ga_word_und_2348896332.mp3', 'ga_f0002_und_2348896332.mp3'],
+  3: ['ga_word_in_23fd2ce263.mp3', 'ga_f0003_in_23fd2ce263.mp3'],
+  4: ['ga_word_sein_61000ca421.mp3', 'ga_f0004_sein_61000ca421.mp3'],
+  5: ['ga_word_ein_affbd2f8e3.mp3', 'ga_f0005_ein_affbd2f8e3.mp3'],
+  6: ['ga_word_haben_823cdecde0.mp3', 'ga_f0006_haben_823cdecde0.mp3'],
+  7: ['ga_word_sie_a5100c5842.mp3', 'ga_f0007_sie_a5100c5842.mp3'],
+  8: ['ga_word_werden_7a556b200f.mp3', 'ga_f0008_werden_7a556b200f.mp3'],
+  9: ['ga_word_von_1838a59c44.mp3', 'ga_f0009_von_1838a59c44.mp3'],
+  10: ['ga_word_ich_081fa3de4a.mp3', 'ga_f0010_ich_081fa3de4a.mp3'],
+};
+
+function playAudio(filename, speed = 1) {
+  if (activeAudio) {
+    activeAudio.pause();
+    activeAudio.currentTime = 0;
+  }
+  activeAudio = new Audio(`../data/audio/test-v7-first-10/${filename}`);
+  activeAudio.playbackRate = speed;
+  activeAudio.play();
+}
+
+function configureAudio(card) {
+  const files = audioFiles[card.frequency_rank];
+  const unavailable = stage.querySelector('.audio-unavailable');
+  if (!files) return;
+  unavailable.hidden = true;
+  const [wordFile, sentenceFile] = files;
+  const wordButton = stage.querySelector('.word-audio');
+  const sentenceButton = stage.querySelector('.sentence-audio');
+  const speedControls = stage.querySelector('.web-speed-controls');
+  wordButton.hidden = false;
+  sentenceButton.hidden = false;
+  speedControls.hidden = false;
+  wordButton.addEventListener('click', () => playAudio(wordFile));
+  sentenceButton.addEventListener('click', () => playAudio(sentenceFile));
+  speedControls.querySelectorAll('button').forEach((button) => {
+    button.addEventListener('click', () => playAudio(sentenceFile, Number(button.dataset.speed)));
+  });
+}
 
 function valueText(value) {
   if (typeof value === 'string') return value;
@@ -19,6 +62,7 @@ function render() {
   const template = document.querySelector(state.answer ? '#back-template' : '#front-template');
   stage.replaceChildren(template.content.cloneNode(true));
   stage.querySelector('.target').textContent = card.target;
+  configureAudio(card);
   if (state.answer) {
     stage.querySelector('.part-of-speech').textContent = card.part_of_speech;
     stage.querySelector('.meaning').textContent = card.meaning;
@@ -61,6 +105,9 @@ async function start() {
     '../data/canonical/frequency-0001-0010.jsonl',
     '../data/canonical/frequency-0011-0050.jsonl',
     '../data/canonical/frequency-0051-0200.jsonl',
+    '../data/canonical/frequency-0201-0500.jsonl',
+    '../data/canonical/frequency-0501-1000.jsonl',
+    '../data/canonical/frequency-1001-1500.jsonl',
   ];
   const orderPath = '../data/curriculum/current-order.json';
   const [responses, orderResponse] = await Promise.all([

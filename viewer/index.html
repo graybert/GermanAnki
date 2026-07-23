@@ -36,8 +36,20 @@
 
   <template id="front-template">
     <main class="note" lang="de">
-      <section class="target-block"><div class="target"></div></section>
-      <section class="audio-row muted-audio" aria-label="Audio unavailable"><span>Audio not added yet</span></section>
+      <section class="target-block">
+        <div class="target"></div>
+        <button class="web-audio word-audio" type="button" hidden>▶ Word</button>
+      </section>
+      <section class="audio-row web-audio-row" aria-label="German sentence audio">
+        <button class="web-audio sentence-audio" type="button" hidden>▶ Sentence</button>
+        <div class="web-speed-controls" hidden>
+          <span>Slow:</span>
+          <button type="button" data-speed="0.5">0.5×</button>
+          <button type="button" data-speed="0.6">0.6×</button>
+          <button type="button" data-speed="0.7">0.7×</button>
+        </div>
+        <span class="audio-unavailable">Audio is currently available on cards 1–10</span>
+      </section>
     </main>
   </template>
 
@@ -45,7 +57,18 @@
     <main class="note answer" lang="de">
       <section class="target-block compact">
         <div class="target"></div>
+        <button class="web-audio word-audio" type="button" hidden>▶ Word</button>
         <div class="part-of-speech"></div>
+      </section>
+      <section class="audio-row web-audio-row" aria-label="German sentence audio">
+        <button class="web-audio sentence-audio" type="button" hidden>▶ Sentence</button>
+        <div class="web-speed-controls" hidden>
+          <span>Slow:</span>
+          <button type="button" data-speed="0.5">0.5×</button>
+          <button type="button" data-speed="0.6">0.6×</button>
+          <button type="button" data-speed="0.7">0.7×</button>
+        </div>
+        <span class="audio-unavailable">Audio is currently available on cards 1–10</span>
       </section>
       <details class="reveal meaning-reveal">
         <summary>Show meaning</summary>

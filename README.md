@@ -6,7 +6,8 @@ test deck contains paid dual-voice word and sentence audio for ranks 1–10.
 
 Try the public browser demo at
 [graybert.github.io/GermanAnki](https://graybert.github.io/GermanAnki/).
-The landing page also offers an importable 10-card `.apkg` test deck.
+The landing page offers both an importable 1,250-card text deck and the
+isolated 10-card `.apkg` audio test deck.
 
 Open `prototype/card-preview.html` to review the proposed front, back, light,
 dark, desktop, and mobile layouts. The Anki-native templates are in

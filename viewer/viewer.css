@@ -15,7 +15,20 @@ button, select { font: inherit; }
 .review-meta { display: flex; justify-content: space-between; padding: 0 6px 10px; }
 .card-stage { min-height: 650px; border-radius: 28px; }
 .card-stage .note { min-height: 600px; }
-.muted-audio { color: var(--muted); font-size: .72rem; letter-spacing: .08em; text-transform: uppercase; }
+.web-audio-row { flex-wrap: wrap; gap: 10px; }
+.web-audio, .web-speed-controls button {
+  padding: 8px 12px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--accent);
+  cursor: pointer;
+  font-weight: 700;
+}
+.target-block .word-audio { margin-top: 12px; font-size: .78rem; }
+.web-speed-controls { display: flex; align-items: center; gap: 6px; color: var(--muted); font-size: .75rem; }
+.web-speed-controls button { padding: 6px 9px; font-size: .75rem; }
+.audio-unavailable { color: var(--muted); font-size: .72rem; letter-spacing: .04em; }
 .part-of-speech { margin-top: 9px; color: var(--muted); font-size: .82rem; text-transform: capitalize; }
 .review-actions { display: flex; align-items: center; justify-content: center; gap: 18px; margin-top: 16px; }
 .flip-button { min-width: 180px; padding: 13px 22px; border: 0; border-radius: 12px; background: #9f2f2f; color: white; cursor: pointer; font-weight: 750; box-shadow: 0 6px 18px rgba(100, 22, 22, .2); }
