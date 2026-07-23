@@ -1,25 +1,17 @@
 {
   "schema_version": 1,
-  "card_count": 600,
+  "card_count": 650,
   "active_units": [],
   "pending_units": [
     {
       "unit_id": "numbers-core",
       "title": "Core numbers",
-      "available": 6,
+      "available": 8,
       "required": 29,
       "missing": [
         {
           "label": "eins",
           "frequency_rank": 774
-        },
-        {
-          "label": "sieben",
-          "frequency_rank": 611
-        },
-        {
-          "label": "acht",
-          "frequency_rank": 645
         },
         {
           "label": "neun",
@@ -3795,6 +3787,306 @@
       "curriculum_order": 600,
       "semantic_id": "de-DE:verb:studieren:0600",
       "frequency_rank": 600,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 601,
+      "semantic_id": "de-DE:verb:gefallen:0601",
+      "frequency_rank": 601,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 602,
+      "semantic_id": "de-DE:noun:Mädchen:0602",
+      "frequency_rank": 602,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 603,
+      "semantic_id": "de-DE:verb-adjective:verhalten:0603",
+      "frequency_rank": 603,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 604,
+      "semantic_id": "de-DE:adverb:mindestens:0604",
+      "frequency_rank": 604,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 605,
+      "semantic_id": "de-DE:adverb:ziemlich:0605",
+      "frequency_rank": 605,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 606,
+      "semantic_id": "de-DE:noun:Interesse:0606",
+      "frequency_rank": 606,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 607,
+      "semantic_id": "de-DE:verb:unterscheiden:0607",
+      "frequency_rank": 607,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 608,
+      "semantic_id": "de-DE:pronominal-adverb-conjunction:wobei:0608",
+      "frequency_rank": 608,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 609,
+      "semantic_id": "de-DE:adverb:jeweils:0609",
+      "frequency_rank": 609,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 610,
+      "semantic_id": "de-DE:verb:reichen:0610",
+      "frequency_rank": 610,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 611,
+      "semantic_id": "de-DE:numeral:sieben:0611",
+      "frequency_rank": 611,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 612,
+      "semantic_id": "de-DE:adverb:zumindest:0612",
+      "frequency_rank": 612,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 613,
+      "semantic_id": "de-DE:verb:schlagen:0613",
+      "frequency_rank": 613,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 614,
+      "semantic_id": "de-DE:noun:Tier:0614",
+      "frequency_rank": 614,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 615,
+      "semantic_id": "de-DE:adverb:jedenfalls:0615",
+      "frequency_rank": 615,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 616,
+      "semantic_id": "de-DE:contraction:am:0616",
+      "frequency_rank": 616,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 617,
+      "semantic_id": "de-DE:verb:erhöhen:0617",
+      "frequency_rank": 617,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 618,
+      "semantic_id": "de-DE:verb:sorgen:0618",
+      "frequency_rank": 618,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 619,
+      "semantic_id": "de-DE:noun:Erfahrung:0619",
+      "frequency_rank": 619,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 620,
+      "semantic_id": "de-DE:noun:Patient:0620",
+      "frequency_rank": 620,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 621,
+      "semantic_id": "de-DE:noun-adverb:Morgen:0621",
+      "frequency_rank": 621,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 622,
+      "semantic_id": "de-DE:noun:Arzt:0622",
+      "frequency_rank": 622,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 623,
+      "semantic_id": "de-DE:verb:geschehen:0623",
+      "frequency_rank": 623,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 624,
+      "semantic_id": "de-DE:proper-noun:Bayern:0624",
+      "frequency_rank": 624,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 625,
+      "semantic_id": "de-DE:verb:lösen:0625",
+      "frequency_rank": 625,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 626,
+      "semantic_id": "de-DE:adverb:irgendwie:0626",
+      "frequency_rank": 626,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 627,
+      "semantic_id": "de-DE:verb:anbieten:0627",
+      "frequency_rank": 627,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 628,
+      "semantic_id": "de-DE:verb:vorkommen:0628",
+      "frequency_rank": 628,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 629,
+      "semantic_id": "de-DE:adjective-adverb-interjection:okay:0629",
+      "frequency_rank": 629,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 630,
+      "semantic_id": "de-DE:verb:wünschen:0630",
+      "frequency_rank": 630,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 631,
+      "semantic_id": "de-DE:verb:interessieren:0631",
+      "frequency_rank": 631,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 632,
+      "semantic_id": "de-DE:noun:Unterschied:0632",
+      "frequency_rank": 632,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 633,
+      "semantic_id": "de-DE:noun:Foto:0633",
+      "frequency_rank": 633,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 634,
+      "semantic_id": "de-DE:verb:trinken:0634",
+      "frequency_rank": 634,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 635,
+      "semantic_id": "de-DE:demonstrative-pronoun-determiner:derselbe, dieselbe, dasselbe:0635",
+      "frequency_rank": 635,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 636,
+      "semantic_id": "de-DE:verb:wählen:0636",
+      "frequency_rank": 636,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 637,
+      "semantic_id": "de-DE:adjective-adverb:gleichzeitig:0637",
+      "frequency_rank": 637,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 638,
+      "semantic_id": "de-DE:adjective-adverb:knapp:0638",
+      "frequency_rank": 638,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 639,
+      "semantic_id": "de-DE:noun:Mitarbeiter:0639",
+      "frequency_rank": 639,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 640,
+      "semantic_id": "de-DE:verb:übernehmen:0640",
+      "frequency_rank": 640,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 641,
+      "semantic_id": "de-DE:noun:Glück:0641",
+      "frequency_rank": 641,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 642,
+      "semantic_id": "de-DE:adjective-adverb:normal:0642",
+      "frequency_rank": 642,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 643,
+      "semantic_id": "de-DE:adverb:leider:0643",
+      "frequency_rank": 643,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 644,
+      "semantic_id": "de-DE:noun:Grundlage:0644",
+      "frequency_rank": 644,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 645,
+      "semantic_id": "de-DE:numeral:acht:0645",
+      "frequency_rank": 645,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 646,
+      "semantic_id": "de-DE:noun:Leistung:0646",
+      "frequency_rank": 646,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 647,
+      "semantic_id": "de-DE:verb:vorliegen:0647",
+      "frequency_rank": 647,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 648,
+      "semantic_id": "de-DE:verb:erfolgen:0648",
+      "frequency_rank": 648,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 649,
+      "semantic_id": "de-DE:noun:Beziehung:0649",
+      "frequency_rank": 649,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 650,
+      "semantic_id": "de-DE:verb:zunehmen:0650",
+      "frequency_rank": 650,
       "unit_id": null
     }
   ]
