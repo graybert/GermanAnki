@@ -1,10 +1,14 @@
 <main class="note answer" lang="de">
   <section class="target-block compact">
-    <div class="target">{{Target}}</div>
+    <div class="target-line">
+      <div class="target">{{Target}}</div>
+      {{#WordAudio}}<span class="audio-control word-audio" title="Play word">{{WordAudio}}</span>{{/WordAudio}}
+    </div>
   </section>
 
   {{#SentenceAudio}}
   <section class="audio-row" aria-label="Replay German sentence audio">
+    <span class="audio-caption">Example sentence</span>
     <span class="audio-control">{{SentenceAudio}}</span>
   </section>
   {{/SentenceAudio}}

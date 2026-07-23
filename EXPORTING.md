@@ -2,7 +2,7 @@
 
 The current test artifact is:
 
-`dist/German-Core-Test-V4-10-Cards.apkg`
+`dist/German-Core-Audio-Test-V5-10-Cards.apkg`
 
 It contains one German-to-English recognition card for each frequency rank from
 1 through 10. Import it by double-clicking the file or using **File → Import**
@@ -14,8 +14,11 @@ but not imported directly into the AnkiWeb website.
 ```powershell
 python -m pip install --target .deps -r requirements-export.txt
 python tools/build_curriculum_order.py
-python tools/export_anki.py
-python tools/validate_apkg.py dist/German-Core-Test-V4-10-Cards.apkg --expected-notes 10
+python tools/export_anki.py --audio-dir data\audio\demo-v5
+python tools/validate_apkg.py dist/German-Core-Audio-Test-V5-10-Cards.apkg `
+  --expected-notes 10 `
+  --expected-deck "German Core Audio Test V5 - 10 Cards" `
+  --required-rendered-text "GERMAN CORE AUDIO TEST V5"
 ```
 
 The pinned exporter dependencies are installed into the ignored `.deps/`
@@ -29,12 +32,12 @@ the repository.
 - Note GUID: deterministically derived from each canonical `semantic_id`
 - New-card due order: generated `curriculum_order`
 
-Release V4 of the isolated 10-card test uses deck ID `2053940119`, model ID
-`1603739215`, and `test-V4:`-namespaced note GUIDs. This deliberately allows it
+Release V5 of the isolated 10-card audio test uses deck ID `2053940120`, model
+ID `1603739216`, and `test-V5:`-namespaced note GUIDs. This deliberately allows it
 to coexist with earlier tests and makes a successful new import obvious. The
 production values above must remain stable. Rebuilding a production note with the same semantic ID
 therefore preserves its note identity for later package imports. The note type
-contains these 16 fields:
+contains these 17 fields:
 
 1. `SemanticID`
 2. `CurriculumOrder`
@@ -48,10 +51,11 @@ contains these 16 fields:
 10. `ExtraExamples`
 11. `Forms`
 12. `UsageNote`
-13. `SentenceAudio`
-14. `Register`
-15. `Variety`
-16. `TextStatus`
+13. `WordAudio`
+14. `SentenceAudio`
+15. `Register`
+16. `Variety`
+17. `TextStatus`
 
 Frequency rank remains metadata and is not used on the visible card template.
 Do not rename, remove, or reorder fields casually: Anki may be unable to update
@@ -74,11 +78,12 @@ When audio exists, pass its directory to the exporter:
 python tools/export_anki.py --audio-dir path\to\approved-mp3
 ```
 
-The exporter includes any correctly named MP3 and places
-`[sound:filename.mp3]` directly in `SentenceAudio`, which is Anki's supported
-media-reference pattern. Use `--require-audio` for a release build that must
-fail if any selected card lacks approved audio. With no audio directory, the
-field stays empty and the conditional audio controls remain hidden.
+The exporter includes correctly named word and sentence MP3s and places Anki
+sound references in `WordAudio` and `SentenceAudio`. Their front-template order
+queues the word before the sentence when Anki autoplay is enabled, and Anki
+provides replay controls on both sides. Use `--require-audio` for a release
+build that must fail if any selected card lacks sentence audio. Missing fields
+stay empty and their conditional controls remain hidden.
 
 ## Expanding the package
 

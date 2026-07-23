@@ -28,6 +28,7 @@ def main() -> None:
         sentence = card["german_sentence"]
         records.append({
             "schema_version": 1,
+            "audio_kind": "main_sentence",
             "semantic_id": card["semantic_id"],
             "frequency_rank": card["frequency_rank"],
             "curriculum_order": order[card["semantic_id"]],

@@ -3,12 +3,12 @@
 `tools/export_anki.py` now turns canonical frequency cards into an Anki package
 with a stable deck ID, note-model ID, semantic-ID-derived note GUIDs, generated
 curriculum due order, and the existing native templates and CSS. The first
-verified replacement is `dist/German-Core-Test-V4-10-Cards.apkg`.
+latest replacement is `dist/German-Core-Audio-Test-V5-10-Cards.apkg`.
 
 The package contains 10 notes and 10 German-to-English recognition cards for
-ranks 1–10. It contains one note model with 16 fields, including hidden identity,
-ordering, rank, status, and future `SentenceAudio` metadata. The package has no
-scheduling history and currently contains no media.
+ranks 1–10. V5 contains one note model with 17 fields, including separate
+`WordAudio` and `SentenceAudio` fields. Rank 1 contains two demonstration audio
+files; the other nine cards intentionally remain silent.
 
 `tools/validate_apkg.py` performs a real import into a disposable collection
 using Anki's current backend. It checks note/card counts, import warnings, field

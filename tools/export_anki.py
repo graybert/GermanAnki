@@ -27,11 +27,11 @@ except ImportError as exc:  # pragma: no cover - exercised only without dependen
 MODEL_ID = 1_603_739_214
 DECK_ID = 2_053_940_118
 MODEL_NAME = "German Core Recognition v1"
-TEST_MODEL_ID = 1_603_739_215
-TEST_DECK_ID = 2_053_940_119
-TEST_RELEASE = "V4"
-DECK_NAME = "German Core Test V4 - 10 Cards"
-DEFAULT_OUTPUT = ROOT / "dist" / "German-Core-Test-V4-10-Cards.apkg"
+TEST_MODEL_ID = 1_603_739_216
+TEST_DECK_ID = 2_053_940_120
+TEST_RELEASE = "V5"
+DECK_NAME = "German Core Audio Test V5 - 10 Cards"
+DEFAULT_OUTPUT = ROOT / "dist" / "German-Core-Audio-Test-V5-10-Cards.apkg"
 FIELD_NAMES = [
     "SemanticID",
     "CurriculumOrder",
@@ -45,6 +45,7 @@ FIELD_NAMES = [
     "ExtraExamples",
     "Forms",
     "UsageNote",
+    "WordAudio",
     "SentenceAudio",
     "Register",
     "Variety",
@@ -114,6 +115,12 @@ def audio_filename(card: dict) -> str:
     return f"ga_{rank_part}_{target_slug}_{digest}.mp3"
 
 
+def word_audio_filename(card: dict) -> str:
+    target_slug = re.sub(r"[^a-z0-9]+", "-", card["target"].casefold()).strip("-")
+    digest = hashlib.sha256(card["semantic_id"].encode("utf-8")).hexdigest()[:10]
+    return f"ga_word_{target_slug}_{digest}.mp3"
+
+
 def build_model(is_test_release: bool = False) -> genanki.Model:
     front = (ROOT / "prototype" / "anki" / "front.html").read_text(encoding="utf-8")
     back = (ROOT / "prototype" / "anki" / "back.html").read_text(encoding="utf-8")
@@ -123,7 +130,7 @@ def build_model(is_test_release: bool = False) -> genanki.Model:
             '<div style="margin:0 auto 12px;padding:6px 10px;max-width:220px;'
             'border-radius:999px;background:#7c3aed;color:white;font:700 12px '
             'sans-serif;letter-spacing:.08em;text-align:center">'
-            "GERMAN CORE TEST V4</div>"
+            f"GERMAN CORE AUDIO TEST {TEST_RELEASE}</div>"
         )
         front = marker + front
         back = marker + back
@@ -148,15 +155,24 @@ def field_values(
     media_files: list[str],
     require_audio: bool,
 ) -> list[str]:
-    filename = audio_filename(card)
-    audio_path = audio_dir / filename if audio_dir else None
-    if audio_path and audio_path.is_file():
-        media_files.append(str(audio_path))
-        sentence_audio = f"[sound:{filename}]"
+    sentence_filename = audio_filename(card)
+    word_filename = word_audio_filename(card)
+    sentence_path = audio_dir / sentence_filename if audio_dir else None
+    word_path = audio_dir / word_filename if audio_dir else None
+    if sentence_path and sentence_path.is_file():
+        media_files.append(str(sentence_path))
+        sentence_audio = f"[sound:{sentence_filename}]"
     else:
         sentence_audio = ""
         if require_audio:
-            raise FileNotFoundError(f"Missing audio for {card['semantic_id']}: {filename}")
+            raise FileNotFoundError(
+                f"Missing sentence audio for {card['semantic_id']}: {sentence_filename}"
+            )
+    if word_path and word_path.is_file():
+        media_files.append(str(word_path))
+        word_audio = f"[sound:{word_filename}]"
+    else:
+        word_audio = ""
     values = {
         "SemanticID": card["semantic_id"],
         "CurriculumOrder": f"{curriculum_order:06}",
@@ -170,6 +186,7 @@ def field_values(
         "ExtraExamples": render_extra_examples(card["extra_examples"]),
         "Forms": render_forms(card["forms"]),
         "UsageNote": html.escape(card["usage_note"]),
+        "WordAudio": word_audio,
         "SentenceAudio": sentence_audio,
         "Register": html.escape(card["register"]),
         "Variety": html.escape(card["variety"]),
@@ -219,7 +236,7 @@ def export(
             ),
             tags=[
                 "GermanCore",
-                *(["release::v4"] if is_test_release else []),
+                *([f"release::{TEST_RELEASE.casefold()}"] if is_test_release else []),
                 "source::frequency",
                 f"rank::{card['frequency_rank']:04}",
                 "status::draft",

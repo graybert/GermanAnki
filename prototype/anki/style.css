@@ -48,6 +48,16 @@
   line-height: 1;
   overflow-wrap: anywhere;
 }
+.target-line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+}
+.word-audio {
+  display: inline-flex;
+  flex: 0 0 auto;
+}
 .answer .target { font-size: clamp(2.5rem, 10vw, 4.25rem); }
 .target-meta { display: none; }
 
@@ -62,6 +72,13 @@
 }
 .audio-label { display: none; }
 .audio-control .replay-button svg { width: 34px; height: 34px; }
+.audio-caption {
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
 
 .sentence-block {
   margin: 22px 0 14px;
