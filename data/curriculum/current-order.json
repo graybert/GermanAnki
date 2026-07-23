@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "card_count": 550,
+  "card_count": 600,
   "active_units": [],
   "pending_units": [
     {
@@ -3495,6 +3495,306 @@
       "curriculum_order": 550,
       "semantic_id": "de-DE:noun:Polizei:0550",
       "frequency_rank": 550,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 551,
+      "semantic_id": "de-DE:noun:Chance:0551",
+      "frequency_rank": 551,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 552,
+      "semantic_id": "de-DE:adjective-adverb-pronoun:gewiss:0552",
+      "frequency_rank": 552,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 553,
+      "semantic_id": "de-DE:preposition-adverb:innerhalb:0553",
+      "frequency_rank": 553,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 554,
+      "semantic_id": "de-DE:noun:Kunst:0554",
+      "frequency_rank": 554,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 555,
+      "semantic_id": "de-DE:noun:Lage:0555",
+      "frequency_rank": 555,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 556,
+      "semantic_id": "de-DE:noun:Schüler:0556",
+      "frequency_rank": 556,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 557,
+      "semantic_id": "de-DE:adjective:gesamt:0557",
+      "frequency_rank": 557,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 558,
+      "semantic_id": "de-DE:noun:Druck:0558",
+      "frequency_rank": 558,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 559,
+      "semantic_id": "de-DE:verb:verschwinden:0559",
+      "frequency_rank": 559,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 560,
+      "semantic_id": "de-DE:verb:wohnen:0560",
+      "frequency_rank": 560,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 561,
+      "semantic_id": "de-DE:verb:bewegen:0561",
+      "frequency_rank": 561,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 562,
+      "semantic_id": "de-DE:verb:enthalten:0562",
+      "frequency_rank": 562,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 563,
+      "semantic_id": "de-DE:verb:aufnehmen:0563",
+      "frequency_rank": 563,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 564,
+      "semantic_id": "de-DE:plural-noun:Kosten:0564",
+      "frequency_rank": 564,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 565,
+      "semantic_id": "de-DE:noun:Wintersemester:0565",
+      "frequency_rank": 565,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 566,
+      "semantic_id": "de-DE:verb:merken:0566",
+      "frequency_rank": 566,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 567,
+      "semantic_id": "de-DE:adjective-adverb:fest:0567",
+      "frequency_rank": 567,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 568,
+      "semantic_id": "de-DE:adjective-adverb:aktuell:0568",
+      "frequency_rank": 568,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 569,
+      "semantic_id": "de-DE:noun:Begriff:0569",
+      "frequency_rank": 569,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 570,
+      "semantic_id": "de-DE:verb:erleben:0570",
+      "frequency_rank": 570,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 571,
+      "semantic_id": "de-DE:adjective-adverb:relativ:0571",
+      "frequency_rank": 571,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 572,
+      "semantic_id": "de-DE:preposition:laut:0572",
+      "frequency_rank": 572,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 573,
+      "semantic_id": "de-DE:noun:Fuß:0573",
+      "frequency_rank": 573,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 574,
+      "semantic_id": "de-DE:plural-noun:Daten:0574",
+      "frequency_rank": 574,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 575,
+      "semantic_id": "de-DE:noun:Krieg:0575",
+      "frequency_rank": 575,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 576,
+      "semantic_id": "de-DE:noun:Gast:0576",
+      "frequency_rank": 576,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 577,
+      "semantic_id": "de-DE:noun:Aussage:0577",
+      "frequency_rank": 577,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 578,
+      "semantic_id": "de-DE:noun:Gesetz:0578",
+      "frequency_rank": 578,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 579,
+      "semantic_id": "de-DE:verb:planen:0579",
+      "frequency_rank": 579,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 580,
+      "semantic_id": "de-DE:adjective-adverb:schwierig:0580",
+      "frequency_rank": 580,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 581,
+      "semantic_id": "de-DE:noun:Gut:0581",
+      "frequency_rank": 581,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 582,
+      "semantic_id": "de-DE:noun:Kilometer:0582",
+      "frequency_rank": 582,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 583,
+      "semantic_id": "de-DE:adjective-adverb:zusätzlich:0583",
+      "frequency_rank": 583,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 584,
+      "semantic_id": "de-DE:verb:vergessen:0584",
+      "frequency_rank": 584,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 585,
+      "semantic_id": "de-DE:noun:Gedanke:0585",
+      "frequency_rank": 585,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 586,
+      "semantic_id": "de-DE:verb:besitzen:0586",
+      "frequency_rank": 586,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 587,
+      "semantic_id": "de-DE:interjection-particle:ach:0587",
+      "frequency_rank": 587,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 588,
+      "semantic_id": "de-DE:noun:Partei:0588",
+      "frequency_rank": 588,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 589,
+      "semantic_id": "de-DE:verb:freuen:0589",
+      "frequency_rank": 589,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 590,
+      "semantic_id": "de-DE:verb:hängen:0590",
+      "frequency_rank": 590,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 591,
+      "semantic_id": "de-DE:verb:berichten:0591",
+      "frequency_rank": 591,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 592,
+      "semantic_id": "de-DE:noun:Zelle:0592",
+      "frequency_rank": 592,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 593,
+      "semantic_id": "de-DE:adjective-adverb:eng:0593",
+      "frequency_rank": 593,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 594,
+      "semantic_id": "de-DE:noun:Kultur:0594",
+      "frequency_rank": 594,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 595,
+      "semantic_id": "de-DE:noun:Prozess:0595",
+      "frequency_rank": 595,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 596,
+      "semantic_id": "de-DE:noun:Sohn:0596",
+      "frequency_rank": 596,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 597,
+      "semantic_id": "de-DE:noun-preposition:Dank:0597",
+      "frequency_rank": 597,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 598,
+      "semantic_id": "de-DE:preposition:trotz:0598",
+      "frequency_rank": 598,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 599,
+      "semantic_id": "de-DE:verb:fordern:0599",
+      "frequency_rank": 599,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 600,
+      "semantic_id": "de-DE:verb:studieren:0600",
+      "frequency_rank": 600,
       "unit_id": null
     }
   ]
