@@ -4,6 +4,9 @@ This repository contains a complete formatting prototype plus the first 50
 fully developed draft cards from a 500-word frequency curriculum. No paid audio
 has been generated.
 
+Try the public browser demo at
+[graybert.github.io/GermanAnki](https://graybert.github.io/GermanAnki/).
+
 Open `prototype/card-preview.html` to review the proposed front, back, light,
 dark, desktop, and mobile layouts. The Anki-native templates are in
 `prototype/anki/` and the sole prototype note is in

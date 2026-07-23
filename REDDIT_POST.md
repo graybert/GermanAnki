@@ -16,7 +16,7 @@ additional examples to make each card genuinely useful.
 I have completed the first 50 draft cards and made a browser-based demo, so you
 do **not** need Anki or have to download anything:
 
-**Demo:** [PASTE YOUR GITHUB PAGES LINK HERE]
+**Demo:** https://graybert.github.io/GermanAnki/
 
 Each card currently includes:
 
@@ -55,4 +55,3 @@ Please feel free to be critical. I would much rather correct the structure at 50
 cards than discover a fundamental problem after making 6,000.
 
 Thanks!
-

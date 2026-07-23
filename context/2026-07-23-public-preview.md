@@ -9,6 +9,10 @@ the AI-assisted workflow, independent authorship, planned audio experiment, and
 the specific linguistic and pedagogical questions on which feedback is needed.
 `GITHUB_PAGES.md` records the one-time Pages setup and expected public URL.
 
+The repository was made public and GitHub Pages was configured to use GitHub
+Actions. The expected demo URL was added to the README and Reddit draft; the
+resulting push triggers the first deployment.
+
 The repository was initialized independently so it cannot accidentally commit
 into the unrelated parent repository. Proprietary source materials and the
 locally extracted frequency-source dataset are excluded from Git. From this

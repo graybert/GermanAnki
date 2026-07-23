@@ -119,9 +119,9 @@ For every material change:
 
 ## Next action
 
-Enable GitHub Pages through GitHub Actions, add the deployed URL to
-`REDDIT_POST.md`, and request community review. Review ranks 1–50 in the local
-viewer and revise or lock the text. Run
+Confirm the GitHub Pages deployment at `https://graybert.github.io/GermanAnki/`
+and request community review using `REDDIT_POST.md`. Review ranks 1–50 in the
+local viewer and revise or lock the text. Run
 `python tools/validate_cards.py` after every change; never reuse a full German
 sentence. After the text pattern is approved, test audio on a small sample
 before selecting a deck-wide TTS pipeline.
