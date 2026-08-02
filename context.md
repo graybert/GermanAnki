@@ -1,11 +1,11 @@
 # German Core Deck — Current Context
 
-Last updated: 2026-07-23 (America/Los_Angeles)
+Last updated: 2026-08-01 (America/Los_Angeles)
 
 ## Purpose
 
 Build a reproducible, text-first local pipeline for an independently authored,
-approximately 6,000-note German Anki course inspired only by the pedagogical
+5,009-note German Anki course inspired only by the pedagogical
 structure of Japanese Core 2k/6k. The intended learner is a native English
 speaker with roughly 100–200 known German words. Public-release licensing,
 stable identities, staged approval, auditability, and current Anki compatibility
@@ -17,15 +17,26 @@ new conversation can resume without relying on chat history.
 
 ## Current stage
 
-The **first 200 frequency cards** have been independently authored as complete
-text-only drafts, alongside the earlier `wer` prototype. All 5,009 continuous
-ranks and headwords have been extracted as local curriculum metadata. A
-corpus-wide validator rejects duplicate German sentences and now enforces
-continuous unique ranks, complete translations, and three extra examples per
-frequency card. Audio and paid APIs remain out of scope.
+The **first 1,250 frequency cards** have been independently authored as complete
+drafts, alongside the earlier `wer` prototype. All 5,009 continuous ranks and
+headwords have been extracted as local curriculum metadata. A fresh extraction
+on 2026-08-01 matched the saved 5,009 source rows exactly; canonical ranks
+1–1,250 are continuous and in source order. Twelve learner-facing targets
+normalize source labels containing variants or inflection shorthand, without
+changing their ranks.
+The hidden `source_headword` field is checked against the extracted row on every
+validation run, so later edits cannot silently drift from the official order.
 
-A public-preview landing page, continuous 200-card browser demo, GitHub Pages
-deployment workflow, and draft r/German feedback post are ready. Repository
+A corpus-wide validator rejects duplicate German sentences and enforces
+continuous unique ranks, complete translations, exactly three extra examples,
+a 20-word ceiling, and at least two context-rich 9–20-word examples per card.
+The current corpus has 5,000 unique German examples for the 1,250 frequency
+cards. Deterministic enrichment preserves useful short phrases and adds varied
+context only where a card lacks two longer examples.
+
+A public-preview landing page, continuous 1,250-card browser demo, validated
+1,250-card text `.apkg`, 10-card dual-voice audio `.apkg`, and GitHub Pages
+deployment workflow are live. Repository
 changes should now be committed after each completed change and pushed whenever
 a remote is available.
 
@@ -33,6 +44,30 @@ Deterministic curriculum bundles are defined for core numbers, weekdays, and
 months. A generated curriculum-order artifact leaves a unit pending until every
 member has a canonical card, then moves the complete unit after its configured
 anchor without changing frequency metadata.
+
+## Sentence design policy
+
+- Knowing the headword is sufficient to grade the recognition card; the main
+  sentence is the backbone for acquiring grammar and natural usage over time.
+- Preserve genuinely common short utterances such as greetings, warnings, and
+  fixed phrases. Do not lengthen sentences merely to hit a uniform average.
+- Keep German examples at 20 words or fewer and give every card at least two
+  examples of 9–20 words. These may be the main sentence, extra examples, or one
+  of each.
+- Vary person, tense, mood, clause structure, dialogue, narration, and register.
+  Draw settings from casual conversation, family life, school, work, news,
+  podcasts, museums, nature documentaries, formal prose, fiction, cartoons,
+  instructions, and public information.
+- `tools/enrich_sentence_contexts.py` applies the minimum deterministic context
+  expansion after the authored batch builders run. It uses hundreds of stable
+  lead/action combinations and topic cues, leaves ranks 1–10 main sentences
+  locked to their paid audio, and never replaces an already qualifying example.
+- Deterministic expansions are draft scaffolding, not a substitute for native
+  review. Prefer an organically authored longer sentence whenever one is
+  available, and record that sentence in the compact batch source so it survives
+  rebuilding.
+- Before generating paid audio, lock the exact main sentence. Any later main-
+  sentence edit requires regenerating that audio.
 
 Current prototype note:
 
@@ -85,8 +120,8 @@ Current prototype note:
 ## Current card behavior
 
 - One German-to-English recognition card.
-- The front prominently shows only the German target plus an optional sentence
-  audio control; no audio exists yet.
+- The front prominently shows the German target with optional headword and main-
+  sentence audio controls. Paid audio currently exists for ranks 1–10.
 - The back repeats the target, then uses tap-to-reveal sections for meaning and
   translation.
 - The German example remains visible on the back.
@@ -100,13 +135,18 @@ Current prototype note:
 
 ## Important status and cautions
 
-- Ranks 1–200 have complete draft text and are pending human review.
-- `dist/German-Core-Dual-Voice-Audio-Test-V7-10-Cards.apkg` is the verified dual-voice audio package:
-  ten notes/cards, stable note identities, no audio, and draft text.
+- Ranks 1–1,250 have complete draft text and are pending human/native review.
+- `dist/German-Core-Dual-Voice-Audio-Test-V8-10-Cards.apkg` is the current verified dual-voice audio package:
+  ten notes/cards, stable note identities, 20 paid MP3s, and draft text.
 - `tools/export_anki.py` builds rank-bounded packages and can include
   deterministic sentence-audio MP3s later; `tools/validate_apkg.py` inspects
   package structure without touching a user collection.
-- No paid API calls or TTS generation have occurred.
+- Paid ElevenLabs generation has occurred only for ranks 1–10: the headword and
+  main sentence alternate between Marlene Lark and Markus. The account snapshot
+  on 2026-08-01 showed 192 of 131,000 credits used and 130,808 remaining.
+- `python tools/check_elevenlabs_credits.py` queries the live subscription and
+  compares remaining credits with the exact current headword and main-sentence
+  manifests. Multilingual v2 is budgeted at one credit per text character.
 - The frequency PDF was identified as the copyrighted 2020 Routledge second
   edition by Erwin Tschirner and Jupp Möhring (315 PDF pages). Its ranking may be
   used as a private curriculum reference, but its definitions and examples must
@@ -114,8 +154,8 @@ Current prototype note:
 - PDF extraction succeeded for all ranks 1–5,009. The local parser dependency is in
   ignored `.vendor/`; extraction is slow but reproducible.
 - The source `.apkg` and PDF have not been modified.
-- The repository is currently uncommitted (`README.md`, `Source Materials/`,
-  `data/`, and `prototype/` are untracked at this checkpoint).
+- The project is versioned on the public GitHub repository and deployed from
+  `main`; preserve unrelated local worktree edits when committing scoped work.
 - PowerShell display showed mojibake for UTF-8 punctuation in file output
   (`·` and `▶`); verify whether this is console decoding or file corruption
   before treating it as a template defect.
@@ -136,10 +176,11 @@ For every material change:
 
 ## Next action
 
-Continue batch 004 through rank 500. The first milestone is ranks 201–350, then
-continue through 351–500 without pausing. Preserve source rank order, three
-independent examples, explicit polysemy notes, and globally unique German
-sentences. Run `python tools/validate_cards.py` and rebuild curriculum order
-after every authored sub-batch. Commit and push each completed batch. Human-test
-the V7 dual-voice package while text authoring continues without further API
-usage.
+Review the deterministic context expansions, replacing any merely serviceable
+wrapper with a more organic example when possible. Then rebuild and publish the
+1,250-card `.apkg` and browser demo. Continue authored cards at rank 1,251 while
+preserving source order, sentence-design policy, explicit polysemy notes, and
+global uniqueness. The reproducible sequence is: run all applicable batch
+builders, `python tools/enrich_sentence_contexts.py`,
+`python tools/build_curriculum_order.py`, `python tools/build_audio_manifest.py`,
+and `python tools/validate_cards.py`. Commit and push every completed change.

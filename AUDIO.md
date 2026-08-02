@@ -33,6 +33,16 @@ autoplay queue remains unchanged.
 
 ## Main-sentence generation
 
+Query the live subscription and compare it with the exact current manifests:
+
+```powershell
+python tools/check_elevenlabs_credits.py
+```
+
+The report never prints the API key. With Multilingual v2, the planned cost is
+one credit per text character; rebuild the manifests after every main-sentence
+change so the estimate remains exact.
+
 `data/audio/main-sentence-manifest.jsonl` is the canonical queue. It contains
 every completed card's exact main sentence, sentence hash, semantic ID,
 frequency rank, curriculum order, and deterministic MP3 filename.

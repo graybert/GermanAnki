@@ -3,12 +3,14 @@
 from __future__ import annotations
 
 import json
+import re
 import sys
 from collections import defaultdict
 from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
+WORD_RE = re.compile(r"[A-Za-zÄÖÜäöüß]+")
 REQUIRED = {
     "schema_version", "semantic_id", "sequence", "target", "lemma", "sense_id",
     "part_of_speech", "meaning", "forms", "german_sentence", "english_sentence",
@@ -22,6 +24,15 @@ def normalized(sentence: str) -> str:
 
 def main() -> None:
     paths = sorted((ROOT / "data" / "canonical").glob("*.jsonl"))
+    source_path = ROOT / "data" / "source" / "frequency-all-5009.jsonl"
+    source_headwords = {
+        row["rank"]: row["headword"]
+        for row in (
+            json.loads(line)
+            for line in source_path.read_text(encoding="utf-8").splitlines()
+            if line.strip()
+        )
+    }
     errors: list[str] = []
     sentence_owners: dict[str, list[str]] = defaultdict(list)
     semantic_ids: set[str] = set()
@@ -84,6 +95,23 @@ def main() -> None:
                     errors.append(f"{label}: empty {kind} German sentence")
                 else:
                     sentence_owners[normalized(sentence)].append(f"{label} {kind}")
+            if frequency_rank is not None:
+                design = card.get("sentence_design", {})
+                if design.get("policy_version") != 1:
+                    errors.append(f"{label}: missing sentence-design policy version 1")
+                expected_source = source_headwords.get(frequency_rank)
+                if card.get("source_headword") != expected_source:
+                    errors.append(
+                        f"{label}: source_headword {card.get('source_headword')!r} "
+                        f"does not match rank {frequency_rank} source {expected_source!r}"
+                    )
+                word_counts = [len(WORD_RE.findall(sentence)) for _, sentence in examples]
+                if any(count > 20 for count in word_counts):
+                    errors.append(f"{label}: German example exceeds 20 words: {word_counts}")
+                if sum(9 <= count <= 20 for count in word_counts) < 2:
+                    errors.append(
+                        f"{label}: fewer than two context-rich 9-20-word examples: {word_counts}"
+                    )
     for sentence, owners in sentence_owners.items():
         if len(owners) > 1:
             errors.append(f"duplicate German sentence '{sentence}': {'; '.join(owners)}")

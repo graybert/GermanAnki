@@ -2,7 +2,7 @@
 
 The current test artifact is:
 
-`dist/German-Core-Dual-Voice-Audio-Test-V7-10-Cards.apkg`
+`dist/German-Core-Dual-Voice-Audio-Test-V8-10-Cards.apkg`
 
 It contains one German-to-English recognition card for each frequency rank from
 1 through 10. Import it by double-clicking the file or using **File → Import**
@@ -15,10 +15,10 @@ but not imported directly into the AnkiWeb website.
 python -m pip install --target .deps -r requirements-export.txt
 python tools/build_curriculum_order.py
 python tools/export_anki.py --audio-dir data\audio\test-v7-first-10 --require-audio
-python tools/validate_apkg.py dist/German-Core-Dual-Voice-Audio-Test-V7-10-Cards.apkg `
+python tools/validate_apkg.py dist/German-Core-Dual-Voice-Audio-Test-V8-10-Cards.apkg `
   --expected-notes 10 `
-  --expected-deck "German Core Dual Voice Audio Test V7 - 10 Cards" `
-  --required-rendered-text "GERMAN CORE AUDIO TEST V7"
+  --expected-deck "German Core Dual Voice Audio Test V8 - 10 Cards" `
+  --required-rendered-text "GERMAN CORE AUDIO TEST V8"
 ```
 
 The pinned exporter dependencies are installed into the ignored `.deps/`
@@ -32,8 +32,8 @@ the repository.
 - Note GUID: deterministically derived from each canonical `semantic_id`
 - New-card due order: generated `curriculum_order`
 
-Release V7 of the isolated 10-card audio test uses deck ID `2053940122`, model
-ID `1603739218`, and `test-V7:`-namespaced note GUIDs. This deliberately allows it
+Release V8 of the isolated 10-card audio test uses deck ID `2053940122`, model
+ID `1603739218`, and `test-V8:`-namespaced note GUIDs. This deliberately allows it
 to coexist with earlier tests and makes a successful new import obvious. The
 production values above must remain stable. Rebuilding a production note with the same semantic ID
 therefore preserves its note identity for later package imports. The note type

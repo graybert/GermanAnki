@@ -29,9 +29,9 @@ DECK_ID = 2_053_940_118
 MODEL_NAME = "German Core Recognition v1"
 TEST_MODEL_ID = 1_603_739_218
 TEST_DECK_ID = 2_053_940_122
-TEST_RELEASE = "V7"
-DECK_NAME = "German Core Dual Voice Audio Test V7 - 10 Cards"
-DEFAULT_OUTPUT = ROOT / "dist" / "German-Core-Dual-Voice-Audio-Test-V7-10-Cards.apkg"
+TEST_RELEASE = "V8"
+DECK_NAME = "German Core Dual Voice Audio Test V8 - 10 Cards"
+DEFAULT_OUTPUT = ROOT / "dist" / "German-Core-Dual-Voice-Audio-Test-V8-10-Cards.apkg"
 FIELD_NAMES = [
     "SemanticID",
     "CurriculumOrder",

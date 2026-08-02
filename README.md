@@ -1,7 +1,7 @@
 # German Core Deck
 
 This repository contains a complete formatting prototype plus the first 1,250
-fully developed draft cards from a 5,009-entry frequency curriculum. The V7
+fully developed draft cards from a 5,009-entry frequency curriculum. The V8
 test deck contains paid dual-voice word and sentence audio for ranks 1–10.
 
 Try the public browser demo at
@@ -19,10 +19,16 @@ Rebuild the batches with `python tools/build_batch_001.py`,
 `python tools/build_batch_004.py --require-through 500`,
 `python tools/build_batch_005.py --require-through 1000`,
 `python tools/build_batch_006.py --require-through 1250`, then
-run `python tools/build_curriculum_order.py` followed by
-`python tools/validate_cards.py`.
+run `python tools/enrich_sentence_contexts.py`,
+`python tools/build_curriculum_order.py`, `python tools/build_audio_manifest.py`,
+and `python tools/validate_cards.py`.
 The validator checks the full canonical corpus and rejects reused German
-sentences.
+sentences. It also enforces the sentence-design policy: no example over 20
+words and at least two context-rich 9–20-word examples per frequency card.
+
+Check the exact live ElevenLabs balance and current manifest requirement with
+`python tools/check_elevenlabs_credits.py`. The key remains in the ignored local
+secret file and is never printed.
 
 The repository currently contains structured Anki note data and Anki-compatible
 HTML/CSS templates. To rebuild the test package:
@@ -30,10 +36,10 @@ HTML/CSS templates. To rebuild the test package:
 ```powershell
 python -m pip install --target .deps -r requirements-export.txt
 python tools/export_anki.py --audio-dir data\audio\test-v7-first-10 --require-audio
-python tools/validate_apkg.py dist/German-Core-Dual-Voice-Audio-Test-V7-10-Cards.apkg `
+python tools/validate_apkg.py dist/German-Core-Dual-Voice-Audio-Test-V8-10-Cards.apkg `
   --expected-notes 10 `
-  --expected-deck "German Core Dual Voice Audio Test V7 - 10 Cards" `
-  --required-rendered-text "GERMAN CORE AUDIO TEST V7"
+  --expected-deck "German Core Dual Voice Audio Test V8 - 10 Cards" `
+  --required-rendered-text "GERMAN CORE AUDIO TEST V8"
 ```
 
 See `AUDIO.md` for sources and ElevenLabs generation, and `EXPORTING.md` for the
