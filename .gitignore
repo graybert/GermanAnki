@@ -2,6 +2,7 @@
 .agents/
 .deps/
 .vendor/
+tmp/
 
 # Uploaded proprietary references are local-only
 Source Materials/
