@@ -38,6 +38,7 @@ def main() -> None:
     semantic_ids: set[str] = set()
     sequences: set[int] = set()
     frequency_ranks: dict[int, str] = {}
+    sentence_design_versions: dict[int, int] = {}
     frequency_semantic_ids: set[str] = set()
     count = 0
     for path in paths:
@@ -97,8 +98,33 @@ def main() -> None:
                     sentence_owners[normalized(sentence)].append(f"{label} {kind}")
             if frequency_rank is not None:
                 design = card.get("sentence_design", {})
-                if design.get("policy_version") != 1:
-                    errors.append(f"{label}: missing sentence-design policy version 1")
+                policy_version = design.get("policy_version")
+                if policy_version not in {1, 3}:
+                    errors.append(
+                        f"{label}: sentence-design policy must be pending v1 or finalized v3"
+                    )
+                else:
+                    sentence_design_versions[frequency_rank] = policy_version
+                if policy_version == 3:
+                    contextual = design.get("contextual_rewrite", {})
+                    if contextual.get("status") != "finalized":
+                        errors.append(f"{label}: policy v3 is not contextually finalized")
+                    if contextual.get("selection_seed") != "semantic-diversity-v3":
+                        errors.append(f"{label}: policy v3 selection seed mismatch")
+                    enriched_slots = design.get("enriched_slots", [])
+                    rewritten = contextual.get("rewritten_slots", [])
+                    retained = contextual.get("retained_policy1_slots", [])
+                    if sorted([*rewritten, *retained]) != sorted(enriched_slots):
+                        errors.append(
+                            f"{label}: contextual rewritten/retained slots do not partition enriched_slots"
+                        )
+                    if contextual.get("selected") != bool(rewritten):
+                        errors.append(
+                            f"{label}: contextual selected flag does not match rewritten slots"
+                        )
+                    audit = contextual.get("slot_audit", {})
+                    if set(audit) != set(rewritten):
+                        errors.append(f"{label}: contextual slot audit mismatch")
                 expected_source = source_headwords.get(frequency_rank)
                 if card.get("source_headword") != expected_source:
                     errors.append(
@@ -123,6 +149,37 @@ def main() -> None:
                 "frequency ranks are not continuous through "
                 f"{maximum_rank}: missing {missing_ranks}"
             )
+        finalized_ranks = sorted(
+            rank for rank, version in sentence_design_versions.items() if version == 3
+        )
+        if not finalized_ranks:
+            errors.append("no contextually finalized policy-v3 rank prefix")
+        else:
+            cutoff = finalized_ranks[-1]
+            if finalized_ranks != list(range(1, cutoff + 1)):
+                errors.append("policy-v3 ranks are not a continuous prefix")
+            pending_versions = {
+                sentence_design_versions.get(rank) for rank in range(cutoff + 1, maximum_rank + 1)
+            }
+            if pending_versions - {1}:
+                errors.append("ranks after the policy-v3 cutoff are not pending policy v1")
+            recorded_cutoffs = {
+                card_cutoff
+                for path in paths
+                for line in path.read_text(encoding="utf-8").splitlines()
+                if line.strip()
+                for card in [json.loads(line)]
+                if card.get("sentence_design", {}).get("policy_version") == 3
+                for card_cutoff in [
+                    card.get("sentence_design", {})
+                    .get("contextual_rewrite", {})
+                    .get("finalized_through_rank")
+                ]
+            }
+            if recorded_cutoffs != {cutoff}:
+                errors.append(
+                    f"policy-v3 finalized_through_rank values do not equal cutoff {cutoff}"
+                )
     curriculum_path = ROOT / "data" / "curriculum" / "current-order.json"
     if curriculum_path.exists():
         curriculum = json.loads(curriculum_path.read_text(encoding="utf-8"))

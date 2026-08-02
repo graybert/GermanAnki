@@ -135,15 +135,23 @@ Current prototype note:
 
 ## Important status and cautions
 
+- 2026-08-02 sentence-diversity rework is in progress. The policy-1 enrichment
+  was confirmed to overuse reporting-clause quotations. A first policy-2
+  mechanical experiment passed structural checks but failed semantic review
+  because generic scene continuations could be unrelated to the authored
+  sentence. It must not be released or voiced. No new ElevenLabs generation
+  was started; paid coverage remains ranks 1-10 only.
+
 - Ranks 1–1,250 have complete draft text and are pending human/native review.
 - `dist/German-Core-Dual-Voice-Audio-Test-V8-10-Cards.apkg` is the current verified dual-voice audio package:
   ten notes/cards, stable note identities, 20 paid MP3s, and draft text.
 - `tools/export_anki.py` builds rank-bounded packages and can include
   deterministic sentence-audio MP3s later; `tools/validate_apkg.py` inspects
   package structure without touching a user collection.
-- Paid ElevenLabs generation has occurred only for ranks 1–10: the headword and
-  main sentence alternate between Marlene Lark and Markus. The account snapshot
-  on 2026-08-01 showed 192 of 131,000 credits used and 130,808 remaining.
+- Paid ElevenLabs generation now covers ranks 1–100: 100 headwords and 100 main
+  sentences alternate between Marlene Lark and Markus. Ranks 1–10 were reused
+  after receipt/text verification; ranks 11–100 added 180 MP3s. The 2026-08-02
+  account snapshot showed 2,671 of 131,000 credits used and 128,329 remaining.
 - `python tools/check_elevenlabs_credits.py` queries the live subscription and
   compares remaining credits with the exact current headword and main-sentence
   manifests. Multilingual v2 is budgeted at one credit per text character.
@@ -173,8 +181,16 @@ For every material change:
    put detail and history in `context/`.
 5. Do not store secrets, copyrighted source extracts, or paid/generated media in
    context files.
+6. Every validated audio milestone must also publish its downloadable `.apkg`
+   and manifest-approved browser MP3s on the website; update the viewer coverage
+   message and landing-page links in the same release.
 
 ## Next action
+
+Continue independent review and guarded merging above rank 100 before generating
+more sentence audio. Ranks 1–100 are finalized under contextual sentence policy
+3 and available as `dist/German-Core-Audio-0001-0100.apkg`; ranks 101–1,250
+remain on policy 1 until their staged rewrites pass review.
 
 Review the deterministic context expansions, replacing any merely serviceable
 wrapper with a more organic example when possible. Then rebuild and publish the

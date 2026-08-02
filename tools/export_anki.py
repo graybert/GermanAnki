@@ -181,6 +181,10 @@ def field_values(
         word_audio = f"[sound:{word_filename}]"
     else:
         word_audio = ""
+        if require_audio:
+            raise FileNotFoundError(
+                f"Missing headword audio for {card['semantic_id']}: {word_filename}"
+            )
     values = {
         "SemanticID": card["semantic_id"],
         "CurriculumOrder": f"{curriculum_order:06}",

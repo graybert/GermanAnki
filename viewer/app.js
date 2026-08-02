@@ -4,25 +4,12 @@ const picker = document.querySelector('#card-picker');
 const flip = document.querySelector('#flip');
 let activeAudio = null;
 
-const audioFiles = {
-  1: ['ga_word_der_e415f41056.mp3', 'ga_f0001_der_e415f41056.mp3'],
-  2: ['ga_word_und_2348896332.mp3', 'ga_f0002_und_2348896332.mp3'],
-  3: ['ga_word_in_23fd2ce263.mp3', 'ga_f0003_in_23fd2ce263.mp3'],
-  4: ['ga_word_sein_61000ca421.mp3', 'ga_f0004_sein_61000ca421.mp3'],
-  5: ['ga_word_ein_affbd2f8e3.mp3', 'ga_f0005_ein_affbd2f8e3.mp3'],
-  6: ['ga_word_haben_823cdecde0.mp3', 'ga_f0006_haben_823cdecde0.mp3'],
-  7: ['ga_word_sie_a5100c5842.mp3', 'ga_f0007_sie_a5100c5842.mp3'],
-  8: ['ga_word_werden_7a556b200f.mp3', 'ga_f0008_werden_7a556b200f.mp3'],
-  9: ['ga_word_von_1838a59c44.mp3', 'ga_f0009_von_1838a59c44.mp3'],
-  10: ['ga_word_ich_081fa3de4a.mp3', 'ga_f0010_ich_081fa3de4a.mp3'],
-};
-
 function playAudio(filename, speed = 1) {
   if (activeAudio) {
     activeAudio.pause();
     activeAudio.currentTime = 0;
   }
-  activeAudio = new Audio(`../data/audio/test-v7-first-10/${filename}`);
+  activeAudio = new Audio(`../data/audio/web/${filename}`);
   activeAudio.playbackRate = speed;
   activeAudio.play();
 }

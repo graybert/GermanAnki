@@ -92,3 +92,15 @@ Aggregate, non-secret accounting is committed in
 remain local in the ignored generated-audio directory. The 20 reviewed-as-test
 source MP3s are committed under `data/audio/test-v7-first-10/` so the V7 package
 can be rebuilt without another paid generation run.
+
+## Website publishing rule
+
+After every validated audio milestone, publish both the downloadable `.apkg`
+and its manifest-approved browser MP3s before considering the milestone done:
+
+```powershell
+python tools/publish_web_audio.py --through-rank 100
+```
+
+The command copies only expected MP3 files into `data/audio/web/` and rebuilds
+`viewer/audio-files.js`; receipts, API data, and secrets remain unpublished.
