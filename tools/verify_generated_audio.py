@@ -34,6 +34,8 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--end-rank", type=int, default=1250)
     parser.add_argument("--voice-config", type=Path, default=DEFAULT_VOICE_CONFIG)
     parser.add_argument("--model-id", default="eleven_multilingual_v2")
+    parser.add_argument("--headword-model-id", default="eleven_flash_v2_5")
+    parser.add_argument("--headword-language-code", default="de")
     parser.add_argument("--output-format", default="mp3_44100_128")
     parser.add_argument(
         "--ffprobe",
@@ -109,7 +111,16 @@ def main() -> None:
                 "voice_key": profile["key"],
                 "voice_name": profile["display_name"],
                 "voice_id": profile["voice_id"],
-                "model_id": args.model_id,
+                "model_id": (
+                    args.headword_model_id
+                    if job["audio_kind"] == "headword"
+                    else args.model_id
+                ),
+                "language_code": (
+                    args.headword_language_code
+                    if job["audio_kind"] == "headword"
+                    else None
+                ),
                 "output_format": args.output_format,
             }
             for field, value in expected.items():

@@ -184,6 +184,9 @@ For every material change:
 6. Every validated audio milestone must also publish its downloadable `.apkg`
    and manifest-approved browser MP3s on the website; update the viewer coverage
    message and landing-page links in the same release.
+7. Isolated headwords must never rely on automatic language detection. Generate
+   them with a language-enforcement-capable model and `language_code: "de"`;
+   verify both fields from receipts before packaging or website publishing.
 
 ## Next action
 

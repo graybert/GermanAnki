@@ -74,10 +74,10 @@ def generate(
     output_format: str,
     api_key: str,
     timeout: int,
+    language_code: str | None = None,
 ) -> tuple[bytes, dict]:
     url = f"{API_BASE}/{voice_id}?output_format={output_format}"
-    body = json.dumps(
-        {
+    payload = {
             "text": text,
             "model_id": model_id,
             "voice_settings": {
@@ -88,7 +88,9 @@ def generate(
                 "speed": 0.92,
             },
         }
-    ).encode("utf-8")
+    if language_code:
+        payload["language_code"] = language_code
+    body = json.dumps(payload).encode("utf-8")
     request = urllib.request.Request(
         url,
         data=body,
@@ -109,11 +111,14 @@ def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser()
     parser.add_argument("--manifest", type=Path, default=DEFAULT_MANIFEST)
     parser.add_argument("--include-headwords", action="store_true")
+    parser.add_argument("--headwords-only", action="store_true")
     parser.add_argument("--output-dir", type=Path, default=DEFAULT_OUTPUT)
     parser.add_argument("--voice-id")
     parser.add_argument("--voice-config", type=Path, default=DEFAULT_VOICE_CONFIG)
     parser.add_argument("--api-key-file", type=Path, default=DEFAULT_API_KEY_FILE)
     parser.add_argument("--model-id", default="eleven_multilingual_v2")
+    parser.add_argument("--headword-model-id", default="eleven_flash_v2_5")
+    parser.add_argument("--headword-language-code", default="de")
     parser.add_argument("--output-format", default="mp3_44100_128")
     parser.add_argument("--start-rank", type=int, default=1)
     parser.add_argument("--end-rank", type=int)
@@ -127,8 +132,10 @@ def parse_args() -> argparse.Namespace:
 
 def main() -> None:
     args = parse_args()
-    manifest_paths = [args.manifest]
-    if args.include_headwords:
+    if args.include_headwords and args.headwords_only:
+        raise SystemExit("Use either --include-headwords or --headwords-only, not both.")
+    manifest_paths = [] if args.headwords_only else [args.manifest]
+    if args.include_headwords or args.headwords_only:
         manifest_paths.append(DEFAULT_WORD_MANIFEST)
     jobs = [
         job
@@ -152,7 +159,8 @@ def main() -> None:
     total_characters = sum(len(job["text"]) for job in jobs)
     print(
         f"Selected {len(jobs)} audio jobs ({total_characters} characters), "
-        f"model={args.model_id}, voices="
+        f"sentence_model={args.model_id}, headword_model={args.headword_model_id}, "
+        f"headword_language={args.headword_language_code}, voices="
         f"{', '.join(profile['display_name'] for profile in profiles)}"
     )
     if args.dry_run:
@@ -188,13 +196,17 @@ def main() -> None:
             f"with {voice['display_name']}"
         )
         try:
+            is_headword = job["audio_kind"] == "headword"
+            job_model_id = args.headword_model_id if is_headword else args.model_id
+            job_language_code = args.headword_language_code if is_headword else None
             audio, response_metadata = generate(
                 text=job["text"],
                 voice_id=voice["voice_id"],
-                model_id=args.model_id,
+                model_id=job_model_id,
                 output_format=args.output_format,
                 api_key=api_key,
                 timeout=args.timeout,
+                language_code=job_language_code,
             )
         except urllib.error.HTTPError as exc:
             details = exc.read().decode("utf-8", errors="replace")
@@ -221,7 +233,8 @@ def main() -> None:
             "voice_key": voice["key"],
             "voice_name": voice["display_name"],
             "voice_id": voice["voice_id"],
-            "model_id": args.model_id,
+            "model_id": job_model_id,
+            "language_code": job_language_code,
             "output_format": args.output_format,
             "character_cost": request_cost,
             "request_id": response_metadata["request_id"],

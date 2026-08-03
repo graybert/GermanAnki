@@ -75,3 +75,22 @@ receipts, exact text, semantic IDs, kind, alternating voice, model, output
 format, and byte counts. `ffprobe` was unavailable, so codec decoding was not
 independently probed. `dist/German-Core-Audio-0001-0100.apkg` contains 100 notes,
 100 cards, and 200 media files; isolated current-Anki import and rendering pass.
+
+## Isolated-headword language failure and fix
+
+Human listening found that isolated `also`, `all`, and `so` could be pronounced
+with English phonology even though the same voices pronounced them correctly
+inside German sentences. The spelling-only requests did not provide enough
+language context. ElevenLabs documents that `language_code` is ignored by
+`eleven_multilingual_v2`, so merely adding `de` to the old requests would have
+created false confidence.
+
+The durable policy now separates job types: sentences use Multilingual v2;
+every isolated headword uses `eleven_flash_v2_5` with `language_code: "de"`.
+Both model and language code are written to receipts and enforced by the audio
+verifier. Three diagnostic requests (`so`, `all`, `also`) proved the API
+accepted the forced-German configuration. All 100 headwords were then
+regenerated uniformly rather than relying on an incomplete blacklist of
+English-looking spellings. ElevenLabs reported 114 credits for the 100
+replacements (399 raw characters). Future headword generation without explicit
+German enforcement must fail release verification.

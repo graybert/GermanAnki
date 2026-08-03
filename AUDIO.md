@@ -104,3 +104,13 @@ python tools/publish_web_audio.py --through-rank 100
 
 The command copies only expected MP3 files into `data/audio/web/` and rebuilds
 `viewer/audio-files.js`; receipts, API data, and secrets remain unpublished.
+
+## Mandatory isolated-headword language rule
+
+Never generate isolated headwords with automatic language detection. Short
+tokens such as `also`, `all`, and `so` overlap English spelling and may receive
+English phonology even when the same voice reads a German sentence correctly.
+All headword requests must use a model that supports language enforcement and
+must send `language_code: "de"`. Sentence requests remain on Multilingual v2.
+Receipts and release verification must reject a headword generated without the
+German language code or with the sentence model.
