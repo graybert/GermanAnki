@@ -398,5 +398,377 @@ const audioFiles = {
   "100": [
     "ga_word_etwas_1bf2e6f308.mp3",
     "ga_f0100_etwas_1bf2e6f308.mp3"
+  ],
+  "101": [
+    "ga_word_selbst_45b358bd1c.mp3",
+    "ga_f0101_selbst_45b358bd1c.mp3"
+  ],
+  "102": [
+    "ga_word_wenig_259367fabf.mp3",
+    "ga_f0102_wenig_259367fabf.mp3"
+  ],
+  "103": [
+    "ga_word_finden_11beebda0a.mp3",
+    "ga_f0103_finden_11beebda0a.mp3"
+  ],
+  "104": [
+    "ga_word_gegen_21aac5b256.mp3",
+    "ga_f0104_gegen_21aac5b256.mp3"
+  ],
+  "105": [
+    "ga_word_zwischen_2043c7c752.mp3",
+    "ga_f0105_zwischen_2043c7c752.mp3"
+  ],
+  "106": [
+    "ga_word_drei_af8d19247c.mp3",
+    "ga_f0106_drei_af8d19247c.mp3"
+  ],
+  "107": [
+    "ga_word_liegen_9358463959.mp3",
+    "ga_f0107_liegen_9358463959.mp3"
+  ],
+  "108": [
+    "ga_word_wo_822aeb7da3.mp3",
+    "ga_f0108_wo_822aeb7da3.mp3"
+  ],
+  "109": [
+    "ga_word_nichts_cc94cdead3.mp3",
+    "ga_f0109_nichts_cc94cdead3.mp3"
+  ],
+  "110": [
+    "ga_word_klein_0df09d7f2a.mp3",
+    "ga_f0110_klein_0df09d7f2a.mp3"
+  ],
+  "111": [
+    "ga_word_tag_9eea8ac175.mp3",
+    "ga_f0111_tag_9eea8ac175.mp3"
+  ],
+  "112": [
+    "ga_word_deutsch_88d2f164f6.mp3",
+    "ga_f0112_deutsch_88d2f164f6.mp3"
+  ],
+  "113": [
+    "ga_word_bleiben_a306eec6a4.mp3",
+    "ga_f0113_bleiben_a306eec6a4.mp3"
+  ],
+  "114": [
+    "ga_word_nun_f485aa8007.mp3",
+    "ga_f0114_nun_f485aa8007.mp3"
+  ],
+  "115": [
+    "ga_word_sondern_5b6e3ffc43.mp3",
+    "ga_f0115_sondern_5b6e3ffc43.mp3"
+  ],
+  "116": [
+    "ga_word_heute_87cef8c0bf.mp3",
+    "ga_f0116_heute_87cef8c0bf.mp3"
+  ],
+  "117": [
+    "ga_word_beide_8a42c8712a.mp3",
+    "ga_f0117_beide_8a42c8712a.mp3"
+  ],
+  "118": [
+    "ga_word_hoch_b7abf9a08b.mp3",
+    "ga_f0118_hoch_b7abf9a08b.mp3"
+  ],
+  "119": [
+    "ga_word_damit_201891b756.mp3",
+    "ga_f0119_damit_201891b756.mp3"
+  ],
+  "120": [
+    "ga_word_ohne_e51e67785c.mp3",
+    "ga_f0120_ohne_e51e67785c.mp3"
+  ],
+  "121": [
+    "ga_word_mann_4114233d33.mp3",
+    "ga_f0121_mann_4114233d33.mp3"
+  ],
+  "122": [
+    "ga_word_welcher_d70768e761.mp3",
+    "ga_f0122_welcher_d70768e761.mp3"
+  ],
+  "123": [
+    "ga_word_tun_f0e30a9eb1.mp3",
+    "ga_f0123_tun_f0e30a9eb1.mp3"
+  ],
+  "124": [
+    "ga_word_einmal_0654880608.mp3",
+    "ga_f0124_einmal_0654880608.mp3"
+  ],
+  "125": [
+    "ga_word_ihnen_9ef11698f8.mp3",
+    "ga_f0125_ihnen_9ef11698f8.mp3"
+  ],
+  "126": [
+    "ga_word_heissen_30f971b12f.mp3",
+    "ga_f0126_heissen_30f971b12f.mp3"
+  ],
+  "127": [
+    "ga_word_ob_e43f3096d9.mp3",
+    "ga_f0127_ob_e43f3096d9.mp3"
+  ],
+  "128": [
+    "ga_word_denken_82413a22ba.mp3",
+    "ga_f0128_denken_82413a22ba.mp3"
+  ],
+  "129": [
+    "ga_word_dabei_f347634a1b.mp3",
+    "ga_f0129_dabei_f347634a1b.mp3"
+  ],
+  "130": [
+    "ga_word_seit_84a0bf9d0b.mp3",
+    "ga_f0130_seit_84a0bf9d0b.mp3"
+  ],
+  "131": [
+    "ga_word_einfach_17be00c081.mp3",
+    "ga_f0131_einfach_17be00c081.mp3"
+  ],
+  "132": [
+    "ga_word_erst_f9ee16adb2.mp3",
+    "ga_f0132_erst_f9ee16adb2.mp3"
+  ],
+  "133": [
+    "ga_word_kind_a9365ba028.mp3",
+    "ga_f0133_kind_a9365ba028.mp3"
+  ],
+  "134": [
+    "ga_word_land_18244c44f1.mp3",
+    "ga_f0134_land_18244c44f1.mp3"
+  ],
+  "135": [
+    "ga_word_stellen_da640e3b9a.mp3",
+    "ga_f0135_stellen_da640e3b9a.mp3"
+  ],
+  "136": [
+    "ga_word_zeigen_348eb940be.mp3",
+    "ga_f0136_zeigen_348eb940be.mp3"
+  ],
+  "137": [
+    "ga_word_nat-rlich_9956e29ef6.mp3",
+    "ga_f0137_nat-rlich_9956e29ef6.mp3"
+  ],
+  "138": [
+    "ga_word_alt_a1be3e7e06.mp3",
+    "ga_f0138_alt_a1be3e7e06.mp3"
+  ],
+  "139": [
+    "ga_word_dort_9718682c98.mp3",
+    "ga_f0139_dort_9718682c98.mp3"
+  ],
+  "140": [
+    "ga_word_deutschland_358447ce54.mp3",
+    "ga_f0140_deutschland_358447ce54.mp3"
+  ],
+  "141": [
+    "ga_word_gleich_b8a9f90870.mp3",
+    "ga_f0141_gleich_b8a9f90870.mp3"
+  ],
+  "142": [
+    "ga_word_nehmen_a9a0f1cc48.mp3",
+    "ga_f0142_nehmen_a9a0f1cc48.mp3"
+  ],
+  "143": [
+    "ga_word_d-rfen_04381850a8.mp3",
+    "ga_f0143_d-rfen_04381850a8.mp3"
+  ],
+  "144": [
+    "ga_word_wichtig_c8e666a44d.mp3",
+    "ga_f0144_wichtig_c8e666a44d.mp3"
+  ],
+  "145": [
+    "ga_word_vielleicht_a56954733e.mp3",
+    "ga_f0145_vielleicht_a56954733e.mp3"
+  ],
+  "146": [
+    "ga_word_h-ren_6363ae5196.mp3",
+    "ga_f0146_h-ren_6363ae5196.mp3"
+  ],
+  "147": [
+    "ga_word_haus_49ced3974e.mp3",
+    "ga_f0147_haus_49ced3974e.mp3"
+  ],
+  "148": [
+    "ga_word_nein_be38841b49.mp3",
+    "ga_f0148_nein_be38841b49.mp3"
+  ],
+  "149": [
+    "ga_word_wer_e6b0902254.mp3",
+    "ga_f0149_wer_e6b0902254.mp3"
+  ],
+  "150": [
+    "ga_word_dazu_ee1b7e6e73.mp3",
+    "ga_f0150_dazu_ee1b7e6e73.mp3"
+  ],
+  "151": [
+    "ga_word_eigentlich_cc8e9cbd0e.mp3",
+    "ga_f0151_eigentlich_cc8e9cbd0e.mp3"
+  ],
+  "152": [
+    "ga_word_letzte_0b3ef8323d.mp3",
+    "ga_f0152_letzte_0b3ef8323d.mp3"
+  ],
+  "153": [
+    "ga_word_fragen_93e525fe4a.mp3",
+    "ga_f0153_fragen_93e525fe4a.mp3"
+  ],
+  "154": [
+    "ga_word_herr_54f74eea6e.mp3",
+    "ga_f0154_herr_54f74eea6e.mp3"
+  ],
+  "155": [
+    "ga_word_halten_69eb1e1d14.mp3",
+    "ga_f0155_halten_69eb1e1d14.mp3"
+  ],
+  "156": [
+    "ga_word_glauben_7300f6607d.mp3",
+    "ga_f0156_glauben_7300f6607d.mp3"
+  ],
+  "157": [
+    "ga_word_frage_d6746e3bad.mp3",
+    "ga_f0157_frage_d6746e3bad.mp3"
+  ],
+  "158": [
+    "ga_word_gelten_f8305fb64a.mp3",
+    "ga_f0158_gelten_f8305fb64a.mp3"
+  ],
+  "159": [
+    "ga_word_gerade_00f0cbbcb9.mp3",
+    "ga_f0159_gerade_00f0cbbcb9.mp3"
+  ],
+  "160": [
+    "ga_word_folgen_b0f1057ea6.mp3",
+    "ga_f0160_folgen_b0f1057ea6.mp3"
+  ],
+  "161": [
+    "ga_word_sprechen_375d56eb4b.mp3",
+    "ga_f0161_sprechen_375d56eb4b.mp3"
+  ],
+  "162": [
+    "ga_word_f-hren_9543f91044.mp3",
+    "ga_f0162_f-hren_9543f91044.mp3"
+  ],
+  "163": [
+    "ga_word_bringen_ad81613130.mp3",
+    "ga_f0163_bringen_ad81613130.mp3"
+  ],
+  "164": [
+    "ga_word_welt_1f0af4be58.mp3",
+    "ga_f0164_welt_1f0af4be58.mp3"
+  ],
+  "165": [
+    "ga_word_gar_71f4f755a1.mp3",
+    "ga_f0165_gar_71f4f755a1.mp3"
+  ],
+  "166": [
+    "ga_word_eigen_2a5c571960.mp3",
+    "ga_f0166_eigen_2a5c571960.mp3"
+  ],
+  "167": [
+    "ga_word_genau_34383341a0.mp3",
+    "ga_f0167_genau_34383341a0.mp3"
+  ],
+  "168": [
+    "ga_word_m-gen_918f64a2f4.mp3",
+    "ga_f0168_m-gen_918f64a2f4.mp3"
+  ],
+  "169": [
+    "ga_word_sp-t_dcf2ddc95c.mp3",
+    "ga_f0169_sp-t_dcf2ddc95c.mp3"
+  ],
+  "170": [
+    "ga_word_bereits_fe30cea8f5.mp3",
+    "ga_f0170_bereits_fe30cea8f5.mp3"
+  ],
+  "171": [
+    "ga_word_m-glich_d457582b58.mp3",
+    "ga_f0171_m-glich_d457582b58.mp3"
+  ],
+  "172": [
+    "ga_word_prozent_2b92556f2c.mp3",
+    "ga_f0172_prozent_2b92556f2c.mp3"
+  ],
+  "173": [
+    "ga_word_w-hrend_70a5767f1d.mp3",
+    "ga_f0173_w-hrend_70a5767f1d.mp3"
+  ],
+  "174": [
+    "ga_word_einige_0ba1b456c2.mp3",
+    "ga_f0174_einige_0ba1b456c2.mp3"
+  ],
+  "175": [
+    "ga_word_daf-r_fb95cbf82d.mp3",
+    "ga_f0175_daf-r_fb95cbf82d.mp3"
+  ],
+  "176": [
+    "ga_word_kurz_5c7a203029.mp3",
+    "ga_f0176_kurz_5c7a203029.mp3"
+  ],
+  "177": [
+    "ga_word_richtig_aa5d895432.mp3",
+    "ga_f0177_richtig_aa5d895432.mp3"
+  ],
+  "178": [
+    "ga_word_stark_f99d39831e.mp3",
+    "ga_f0178_stark_f99d39831e.mp3"
+  ],
+  "179": [
+    "ga_word_brauchen_72872a47ff.mp3",
+    "ga_f0179_brauchen_72872a47ff.mp3"
+  ],
+  "180": [
+    "ga_word_hand_6b8e5d13a0.mp3",
+    "ga_f0180_hand_6b8e5d13a0.mp3"
+  ],
+  "181": [
+    "ga_word_etwa_b7dea08a3d.mp3",
+    "ga_f0181_etwa_b7dea08a3d.mp3"
+  ],
+  "182": [
+    "ga_word_weitere_a2f2d6289d.mp3",
+    "ga_f0182_weitere_a2f2d6289d.mp3"
+  ],
+  "183": [
+    "ga_word_ende_f18759159d.mp3",
+    "ga_f0183_ende_f18759159d.mp3"
+  ],
+  "184": [
+    "ga_word_schreiben_6811e31bc9.mp3",
+    "ga_f0184_schreiben_6811e31bc9.mp3"
+  ],
+  "185": [
+    "ga_word_solch_bf56502364.mp3",
+    "ga_f0185_solch_bf56502364.mp3"
+  ],
+  "186": [
+    "ga_word_nie_b9d27f5808.mp3",
+    "ga_f0186_nie_b9d27f5808.mp3"
+  ],
+  "187": [
+    "ga_word_fall_a8cf95138f.mp3",
+    "ga_f0187_fall_a8cf95138f.mp3"
+  ],
+  "188": [
+    "ga_word_sch-n_54f226978d.mp3",
+    "ga_f0188_sch-n_54f226978d.mp3"
+  ],
+  "189": [
+    "ga_word_wirklich_781c24cf5f.mp3",
+    "ga_f0189_wirklich_781c24cf5f.mp3"
+  ],
+  "190": [
+    "ga_word_denen_3a4fffbceb.mp3",
+    "ga_f0190_denen_3a4fffbceb.mp3"
+  ],
+  "191": [
+    "ga_word_nennen_7e876248af.mp3",
+    "ga_f0191_nennen_7e876248af.mp3"
+  ],
+  "192": [
+    "ga_word_warum_42e16b5ef5.mp3",
+    "ga_f0192_warum_42e16b5ef5.mp3"
+  ],
+  "193": [
+    "ga_word_ziehen_343f990bfd.mp3",
+    "ga_f0193_ziehen_343f990bfd.mp3"
   ]
 };

@@ -30,13 +30,36 @@ from prepare_contextual_rewrites import (
 ROOT = Path(__file__).resolve().parents[1]
 STAGING = ROOT / "tmp" / "contextual-rewrites" / "ranks-0001-1250"
 CANONICAL = ROOT / "data" / "canonical"
-RICHNESS_OVERRIDE_BATCH = "rewrite-0001-0100-richness-override-v1"
-RICHNESS_OVERRIDE_KEYS = {
-    (27, "main"),
-    (39, "extra2"),
-    (50, "extra1"),
-    (58, "extra1"),
+FOCUSED_OVERRIDE_BATCHES = {
+    "rewrite-0001-0100-richness-override-v1": {
+        (27, "main"),
+        (39, "extra2"),
+        (50, "extra1"),
+        (58, "extra1"),
+    },
+    "rewrite-0001-0500-rejected-override-v1": {
+        (240, "extra3"),
+    },
+    "rewrite-0001-0500-identity-override-v1": {
+        (237, "main"),
+        (237, "extra1"),
+    },
+    "rewrite-0001-0500-identity-override-v2": {
+        (238, "extra2"),
+        (238, "extra3"),
+        (456, "main"),
+        (456, "extra2"),
+        (460, "extra1"),
+        (460, "extra2"),
+        (462, "main"),
+    },
+    "rewrite-0001-0500-richness-override-v2": {
+        (112, "extra2"),
+        (143, "extra1"),
+        (405, "main"),
+    },
 }
+FOCUSED_OVERRIDE_KEYS = set().union(*FOCUSED_OVERRIDE_BATCHES.values())
 
 
 class MergeError(RuntimeError):
@@ -186,7 +209,10 @@ def validated_rewrites(
                 card for card in batch_input["cards"]
                 if card["frequency_rank"] == key[0]
             )
-            if candidate.get("semantic_id") != staged_card["semantic_id"]:
+            if (
+                candidate.get("semantic_id") != staged_card["semantic_id"]
+                and key not in FOCUSED_OVERRIDE_KEYS
+            ):
                 raise MergeError(f"{batch_id}: semantic_id mismatch for {key}")
             generated[key] = candidate
         if set(generated) != input_keys:
@@ -207,6 +233,8 @@ def validated_rewrites(
         for key in relevant:
             candidate = generated[key]
             item = reviewed[key]
+            if key in FOCUSED_OVERRIDE_KEYS:
+                continue
             decision = item.get("decision")
             if decision == "reject":
                 raise MergeError(f"{batch_id}: reviewer rejected {key}")
@@ -229,50 +257,45 @@ def validated_rewrites(
                 "confidence": candidate["confidence"],
             }
 
-    missing = desired - merged.keys()
-    extra = merged.keys() - desired
-    if missing or extra:
-        raise MergeError(
-            f"reviewed coverage mismatch: {len(missing)} missing, {len(extra)} extra"
-        )
-
-    relevant_overrides = desired & RICHNESS_OVERRIDE_KEYS
-    if relevant_overrides:
+    for override_batch, override_keys in FOCUSED_OVERRIDE_BATCHES.items():
+        relevant_overrides = desired & override_keys
+        if not relevant_overrides:
+            continue
         generation = load_json(
-            STAGING / "outputs" / f"{RICHNESS_OVERRIDE_BATCH}.json"
+            STAGING / "outputs" / f"{override_batch}.json"
         )
-        if generation.get("batch_id") != RICHNESS_OVERRIDE_BATCH:
-            raise MergeError("richness override generation batch_id mismatch")
+        if generation.get("batch_id") != override_batch:
+            raise MergeError(f"{override_batch}: override generation batch_id mismatch")
         generated = {}
         for candidate in generation.get("rewrites", []):
             key = (candidate.get("frequency_rank"), candidate.get("slot"))
-            if key in generated or key not in RICHNESS_OVERRIDE_KEYS:
-                raise MergeError(f"richness override has invalid key {key}")
+            if key in generated or key not in override_keys:
+                raise MergeError(f"{override_batch}: override has invalid key {key}")
             base = baseline.get(key[0])
             if base is None or candidate.get("semantic_id") != base["semantic_id"]:
-                raise MergeError(f"richness override identity mismatch for {key}")
+                raise MergeError(f"{override_batch}: override identity mismatch for {key}")
             generated[key] = candidate
-        if set(generated) != RICHNESS_OVERRIDE_KEYS:
-            raise MergeError("richness override generation key mismatch")
+        if set(generated) != override_keys:
+            raise MergeError(f"{override_batch}: override generation key mismatch")
 
         review = load_json(
-            STAGING / "reviews" / f"{RICHNESS_OVERRIDE_BATCH}.json"
+            STAGING / "reviews" / f"{override_batch}.json"
         )
         reviewed = {}
         for item in review.get("reviews", []):
             key = (item.get("frequency_rank"), item.get("slot"))
             if key in reviewed or key not in generated:
-                raise MergeError(f"richness override review has invalid key {key}")
+                raise MergeError(f"{override_batch}: override review has invalid key {key}")
             reviewed[key] = item
         if set(reviewed) != set(generated):
-            raise MergeError("richness override review key mismatch")
+            raise MergeError(f"{override_batch}: override review key mismatch")
 
         for key in relevant_overrides:
             candidate = generated[key]
             item = reviewed[key]
             decision = item.get("decision")
             if decision == "reject":
-                raise MergeError(f"richness override reviewer rejected {key}")
+                raise MergeError(f"{override_batch}: override reviewer rejected {key}")
             if decision == "accept":
                 german = candidate.get("german", "")
                 english = candidate.get("english", "")
@@ -280,16 +303,22 @@ def validated_rewrites(
                 german = item.get("corrected_german", "")
                 english = item.get("corrected_english", "")
             else:
-                raise MergeError(f"invalid richness override decision for {key}")
+                raise MergeError(f"{override_batch}: invalid override decision for {key}")
             merged[key] = {
                 "german": german,
                 "english": english,
                 "decision": decision,
-                "batch_id": RICHNESS_OVERRIDE_BATCH,
+                "batch_id": override_batch,
                 "structure": candidate["structure"],
                 "genre": candidate["genre"],
                 "confidence": candidate["confidence"],
             }
+    missing = desired - merged.keys()
+    extra = merged.keys() - desired
+    if missing or extra:
+        raise MergeError(
+            f"reviewed coverage mismatch: {len(missing)} missing, {len(extra)} extra"
+        )
     return merged, loaded_batches
 
 

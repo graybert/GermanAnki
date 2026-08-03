@@ -94,3 +94,35 @@ regenerated uniformly rather than relying on an incomplete blacklist of
 English-looking spellings. ElevenLabs reported 114 credits for the 100
 replacements (399 raw characters). Future headword generation without explicit
 German enforcement must fail release verification.
+
+## First 500 contextually finalized
+
+Production generation batches 0001-0017 supplied the selected slots needed for
+the rank-500 cutoff (with two reviewed boundary candidates above rank 500).
+Independent review covered 754 candidates: 632 were accepted, 121 were fixed,
+and one was rejected. Review issues comprised 63 German idiom problems, 47
+translation mismatches, 21 context non sequiturs, eight short candidates, two
+duplicates, three other issues, one formulaic example, one wrong-sense example,
+and one missing-target example. The rejection was rank 240 extra3, where the
+candidate used Arzt/Ärztin but never realized the target Doktor/Dr.
+
+The guarded merge exposed two failure classes that review totals alone did not
+capture. First, nine generated slots at ranks 237, 238, 456, 460, and 462 had
+mojibake-corrupted semantic IDs. Exact identity matching stopped the merge even
+though their prose had been reviewed. Fresh focused generation plus independent
+review replaced those exact keys; the merge tool now uses an explicit
+batch-to-key override registry, so an override cannot affect an unlisted slot.
+Second, the full deterministic validator found card-level richness failures at
+ranks 112, 143, and 405. A focused generator rewrote one short selected slot per
+card, and a separate reviewer accepted all three. The rejected rank-240 slot
+was likewise regenerated with explicit Dr. realization and independently
+accepted. No validation rule was weakened.
+
+The final policy-1-based rebuild through rank 500 passes deterministic merge
+checking and full corpus validation: 500 cards are policy-v3 finalized, 750
+remain policy-v1 pending, 752 selected reviewed slots are applied, 187 enriched
+slots inside the finalized prefix are intentionally retained in their policy-1
+quotation form, and 1,377 policy-1 enriched slots remain pending above rank 500.
+Validation reports 1,251 notes and 5,008 unique German examples across seven
+canonical files. Paid audio must continue to use only text from a fully merged
+and validated cutoff.
