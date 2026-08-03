@@ -57,6 +57,17 @@ def build() -> list[dict]:
         expected = source[rank]["headword"]
         if target != expected:
             raise ValueError(f"Rank {rank}: target {target!r} does not match source {expected!r}")
+        examples_by_slot = {
+            "main": main_de,
+            "extra1": extra1_de,
+            "extra2": extra2_de,
+            "extra3": extra3_de,
+        }
+        rich_slots = [
+            slot
+            for slot, sentence in examples_by_slot.items()
+            if 9 <= len(sentence.rstrip(".!?").split()) <= 20
+        ]
         rows.append({
             "schema_version": 2,
             "semantic_id": f"de-DE:{pos.replace(' ', '-').replace('/', '-')}:{target}:{rank:04}",
@@ -84,6 +95,13 @@ def build() -> list[dict]:
             "text_status": "draft_complete_pending_human_review",
             "locked_fields": [],
             "created_for": "complete frequency curriculum",
+            "sentence_design": {
+                "policy_version": 1,
+                "rich_example_minimum": 2,
+                "rich_word_range": [9, 20],
+                "enriched_slots": rich_slots,
+            },
+            "source_headword": expected,
         })
     ranks = [row["frequency_rank"] for row in rows]
     if ranks and ranks != list(range(START, START + len(ranks))):
