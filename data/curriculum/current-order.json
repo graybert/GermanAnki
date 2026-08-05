@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "card_count": 1450,
+  "card_count": 1650,
   "active_units": [
     {
       "unit_id": "weekdays",
@@ -13,13 +13,9 @@
     {
       "unit_id": "numbers-core",
       "title": "Core numbers",
-      "available": 14,
+      "available": 15,
       "required": 29,
       "missing": [
-        {
-          "label": "elf",
-          "frequency_rank": 1507
-        },
         {
           "label": "dreizehn",
           "frequency_rank": 4772
@@ -81,20 +77,12 @@
     {
       "unit_id": "months",
       "title": "Months of the year",
-      "available": 9,
+      "available": 11,
       "required": 12,
       "missing": [
         {
-          "label": "Juli",
-          "frequency_rank": 1544
-        },
-        {
           "label": "August",
           "frequency_rank": 1929
-        },
-        {
-          "label": "Dezember",
-          "frequency_rank": 1527
         }
       ]
     }
@@ -8798,6 +8786,1206 @@
       "curriculum_order": 1450,
       "semantic_id": "de-DE:verb:empfinden:1450",
       "frequency_rank": 1450,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1451,
+      "semantic_id": "de-DE:noun:Schaden:1451",
+      "frequency_rank": 1451,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1452,
+      "semantic_id": "de-DE:adjective-adverb:umgekehrt:1452",
+      "frequency_rank": 1452,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1453,
+      "semantic_id": "de-DE:verb:veröffentlichen:1453",
+      "frequency_rank": 1453,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1454,
+      "semantic_id": "de-DE:verb:aufstellen:1454",
+      "frequency_rank": 1454,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1455,
+      "semantic_id": "de-DE:adjective:abhängig:1455",
+      "frequency_rank": 1455,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1456,
+      "semantic_id": "de-DE:noun:Strecke:1456",
+      "frequency_rank": 1456,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1457,
+      "semantic_id": "de-DE:noun:Praxis:1457",
+      "frequency_rank": 1457,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1458,
+      "semantic_id": "de-DE:adjective-adverb:ungefähr:1458",
+      "frequency_rank": 1458,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1459,
+      "semantic_id": "de-DE:verb:mitnehmen:1459",
+      "frequency_rank": 1459,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1460,
+      "semantic_id": "de-DE:adjective:üblich:1460",
+      "frequency_rank": 1460,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1461,
+      "semantic_id": "de-DE:verb:übertragen:1461",
+      "frequency_rank": 1461,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1462,
+      "semantic_id": "de-DE:noun:Wissenschaft:1462",
+      "frequency_rank": 1462,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1463,
+      "semantic_id": "de-DE:adjective-adverb:global:1463",
+      "frequency_rank": 1463,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1464,
+      "semantic_id": "de-DE:noun:Nachmittag:1464",
+      "frequency_rank": 1464,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1465,
+      "semantic_id": "de-DE:noun:Annahme:1465",
+      "frequency_rank": 1465,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1466,
+      "semantic_id": "de-DE:noun:Umgebung:1466",
+      "frequency_rank": 1466,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1467,
+      "semantic_id": "de-DE:noun:Öffentlichkeit:1467",
+      "frequency_rank": 1467,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1468,
+      "semantic_id": "de-DE:noun:Spiegel:1468",
+      "frequency_rank": 1468,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1469,
+      "semantic_id": "de-DE:verb:zurückkommen:1469",
+      "frequency_rank": 1469,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1470,
+      "semantic_id": "de-DE:verb:besetzen:1470",
+      "frequency_rank": 1470,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1471,
+      "semantic_id": "de-DE:noun:Gegenteil:1471",
+      "frequency_rank": 1471,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1472,
+      "semantic_id": "de-DE:adverb-preposition:vorbei:1472",
+      "frequency_rank": 1472,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1473,
+      "semantic_id": "de-DE:noun:Fan:1473",
+      "frequency_rank": 1473,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1474,
+      "semantic_id": "de-DE:noun:Karte:1474",
+      "frequency_rank": 1474,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1475,
+      "semantic_id": "de-DE:adjective-noun:arm:1475",
+      "frequency_rank": 1475,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1476,
+      "semantic_id": "de-DE:noun:Krise:1476",
+      "frequency_rank": 1476,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1477,
+      "semantic_id": "de-DE:noun:Strategie:1477",
+      "frequency_rank": 1477,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1478,
+      "semantic_id": "de-DE:noun:Debatte:1478",
+      "frequency_rank": 1478,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1479,
+      "semantic_id": "de-DE:pronominal-adverb-adverb:davor:1479",
+      "frequency_rank": 1479,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1480,
+      "semantic_id": "de-DE:noun:Journalist:1480",
+      "frequency_rank": 1480,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1481,
+      "semantic_id": "de-DE:verb:kochen:1481",
+      "frequency_rank": 1481,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1482,
+      "semantic_id": "de-DE:verb:zurückgehen:1482",
+      "frequency_rank": 1482,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1483,
+      "semantic_id": "de-DE:noun:Schmerz:1483",
+      "frequency_rank": 1483,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1484,
+      "semantic_id": "de-DE:adjective-adverb:erheblich:1484",
+      "frequency_rank": 1484,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1485,
+      "semantic_id": "de-DE:adjective-adverb:ausschließlich:1485",
+      "frequency_rank": 1485,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1486,
+      "semantic_id": "de-DE:adjective-adverb:griechisch:1486",
+      "frequency_rank": 1486,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1487,
+      "semantic_id": "de-DE:interjection:naja:1487",
+      "frequency_rank": 1487,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1488,
+      "semantic_id": "de-DE:noun:Runde:1488",
+      "frequency_rank": 1488,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1489,
+      "semantic_id": "de-DE:noun:Angriff:1489",
+      "frequency_rank": 1489,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1490,
+      "semantic_id": "de-DE:verb:einführen:1490",
+      "frequency_rank": 1490,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1491,
+      "semantic_id": "de-DE:conjunction-adverb:desto:1491",
+      "frequency_rank": 1491,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1492,
+      "semantic_id": "de-DE:noun:Wettbewerb:1492",
+      "frequency_rank": 1492,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1493,
+      "semantic_id": "de-DE:verb:verfügen:1493",
+      "frequency_rank": 1493,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1494,
+      "semantic_id": "de-DE:interrogative-adverb:woher:1494",
+      "frequency_rank": 1494,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1495,
+      "semantic_id": "de-DE:noun:Zweifel:1495",
+      "frequency_rank": 1495,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1496,
+      "semantic_id": "de-DE:noun:Konzern:1496",
+      "frequency_rank": 1496,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1497,
+      "semantic_id": "de-DE:verb:tanzen:1497",
+      "frequency_rank": 1497,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1498,
+      "semantic_id": "de-DE:verb:überleben:1498",
+      "frequency_rank": 1498,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1499,
+      "semantic_id": "de-DE:adjective-adverb:spezifisch:1499",
+      "frequency_rank": 1499,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1500,
+      "semantic_id": "de-DE:adjective-adverb:stabil:1500",
+      "frequency_rank": 1500,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1501,
+      "semantic_id": "de-DE:noun:Kamera:1501",
+      "frequency_rank": 1501,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1502,
+      "semantic_id": "de-DE:noun:Schatten:1502",
+      "frequency_rank": 1502,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1503,
+      "semantic_id": "de-DE:verb:berücksichtigen:1503",
+      "frequency_rank": 1503,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1504,
+      "semantic_id": "de-DE:noun:Pferd:1504",
+      "frequency_rank": 1504,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1505,
+      "semantic_id": "de-DE:verb:begegnen:1505",
+      "frequency_rank": 1505,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1506,
+      "semantic_id": "de-DE:noun:Zugang:1506",
+      "frequency_rank": 1506,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1507,
+      "semantic_id": "de-DE:numeral:elf:1507",
+      "frequency_rank": 1507,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1508,
+      "semantic_id": "de-DE:noun:Suche:1508",
+      "frequency_rank": 1508,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1509,
+      "semantic_id": "de-DE:adjective-adverb:doppelt:1509",
+      "frequency_rank": 1509,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1510,
+      "semantic_id": "de-DE:verb:festlegen:1510",
+      "frequency_rank": 1510,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1511,
+      "semantic_id": "de-DE:adjective-adverb:österreichisch:1511",
+      "frequency_rank": 1511,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1512,
+      "semantic_id": "de-DE:conjunction:sodass:1512",
+      "frequency_rank": 1512,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1513,
+      "semantic_id": "de-DE:noun:Tatsache:1513",
+      "frequency_rank": 1513,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1514,
+      "semantic_id": "de-DE:noun:Alkohol:1514",
+      "frequency_rank": 1514,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1515,
+      "semantic_id": "de-DE:verb:informieren:1515",
+      "frequency_rank": 1515,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1516,
+      "semantic_id": "de-DE:noun-combining-form:Norden, Nord-:1516",
+      "frequency_rank": 1516,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1517,
+      "semantic_id": "de-DE:verb:vermuten:1517",
+      "frequency_rank": 1517,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1518,
+      "semantic_id": "de-DE:adjective:zufrieden:1518",
+      "frequency_rank": 1518,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1519,
+      "semantic_id": "de-DE:verb:reißen:1519",
+      "frequency_rank": 1519,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1520,
+      "semantic_id": "de-DE:pronominal-adverb-adverb:dahin:1520",
+      "frequency_rank": 1520,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1521,
+      "semantic_id": "de-DE:conjunction-adverb:solange:1521",
+      "frequency_rank": 1521,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1522,
+      "semantic_id": "de-DE:noun:Wissenschaftler:1522",
+      "frequency_rank": 1522,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1523,
+      "semantic_id": "de-DE:noun:Kommunikation:1523",
+      "frequency_rank": 1523,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1524,
+      "semantic_id": "de-DE:noun:Steuer:1524",
+      "frequency_rank": 1524,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1525,
+      "semantic_id": "de-DE:adjective-adverb:angeblich:1525",
+      "frequency_rank": 1525,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1526,
+      "semantic_id": "de-DE:adjective-adverb:günstig:1526",
+      "frequency_rank": 1526,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1527,
+      "semantic_id": "de-DE:noun:Dezember:1527",
+      "frequency_rank": 1527,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1528,
+      "semantic_id": "de-DE:noun:Flughafen:1528",
+      "frequency_rank": 1528,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1529,
+      "semantic_id": "de-DE:noun:Krankenhaus:1529",
+      "frequency_rank": 1529,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1530,
+      "semantic_id": "de-DE:verb:wenden:1530",
+      "frequency_rank": 1530,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1531,
+      "semantic_id": "de-DE:adjective-adverb:türkisch:1531",
+      "frequency_rank": 1531,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1532,
+      "semantic_id": "de-DE:noun:Gegner:1532",
+      "frequency_rank": 1532,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1533,
+      "semantic_id": "de-DE:noun:Leser:1533",
+      "frequency_rank": 1533,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1534,
+      "semantic_id": "de-DE:noun-academic-field:Volkswirtschaftslehre, VWL:1534",
+      "frequency_rank": 1534,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1535,
+      "semantic_id": "de-DE:noun:Handel:1535",
+      "frequency_rank": 1535,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1536,
+      "semantic_id": "de-DE:noun:Kenntnis:1536",
+      "frequency_rank": 1536,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1537,
+      "semantic_id": "de-DE:adjective-adverb:sichtbar:1537",
+      "frequency_rank": 1537,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1538,
+      "semantic_id": "de-DE:verb:zulassen:1538",
+      "frequency_rank": 1538,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1539,
+      "semantic_id": "de-DE:noun-proper-noun:Mark:1539",
+      "frequency_rank": 1539,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1540,
+      "semantic_id": "de-DE:verb:vorsehen:1540",
+      "frequency_rank": 1540,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1541,
+      "semantic_id": "de-DE:noun:Schwierigkeit:1541",
+      "frequency_rank": 1541,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1542,
+      "semantic_id": "de-DE:verb:wahrnehmen:1542",
+      "frequency_rank": 1542,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1543,
+      "semantic_id": "de-DE:verb:hinweisen:1543",
+      "frequency_rank": 1543,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1544,
+      "semantic_id": "de-DE:noun:Juli:1544",
+      "frequency_rank": 1544,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1545,
+      "semantic_id": "de-DE:noun:Signal:1545",
+      "frequency_rank": 1545,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1546,
+      "semantic_id": "de-DE:verb:kontrollieren:1546",
+      "frequency_rank": 1546,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1547,
+      "semantic_id": "de-DE:adverb:sowieso:1547",
+      "frequency_rank": 1547,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1548,
+      "semantic_id": "de-DE:noun:Bauer:1548",
+      "frequency_rank": 1548,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1549,
+      "semantic_id": "de-DE:noun:Kurs:1549",
+      "frequency_rank": 1549,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1550,
+      "semantic_id": "de-DE:adverb:einst:1550",
+      "frequency_rank": 1550,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1551,
+      "semantic_id": "de-DE:noun:Service:1551",
+      "frequency_rank": 1551,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1552,
+      "semantic_id": "de-DE:adjective-adverb:sprachlich:1552",
+      "frequency_rank": 1552,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1553,
+      "semantic_id": "de-DE:adjective:bisherig:1553",
+      "frequency_rank": 1553,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1554,
+      "semantic_id": "de-DE:noun:Fahrer:1554",
+      "frequency_rank": 1554,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1555,
+      "semantic_id": "de-DE:adjective-adverb:traditionell:1555",
+      "frequency_rank": 1555,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1556,
+      "semantic_id": "de-DE:verb:weinen:1556",
+      "frequency_rank": 1556,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1557,
+      "semantic_id": "de-DE:verb:genießen:1557",
+      "frequency_rank": 1557,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1558,
+      "semantic_id": "de-DE:noun:Dienst:1558",
+      "frequency_rank": 1558,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1559,
+      "semantic_id": "de-DE:noun:Lager:1559",
+      "frequency_rank": 1559,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1560,
+      "semantic_id": "de-DE:adjective-noun:grau:1560",
+      "frequency_rank": 1560,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1561,
+      "semantic_id": "de-DE:preposition:anhand:1561",
+      "frequency_rank": 1561,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1562,
+      "semantic_id": "de-DE:noun:Bus:1562",
+      "frequency_rank": 1562,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1563,
+      "semantic_id": "de-DE:noun-currency:Franken, Fr.:1563",
+      "frequency_rank": 1563,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1564,
+      "semantic_id": "de-DE:noun:Kategorie:1564",
+      "frequency_rank": 1564,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1565,
+      "semantic_id": "de-DE:adjective-adverb:nett:1565",
+      "frequency_rank": 1565,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1566,
+      "semantic_id": "de-DE:adjective-adverb:freundlich:1566",
+      "frequency_rank": 1566,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1567,
+      "semantic_id": "de-DE:adjective-adverb:perfekt:1567",
+      "frequency_rank": 1567,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1568,
+      "semantic_id": "de-DE:adjective:reich:1568",
+      "frequency_rank": 1568,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1569,
+      "semantic_id": "de-DE:noun:Fahrt:1569",
+      "frequency_rank": 1569,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1570,
+      "semantic_id": "de-DE:noun:Urlaub:1570",
+      "frequency_rank": 1570,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1571,
+      "semantic_id": "de-DE:adjective-adverb:ausländisch:1571",
+      "frequency_rank": 1571,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1572,
+      "semantic_id": "de-DE:noun:Instrument:1572",
+      "frequency_rank": 1572,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1573,
+      "semantic_id": "de-DE:adjective-adverb:fern:1573",
+      "frequency_rank": 1573,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1574,
+      "semantic_id": "de-DE:noun:Gegend:1574",
+      "frequency_rank": 1574,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1575,
+      "semantic_id": "de-DE:verb:verstecken:1575",
+      "frequency_rank": 1575,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1576,
+      "semantic_id": "de-DE:noun:Feuer:1576",
+      "frequency_rank": 1576,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1577,
+      "semantic_id": "de-DE:verb:bemühen (sich):1577",
+      "frequency_rank": 1577,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1578,
+      "semantic_id": "de-DE:noun:Verständnis:1578",
+      "frequency_rank": 1578,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1579,
+      "semantic_id": "de-DE:proper-noun-abbreviation:AfD, Alternative für Deutschland:1579",
+      "frequency_rank": 1579,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1580,
+      "semantic_id": "de-DE:noun:Bakterie:1580",
+      "frequency_rank": 1580,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1581,
+      "semantic_id": "de-DE:verb:tauchen:1581",
+      "frequency_rank": 1581,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1582,
+      "semantic_id": "de-DE:noun:Konsequenz:1582",
+      "frequency_rank": 1582,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1583,
+      "semantic_id": "de-DE:noun:Schuld:1583",
+      "frequency_rank": 1583,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1584,
+      "semantic_id": "de-DE:noun:Mehrheit:1584",
+      "frequency_rank": 1584,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1585,
+      "semantic_id": "de-DE:verb:anhaben:1585",
+      "frequency_rank": 1585,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1586,
+      "semantic_id": "de-DE:noun:Bestimmung:1586",
+      "frequency_rank": 1586,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1587,
+      "semantic_id": "de-DE:verb:vermeiden:1587",
+      "frequency_rank": 1587,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1588,
+      "semantic_id": "de-DE:adjective-adverb:ehrlich:1588",
+      "frequency_rank": 1588,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1589,
+      "semantic_id": "de-DE:verb:beachten:1589",
+      "frequency_rank": 1589,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1590,
+      "semantic_id": "de-DE:adjective-adverb:statistisch:1590",
+      "frequency_rank": 1590,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1591,
+      "semantic_id": "de-DE:noun:Hals:1591",
+      "frequency_rank": 1591,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1592,
+      "semantic_id": "de-DE:verb:durchsetzen:1592",
+      "frequency_rank": 1592,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1593,
+      "semantic_id": "de-DE:adjective-adverb:italienisch:1593",
+      "frequency_rank": 1593,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1594,
+      "semantic_id": "de-DE:noun-interjection:Scheiße:1594",
+      "frequency_rank": 1594,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1595,
+      "semantic_id": "de-DE:noun:Telefon:1595",
+      "frequency_rank": 1595,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1596,
+      "semantic_id": "de-DE:noun:Herbst:1596",
+      "frequency_rank": 1596,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1597,
+      "semantic_id": "de-DE:noun:Ausstellung:1597",
+      "frequency_rank": 1597,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1598,
+      "semantic_id": "de-DE:noun:Bau:1598",
+      "frequency_rank": 1598,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1599,
+      "semantic_id": "de-DE:noun:Keller:1599",
+      "frequency_rank": 1599,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1600,
+      "semantic_id": "de-DE:noun:Bürgermeister:1600",
+      "frequency_rank": 1600,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1601,
+      "semantic_id": "de-DE:preposition-adverb:entlang:1601",
+      "frequency_rank": 1601,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1602,
+      "semantic_id": "de-DE:noun:Flasche:1602",
+      "frequency_rank": 1602,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1603,
+      "semantic_id": "de-DE:adjective-adverb:wunderbar:1603",
+      "frequency_rank": 1603,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1604,
+      "semantic_id": "de-DE:noun:Zweck:1604",
+      "frequency_rank": 1604,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1605,
+      "semantic_id": "de-DE:verb:ehren:1605",
+      "frequency_rank": 1605,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1606,
+      "semantic_id": "de-DE:noun:Verwendung:1606",
+      "frequency_rank": 1606,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1607,
+      "semantic_id": "de-DE:adverb:letztlich:1607",
+      "frequency_rank": 1607,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1608,
+      "semantic_id": "de-DE:noun:Fläche:1608",
+      "frequency_rank": 1608,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1609,
+      "semantic_id": "de-DE:verb:streichen:1609",
+      "frequency_rank": 1609,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1610,
+      "semantic_id": "de-DE:verb:zitieren:1610",
+      "frequency_rank": 1610,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1611,
+      "semantic_id": "de-DE:verb:senken:1611",
+      "frequency_rank": 1611,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1612,
+      "semantic_id": "de-DE:verb:behalten:1612",
+      "frequency_rank": 1612,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1613,
+      "semantic_id": "de-DE:verb:gestalten:1613",
+      "frequency_rank": 1613,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1614,
+      "semantic_id": "de-DE:verb:beweisen:1614",
+      "frequency_rank": 1614,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1615,
+      "semantic_id": "de-DE:noun:Umgang:1615",
+      "frequency_rank": 1615,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1616,
+      "semantic_id": "de-DE:verb:überprüfen:1616",
+      "frequency_rank": 1616,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1617,
+      "semantic_id": "de-DE:noun:Lehrstuhl:1617",
+      "frequency_rank": 1617,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1618,
+      "semantic_id": "de-DE:verb:schenken:1618",
+      "frequency_rank": 1618,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1619,
+      "semantic_id": "de-DE:noun:Vorschlag:1619",
+      "frequency_rank": 1619,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1620,
+      "semantic_id": "de-DE:verb:anhalten:1620",
+      "frequency_rank": 1620,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1621,
+      "semantic_id": "de-DE:adjective-adverb:entfernt:1621",
+      "frequency_rank": 1621,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1622,
+      "semantic_id": "de-DE:noun:Leiter:1622",
+      "frequency_rank": 1622,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1623,
+      "semantic_id": "de-DE:noun:Parlament:1623",
+      "frequency_rank": 1623,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1624,
+      "semantic_id": "de-DE:verb:stürzen:1624",
+      "frequency_rank": 1624,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1625,
+      "semantic_id": "de-DE:noun:Waffe:1625",
+      "frequency_rank": 1625,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1626,
+      "semantic_id": "de-DE:noun:Kriterium:1626",
+      "frequency_rank": 1626,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1627,
+      "semantic_id": "de-DE:noun:Beifall:1627",
+      "frequency_rank": 1627,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1628,
+      "semantic_id": "de-DE:verb:zerstören:1628",
+      "frequency_rank": 1628,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1629,
+      "semantic_id": "de-DE:verb:zuhören:1629",
+      "frequency_rank": 1629,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1630,
+      "semantic_id": "de-DE:verb:ausfallen:1630",
+      "frequency_rank": 1630,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1631,
+      "semantic_id": "de-DE:noun:Weile:1631",
+      "frequency_rank": 1631,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1632,
+      "semantic_id": "de-DE:verb:drängen:1632",
+      "frequency_rank": 1632,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1633,
+      "semantic_id": "de-DE:adverb:einerseits:1633",
+      "frequency_rank": 1633,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1634,
+      "semantic_id": "de-DE:noun:Spannung:1634",
+      "frequency_rank": 1634,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1635,
+      "semantic_id": "de-DE:noun:Fortschritt:1635",
+      "frequency_rank": 1635,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1636,
+      "semantic_id": "de-DE:noun:Mathematik:1636",
+      "frequency_rank": 1636,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1637,
+      "semantic_id": "de-DE:noun:Bad:1637",
+      "frequency_rank": 1637,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1638,
+      "semantic_id": "de-DE:verb:erläutern:1638",
+      "frequency_rank": 1638,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1639,
+      "semantic_id": "de-DE:verb:packen:1639",
+      "frequency_rank": 1639,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1640,
+      "semantic_id": "de-DE:proper-noun:Großbritannien:1640",
+      "frequency_rank": 1640,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1641,
+      "semantic_id": "de-DE:adjective-adverb:vorsichtig:1641",
+      "frequency_rank": 1641,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1642,
+      "semantic_id": "de-DE:verb:anwenden:1642",
+      "frequency_rank": 1642,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1643,
+      "semantic_id": "de-DE:adjective-adverb:wild:1643",
+      "frequency_rank": 1643,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1644,
+      "semantic_id": "de-DE:adjective-adverb:gesetzlich:1644",
+      "frequency_rank": 1644,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1645,
+      "semantic_id": "de-DE:noun:Spitze:1645",
+      "frequency_rank": 1645,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1646,
+      "semantic_id": "de-DE:noun:Gerät:1646",
+      "frequency_rank": 1646,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1647,
+      "semantic_id": "de-DE:noun:Wille:1647",
+      "frequency_rank": 1647,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1648,
+      "semantic_id": "de-DE:adverb:sicherlich:1648",
+      "frequency_rank": 1648,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1649,
+      "semantic_id": "de-DE:verb:weisen:1649",
+      "frequency_rank": 1649,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1650,
+      "semantic_id": "de-DE:noun:Tradition:1650",
+      "frequency_rank": 1650,
       "unit_id": null
     }
   ]
