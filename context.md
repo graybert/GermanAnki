@@ -187,8 +187,16 @@ For every material change:
 7. Isolated headwords must never rely on automatic language detection. Generate
    them with a language-enforcement-capable model and `language_code: "de"`;
    verify both fields from receipts before packaging or website publishing.
+8. Keep milestones small and public: commit and push text work in 50-100-card
+   checkpoints and audio work in roughly 100-card checkpoints after validation.
 
 ## Next action
+
+The public canonical checkpoint reaches rank 1,650. Before appending ranks
+1,651-1,700, revise the prepared examples that fail the two-rich-sentence
+minimum; source alignment alone is not sufficient for publication. Batch
+builders support `--through` plus `--preserve-existing` for safe bounded
+milestones.
 
 Continue independent review and guarded merging above rank 100 before generating
 more sentence audio. Ranks 1–100 are finalized under contextual sentence policy

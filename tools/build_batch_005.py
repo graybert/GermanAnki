@@ -44,7 +44,7 @@ def read_entries() -> list[list[str]]:
     return entries
 
 
-def build() -> list[dict]:
+def build(through: int | None = None) -> list[dict]:
     source = source_entries()
     rows = []
     for fields in read_entries():
@@ -54,6 +54,8 @@ def build() -> list[dict]:
             extra3_de, extra3_en,
         ) = fields
         rank = int(rank_text)
+        if through is not None and rank > through:
+            continue
         expected = source[rank]["headword"]
         if target != expected:
             raise ValueError(f"Rank {rank}: target {target!r} does not match source {expected!r}")
@@ -109,11 +111,40 @@ def build() -> list[dict]:
     return rows
 
 
+def preserve_existing(rows: list[dict]) -> list[dict]:
+    """Keep already-published records while appending a bounded milestone."""
+    if not OUT.exists():
+        return rows
+    existing = {
+        row["frequency_rank"]: row
+        for row in (
+            json.loads(line)
+            for line in OUT.read_text(encoding="utf-8").splitlines()
+            if line.strip()
+        )
+    }
+    return [existing.get(row["frequency_rank"], row) for row in rows]
+
+
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--require-through", type=int, default=START - 1)
+    parser.add_argument(
+        "--through",
+        type=int,
+        help="write only authored cards through this rank",
+    )
+    parser.add_argument(
+        "--preserve-existing",
+        action="store_true",
+        help="retain existing canonical records while appending later ranks",
+    )
     args = parser.parse_args()
-    rows = build()
+    if args.through is not None and not START <= args.through <= END:
+        raise ValueError(f"--through must be between {START} and {END}")
+    rows = build(args.through)
+    if args.preserve_existing:
+        rows = preserve_existing(rows)
     if args.require_through >= START:
         expected_count = args.require_through - START + 1
         if len(rows) != expected_count:
