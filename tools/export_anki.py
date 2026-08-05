@@ -222,9 +222,9 @@ def export(
         if start_rank <= card["frequency_rank"] <= end_rank
     ]
     cards.sort(key=lambda card: order[card["semantic_id"]])
-    expected_ranks = list(range(start_rank, end_rank + 1))
+    expected_ranks = set(range(start_rank, end_rank + 1))
     actual_ranks = [card["frequency_rank"] for card in cards]
-    if actual_ranks != expected_ranks:
+    if len(actual_ranks) != len(set(actual_ranks)) or set(actual_ranks) != expected_ranks:
         raise ValueError(
             f"Expected ranks {start_rank}-{end_rank}, got {actual_ranks}"
         )

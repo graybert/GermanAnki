@@ -192,6 +192,11 @@ For every material change:
 
 ## Next action
 
+Audio generation, receipt verification, and Anki packaging are complete through
+rank 1,600. The combined package contains 1,600 notes/cards and 3,200 MP3s;
+because it exceeds GitHub's per-file repository limit, publish it as the
+`v1600-audio` release asset and link the website to that asset.
+
 The public canonical checkpoint reaches rank 1,650. Before appending ranks
 1,651-1,700, revise the prepared examples that fail the two-rich-sentence
 minimum; source alignment alone is not sufficient for publication. Batch
