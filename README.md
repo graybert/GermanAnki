@@ -21,10 +21,13 @@ Rebuild the batches with `python tools/build_batch_001.py`,
 `python tools/build_batch_006.py --require-through 1250`, then
 run `python tools/enrich_sentence_contexts.py`,
 `python tools/build_curriculum_order.py`, `python tools/build_audio_manifest.py`,
-and `python tools/validate_cards.py`.
+`python tools/validate_cards.py`, and `python tools/build_completion_status.py`.
 The validator checks the full canonical corpus and rejects reused German
 sentences. It also enforces the sentence-design policy: no example over 20
 words and at least two context-rich 9–20-word examples per frequency card.
+The completion index is derived rather than manually edited: a card is complete
+only when its contextual text review is finalized and both deterministic audio
+files are present in the published web corpus with matching hashes.
 
 Check the exact live ElevenLabs balance and current manifest requirement with
 `python tools/check_elevenlabs_credits.py`. The key remains in the ignored local

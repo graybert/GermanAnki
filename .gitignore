@@ -7,6 +7,7 @@ tmp/
 # Uploaded proprietary references are local-only
 Source Materials/
 data/source/
+corpus/
 
 # Python caches and environments
 __pycache__/

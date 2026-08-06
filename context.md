@@ -189,6 +189,9 @@ For every material change:
    verify both fields from receipts before packaging or website publishing.
 8. Keep milestones small and public: commit and push text work in 50-100-card
    checkpoints and audio work in roughly 100-card checkpoints after validation.
+9. Never hand-edit a generic finished flag. Run
+   `python tools/build_completion_status.py`; completion is derived from the
+   finalized contextual review and deterministic published audio files.
 
 ## Next action
 
