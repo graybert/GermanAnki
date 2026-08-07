@@ -1,6 +1,6 @@
 # German Core Deck — Current Context
 
-Last updated: 2026-08-01 (America/Los_Angeles)
+Last updated: 2026-08-07 (America/Los_Angeles)
 
 ## Purpose
 
@@ -17,7 +17,7 @@ new conversation can resume without relying on chat history.
 
 ## Current stage
 
-The **first 1,250 frequency cards** have been independently authored as complete
+The **first 1,650 frequency cards** have been independently authored as complete
 drafts, alongside the earlier `wer` prototype. All 5,009 continuous ranks and
 headwords have been extracted as local curriculum metadata. A fresh extraction
 on 2026-08-01 matched the saved 5,009 source rows exactly; canonical ranks
@@ -34,8 +34,8 @@ The current corpus has 5,000 unique German examples for the 1,250 frequency
 cards. Deterministic enrichment preserves useful short phrases and adds varied
 context only where a card lacks two longer examples.
 
-A public-preview landing page, continuous 1,250-card browser demo, validated
-1,250-card text `.apkg`, 10-card dual-voice audio `.apkg`, and GitHub Pages
+A public-preview landing page, continuous browser demo, validated 1,250-card
+text `.apkg`, verified 1,650-card dual-voice audio `.apkg`, and GitHub Pages
 deployment workflow are live. Repository
 changes should now be committed after each completed change and pushed whenever
 a remote is available.
@@ -196,15 +196,15 @@ For every material change:
 ## Next action
 
 Audio generation, receipt verification, and Anki packaging are complete through
-rank 1,600. The combined package contains 1,600 notes/cards and 3,200 MP3s;
-because it exceeds GitHub's per-file repository limit, publish it as the
-`v1600-audio` release asset and link the website to that asset.
+rank 1,650. The package contains 1,650 notes/cards and 3,300 MP3s. The public
+download remains the verified `v1600-audio` release until the 1,650-card package
+is uploaded as a release asset.
 
-The public canonical checkpoint reaches rank 1,650. Before appending ranks
-1,651-1,700, revise the prepared examples that fail the two-rich-sentence
-minimum; source alignment alone is not sufficient for publication. Batch
-builders support `--through` plus `--preserve-existing` for safe bounded
-milestones.
+The finalized canonical and audio checkpoint reaches rank 1,650. Before
+appending ranks 1,651–1,700, revise the prepared examples that fail the
+two-rich-sentence minimum; source alignment alone is not sufficient for
+publication. Batch builders support `--through` plus `--preserve-existing` for
+safe bounded milestones.
 
 Continue independent review and guarded merging above rank 100 before generating
 more sentence audio. Ranks 1–100 are finalized under contextual sentence policy

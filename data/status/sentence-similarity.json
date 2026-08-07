@@ -1,0 +1,2622 @@
+{
+  "schema_version": 1,
+  "example_count": 6600,
+  "similarity_threshold": 0.82,
+  "similar_pairs": [
+    {
+      "score": 0.9241,
+      "left": {
+        "rank": 839,
+        "slot": "main",
+        "sentence": "Sie ist Mitglied in einem Sportverein."
+      },
+      "right": {
+        "rank": 899,
+        "slot": "main",
+        "sentence": "Er ist Mitglied in einem Sportverein."
+      }
+    },
+    {
+      "score": 0.8687,
+      "left": {
+        "rank": 1105,
+        "slot": "main",
+        "sentence": "Einerseits ist die Wohnung günstig, andererseits liegt sie weit draußen."
+      },
+      "right": {
+        "rank": 1633,
+        "slot": "main",
+        "sentence": "Einerseits ist die Wohnung günstig, andererseits liegt sie weit entfernt."
+      }
+    },
+    {
+      "score": 0.8683,
+      "left": {
+        "rank": 892,
+        "slot": "main",
+        "sentence": "Die alte Kirche steht in der Mitte des Dorfes."
+      },
+      "right": {
+        "rank": 959,
+        "slot": "extra3",
+        "sentence": "Die Kirche steht in der Mitte des Dorfes."
+      }
+    },
+    {
+      "score": 0.8581,
+      "left": {
+        "rank": 1412,
+        "slot": "extra1",
+        "sentence": "Das Telefon klingelte mitten in der Besprechung."
+      },
+      "right": {
+        "rank": 1595,
+        "slot": "main",
+        "sentence": "Das Telefon klingelte mitten in der wichtigen Besprechung."
+      }
+    },
+    {
+      "score": 0.8534,
+      "left": {
+        "rank": 244,
+        "slot": "extra1",
+        "sentence": "Wie geht es dir?"
+      },
+      "right": {
+        "rank": 371,
+        "slot": "main",
+        "sentence": "Na, wie geht es dir?"
+      }
+    },
+    {
+      "score": 0.847,
+      "left": {
+        "rank": 924,
+        "slot": "extra1",
+        "sentence": "Der Schuh drückt an der Ferse."
+      },
+      "right": {
+        "rank": 998,
+        "slot": "main",
+        "sentence": "Der neue Schuh drückt an der Ferse."
+      }
+    },
+    {
+      "score": 0.8259,
+      "left": {
+        "rank": 108,
+        "slot": "extra2",
+        "sentence": "Woher weißt du das?"
+      },
+      "right": {
+        "rank": 354,
+        "slot": "extra3",
+        "sentence": "Woher weißt du das? – Daher."
+      }
+    }
+  ],
+  "opening_repeat_limit": 3,
+  "repeated_openings": [
+    {
+      "opening": "als der entscheidende moment",
+      "count": 29,
+      "examples": [
+        {
+          "rank": 53,
+          "slot": "extra2",
+          "sentence": "Als der entscheidende Moment gekommen war, fügte Jonas noch einen Gedanken hinzu: „Sie lebte ein Jahr in Wien.“"
+        },
+        {
+          "rank": 54,
+          "slot": "main",
+          "sentence": "Als der entscheidende Moment gekommen war, stellte der Moderator die nächste Frage: „Kommst du morgen mit ins Schwimmbad?“"
+        },
+        {
+          "rank": 126,
+          "slot": "extra2",
+          "sentence": "Als der entscheidende Moment gekommen war, brachte der Gast sein Argument auf den Punkt: „Früher hieß die Straße anders.“"
+        },
+        {
+          "rank": 159,
+          "slot": "main",
+          "sentence": "Als der entscheidende Moment gekommen war, fasste Mia ihren Gedanken zusammen: „Die Straße führt gerade zum Schloss.“"
+        },
+        {
+          "rank": 205,
+          "slot": "extra2",
+          "sentence": "Als der entscheidende Moment gekommen war, formulierte Lina ihre Antwort sorgfältig: „Sie spielt die Hauptrolle im Film.“"
+        },
+        {
+          "rank": 212,
+          "slot": "extra2",
+          "sentence": "Als der entscheidende Moment gekommen war, sagte Ava schließlich: „Das Kind bekommt hohes Fieber.“"
+        },
+        {
+          "rank": 332,
+          "slot": "extra3",
+          "sentence": "Als der entscheidende Moment gekommen war, las Nora den Satz vor: „Die Entscheidung fiel erst am Abend.“"
+        },
+        {
+          "rank": 355,
+          "slot": "extra3",
+          "sentence": "Als der entscheidende Moment gekommen war, las Nora den Satz vor: „Das Museum ist sonntags geöffnet.“"
+        },
+        {
+          "rank": 371,
+          "slot": "extra1",
+          "sentence": "Als der entscheidende Moment gekommen war, sagte Ava schließlich: „Na gut, dann komme ich mit.“"
+        },
+        {
+          "rank": 509,
+          "slot": "extra1",
+          "sentence": "Als der entscheidende Moment gekommen war, sagte Ava schließlich: „Sie macht seit ihrer Kindheit Musik.“"
+        },
+        {
+          "rank": 530,
+          "slot": "extra3",
+          "sentence": "Als der entscheidende Moment gekommen war, sagte Ava schließlich: „Die Nachricht rief große Besorgnis hervor.“"
+        },
+        {
+          "rank": 586,
+          "slot": "extra3",
+          "sentence": "Als der entscheidende Moment gekommen war, fügte Jonas noch einen Gedanken hinzu: „Nicht jeder besitzt ein eigenes Auto.“"
+        },
+        {
+          "rank": 616,
+          "slot": "extra1",
+          "sentence": "Als der entscheidende Moment gekommen war, antwortete Klara ohne zu zögern: „Am Montag beginnt der neue Kurs.“"
+        },
+        {
+          "rank": 661,
+          "slot": "extra2",
+          "sentence": "Als der entscheidende Moment gekommen war, schrieb der Reporter in sein Notizbuch: „Konzentrieren wir uns auf das Wesentliche.“"
+        },
+        {
+          "rank": 674,
+          "slot": "extra1",
+          "sentence": "Als der entscheidende Moment gekommen war, fasste Mia ihren Gedanken zusammen: „Durch das offene Fenster kam kalte Luft.“"
+        },
+        {
+          "rank": 674,
+          "slot": "extra2",
+          "sentence": "Als der entscheidende Moment gekommen war, sagte Ava schließlich: „Auf dem Bildschirm sind mehrere Fenster geöffnet.“"
+        },
+        {
+          "rank": 710,
+          "slot": "extra3",
+          "sentence": "Als der entscheidende Moment gekommen war, antwortete Klara ohne zu zögern: „Von unten hörten wir Stimmen.“"
+        },
+        {
+          "rank": 735,
+          "slot": "extra1",
+          "sentence": "Als der entscheidende Moment gekommen war, schrieb der Reporter in sein Notizbuch: „Sie hat das Studium erfolgreich abgeschlossen.“"
+        },
+        {
+          "rank": 830,
+          "slot": "extra1",
+          "sentence": "Als der entscheidende Moment gekommen war, hob Leo die Hand und fragte: „Können Sie ein konkretes Beispiel nennen?“"
+        },
+        {
+          "rank": 881,
+          "slot": "extra1",
+          "sentence": "Als der entscheidende Moment gekommen war, fasste Mia ihren Gedanken zusammen: „Eine chemische Analyse bestätigte das Ergebnis.“"
+        },
+        {
+          "rank": 898,
+          "slot": "extra2",
+          "sentence": "Als der entscheidende Moment gekommen war, erklärte der Gast seinen Standpunkt: „Sie möchte unbedingt Ärztin werden.“"
+        },
+        {
+          "rank": 913,
+          "slot": "extra2",
+          "sentence": "Als der entscheidende Moment gekommen war, zitierte der Moderator eine frühere Aussage: „Im Kurs lesen wir moderne und klassische Literatur.“"
+        },
+        {
+          "rank": 915,
+          "slot": "extra2",
+          "sentence": "Als der entscheidende Moment gekommen war, erinnerte sich die Erzählerin an den Satz: „Er bestätigte, dass die Angaben richtig seien.“"
+        },
+        {
+          "rank": 1037,
+          "slot": "extra3",
+          "sentence": "Als der entscheidende Moment gekommen war, sagte Ava schließlich: „Der Ansatz der Kosten war zu niedrig.“"
+        },
+        {
+          "rank": 1039,
+          "slot": "extra1",
+          "sentence": "Als der entscheidende Moment gekommen war, erklärte der Gast seinen Standpunkt: „In der Region herrscht derzeit große Trockenheit.“"
+        },
+        {
+          "rank": 1087,
+          "slot": "extra1",
+          "sentence": "Als der entscheidende Moment gekommen war, fügte Jonas noch einen Gedanken hinzu: „Die Königin eröffnete das neue Museum.“"
+        },
+        {
+          "rank": 1110,
+          "slot": "extra1",
+          "sentence": "Als der entscheidende Moment gekommen war, sagte Ava schließlich: „Sie ist Expertin auf dem Gebiet der Chemie.“"
+        },
+        {
+          "rank": 1150,
+          "slot": "extra3",
+          "sentence": "Als der entscheidende Moment gekommen war, schrieb der Reporter in sein Notizbuch: „Die Familie wurde aus politischen Gründen verfolgt.“"
+        },
+        {
+          "rank": 1175,
+          "slot": "extra3",
+          "sentence": "Als der entscheidende Moment gekommen war, las Nora den Satz vor: „Der hintere Wagen ist für Fahrräder reserviert.“"
+        }
+      ]
+    },
+    {
+      "opening": "während die aufnahme weiterlief",
+      "count": 28,
+      "examples": [
+        {
+          "rank": 70,
+          "slot": "extra1",
+          "sentence": "Während die Aufnahme weiterlief, formulierte Lina ihre Antwort sorgfältig: „Die zwei kennen sich schon lange.“"
+        },
+        {
+          "rank": 98,
+          "slot": "extra3",
+          "sentence": "Während die Aufnahme weiterlief, zitierte der Moderator eine frühere Aussage: „Sie hat viele Jahre im Ausland gelebt.“"
+        },
+        {
+          "rank": 172,
+          "slot": "extra2",
+          "sentence": "Während die Aufnahme weiterlief, sagte Ava schließlich: „Diese Milch enthält drei Prozent Fett.“"
+        },
+        {
+          "rank": 211,
+          "slot": "extra2",
+          "sentence": "Während die Aufnahme weiterlief, brachte der Gast sein Argument auf den Punkt: „Die beiden verstehen sich sehr gut.“"
+        },
+        {
+          "rank": 303,
+          "slot": "main",
+          "sentence": "Während die Aufnahme weiterlief, antwortete Klara ohne zu zögern: „Heute machen wir es anders.“"
+        },
+        {
+          "rank": 338,
+          "slot": "extra3",
+          "sentence": "Während die Aufnahme weiterlief, fügte Jonas noch einen Gedanken hinzu: „Er half uns, die Kisten zu tragen.“"
+        },
+        {
+          "rank": 340,
+          "slot": "extra2",
+          "sentence": "Während die Aufnahme weiterlief, fügte Jonas noch einen Gedanken hinzu: „Der tatsächliche Grund blieb lange unbekannt.“"
+        },
+        {
+          "rank": 360,
+          "slot": "extra1",
+          "sentence": "Während die Aufnahme weiterlief, blickte die Reporterin in die Kamera: „Was ist in der Tasche drin?“"
+        },
+        {
+          "rank": 394,
+          "slot": "extra1",
+          "sentence": "Während die Aufnahme weiterlief, erinnerte sich die Erzählerin an den Satz: „Sie fühlte den kalten Wind im Gesicht.“"
+        },
+        {
+          "rank": 463,
+          "slot": "extra1",
+          "sentence": "Während die Aufnahme weiterlief, las Nora den Satz vor: „Die Aufgabe war schwer, aber trotzdem lösbar.“"
+        },
+        {
+          "rank": 502,
+          "slot": "extra1",
+          "sentence": "Während die Aufnahme weiterlief, fügte Jonas noch einen Gedanken hinzu: „Es gelang ihr, alle rechtzeitig zu informieren.“"
+        },
+        {
+          "rank": 509,
+          "slot": "extra2",
+          "sentence": "Während die Aufnahme weiterlief, zitierte der Moderator eine frühere Aussage: „Die Musik im Restaurant war zu laut.“"
+        },
+        {
+          "rank": 571,
+          "slot": "extra1",
+          "sentence": "Während die Aufnahme weiterlief, wiederholte Leo die entscheidenden Worte: „Zeit ist in diesem Modell eine relative Größe.“"
+        },
+        {
+          "rank": 575,
+          "slot": "extra3",
+          "sentence": "Während die Aufnahme weiterlief, schrieb der Reporter in sein Notizbuch: „Das Denkmal erinnert an die Opfer des Krieges.“"
+        },
+        {
+          "rank": 576,
+          "slot": "main",
+          "sentence": "Während die Aufnahme weiterlief, erklärte der Gast seinen Standpunkt: „Heute Abend haben wir Gäste.“"
+        },
+        {
+          "rank": 593,
+          "slot": "extra2",
+          "sentence": "Während die Aufnahme weiterlief, fügte Jonas noch einen Gedanken hinzu: „Wir arbeiten eng mit der Universität zusammen.“"
+        },
+        {
+          "rank": 600,
+          "slot": "extra2",
+          "sentence": "Während die Aufnahme weiterlief, erklärte der Gast seinen Standpunkt: „Er hat drei Jahre lang in Wien studiert.“"
+        },
+        {
+          "rank": 823,
+          "slot": "extra3",
+          "sentence": "Während die Aufnahme weiterlief, fügte Jonas noch einen Gedanken hinzu: „Diese Zahl muss als absoluter Wert betrachtet werden.“"
+        },
+        {
+          "rank": 865,
+          "slot": "extra2",
+          "sentence": "Während die Aufnahme weiterlief, formulierte Lina ihre Antwort sorgfältig: „Im Prinzip bin ich mit dem Vorschlag einverstanden.“"
+        },
+        {
+          "rank": 881,
+          "slot": "extra3",
+          "sentence": "Während die Aufnahme weiterlief, zitierte der Moderator eine frühere Aussage: „Aus der Analyse ergeben sich drei zentrale Fragen.“"
+        },
+        {
+          "rank": 919,
+          "slot": "extra2",
+          "sentence": "Während die Aufnahme weiterlief, erinnerte sich die Erzählerin an den Satz: „In der Region gibt es zahlreiche kleine Seen.“"
+        },
+        {
+          "rank": 940,
+          "slot": "extra2",
+          "sentence": "Während die Aufnahme weiterlief, wiederholte Leo die entscheidenden Worte: „Aus meiner Sicht ist der Plan zu teuer.“"
+        },
+        {
+          "rank": 1038,
+          "slot": "extra2",
+          "sentence": "Während die Aufnahme weiterlief, fasste Mia ihren Gedanken zusammen: „Wenn nötig, können Sie später anrufen.“"
+        },
+        {
+          "rank": 1074,
+          "slot": "main",
+          "sentence": "Während die Aufnahme weiterlief, erinnerte sich die Erzählerin an den Satz: „Das Buch ist fast zehn Zentimeter dick.“"
+        },
+        {
+          "rank": 1087,
+          "slot": "extra2",
+          "sentence": "Während die Aufnahme weiterlief, fügte Jonas noch einen Gedanken hinzu: „Beim Schach darf der König nicht geschlagen werden.“"
+        },
+        {
+          "rank": 1171,
+          "slot": "extra3",
+          "sentence": "Während die Aufnahme weiterlief, sagte Ava schließlich: „Das Team gewann erstmals den nationalen Titel.“"
+        },
+        {
+          "rank": 1172,
+          "slot": "extra1",
+          "sentence": "Während die Aufnahme weiterlief, antwortete Klara ohne zu zögern: „Wir suchen einen erfahrenen Partner für das Projekt.“"
+        },
+        {
+          "rank": 1224,
+          "slot": "extra1",
+          "sentence": "Während die Aufnahme weiterlief, bat Jonas die anderen um eine Antwort: „Wie sollen wir mit diesem Risiko umgehen?“"
+        }
+      ]
+    },
+    {
+      "opening": "nach einer kurzen unterbrechung",
+      "count": 24,
+      "examples": [
+        {
+          "rank": 137,
+          "slot": "extra2",
+          "sentence": "Nach einer kurzen Unterbrechung wiederholte Leo die entscheidenden Worte: „Sie spricht ganz natürlich vor der Kamera.“"
+        },
+        {
+          "rank": 244,
+          "slot": "extra2",
+          "sentence": "Nach einer kurzen Unterbrechung las Nora den Satz vor: „Das steht dir wirklich gut.“"
+        },
+        {
+          "rank": 303,
+          "slot": "extra3",
+          "sentence": "Nach einer kurzen Unterbrechung fügte Jonas noch einen Gedanken hinzu: „Wenn du nicht kommst, muss ich anders planen.“"
+        },
+        {
+          "rank": 307,
+          "slot": "extra3",
+          "sentence": "Nach einer kurzen Unterbrechung fasste Mia ihren Gedanken zusammen: „Kritik sollte in höflicher Form geäußert werden.“"
+        },
+        {
+          "rank": 346,
+          "slot": "extra1",
+          "sentence": "Nach einer kurzen Unterbrechung fasste Mia ihren Gedanken zusammen: „An seinem Gesicht erkannte ich die Sorge.“"
+        },
+        {
+          "rank": 371,
+          "slot": "extra2",
+          "sentence": "Nach einer kurzen Unterbrechung las Nora den Ausruf vor: „Na los, wir müssen gehen!“"
+        },
+        {
+          "rank": 452,
+          "slot": "extra3",
+          "sentence": "Nach einer kurzen Unterbrechung wandte sich der Gast an die Runde: „Könnten Sie mich mit Frau Klein verbinden?“"
+        },
+        {
+          "rank": 571,
+          "slot": "extra2",
+          "sentence": "Nach einer kurzen Unterbrechung fasste Mia ihren Gedanken zusammen: „Der Preis ist relativ zum Einkommen hoch.“"
+        },
+        {
+          "rank": 575,
+          "slot": "extra2",
+          "sentence": "Nach einer kurzen Unterbrechung fügte Jonas noch einen Gedanken hinzu: „Die beiden Länder führten lange Krieg gegeneinander.“"
+        },
+        {
+          "rank": 600,
+          "slot": "main",
+          "sentence": "Nach einer kurzen Unterbrechung zitierte der Moderator eine frühere Aussage: „Sie studiert Medizin in Freiburg.“"
+        },
+        {
+          "rank": 601,
+          "slot": "extra1",
+          "sentence": "Nach einer kurzen Unterbrechung bat Jonas die anderen um eine Antwort: „Wie hat dir der Film gefallen?“"
+        },
+        {
+          "rank": 710,
+          "slot": "extra1",
+          "sentence": "Nach einer kurzen Unterbrechung zitierte der Moderator eine frühere Aussage: „Weitere Informationen finden Sie unten auf der Seite.“"
+        },
+        {
+          "rank": 780,
+          "slot": "main",
+          "sentence": "Nach einer kurzen Unterbrechung fasste Mia ihren Gedanken zusammen: „Der Einsatz neuer Technik spart Zeit.“"
+        },
+        {
+          "rank": 804,
+          "slot": "extra3",
+          "sentence": "Nach einer kurzen Unterbrechung fasste Mia ihren Gedanken zusammen: „An warmen Sonntagen ist der Park sehr voll.“"
+        },
+        {
+          "rank": 837,
+          "slot": "extra2",
+          "sentence": "Nach einer kurzen Unterbrechung las Nora den Satz vor: „Das Signal wird zehnmal pro Sekunde gemessen.“"
+        },
+        {
+          "rank": 882,
+          "slot": "extra1",
+          "sentence": "Nach einer kurzen Unterbrechung formulierte Lina ihre Antwort sorgfältig: „Das ist ein klassisches Beispiel für diesen Fehler.“"
+        },
+        {
+          "rank": 898,
+          "slot": "extra1",
+          "sentence": "Nach einer kurzen Unterbrechung fragte Klara ohne zu zögern: „Ist eine Anmeldung unbedingt erforderlich?“"
+        },
+        {
+          "rank": 928,
+          "slot": "extra3",
+          "sentence": "Nach einer kurzen Unterbrechung fügte der Vater ruhig hinzu: „Sie schickte die Kinder ins Bett.“"
+        },
+        {
+          "rank": 994,
+          "slot": "extra3",
+          "sentence": "Nach einer kurzen Unterbrechung sagte Ava schließlich: „Er hatte das Ziel stets vor Augen.“"
+        },
+        {
+          "rank": 1044,
+          "slot": "extra3",
+          "sentence": "Nach einer kurzen Unterbrechung antwortete Klara ohne zu zögern: „Der erste Montag im Mai ist bereits verplant.“"
+        },
+        {
+          "rank": 1072,
+          "slot": "extra2",
+          "sentence": "Nach einer kurzen Unterbrechung zitierte der Moderator eine frühere Aussage: „Der Wunsch nach mehr Freiheit ist verständlich.“"
+        },
+        {
+          "rank": 1107,
+          "slot": "main",
+          "sentence": "Nach einer kurzen Unterbrechung las Nora den Satz vor: „Der Saal bietet Platz für hundert Personen.“"
+        },
+        {
+          "rank": 1115,
+          "slot": "extra2",
+          "sentence": "Nach einer kurzen Unterbrechung erklärte der Gast seinen Standpunkt: „Im Sommer hatte ich zwei kleine Jobs.“"
+        },
+        {
+          "rank": 1150,
+          "slot": "extra1",
+          "sentence": "Nach einer kurzen Unterbrechung fügte Jonas noch einen Gedanken hinzu: „Ich habe die Diskussion aufmerksam verfolgt.“"
+        }
+      ]
+    },
+    {
+      "opening": "nachdem alle platz genommen",
+      "count": 24,
+      "examples": [
+        {
+          "rank": 81,
+          "slot": "extra2",
+          "sentence": "Nachdem alle Platz genommen hatten, formulierte Lina ihre Antwort sorgfältig: „Wir haben uns sehr über deinen Besuch gefreut.“"
+        },
+        {
+          "rank": 157,
+          "slot": "extra1",
+          "sentence": "Nachdem alle Platz genommen hatten, brachte der Gast sein Argument auf den Punkt: „Diese Frage ist schwer zu beantworten.“"
+        },
+        {
+          "rank": 187,
+          "slot": "extra1",
+          "sentence": "Nachdem alle Platz genommen hatten, wiederholte Leo die entscheidenden Worte: „Ruf mich auf jeden Fall an.“"
+        },
+        {
+          "rank": 211,
+          "slot": "extra1",
+          "sentence": "Nachdem alle Platz genommen hatten, stellte der Moderator die nächste Frage: „Was verstehst du unter Freiheit?“"
+        },
+        {
+          "rank": 286,
+          "slot": "extra2",
+          "sentence": "Nachdem alle Platz genommen hatten, sagte Ava schließlich: „Das Gebäude war damals eine Schule.“"
+        },
+        {
+          "rank": 314,
+          "slot": "extra2",
+          "sentence": "Nachdem alle Platz genommen hatten, antwortete Klara ohne zu zögern: „Am besten fahren wir früh los.“"
+        },
+        {
+          "rank": 382,
+          "slot": "extra2",
+          "sentence": "Nachdem alle Platz genommen hatten, erklärte der Gast seinen Standpunkt: „Manchmal hilft eine kurze Pause.“"
+        },
+        {
+          "rank": 433,
+          "slot": "extra2",
+          "sentence": "Nachdem alle Platz genommen hatten, brachte der Gast sein Argument auf den Punkt: „Ich habe manches erst später verstanden.“"
+        },
+        {
+          "rank": 474,
+          "slot": "extra3",
+          "sentence": "Nachdem alle Platz genommen hatten, antwortete Klara ohne zu zögern: „Du solltest nicht immer alles so schwarzsehen.“"
+        },
+        {
+          "rank": 504,
+          "slot": "main",
+          "sentence": "Nachdem alle Platz genommen hatten, fasste Mia ihren Gedanken zusammen: „Das Risiko ist sehr gering.“"
+        },
+        {
+          "rank": 591,
+          "slot": "main",
+          "sentence": "Nachdem alle Platz genommen hatten, antwortete Klara ohne zu zögern: „Die Zeitung berichtet über die Verhandlungen.“"
+        },
+        {
+          "rank": 611,
+          "slot": "extra2",
+          "sentence": "Nachdem alle Platz genommen hatten, fasste Mia ihren Gedanken zusammen: „Der Laden schließt um sieben Uhr.“"
+        },
+        {
+          "rank": 616,
+          "slot": "extra2",
+          "sentence": "Nachdem alle Platz genommen hatten, brachte der Gast sein Argument auf den Punkt: „Das Bild hängt am Fenster.“"
+        },
+        {
+          "rank": 627,
+          "slot": "extra2",
+          "sentence": "Nachdem alle Platz genommen hatten, fügte Jonas noch einen Gedanken hinzu: „Er bot an, uns nach Hause zu fahren.“"
+        },
+        {
+          "rank": 630,
+          "slot": "main",
+          "sentence": "Nachdem alle Platz genommen hatten, antwortete Klara ohne zu zögern: „Ich wünsche dir gute Besserung.“"
+        },
+        {
+          "rank": 718,
+          "slot": "extra1",
+          "sentence": "Nachdem alle Platz genommen hatten, schrieb der Reporter in sein Notizbuch: „Die Lampe wirft warmes Licht an die Wand.“"
+        },
+        {
+          "rank": 735,
+          "slot": "main",
+          "sentence": "Nachdem alle Platz genommen hatten, formulierte Lina ihre Antwort sorgfältig: „Die Verhandlungen waren erfolgreich.“"
+        },
+        {
+          "rank": 747,
+          "slot": "main",
+          "sentence": "Nachdem alle Platz genommen hatten, schrieb der Reporter in sein Notizbuch: „Die Bibliothek ist hell und modern.“"
+        },
+        {
+          "rank": 817,
+          "slot": "extra1",
+          "sentence": "Nachdem alle Platz genommen hatten, sagte Ava schließlich: „Der Test auf das Virus fiel negativ aus.“"
+        },
+        {
+          "rank": 1053,
+          "slot": "extra1",
+          "sentence": "Nachdem alle Platz genommen hatten, las Nora den Satz vor: „Für das Projekt arbeiten neun Personen zusammen.“"
+        },
+        {
+          "rank": 1147,
+          "slot": "extra3",
+          "sentence": "Nachdem alle Platz genommen hatten, erinnerte sich die Erzählerin an den Satz: „Das Hotel ist nur wenige Kilometer entfernt.“"
+        },
+        {
+          "rank": 1229,
+          "slot": "extra3",
+          "sentence": "Nachdem alle Platz genommen hatten, wiederholte Leo die entscheidenden Worte: „Er bekam eine böse Verletzung am Bein.“"
+        },
+        {
+          "rank": 1239,
+          "slot": "extra3",
+          "sentence": "Nachdem alle Platz genommen hatten, schrieb der Reporter in sein Notizbuch: „In der Ferne konnte sie ein Schiff ausmachen.“"
+        },
+        {
+          "rank": 1249,
+          "slot": "extra3",
+          "sentence": "Nachdem alle Platz genommen hatten, fasste Mia ihren Gedanken zusammen: „Das Modell beschreibt die Wechselwirkung zweier Teilchen.“"
+        }
+      ]
+    },
+    {
+      "opening": "während draussen leise der",
+      "count": 24,
+      "examples": [
+        {
+          "rank": 19,
+          "slot": "extra1",
+          "sentence": "Während draußen leise der Regen fiel, las Nora den Satz vor: „Häng deinen Mantel an den Haken.“"
+        },
+        {
+          "rank": 30,
+          "slot": "extra1",
+          "sentence": "Während draußen leise der Regen fiel, fasste Mia ihren Gedanken zusammen: „Der Hund schläft in seinem Korb.“"
+        },
+        {
+          "rank": 83,
+          "slot": "extra1",
+          "sentence": "Während draußen leise der Regen fiel, erinnerte sich die Erzählerin an den Satz: „Die Eltern lassen die Kinder draußen spielen.“"
+        },
+        {
+          "rank": 100,
+          "slot": "extra1",
+          "sentence": "Während draußen leise der Regen fiel, wandte sich der Gast an die Runde: „Haben wir noch etwas Milch?“"
+        },
+        {
+          "rank": 159,
+          "slot": "extra1",
+          "sentence": "Während draußen leise der Regen fiel, erinnerte sich die Erzählerin an den Satz: „Ich koche gerade das Abendessen.“"
+        },
+        {
+          "rank": 175,
+          "slot": "extra2",
+          "sentence": "Während draußen leise der Regen fiel, sagte Ava schließlich: „Das Zimmer ist klein, dafür aber günstig.“"
+        },
+        {
+          "rank": 225,
+          "slot": "main",
+          "sentence": "Während draußen leise der Regen fiel, fügte Jonas noch einen Gedanken hinzu: „Das Hotel ist schön, allerdings sehr teuer.“"
+        },
+        {
+          "rank": 228,
+          "slot": "main",
+          "sentence": "Während draußen leise der Regen fiel, fasste Mia ihren Gedanken zusammen: „Setz dich bitte neben mich.“"
+        },
+        {
+          "rank": 286,
+          "slot": "extra3",
+          "sentence": "Während draußen leise der Regen fiel, formulierte Lina ihre Antwort sorgfältig: „Seit damals hat sich vieles verändert.“"
+        },
+        {
+          "rank": 299,
+          "slot": "extra3",
+          "sentence": "Während draußen leise der Regen fiel, wiederholte Leo die entscheidenden Worte: „Es handelt sich um ein Missverständnis.“"
+        },
+        {
+          "rank": 338,
+          "slot": "extra1",
+          "sentence": "Während draußen leise der Regen fiel, erklärte der Gast seinen Standpunkt: „Sie hilft ihrem Bruder bei den Hausaufgaben.“"
+        },
+        {
+          "rank": 404,
+          "slot": "extra3",
+          "sentence": "Während draußen leise der Regen fiel, brachte der Gast sein Argument auf den Punkt: „Ein Elternteil muss das Formular unterschreiben.“"
+        },
+        {
+          "rank": 414,
+          "slot": "extra1",
+          "sentence": "Während draußen leise der Regen fiel, sagte Ava schließlich: „Sie hat sich für das günstigere Modell entschieden.“"
+        },
+        {
+          "rank": 427,
+          "slot": "extra2",
+          "sentence": "Während draußen leise der Regen fiel, zitierte der Moderator eine frühere Aussage: „Von Anfang an gab es klare Regeln.“"
+        },
+        {
+          "rank": 427,
+          "slot": "extra3",
+          "sentence": "Während draußen leise der Regen fiel, formulierte Lina ihre Antwort sorgfältig: „Jeder Anfang braucht ein wenig Mut.“"
+        },
+        {
+          "rank": 516,
+          "slot": "main",
+          "sentence": "Während draußen leise der Regen fiel, sagte Ava schließlich: „Die Reaktion auf den Vorschlag war positiv.“"
+        },
+        {
+          "rank": 661,
+          "slot": "extra1",
+          "sentence": "Während draußen leise der Regen fiel, formulierte Lina ihre Antwort sorgfältig: „Die neue Lösung ist wesentlich günstiger.“"
+        },
+        {
+          "rank": 807,
+          "slot": "main",
+          "sentence": "Während draußen leise der Regen fiel, formulierte Lina ihre Antwort sorgfältig: „Sie lächelte freundlich in die Kamera.“"
+        },
+        {
+          "rank": 887,
+          "slot": "extra1",
+          "sentence": "Während draußen leise der Regen fiel, antwortete Klara ohne zu zögern: „Mir ist kalt, obwohl das Fenster geschlossen ist.“"
+        },
+        {
+          "rank": 1024,
+          "slot": "extra1",
+          "sentence": "Während draußen leise der Regen fiel, erinnerte sich die Erzählerin an den Satz: „Wir müssen sofort geeignete Maßnahmen ergreifen.“"
+        },
+        {
+          "rank": 1089,
+          "slot": "extra3",
+          "sentence": "Während draußen leise der Regen fiel, fügte Jonas noch einen Gedanken hinzu: „Der Staat hat das Projekt finanziell gefördert.“"
+        },
+        {
+          "rank": 1099,
+          "slot": "extra1",
+          "sentence": "Während draußen leise der Regen fiel, las Nora den Satz vor: „Unsere Mannschaft gewann mit drei zu eins.“"
+        },
+        {
+          "rank": 1216,
+          "slot": "extra1",
+          "sentence": "Während draußen leise der Regen fiel, las Nora den Satz vor: „Die Forderungen der Opposition wurden abgelehnt.“"
+        },
+        {
+          "rank": 1249,
+          "slot": "extra1",
+          "sentence": "Während draußen leise der Regen fiel, erklärte der Gast seinen Standpunkt: „Die Teilchen bewegen sich bei höherer Temperatur schneller.“"
+        }
+      ]
+    },
+    {
+      "opening": "zu beginn der zweiten",
+      "count": 22,
+      "examples": [
+        {
+          "rank": 14,
+          "slot": "extra3",
+          "sentence": "Zu Beginn der zweiten Runde wiederholte Leo die entscheidenden Worte: „Er erinnert sich gern an die Reise.“"
+        },
+        {
+          "rank": 41,
+          "slot": "extra2",
+          "sentence": "Zu Beginn der zweiten Runde sagte Ava schließlich: „Bis dann, wir sehen uns am Montag.“"
+        },
+        {
+          "rank": 43,
+          "slot": "extra3",
+          "sentence": "Zu Beginn der zweiten Runde formulierte Lina ihre Antwort sorgfältig: „Du musst das nicht sofort entscheiden.“"
+        },
+        {
+          "rank": 128,
+          "slot": "extra3",
+          "sentence": "Zu Beginn der zweiten Runde schrieb der Reporter in sein Notizbuch: „Ich dachte, der Laden wäre noch offen.“"
+        },
+        {
+          "rank": 134,
+          "slot": "extra1",
+          "sentence": "Zu Beginn der zweiten Runde wiederholte Leo die entscheidenden Worte: „Bayern ist das größte deutsche Bundesland.“"
+        },
+        {
+          "rank": 154,
+          "slot": "extra3",
+          "sentence": "Zu Beginn der zweiten Runde schrieb der Reporter in sein Notizbuch: „Meine Damen und Herren, herzlich willkommen.“"
+        },
+        {
+          "rank": 175,
+          "slot": "extra1",
+          "sentence": "Zu Beginn der zweiten Runde formulierte Lina ihre Antwort sorgfältig: „Dafür habe ich heute keine Zeit.“"
+        },
+        {
+          "rank": 205,
+          "slot": "extra1",
+          "sentence": "Zu Beginn der zweiten Runde las Nora den Satz vor: „Er spielt seit Jahren Klavier.“"
+        },
+        {
+          "rank": 223,
+          "slot": "extra2",
+          "sentence": "Zu Beginn der zweiten Runde schrieb der Reporter in sein Notizbuch: „In letzter Zeit regnet es öfter.“"
+        },
+        {
+          "rank": 275,
+          "slot": "extra2",
+          "sentence": "Zu Beginn der zweiten Runde sagte Ava schließlich: „Es scheint, dass niemand zu Hause ist.“"
+        },
+        {
+          "rank": 398,
+          "slot": "extra1",
+          "sentence": "Zu Beginn der zweiten Runde schrieb der Reporter in sein Notizbuch: „Die Entscheidung bedeutet eine große Veränderung.“"
+        },
+        {
+          "rank": 416,
+          "slot": "extra1",
+          "sentence": "Zu Beginn der zweiten Runde zitierte der Moderator eine frühere Aussage: „Was mich betrifft, können wir sofort beginnen.“"
+        },
+        {
+          "rank": 452,
+          "slot": "extra1",
+          "sentence": "Zu Beginn der zweiten Runde erklärte der Gast seinen Standpunkt: „Ich verbinde diesen Geruch mit meiner Kindheit.“"
+        },
+        {
+          "rank": 472,
+          "slot": "extra3",
+          "sentence": "Zu Beginn der zweiten Runde fügte Jonas noch einen Gedanken hinzu: „Schwarz und Weiß bilden einen starken Kontrast.“"
+        },
+        {
+          "rank": 485,
+          "slot": "extra3",
+          "sentence": "Zu Beginn der zweiten Runde sagte Ava schließlich: „Betrachtet man alle Kosten, ist die Lösung teuer.“"
+        },
+        {
+          "rank": 576,
+          "slot": "extra1",
+          "sentence": "Zu Beginn der zweiten Runde zitierte der Moderator eine frühere Aussage: „Sie war drei Tage bei Freunden zu Gast.“"
+        },
+        {
+          "rank": 628,
+          "slot": "extra1",
+          "sentence": "Zu Beginn der zweiten Runde las Nora den Satz vor: „Diese Pflanze kommt nur in den Alpen vor.“"
+        },
+        {
+          "rank": 730,
+          "slot": "extra1",
+          "sentence": "Zu Beginn der zweiten Runde formulierte Lina ihre Antwort sorgfältig: „Sie hat zwei ältere Brüder.“"
+        },
+        {
+          "rank": 740,
+          "slot": "extra1",
+          "sentence": "Zu Beginn der zweiten Runde zitierte der Moderator eine frühere Aussage: „Wir müssen mit höheren Kosten rechnen.“"
+        },
+        {
+          "rank": 935,
+          "slot": "extra2",
+          "sentence": "Zu Beginn der zweiten Runde erinnerte sich die Erzählerin an den Satz: „Wir finden irgendwo einen ruhigen Platz.“"
+        },
+        {
+          "rank": 994,
+          "slot": "extra2",
+          "sentence": "Zu Beginn der zweiten Runde wiederholte Leo die entscheidenden Worte: „Wir bemühen uns stets um eine schnelle Antwort.“"
+        },
+        {
+          "rank": 1194,
+          "slot": "extra1",
+          "sentence": "Zu Beginn der zweiten Runde sagte Ava schließlich: „Die Lage hat sich deutlich verbessert.“"
+        }
+      ]
+    },
+    {
+      "opening": "als die tür hinter",
+      "count": 21,
+      "examples": [
+        {
+          "rank": 43,
+          "slot": "extra2",
+          "sentence": "Als die Tür hinter ihnen zufiel, las Nora den Satz vor: „Wir mussten wegen einer Baustelle umkehren.“"
+        },
+        {
+          "rank": 83,
+          "slot": "extra2",
+          "sentence": "Als die Tür hinter ihnen zufiel, formulierte Lina ihre Antwort sorgfältig: „Ich lasse morgen mein Fahrrad reparieren.“"
+        },
+        {
+          "rank": 207,
+          "slot": "main",
+          "sentence": "Als die Tür hinter ihnen zufiel, sagte Ava schließlich: „Das kostet zwanzig Euro.“"
+        },
+        {
+          "rank": 258,
+          "slot": "main",
+          "sentence": "Als die Tür hinter ihnen zufiel, fasste Mia ihren Gedanken zusammen: „Das Ergebnis entspricht unseren Erwartungen.“"
+        },
+        {
+          "rank": 321,
+          "slot": "main",
+          "sentence": "Als die Tür hinter ihnen zufiel, antwortete Klara ohne zu zögern: „Die Preise sind erneut gestiegen.“"
+        },
+        {
+          "rank": 321,
+          "slot": "extra2",
+          "sentence": "Als die Tür hinter ihnen zufiel, wiederholte der Moderator die Warnung: „Bitte steigen Sie an der nächsten Haltestelle aus.“"
+        },
+        {
+          "rank": 394,
+          "slot": "extra2",
+          "sentence": "Als die Tür hinter ihnen zufiel, fragte Klara ohne zu zögern: „Wie fühlst du dich nach der Operation?“"
+        },
+        {
+          "rank": 406,
+          "slot": "extra3",
+          "sentence": "Als die Tür hinter ihnen zufiel, fasste Mia ihren Gedanken zusammen: „Diese Funktion ist nach dem Update nicht verfügbar.“"
+        },
+        {
+          "rank": 644,
+          "slot": "extra1",
+          "sentence": "Als die Tür hinter ihnen zufiel, erinnerte sich die Erzählerin an den Satz: „Die Daten bilden die Grundlage des Berichts.“"
+        },
+        {
+          "rank": 644,
+          "slot": "extra3",
+          "sentence": "Als die Tür hinter ihnen zufiel, formulierte Lina ihre Antwort sorgfältig: „Im ersten Kapitel lernen wir die wichtigsten Grundlagen.“"
+        },
+        {
+          "rank": 656,
+          "slot": "extra3",
+          "sentence": "Als die Tür hinter ihnen zufiel, sagte Ava schließlich: „Die Anlage entspricht dem neuesten technischen Stand.“"
+        },
+        {
+          "rank": 718,
+          "slot": "extra2",
+          "sentence": "Als die Tür hinter ihnen zufiel, antwortete Klara ohne zu zögern: „Sie warf einen kurzen Blick auf die Uhr.“"
+        },
+        {
+          "rank": 778,
+          "slot": "extra3",
+          "sentence": "Als die Tür hinter ihnen zufiel, schrieb der Reporter in sein Notizbuch: „Die Arbeitslosigkeit erreichte den niedrigsten Stand seit Jahren.“"
+        },
+        {
+          "rank": 810,
+          "slot": "extra2",
+          "sentence": "Als die Tür hinter ihnen zufiel, fügte Jonas noch einen Gedanken hinzu: „Das ist der interessanteste Teil des Buches.“"
+        },
+        {
+          "rank": 817,
+          "slot": "extra2",
+          "sentence": "Als die Tür hinter ihnen zufiel, fügte Jonas noch einen Gedanken hinzu: „Minus drei ist eine negative Zahl.“"
+        },
+        {
+          "rank": 827,
+          "slot": "extra2",
+          "sentence": "Als die Tür hinter ihnen zufiel, las Nora den Satz vor: „Sie arbeitet weiterhin von zu Hause aus.“"
+        },
+        {
+          "rank": 989,
+          "slot": "extra2",
+          "sentence": "Als die Tür hinter ihnen zufiel, blickte die Reporterin direkt in die Kamera: „Bitte lassen Sie mich in Ruhe arbeiten.“"
+        },
+        {
+          "rank": 1024,
+          "slot": "extra3",
+          "sentence": "Als die Tür hinter ihnen zufiel, antwortete Klara ohne zu zögern: „Die Wirkung der Maßnahmen wird regelmäßig geprüft.“"
+        },
+        {
+          "rank": 1046,
+          "slot": "extra3",
+          "sentence": "Als die Tür hinter ihnen zufiel, erinnerte sich die Erzählerin an den Satz: „Der Kontakt zwischen den Gruppen wurde wiederhergestellt.“"
+        },
+        {
+          "rank": 1142,
+          "slot": "extra3",
+          "sentence": "Als die Tür hinter ihnen zufiel, warnte Klara die anderen: „Hey, das hast du wirklich gut gemacht!“"
+        },
+        {
+          "rank": 1224,
+          "slot": "main",
+          "sentence": "Als die Tür hinter ihnen zufiel, zitierte der Moderator eine frühere Aussage: „Sie kann gut mit schwierigen Kunden umgehen.“"
+        }
+      ]
+    },
+    {
+      "opening": "bevor jemand eine weitere",
+      "count": 21,
+      "examples": [
+        {
+          "rank": 7,
+          "slot": "extra2",
+          "sentence": "Bevor jemand eine weitere Frage stellen konnte, erklärte der Gast seinen Standpunkt: „Die Gäste sind da, aber sie warten draußen.“"
+        },
+        {
+          "rank": 73,
+          "slot": "extra2",
+          "sentence": "Bevor jemand eine weitere Frage stellen konnte, zitierte der Moderator eine frühere Aussage: „Du hast keine Zeit. Doch, heute schon.“"
+        },
+        {
+          "rank": 100,
+          "slot": "extra2",
+          "sentence": "Bevor jemand eine weitere Frage stellen konnte, schrieb der Reporter in sein Notizbuch: „Der Koffer ist etwas zu schwer.“"
+        },
+        {
+          "rank": 165,
+          "slot": "extra1",
+          "sentence": "Bevor jemand eine weitere Frage stellen konnte, fasste Mia ihren Gedanken zusammen: „Wir haben gar keine Eier mehr.“"
+        },
+        {
+          "rank": 178,
+          "slot": "extra2",
+          "sentence": "Bevor jemand eine weitere Frage stellen konnte, schrieb der Reporter in sein Notizbuch: „Dieser Kaffee ist mir zu stark.“"
+        },
+        {
+          "rank": 257,
+          "slot": "extra3",
+          "sentence": "Bevor jemand eine weitere Frage stellen konnte, erklärte der Gast seinen Standpunkt: „Deutsch ist nicht so schwer, wie viele denken.“"
+        },
+        {
+          "rank": 380,
+          "slot": "extra2",
+          "sentence": "Bevor jemand eine weitere Frage stellen konnte, antwortete Klara ohne zu zögern: „Sie hat einen guten Sinn für Humor.“"
+        },
+        {
+          "rank": 406,
+          "slot": "extra2",
+          "sentence": "Bevor jemand eine weitere Frage stellen konnte, antwortete Klara ohne zu zögern: „Die wichtigste Funktion der Haut ist der Schutz.“"
+        },
+        {
+          "rank": 429,
+          "slot": "main",
+          "sentence": "Bevor jemand eine weitere Frage stellen konnte, schrieb der Reporter in sein Notizbuch: „Viele Menschen nutzen täglich öffentliche Verkehrsmittel.“"
+        },
+        {
+          "rank": 448,
+          "slot": "extra1",
+          "sentence": "Bevor jemand eine weitere Frage stellen konnte, wiederholte Leo die entscheidenden Worte: „Das Wetter hat sich plötzlich geändert.“"
+        },
+        {
+          "rank": 468,
+          "slot": "extra2",
+          "sentence": "Bevor jemand eine weitere Frage stellen konnte, formulierte Lina ihre Antwort sorgfältig: „Die Daten lassen sich auf verschiedene Weisen darstellen.“"
+        },
+        {
+          "rank": 484,
+          "slot": "extra1",
+          "sentence": "Bevor jemand eine weitere Frage stellen konnte, sagte Ava schließlich: „Die Entscheidung ist von großer Bedeutung.“"
+        },
+        {
+          "rank": 504,
+          "slot": "extra2",
+          "sentence": "Bevor jemand eine weitere Frage stellen konnte, schrieb der Reporter in sein Notizbuch: „Die Unterschiede zwischen den Gruppen waren gering.“"
+        },
+        {
+          "rank": 541,
+          "slot": "extra1",
+          "sentence": "Bevor jemand eine weitere Frage stellen konnte, fügte Jonas noch einen Gedanken hinzu: „Mit dieser Methode hatten wir wenig Erfolg.“"
+        },
+        {
+          "rank": 614,
+          "slot": "extra3",
+          "sentence": "Bevor jemand eine weitere Frage stellen konnte, fügte Jonas noch einen Gedanken hinzu: „Der Schutz bedrohter Tiere ist besonders wichtig.“"
+        },
+        {
+          "rank": 769,
+          "slot": "extra3",
+          "sentence": "Bevor jemand eine weitere Frage stellen konnte, schrieb der Reporter in sein Notizbuch: „Zwei neue Mitarbeiter verstärken das Team.“"
+        },
+        {
+          "rank": 787,
+          "slot": "extra3",
+          "sentence": "Bevor jemand eine weitere Frage stellen konnte, sagte Ava schließlich: „Sie ist der Meinung, dass der Plan funktioniert.“"
+        },
+        {
+          "rank": 807,
+          "slot": "extra3",
+          "sentence": "Bevor jemand eine weitere Frage stellen konnte, sagte Ava schließlich: „Trotz der schlechten Nachricht lächelte sie ruhig.“"
+        },
+        {
+          "rank": 969,
+          "slot": "main",
+          "sentence": "Bevor jemand eine weitere Frage stellen konnte, stellte die Projektleiterin klar: „Beide Seiten haben den Vertrag unterschrieben.“"
+        },
+        {
+          "rank": 1197,
+          "slot": "extra3",
+          "sentence": "Bevor jemand eine weitere Frage stellen konnte, sagte Ava schließlich: „Die Veränderung brachte den Markt aus dem Gleichgewicht.“"
+        },
+        {
+          "rank": 1239,
+          "slot": "main",
+          "sentence": "Bevor jemand eine weitere Frage stellen konnte, blickte die Reporterin in die Kamera: „Kannst du den Fernseher ausmachen?“"
+        }
+      ]
+    },
+    {
+      "opening": "kurz vor der nächsten",
+      "count": 21,
+      "examples": [
+        {
+          "rank": 14,
+          "slot": "extra1",
+          "sentence": "Kurz vor der nächsten Pause wiederholte Leo die entscheidenden Worte: „Die beiden kennen sich seit der Schule.“"
+        },
+        {
+          "rank": 35,
+          "slot": "extra1",
+          "sentence": "Kurz vor der nächsten Pause antwortete Klara ohne zu zögern: „Wir können laufen oder den Bus nehmen.“"
+        },
+        {
+          "rank": 81,
+          "slot": "main",
+          "sentence": "Kurz vor der nächsten Pause erklärte der Gast seinen Standpunkt: „Die Prüfung war sehr schwierig.“"
+        },
+        {
+          "rank": 135,
+          "slot": "extra2",
+          "sentence": "Kurz vor der nächsten Pause brachte der Gast sein Argument auf den Punkt: „Wir stellen den Wecker auf sieben Uhr.“"
+        },
+        {
+          "rank": 148,
+          "slot": "extra2",
+          "sentence": "Kurz vor der nächsten Pause wiederholte Leo die entscheidenden Worte: „Sie konnte einfach nicht Nein sagen.“"
+        },
+        {
+          "rank": 361,
+          "slot": "extra3",
+          "sentence": "Kurz vor der nächsten Pause erinnerte sich die Erzählerin an den Satz: „In der Innenstadt sind weniger Autos unterwegs.“"
+        },
+        {
+          "rank": 481,
+          "slot": "extra3",
+          "sentence": "Kurz vor der nächsten Pause schrieb der Reporter in sein Notizbuch: „Im Notfall rufen Sie laut um Hilfe.“"
+        },
+        {
+          "rank": 516,
+          "slot": "extra1",
+          "sentence": "Kurz vor der nächsten Pause erinnerte sich die Erzählerin an den Satz: „Sein Test auf das Virus war positiv.“"
+        },
+        {
+          "rank": 518,
+          "slot": "extra1",
+          "sentence": "Kurz vor der nächsten Pause fügte Jonas noch einen Gedanken hinzu: „Es geht darum, eine faire Lösung zu finden.“"
+        },
+        {
+          "rank": 538,
+          "slot": "extra3",
+          "sentence": "Kurz vor der nächsten Pause wandte sich der Gast an die Runde: „Darf ich dieses Bild für den Bericht verwenden?“"
+        },
+        {
+          "rank": 627,
+          "slot": "main",
+          "sentence": "Kurz vor der nächsten Pause fragte Klara ohne zu zögern: „Darf ich Ihnen etwas zu trinken anbieten?“"
+        },
+        {
+          "rank": 654,
+          "slot": "main",
+          "sentence": "Kurz vor der nächsten Pause zitierte der Moderator eine frühere Aussage: „Der Fehler tritt nur selten auf.“"
+        },
+        {
+          "rank": 702,
+          "slot": "main",
+          "sentence": "Kurz vor der nächsten Pause erinnerte sich die Erzählerin an den Satz: „Eine ältere Dame fragte mich nach dem Weg.“"
+        },
+        {
+          "rank": 733,
+          "slot": "extra3",
+          "sentence": "Kurz vor der nächsten Pause fügte Jonas noch einen Gedanken hinzu: „Er gibt ständig mit seinem neuen Auto an.“"
+        },
+        {
+          "rank": 765,
+          "slot": "main",
+          "sentence": "Kurz vor der nächsten Pause zitierte der Moderator eine frühere Aussage: „Das Geschäft öffnet jeden Morgen um neun.“"
+        },
+        {
+          "rank": 858,
+          "slot": "extra2",
+          "sentence": "Kurz vor der nächsten Pause erinnerte sich die Erzählerin an den Satz: „Die Frist hat bisher drei Wochen betragen.“"
+        },
+        {
+          "rank": 928,
+          "slot": "extra2",
+          "sentence": "Kurz vor der nächsten Pause rief Leo durch den Raum: „Bitte schicken Sie das Formular an diese Adresse.“"
+        },
+        {
+          "rank": 942,
+          "slot": "main",
+          "sentence": "Kurz vor der nächsten Pause formulierte Lina ihre Antwort sorgfältig: „Er leidet an einer seltenen Krankheit.“"
+        },
+        {
+          "rank": 985,
+          "slot": "extra3",
+          "sentence": "Kurz vor der nächsten Pause fügte Jonas noch einen Gedanken hinzu: „Mehr Freizeit wäre für alle ein großer Gewinn.“"
+        },
+        {
+          "rank": 1071,
+          "slot": "main",
+          "sentence": "Kurz vor der nächsten Pause fügte Jonas noch einen Gedanken hinzu: „Den Rest erledigen wir morgen.“"
+        },
+        {
+          "rank": 1112,
+          "slot": "extra1",
+          "sentence": "Kurz vor der nächsten Pause erinnerte sich die Erzählerin an den Satz: „Samstags arbeitet er nur bis Mittag.“"
+        }
+      ]
+    },
+    {
+      "opening": "als die diskussion wieder",
+      "count": 19,
+      "examples": [
+        {
+          "rank": 70,
+          "slot": "extra2",
+          "sentence": "Als die Diskussion wieder begann, brachte der Gast sein Argument auf den Punkt: „Sie ist Mutter von zwei Kindern.“"
+        },
+        {
+          "rank": 172,
+          "slot": "extra1",
+          "sentence": "Als die Diskussion wieder begann, fasste Mia ihren Gedanken zusammen: „Der Preis ist um zehn Prozent gestiegen.“"
+        },
+        {
+          "rank": 260,
+          "slot": "extra3",
+          "sentence": "Als die Diskussion wieder begann, erklärte der Gast seinen Standpunkt: „Das Gerät ist eine Art kleiner Computer.“"
+        },
+        {
+          "rank": 350,
+          "slot": "extra3",
+          "sentence": "Als die Diskussion wieder begann, formulierte Lina ihre Antwort sorgfältig: „Daraus lässt sich nichts Sicheres schließen.“"
+        },
+        {
+          "rank": 446,
+          "slot": "extra3",
+          "sentence": "Als die Diskussion wieder begann, schrieb der Reporter in sein Notizbuch: „Ich wusste sofort, was gemeint war.“"
+        },
+        {
+          "rank": 474,
+          "slot": "main",
+          "sentence": "Als die Diskussion wieder begann, antwortete Klara ohne zu zögern: „Er trägt einen schwarzen Mantel.“"
+        },
+        {
+          "rank": 485,
+          "slot": "extra2",
+          "sentence": "Als die Diskussion wieder begann, erklärte der Gast seinen Standpunkt: „Er betrachtet die Stadt als seine Heimat.“"
+        },
+        {
+          "rank": 545,
+          "slot": "extra2",
+          "sentence": "Als die Diskussion wieder begann, sagte Mia mit Nachdruck: „Bitte geben Sie keine persönlichen Daten weiter.“"
+        },
+        {
+          "rank": 641,
+          "slot": "extra2",
+          "sentence": "Als die Diskussion wieder begann, antwortete Klara ohne zu zögern: „Für sie bedeutet Familie großes Glück.“"
+        },
+        {
+          "rank": 679,
+          "slot": "extra1",
+          "sentence": "Als die Diskussion wieder begann, wiederholte Leo die entscheidenden Worte: „Ich habe letzte Nacht schlecht geschlafen.“"
+        },
+        {
+          "rank": 693,
+          "slot": "main",
+          "sentence": "Als die Diskussion wieder begann, fasste Mia ihren Gedanken zusammen: „Das Team hat hervorragende Arbeit geleistet.“"
+        },
+        {
+          "rank": 714,
+          "slot": "extra3",
+          "sentence": "Als die Diskussion wieder begann, formulierte Lina ihre Antwort sorgfältig: „Die Kinder waren den ganzen Nachmittag beschäftigt.“"
+        },
+        {
+          "rank": 804,
+          "slot": "main",
+          "sentence": "Als die Diskussion wieder begann, fügte Jonas noch einen Gedanken hinzu: „Am Sonntag besuchen wir unsere Freunde.“"
+        },
+        {
+          "rank": 825,
+          "slot": "main",
+          "sentence": "Als die Diskussion wieder begann, brachte der Gast sein Argument auf den Punkt: „Der Hund wartet vor der Tür.“"
+        },
+        {
+          "rank": 837,
+          "slot": "main",
+          "sentence": "Als die Diskussion wieder begann, sagte Ava schließlich: „Eine Minute hat sechzig Sekunden.“"
+        },
+        {
+          "rank": 884,
+          "slot": "extra1",
+          "sentence": "Als die Diskussion wieder begann, fasste Mia ihren Gedanken zusammen: „Sie steht den ganzen Tag auf den Beinen.“"
+        },
+        {
+          "rank": 951,
+          "slot": "extra2",
+          "sentence": "Als die Diskussion wieder begann, fügte Jonas noch einen Gedanken hinzu: „Das Thema wurde in den sozialen Medien diskutiert.“"
+        },
+        {
+          "rank": 1107,
+          "slot": "extra1",
+          "sentence": "Als die Diskussion wieder begann, erinnerte sich die Erzählerin an den Satz: „Das Buch hat mehr als einhundert Seiten.“"
+        },
+        {
+          "rank": 1113,
+          "slot": "main",
+          "sentence": "Als die Diskussion wieder begann, sagte Ava schließlich: „Die Organisation unterstützt geflüchtete Familien.“"
+        }
+      ]
+    },
+    {
+      "opening": "nachdem die verbindung wiederhergestellt",
+      "count": 19,
+      "examples": [
+        {
+          "rank": 108,
+          "slot": "main",
+          "sentence": "Nachdem die Verbindung wiederhergestellt worden war, fragte Klara ohne zu zögern: „Wo hast du das Brot gekauft?“"
+        },
+        {
+          "rank": 128,
+          "slot": "extra1",
+          "sentence": "Nachdem die Verbindung wiederhergestellt worden war, fragte Klara ohne zu zögern: „Was denkst du über den Vorschlag?“"
+        },
+        {
+          "rank": 178,
+          "slot": "extra1",
+          "sentence": "Nachdem die Verbindung wiederhergestellt worden war, fügte Jonas noch einen Gedanken hinzu: „Der Verkehr ist morgens besonders stark.“"
+        },
+        {
+          "rank": 228,
+          "slot": "extra1",
+          "sentence": "Nachdem die Verbindung wiederhergestellt worden war, fasste Mia ihren Gedanken zusammen: „Sie setzt das Glas auf den Tisch.“"
+        },
+        {
+          "rank": 292,
+          "slot": "extra1",
+          "sentence": "Nachdem die Verbindung wiederhergestellt worden war, antwortete Klara ohne zu zögern: „Denk bitte daran, die Tür abzuschließen.“"
+        },
+        {
+          "rank": 419,
+          "slot": "extra2",
+          "sentence": "Nachdem die Verbindung wiederhergestellt worden war, brachte der Gast sein Argument auf den Punkt: „Die Expertin konnte die Pflanze bestimmen.“"
+        },
+        {
+          "rank": 489,
+          "slot": "main",
+          "sentence": "Nachdem die Verbindung wiederhergestellt worden war, erklärte der Gast seinen Standpunkt: „Der Text hat eine klare Struktur.“"
+        },
+        {
+          "rank": 492,
+          "slot": "extra2",
+          "sentence": "Nachdem die Verbindung wiederhergestellt worden war, sagte Ava schließlich: „Über die Jahrhunderte hat sich die Sprache verändert.“"
+        },
+        {
+          "rank": 830,
+          "slot": "extra3",
+          "sentence": "Nachdem die Verbindung wiederhergestellt worden war, erklärte der Gast seinen Standpunkt: „Die Idee nimmt langsam konkrete Formen an.“"
+        },
+        {
+          "rank": 1016,
+          "slot": "extra3",
+          "sentence": "Nachdem die Verbindung wiederhergestellt worden war, fügte Jonas noch einen Gedanken hinzu: „Die erste Methode funktionierte, die zweite hingegen nicht.“"
+        },
+        {
+          "rank": 1027,
+          "slot": "extra2",
+          "sentence": "Nachdem die Verbindung wiederhergestellt worden war, schrieb der Reporter in sein Notizbuch: „Wählen Sie dasjenige Modell, das am besten passt.“"
+        },
+        {
+          "rank": 1053,
+          "slot": "main",
+          "sentence": "Nachdem die Verbindung wiederhergestellt worden war, wiederholte Leo die entscheidenden Worte: „Der Unterricht beginnt um neun Uhr.“"
+        },
+        {
+          "rank": 1147,
+          "slot": "extra1",
+          "sentence": "Nachdem die Verbindung wiederhergestellt worden war, formulierte Lina ihre Antwort sorgfältig: „Der Fleck lässt sich leicht entfernen.“"
+        },
+        {
+          "rank": 1152,
+          "slot": "main",
+          "sentence": "Nachdem die Verbindung wiederhergestellt worden war, sagte Ava schließlich: „Die Creme bietet Schutz vor der Sonne.“"
+        },
+        {
+          "rank": 1165,
+          "slot": "extra2",
+          "sentence": "Nachdem die Verbindung wiederhergestellt worden war, sagte Ava schließlich: „Angesichts neuer Daten müssen wir neu rechnen.“"
+        },
+        {
+          "rank": 1181,
+          "slot": "extra1",
+          "sentence": "Nachdem die Verbindung wiederhergestellt worden war, erinnerte sich die Erzählerin an den Satz: „Das Haus wurde aus hellem Stein gebaut.“"
+        },
+        {
+          "rank": 1181,
+          "slot": "extra3",
+          "sentence": "Nachdem die Verbindung wiederhergestellt worden war, wiederholte Leo die entscheidenden Worte: „Jeder Spieler setzt einen Stein auf das Feld.“"
+        },
+        {
+          "rank": 1197,
+          "slot": "main",
+          "sentence": "Nachdem die Verbindung wiederhergestellt worden war, zitierte der Moderator eine frühere Aussage: „Er verlor das Gleichgewicht und fiel.“"
+        },
+        {
+          "rank": 1234,
+          "slot": "extra1",
+          "sentence": "Nachdem die Verbindung wiederhergestellt worden war, wiederholte Leo die entscheidenden Worte: „Diese Lösung wäre unter idealen Bedingungen möglich.“"
+        }
+      ]
+    },
+    {
+      "opening": "obwohl die zeit langsam",
+      "count": 19,
+      "examples": [
+        {
+          "rank": 219,
+          "slot": "extra3",
+          "sentence": "Obwohl die Zeit langsam knapp wurde, las Nora die Frage vor: „Was hast du am Ende der Woche vor?“"
+        },
+        {
+          "rank": 275,
+          "slot": "extra3",
+          "sentence": "Obwohl die Zeit langsam knapp wurde, fügte Jonas noch einen Gedanken hinzu: „Das Licht schien durch den Vorhang.“"
+        },
+        {
+          "rank": 326,
+          "slot": "extra1",
+          "sentence": "Obwohl die Zeit langsam knapp wurde, schrieb der Reporter in sein Notizbuch: „In der Küche fehlt uns der Platz.“"
+        },
+        {
+          "rank": 398,
+          "slot": "extra3",
+          "sentence": "Obwohl die Zeit langsam knapp wurde, sagte Ava schließlich: „Ein rotes Licht bedeutet, dass man warten muss.“"
+        },
+        {
+          "rank": 448,
+          "slot": "extra2",
+          "sentence": "Obwohl die Zeit langsam knapp wurde, schrieb der Reporter in sein Notizbuch: „An seiner Meinung lässt sich nichts ändern.“"
+        },
+        {
+          "rank": 545,
+          "slot": "extra1",
+          "sentence": "Obwohl die Zeit langsam knapp wurde, erklärte der Gast seinen Standpunkt: „Sie brachte die Unterlagen persönlich vorbei.“"
+        },
+        {
+          "rank": 630,
+          "slot": "extra1",
+          "sentence": "Obwohl die Zeit langsam knapp wurde, las Nora die Frage vor: „Was wünschst du dir zum Geburtstag?“"
+        },
+        {
+          "rank": 714,
+          "slot": "main",
+          "sentence": "Obwohl die Zeit langsam knapp wurde, erklärte der Gast seinen Standpunkt: „Die Firma beschäftigt mehr als hundert Personen.“"
+        },
+        {
+          "rank": 715,
+          "slot": "extra3",
+          "sentence": "Obwohl die Zeit langsam knapp wurde, zitierte der Moderator eine frühere Aussage: „Der Weg war schwieriger als zuvor angenommen.“"
+        },
+        {
+          "rank": 787,
+          "slot": "extra1",
+          "sentence": "Obwohl die Zeit langsam knapp wurde, erklärte der Gast seinen Standpunkt: „Meiner Meinung nach brauchen wir mehr Zeit.“"
+        },
+        {
+          "rank": 801,
+          "slot": "main",
+          "sentence": "Obwohl die Zeit langsam knapp wurde, wiederholte Leo die entscheidenden Worte: „Das Produkt erfüllt alle Anforderungen.“"
+        },
+        {
+          "rank": 827,
+          "slot": "extra3",
+          "sentence": "Obwohl die Zeit langsam knapp wurde, fügte Jonas noch einen Gedanken hinzu: „Weiterhin benötigen wir eine Kopie Ihres Ausweises.“"
+        },
+        {
+          "rank": 908,
+          "slot": "extra2",
+          "sentence": "Obwohl die Zeit langsam knapp wurde, fasste Mia ihren Gedanken zusammen: „Das Gemälde stammt von einer unbekannten Künstlerin.“"
+        },
+        {
+          "rank": 951,
+          "slot": "main",
+          "sentence": "Obwohl die Zeit langsam knapp wurde, fasste Mia ihren Gedanken zusammen: „Die Medien berichten ausführlich über die Wahl.“"
+        },
+        {
+          "rank": 979,
+          "slot": "extra2",
+          "sentence": "Obwohl die Zeit langsam knapp wurde, las Nora den Satz vor: „Die Mannschaft steht an der Spitze der Tabelle.“"
+        },
+        {
+          "rank": 989,
+          "slot": "extra1",
+          "sentence": "Obwohl die Zeit langsam knapp wurde, zitierte der Moderator eine frühere Aussage: „Nach der Reise brauche ich etwas Ruhe.“"
+        },
+        {
+          "rank": 1088,
+          "slot": "extra3",
+          "sentence": "Obwohl die Zeit langsam knapp wurde, schrieb der Reporter in sein Notizbuch: „Der Topf hat auf beiden Seiten ein Ohr.“"
+        },
+        {
+          "rank": 1165,
+          "slot": "extra1",
+          "sentence": "Obwohl die Zeit langsam knapp wurde, zitierte der Moderator eine frühere Aussage: „Die Entscheidung ist angesichts der Gefahr verständlich.“"
+        },
+        {
+          "rank": 1175,
+          "slot": "extra2",
+          "sentence": "Obwohl die Zeit langsam knapp wurde, fügte Jonas noch einen Gedanken hinzu: „Sie legte die Einkäufe in den Wagen.“"
+        }
+      ]
+    },
+    {
+      "opening": "unter dem eindruck der",
+      "count": 19,
+      "examples": [
+        {
+          "rank": 30,
+          "slot": "main",
+          "sentence": "Unter dem Eindruck der neuen Informationen schrieb der Reporter in sein Notizbuch: „David holt seinen Sohn von der Schule ab.“"
+        },
+        {
+          "rank": 57,
+          "slot": "extra2",
+          "sentence": "Unter dem Eindruck der neuen Informationen erklärte der Gast seinen Standpunkt: „Als Kind wollte Ben Pilot werden.“"
+        },
+        {
+          "rank": 148,
+          "slot": "extra3",
+          "sentence": "Unter dem Eindruck der neuen Informationen schrieb der Reporter in sein Notizbuch: „Ein klares Nein ist auch eine Antwort.“"
+        },
+        {
+          "rank": 152,
+          "slot": "extra2",
+          "sentence": "Unter dem Eindruck der neuen Informationen antwortete Klara ohne zu zögern: „Auf der letzten Seite steht die Lösung.“"
+        },
+        {
+          "rank": 173,
+          "slot": "extra1",
+          "sentence": "Unter dem Eindruck der neuen Informationen fügte Jonas noch einen Gedanken hinzu: „Während ich koche, deckt Tom den Tisch.“"
+        },
+        {
+          "rank": 223,
+          "slot": "extra1",
+          "sentence": "Unter dem Eindruck der neuen Informationen erklärte der Reiseführer der Gruppe: „Wie oft fährt dieser Bus?“"
+        },
+        {
+          "rank": 314,
+          "slot": "extra1",
+          "sentence": "Unter dem Eindruck der neuen Informationen erklärte der Gast seinen Standpunkt: „Mein bester Freund wohnt in Wien.“"
+        },
+        {
+          "rank": 404,
+          "slot": "extra1",
+          "sentence": "Unter dem Eindruck der neuen Informationen zitierte der Moderator eine frühere Aussage: „Viele Eltern kamen zum ersten Elternabend.“"
+        },
+        {
+          "rank": 489,
+          "slot": "extra1",
+          "sentence": "Unter dem Eindruck der neuen Informationen schrieb der Reporter in sein Notizbuch: „Unter dem Mikroskop erkennt man die feine Struktur.“"
+        },
+        {
+          "rank": 586,
+          "slot": "extra2",
+          "sentence": "Unter dem Eindruck der neuen Informationen sagte Ava schließlich: „Er besitzt die nötige Erfahrung für die Stelle.“"
+        },
+        {
+          "rank": 693,
+          "slot": "extra2",
+          "sentence": "Unter dem Eindruck der neuen Informationen erklärte der Gast seinen Standpunkt: „Wir können uns kein neues Auto leisten.“"
+        },
+        {
+          "rank": 825,
+          "slot": "extra1",
+          "sentence": "Unter dem Eindruck der neuen Informationen erklärte der Gast seinen Standpunkt: „Sie geht jeden Morgen mit ihrem Hund spazieren.“"
+        },
+        {
+          "rank": 869,
+          "slot": "extra2",
+          "sentence": "Unter dem Eindruck der neuen Informationen formulierte Lina ihre Antwort sorgfältig: „Das Theater feiert in diesem Jahr sein Jubiläum.“"
+        },
+        {
+          "rank": 957,
+          "slot": "main",
+          "sentence": "Unter dem Eindruck der neuen Informationen las Nora den Satz vor: „Die Anlage ist seit gestern wieder in Betrieb.“"
+        },
+        {
+          "rank": 985,
+          "slot": "extra1",
+          "sentence": "Unter dem Eindruck der neuen Informationen fügte Jonas noch einen Gedanken hinzu: „Der Gewinn nach Abzug der Kosten war gering.“"
+        },
+        {
+          "rank": 1064,
+          "slot": "extra1",
+          "sentence": "Unter dem Eindruck der neuen Informationen sagte Ava schließlich: „Es gibt mehrere Theorien über die Ursache.“"
+        },
+        {
+          "rank": 1074,
+          "slot": "extra3",
+          "sentence": "Unter dem Eindruck der neuen Informationen erklärte der Gast seinen Standpunkt: „Die beiden sind seit der Schule dicke Freunde.“"
+        },
+        {
+          "rank": 1081,
+          "slot": "extra1",
+          "sentence": "Unter dem Eindruck der neuen Informationen las Nora den Satz vor: „Die Einladung kam per Post.“"
+        },
+        {
+          "rank": 1219,
+          "slot": "extra3",
+          "sentence": "Unter dem Eindruck der neuen Informationen formulierte Lina ihre Antwort sorgfältig: „In diesem Beruf konnte er viel Erfahrung sammeln.“"
+        }
+      ]
+    },
+    {
+      "opening": "weil noch eine erklärung",
+      "count": 19,
+      "examples": [
+        {
+          "rank": 212,
+          "slot": "extra1",
+          "sentence": "Weil noch eine Erklärung fehlte, stellte sich die Erzählerin eine Frage: „Wo bekomme ich eine Fahrkarte?“"
+        },
+        {
+          "rank": 332,
+          "slot": "extra2",
+          "sentence": "Weil noch eine Erklärung fehlte, antwortete Klara ohne zu zögern: „Dieses Jahr fällt der Feiertag auf einen Montag.“"
+        },
+        {
+          "rank": 492,
+          "slot": "main",
+          "sentence": "Weil noch eine Erklärung fehlte, zitierte der Audioguide einen Zeitzeugen: „Wir leben im einundzwanzigsten Jahrhundert.“"
+        },
+        {
+          "rank": 591,
+          "slot": "extra2",
+          "sentence": "Weil noch eine Erklärung fehlte, sagte Mia mit Nachdruck: „Bitte berichten Sie kurz, was passiert ist.“"
+        },
+        {
+          "rank": 601,
+          "slot": "extra2",
+          "sentence": "Weil noch eine Erklärung fehlte, brachte der Gast sein Argument auf den Punkt: „Das Kleid gefällt ihr besonders gut.“"
+        },
+        {
+          "rank": 628,
+          "slot": "extra3",
+          "sentence": "Weil noch eine Erklärung fehlte, fragte Ava schließlich: „Ist so etwas schon einmal vorgekommen?“"
+        },
+        {
+          "rank": 641,
+          "slot": "extra1",
+          "sentence": "Weil noch eine Erklärung fehlte, rief Ava plötzlich: „Viel Glück bei deiner Prüfung!“"
+        },
+        {
+          "rank": 658,
+          "slot": "extra3",
+          "sentence": "Weil noch eine Erklärung fehlte, rief Leo durch den Raum: „Los, wir dürfen keine Zeit verlieren!“"
+        },
+        {
+          "rank": 680,
+          "slot": "extra3",
+          "sentence": "Weil noch eine Erklärung fehlte, schrieb der Reporter in sein Notizbuch: „Wir sollten handeln, statt nur darüber zu reden.“"
+        },
+        {
+          "rank": 684,
+          "slot": "main",
+          "sentence": "Weil noch eine Erklärung fehlte, formulierte Lina ihre Antwort sorgfältig: „Dieses Werkzeug dient einem besonderen Zweck.“"
+        },
+        {
+          "rank": 915,
+          "slot": "main",
+          "sentence": "Weil noch eine Erklärung fehlte, sagte Mia mit Nachdruck: „Bitte bestätigen Sie den Termin schriftlich.“"
+        },
+        {
+          "rank": 919,
+          "slot": "extra3",
+          "sentence": "Weil noch eine Erklärung fehlte, fügte Jonas noch einen Gedanken hinzu: „Das Buch wurde in zahlreiche Sprachen übersetzt.“"
+        },
+        {
+          "rank": 942,
+          "slot": "extra1",
+          "sentence": "Weil noch eine Erklärung fehlte, sagte Ava schließlich: „Viele Menschen leiden unter dem ständigen Lärm.“"
+        },
+        {
+          "rank": 966,
+          "slot": "extra3",
+          "sentence": "Weil noch eine Erklärung fehlte, blickte die Reporterin direkt in die Kamera: „Bitte stehen Sie kurz von Ihrem Platz auf.“"
+        },
+        {
+          "rank": 968,
+          "slot": "extra1",
+          "sentence": "Weil noch eine Erklärung fehlte, brachte der Gast sein Argument auf den Punkt: „Unterwegs machten wir eine kurze Pause.“"
+        },
+        {
+          "rank": 1042,
+          "slot": "extra1",
+          "sentence": "Weil noch eine Erklärung fehlte, zitierte der Moderator eine frühere Aussage: „Der Fahrer war für den Unfall verantwortlich.“"
+        },
+        {
+          "rank": 1044,
+          "slot": "main",
+          "sentence": "Weil noch eine Erklärung fehlte, schrieb der Reporter in sein Notizbuch: „Am Montag beginnt meine neue Arbeit.“"
+        },
+        {
+          "rank": 1152,
+          "slot": "extra3",
+          "sentence": "Weil noch eine Erklärung fehlte, sagte Ava schließlich: „Bei dem Sturm suchten wir Schutz im Gebäude.“"
+        },
+        {
+          "rank": 1194,
+          "slot": "main",
+          "sentence": "Weil noch eine Erklärung fehlte, zitierte der Moderator eine frühere Aussage: „Wir möchten die Qualität verbessern.“"
+        }
+      ]
+    },
+    {
+      "opening": "nach einem langen moment",
+      "count": 17,
+      "examples": [
+        {
+          "rank": 7,
+          "slot": "extra1",
+          "sentence": "Nach einem langen Moment des Schweigens zitierte der Moderator eine frühere Aussage: „Ich treffe sie vor dem Kino.“"
+        },
+        {
+          "rank": 121,
+          "slot": "extra2",
+          "sentence": "Nach einem langen Moment des Schweigens fasste Mia ihren Gedanken zusammen: „Zwei Männer tragen das Sofa.“"
+        },
+        {
+          "rank": 126,
+          "slot": "main",
+          "sentence": "Nach einem langen Moment des Schweigens stellte sich die Erzählerin eine Frage: „Wie heißt deine neue Kollegin?“"
+        },
+        {
+          "rank": 152,
+          "slot": "extra1",
+          "sentence": "Nach einem langen Moment des Schweigens sagte Ava schließlich: „Der letzte Zug fährt kurz vor Mitternacht.“"
+        },
+        {
+          "rank": 292,
+          "slot": "extra2",
+          "sentence": "Nach einem langen Moment des Schweigens erinnerte sich die Erzählerin an den Satz: „Daran kann ich mich nicht erinnern.“"
+        },
+        {
+          "rank": 350,
+          "slot": "extra1",
+          "sentence": "Nach einem langen Moment des Schweigens sagte Ava schließlich: „Das Geschäft schließt um achtzehn Uhr.“"
+        },
+        {
+          "rank": 355,
+          "slot": "extra1",
+          "sentence": "Nach einem langen Moment des Schweigens erinnerte sich die Erzählerin an den Satz: „Wir müssen offen über das Problem sprechen.“"
+        },
+        {
+          "rank": 530,
+          "slot": "extra2",
+          "sentence": "Nach einem langen Moment des Schweigens erklärte der Gast seinen Standpunkt: „Das Kind rief laut nach seiner Mutter.“"
+        },
+        {
+          "rank": 559,
+          "slot": "extra1",
+          "sentence": "Nach einem langen Moment des Schweigens formulierte Lina ihre Antwort sorgfältig: „Mein Schlüssel ist plötzlich verschwunden.“"
+        },
+        {
+          "rank": 565,
+          "slot": "extra1",
+          "sentence": "Nach einem langen Moment des Schweigens sagte Ava schließlich: „Im kommenden Wintersemester belege ich vier Kurse.“"
+        },
+        {
+          "rank": 747,
+          "slot": "extra3",
+          "sentence": "Nach einem langen Moment des Schweigens las Nora den Satz vor: „Dieser Entwurf wirkt moderner als der erste.“"
+        },
+        {
+          "rank": 865,
+          "slot": "extra1",
+          "sentence": "Nach einem langen Moment des Schweigens erklärte der Gast seinen Standpunkt: „Das Gerät arbeitet nach einem einfachen Prinzip.“"
+        },
+        {
+          "rank": 933,
+          "slot": "main",
+          "sentence": "Nach einem langen Moment des Schweigens las Nora den Satz vor: „Wir reisen morgen nach Österreich.“"
+        },
+        {
+          "rank": 1142,
+          "slot": "extra2",
+          "sentence": "Nach einem langen Moment des Schweigens wiederholte Leo die entscheidenden Worte: „Hey, das ist meine Tasche.“"
+        },
+        {
+          "rank": 1171,
+          "slot": "extra1",
+          "sentence": "Nach einem langen Moment des Schweigens schrieb der Reporter in sein Notizbuch: „Sie trat erstmals vor großem Publikum auf.“"
+        },
+        {
+          "rank": 1172,
+          "slot": "extra3",
+          "sentence": "Nach einem langen Moment des Schweigens zitierte der Moderator eine frühere Aussage: „Das Institut arbeitet mit internationalen Partnern zusammen.“"
+        },
+        {
+          "rank": 1202,
+          "slot": "extra3",
+          "sentence": "Nach einem langen Moment des Schweigens antwortete Klara ohne zu zögern: „Das Material wird in verschiedenen Qualitäten angeboten.“"
+        }
+      ]
+    },
+    {
+      "opening": "während alle aufmerksam zuhörten",
+      "count": 17,
+      "examples": [
+        {
+          "rank": 45,
+          "slot": "main",
+          "sentence": "Während alle aufmerksam zuhörten, sagte Ava schließlich: „Ja, ich komme gern mit.“"
+        },
+        {
+          "rank": 53,
+          "slot": "extra1",
+          "sentence": "Während alle aufmerksam zuhörten, antwortete Klara ohne zu zögern: „Mein Neffe ist fünf Jahre alt.“"
+        },
+        {
+          "rank": 352,
+          "slot": "extra3",
+          "sentence": "Während alle aufmerksam zuhörten, fügte Jonas noch einen Gedanken hinzu: „Am Abend hat sich der Wind gelegt.“"
+        },
+        {
+          "rank": 363,
+          "slot": "extra1",
+          "sentence": "Während alle aufmerksam zuhörten, brachte der Gast sein Argument auf den Punkt: „Er arbeitet für eine wissenschaftliche Gesellschaft.“"
+        },
+        {
+          "rank": 538,
+          "slot": "extra2",
+          "sentence": "Während alle aufmerksam zuhörten, formulierte Lina ihre Antwort sorgfältig: „Sie verwendete viel Zeit auf die Vorbereitung.“"
+        },
+        {
+          "rank": 654,
+          "slot": "extra1",
+          "sentence": "Während alle aufmerksam zuhörten, antwortete Klara ohne zu zögern: „Die Band tritt heute Abend in Köln auf.“"
+        },
+        {
+          "rank": 679,
+          "slot": "extra3",
+          "sentence": "Während alle aufmerksam zuhörten, wiederholte Leo die entscheidenden Worte: „Er schlief während der langen Fahrt ein.“"
+        },
+        {
+          "rank": 702,
+          "slot": "extra2",
+          "sentence": "Während alle aufmerksam zuhörten, erklärte der Gast seinen Standpunkt: „Beim Schach ist die Dame die stärkste Figur.“"
+        },
+        {
+          "rank": 740,
+          "slot": "extra2",
+          "sentence": "Während alle aufmerksam zuhörten, las Nora den Satz vor: „Er rechnete die Beträge noch einmal zusammen.“"
+        },
+        {
+          "rank": 779,
+          "slot": "extra2",
+          "sentence": "Während alle aufmerksam zuhörten, sagte Ava schließlich: „Die Regeln ändern sich nicht ständig.“"
+        },
+        {
+          "rank": 939,
+          "slot": "main",
+          "sentence": "Während alle aufmerksam zuhörten, erklärte der Gast seinen Standpunkt: „Die schnelle Reaktion verhinderte einen Unfall.“"
+        },
+        {
+          "rank": 1064,
+          "slot": "extra3",
+          "sentence": "Während alle aufmerksam zuhörten, fügte Jonas noch einen Gedanken hinzu: „Die Forschenden prüften ihre Theorie in einem Experiment.“"
+        },
+        {
+          "rank": 1081,
+          "slot": "extra3",
+          "sentence": "Während alle aufmerksam zuhörten, erklärte der Gast seinen Standpunkt: „Die Kosten werden per Person berechnet.“"
+        },
+        {
+          "rank": 1088,
+          "slot": "extra2",
+          "sentence": "Während alle aufmerksam zuhörten, erklärte der Gast seinen Standpunkt: „Das Lied geht mir nicht aus den Ohren.“"
+        },
+        {
+          "rank": 1110,
+          "slot": "main",
+          "sentence": "Während alle aufmerksam zuhörten, erklärte der Gast seinen Standpunkt: „Das Gebiet ist im Winter schwer erreichbar.“"
+        },
+        {
+          "rank": 1216,
+          "slot": "extra2",
+          "sentence": "Während alle aufmerksam zuhörten, schrieb der Reporter in sein Notizbuch: „Die Bank besitzt noch eine offene Forderung.“"
+        },
+        {
+          "rank": 1238,
+          "slot": "extra2",
+          "sentence": "Während alle aufmerksam zuhörten, formulierte Lina ihre Antwort sorgfältig: „Die Geschwindigkeit nahm nicht linear zu.“"
+        }
+      ]
+    },
+    {
+      "opening": "am ende des gesprächs",
+      "count": 16,
+      "examples": [
+        {
+          "rank": 57,
+          "slot": "main",
+          "sentence": "Am Ende des Gesprächs schrieb der Reporter in sein Notizbuch: „Wir wollen im Sommer an die Ostsee fahren.“"
+        },
+        {
+          "rank": 135,
+          "slot": "main",
+          "sentence": "Am Ende des Gesprächs las Nora den Satz vor: „Stell die Vase bitte auf den Tisch.“"
+        },
+        {
+          "rank": 157,
+          "slot": "extra2",
+          "sentence": "Am Ende des Gesprächs schrieb der Reporter in sein Notizbuch: „Für mich kommt nur der frühe Termin infrage.“"
+        },
+        {
+          "rank": 203,
+          "slot": "extra1",
+          "sentence": "Am Ende des Gesprächs antwortete Klara ohne zu zögern: „Das ist ein schnelles Auto.“"
+        },
+        {
+          "rank": 269,
+          "slot": "extra1",
+          "sentence": "Am Ende des Gesprächs schrieb der Reporter in sein Notizbuch: „Stell die Kiste hinter die Tür.“"
+        },
+        {
+          "rank": 429,
+          "slot": "extra1",
+          "sentence": "Am Ende des Gesprächs fügte Jonas noch einen Gedanken hinzu: „Wir sollten die freie Zeit sinnvoll nutzen.“"
+        },
+        {
+          "rank": 463,
+          "slot": "extra2",
+          "sentence": "Am Ende des Gesprächs erklärte der Gast seinen Standpunkt: „Er war müde und arbeitete trotzdem weiter.“"
+        },
+        {
+          "rank": 472,
+          "slot": "extra2",
+          "sentence": "Am Ende des Gesprächs erinnerte sich die Erzählerin an den Ruf: „Bitte streichen Sie die Wand wieder weiß.“"
+        },
+        {
+          "rank": 559,
+          "slot": "extra2",
+          "sentence": "Am Ende des Gesprächs erinnerte sich die Erzählerin an den Satz: „Die Schmerzen sind fast vollständig verschwunden.“"
+        },
+        {
+          "rank": 658,
+          "slot": "extra1",
+          "sentence": "Am Ende des Gesprächs wiederholte Leo die entscheidenden Worte: „Wir müssen jetzt los.“"
+        },
+        {
+          "rank": 730,
+          "slot": "extra2",
+          "sentence": "Am Ende des Gesprächs brachte der Gast sein Argument auf den Punkt: „Bruder und Schwester teilen sich ein Zimmer.“"
+        },
+        {
+          "rank": 777,
+          "slot": "main",
+          "sentence": "Am Ende des Gesprächs fügte Jonas noch einen Gedanken hinzu: „Die SPD stellte ihr neues Programm vor.“"
+        },
+        {
+          "rank": 882,
+          "slot": "main",
+          "sentence": "Am Ende des Gesprächs sagte Ava schließlich: „Sie hört gern klassische Musik.“"
+        },
+        {
+          "rank": 935,
+          "slot": "extra1",
+          "sentence": "Am Ende des Gesprächs stellte der Moderator die nächste Frage: „Hast du irgendwo einen Fehler entdeckt?“"
+        },
+        {
+          "rank": 1162,
+          "slot": "extra3",
+          "sentence": "Am Ende des Gesprächs zitierte der Moderator eine frühere Aussage: „Die Kosten werden gleichmäßig über das Jahr verteilt.“"
+        },
+        {
+          "rank": 1234,
+          "slot": "extra3",
+          "sentence": "Am Ende des Gesprächs brachte der Gast sein Argument auf den Punkt: „Das entspricht nicht meinem idealen Bild der Zukunft.“"
+        }
+      ]
+    },
+    {
+      "opening": "ohne noch einmal in",
+      "count": 15,
+      "examples": [
+        {
+          "rank": 17,
+          "slot": "extra2",
+          "sentence": "Ohne noch einmal in die Notizen zu schauen, fasste Mia ihren Gedanken zusammen: „Wir bleiben für drei Tage in Hamburg.“"
+        },
+        {
+          "rank": 73,
+          "slot": "extra1",
+          "sentence": "Ohne noch einmal in die Notizen zu schauen, fragte Ava schließlich: „Du kommst doch morgen, oder?“"
+        },
+        {
+          "rank": 244,
+          "slot": "extra3",
+          "sentence": "Ohne noch einmal in die Notizen zu schauen, hob Leo die Hand und fragte: „Hast du dir die Hände gewaschen?“"
+        },
+        {
+          "rank": 258,
+          "slot": "extra2",
+          "sentence": "Ohne noch einmal in die Notizen zu schauen, erklärte der Gast seinen Standpunkt: „Die Ware entspricht nicht der Beschreibung.“"
+        },
+        {
+          "rank": 265,
+          "slot": "extra1",
+          "sentence": "Ohne noch einmal in die Notizen zu schauen, fragte Ava schließlich: „Bist du dir wirklich sicher?“"
+        },
+        {
+          "rank": 284,
+          "slot": "extra3",
+          "sentence": "Ohne noch einmal in die Notizen zu schauen, sagte Ava schließlich: „Die Firma änderte ihre Regeln und deren Anwendung.“"
+        },
+        {
+          "rank": 299,
+          "slot": "extra2",
+          "sentence": "Ohne noch einmal in die Notizen zu schauen, zitierte der Moderator eine frühere Aussage: „Die Firma handelt mit gebrauchten Maschinen.“"
+        },
+        {
+          "rank": 419,
+          "slot": "extra3",
+          "sentence": "Ohne noch einmal in die Notizen zu schauen, las Nora den Satz vor: „Er wurde zum Leiter der Gruppe bestimmt.“"
+        },
+        {
+          "rank": 629,
+          "slot": "extra2",
+          "sentence": "Ohne noch einmal in die Notizen zu schauen, fasste Mia ihren Gedanken zusammen: „Okay, dann treffen wir uns um acht.“"
+        },
+        {
+          "rank": 715,
+          "slot": "extra2",
+          "sentence": "Ohne noch einmal in die Notizen zu schauen, sagte Ava schließlich: „Sie war kurz zuvor nach Berlin gezogen.“"
+        },
+        {
+          "rank": 933,
+          "slot": "extra2",
+          "sentence": "Ohne noch einmal in die Notizen zu schauen, fasste Mia ihren Gedanken zusammen: „Im Winter reisen sie in die Schweiz.“"
+        },
+        {
+          "rank": 969,
+          "slot": "extra1",
+          "sentence": "Ohne noch einmal in die Notizen zu schauen, stellte die Projektleiterin klar: „Der Vertrag läuft am Jahresende aus.“"
+        },
+        {
+          "rank": 1046,
+          "slot": "extra2",
+          "sentence": "Ohne noch einmal in die Notizen zu schauen, rief Ava plötzlich: „Bitte stellen Sie eine Verbindung zum Server her.“"
+        },
+        {
+          "rank": 1099,
+          "slot": "extra2",
+          "sentence": "Ohne noch einmal in die Notizen zu schauen, las Nora den Satz vor: „Der Trainer stellte eine junge Mannschaft auf.“"
+        },
+        {
+          "rank": 1115,
+          "slot": "extra1",
+          "sentence": "Ohne noch einmal in die Notizen zu schauen, antwortete Klara ohne zu zögern: „Der Job macht ihm viel Spaß.“"
+        }
+      ]
+    },
+    {
+      "opening": "sobald die kamera wieder",
+      "count": 15,
+      "examples": [
+        {
+          "rank": 40,
+          "slot": "extra1",
+          "sentence": "Sobald die Kamera wieder eingeschaltet war, antwortete Klara ohne zu zögern: „Mara sagt, dass sie keine Zeit hat.“"
+        },
+        {
+          "rank": 45,
+          "slot": "extra3",
+          "sentence": "Sobald die Kamera wieder eingeschaltet war, antwortete Klara ohne zu zögern: „Er hat ja gesagt, also können wir anfangen.“"
+        },
+        {
+          "rank": 98,
+          "slot": "extra1",
+          "sentence": "Sobald die Kamera wieder eingeschaltet war, zitierte der Moderator eine frühere Aussage: „Von diesem Gehalt kann man gut leben.“"
+        },
+        {
+          "rank": 165,
+          "slot": "main",
+          "sentence": "Sobald die Kamera wieder eingeschaltet war, sagte Ava schließlich: „Das ist gar nicht so schwer.“"
+        },
+        {
+          "rank": 265,
+          "slot": "extra3",
+          "sentence": "Sobald die Kamera wieder eingeschaltet war, schrieb der Reporter in sein Notizbuch: „Sie kommt heute sicher noch vorbei.“"
+        },
+        {
+          "rank": 269,
+          "slot": "extra3",
+          "sentence": "Sobald die Kamera wieder eingeschaltet war, sagte Ava schließlich: „Endlich haben wir die Prüfung hinter uns.“"
+        },
+        {
+          "rank": 284,
+          "slot": "extra1",
+          "sentence": "Sobald die Kamera wieder eingeschaltet war, erklärte der Gast seinen Standpunkt: „Die Kinder, deren Eltern warten, dürfen gehen.“"
+        },
+        {
+          "rank": 326,
+          "slot": "extra2",
+          "sentence": "Sobald die Kamera wieder eingeschaltet war, antwortete Klara ohne zu zögern: „Wir treffen uns auf dem Marktplatz.“"
+        },
+        {
+          "rank": 340,
+          "slot": "extra3",
+          "sentence": "Sobald die Kamera wieder eingeschaltet war, brachte der Gast sein Argument auf den Punkt: „Er kam tatsächlich pünktlich an.“"
+        },
+        {
+          "rank": 380,
+          "slot": "extra3",
+          "sentence": "Sobald die Kamera wieder eingeschaltet war, fasste Mia ihren Gedanken zusammen: „Es hat keinen Sinn, länger zu warten.“"
+        },
+        {
+          "rank": 416,
+          "slot": "extra2",
+          "sentence": "Sobald die Kamera wieder eingeschaltet war, wiederholte Leo die entscheidenden Worte: „Von der Störung sind mehrere Linien betroffen.“"
+        },
+        {
+          "rank": 913,
+          "slot": "extra1",
+          "sentence": "Sobald die Kamera wieder eingeschaltet war, fasste Mia ihren Gedanken zusammen: „Die wissenschaftliche Literatur zu diesem Thema ist umfangreich.“"
+        },
+        {
+          "rank": 960,
+          "slot": "extra1",
+          "sentence": "Sobald die Kamera wieder eingeschaltet war, las Nora den Satz vor: „Der Raum eignet sich nicht für große Gruppen.“"
+        },
+        {
+          "rank": 1037,
+          "slot": "extra1",
+          "sentence": "Sobald die Kamera wieder eingeschaltet war, fügte Jonas noch einen Gedanken hinzu: „Die Studie verfolgt einen neuen wissenschaftlichen Ansatz.“"
+        },
+        {
+          "rank": 1089,
+          "slot": "main",
+          "sentence": "Sobald die Kamera wieder eingeschaltet war, brachte der Gast sein Argument auf den Punkt: „Das Programm fördert junge Künstler.“"
+        }
+      ]
+    },
+    {
+      "opening": "im laufe der weiteren",
+      "count": 14,
+      "examples": [
+        {
+          "rank": 19,
+          "slot": "extra3",
+          "sentence": "Im Laufe der weiteren Diskussion fügte der Vater ruhig hinzu: „Mila schreibt eine Nachricht an ihre Mutter.“"
+        },
+        {
+          "rank": 107,
+          "slot": "extra1",
+          "sentence": "Im Laufe der weiteren Diskussion wiederholte Leo die entscheidenden Worte: „Auf dem Boden liegt ein nasses Handtuch.“"
+        },
+        {
+          "rank": 134,
+          "slot": "extra2",
+          "sentence": "Im Laufe der weiteren Diskussion sagte Ava schließlich: „Nach dem Studium zog sie aufs Land.“"
+        },
+        {
+          "rank": 260,
+          "slot": "extra1",
+          "sentence": "Im Laufe der weiteren Diskussion bat Jonas die anderen um eine Antwort: „Auf welche Art wurde das Problem gelöst?“"
+        },
+        {
+          "rank": 502,
+          "slot": "extra2",
+          "sentence": "Im Laufe der weiteren Diskussion sagte Ava schließlich: „Der Kuchen ist wirklich gut gelungen.“"
+        },
+        {
+          "rank": 541,
+          "slot": "extra3",
+          "sentence": "Im Laufe der weiteren Diskussion schrieb der Reporter in sein Notizbuch: „Sie feierte ihre sportlichen Erfolge mit dem Team.“"
+        },
+        {
+          "rank": 656,
+          "slot": "extra1",
+          "sentence": "Im Laufe der weiteren Diskussion erinnerte sich die Erzählerin an den Satz: „Technisch wäre die Änderung leicht möglich.“"
+        },
+        {
+          "rank": 754,
+          "slot": "extra1",
+          "sentence": "Im Laufe der weiteren Diskussion schrieb der Reporter in sein Notizbuch: „Das Restaurant ist übrigens montags geschlossen.“"
+        },
+        {
+          "rank": 769,
+          "slot": "extra2",
+          "sentence": "Im Laufe der weiteren Diskussion schrieb der Reporter in sein Notizbuch: „Das Team gewann das letzte Spiel.“"
+        },
+        {
+          "rank": 778,
+          "slot": "extra2",
+          "sentence": "Im Laufe der weiteren Diskussion sagte Ava schließlich: „Wir suchen ein Angebot zu einem niedrigeren Preis.“"
+        },
+        {
+          "rank": 786,
+          "slot": "main",
+          "sentence": "Im Laufe der weiteren Diskussion antwortete Klara ohne zu zögern: „Nehmen Sie die rechte Tür.“"
+        },
+        {
+          "rank": 887,
+          "slot": "extra2",
+          "sentence": "Im Laufe der weiteren Diskussion fasste Mia ihren Gedanken zusammen: „Das Essen ist inzwischen kalt geworden.“"
+        },
+        {
+          "rank": 968,
+          "slot": "extra3",
+          "sentence": "Im Laufe der weiteren Diskussion brachte der Gast sein Argument auf den Punkt: „Mein Paket ist seit gestern unterwegs.“"
+        },
+        {
+          "rank": 1124,
+          "slot": "extra1",
+          "sentence": "Im Laufe der weiteren Diskussion sagte Ava schließlich: „Ein kalter Wind blies durch die offenen Fenster.“"
+        }
+      ]
+    },
+    {
+      "opening": "nachdem die unterlagen verteilt",
+      "count": 14,
+      "examples": [
+        {
+          "rank": 207,
+          "slot": "extra2",
+          "sentence": "Nachdem die Unterlagen verteilt worden waren, fasste Mia ihren Gedanken zusammen: „Der Eintritt ist in Euro zu bezahlen.“"
+        },
+        {
+          "rank": 219,
+          "slot": "main",
+          "sentence": "Nachdem die Unterlagen verteilt worden waren, zitierte der Moderator eine frühere Aussage: „Nächste Woche habe ich Urlaub.“"
+        },
+        {
+          "rank": 481,
+          "slot": "extra1",
+          "sentence": "Nachdem die Unterlagen verteilt worden waren, wiederholte Leo die entscheidenden Worte: „Mit Hilfe einer Karte fanden wir den Weg.“"
+        },
+        {
+          "rank": 484,
+          "slot": "extra2",
+          "sentence": "Nachdem die Unterlagen verteilt worden waren, wiederholte Leo die entscheidenden Worte: „Er erklärte die Bedeutung des Zeichens.“"
+        },
+        {
+          "rank": 511,
+          "slot": "extra2",
+          "sentence": "Nachdem die Unterlagen verteilt worden waren, sagte Ava schließlich: „Diese Schrauben kosten fünfzig Cent pro Stück.“"
+        },
+        {
+          "rank": 518,
+          "slot": "extra2",
+          "sentence": "Nachdem die Unterlagen verteilt worden waren, fügte Jonas noch einen Gedanken hinzu: „Der Laden war geschlossen, darum gingen wir weiter.“"
+        },
+        {
+          "rank": 565,
+          "slot": "extra2",
+          "sentence": "Nachdem die Unterlagen verteilt worden waren, erinnerte sich die Erzählerin an den Satz: „Die Anmeldung für das Wintersemester ist geöffnet.“"
+        },
+        {
+          "rank": 579,
+          "slot": "extra3",
+          "sentence": "Nachdem die Unterlagen verteilt worden waren, fügte Jonas noch einen Gedanken hinzu: „Das Gebäude wurde von einer jungen Architektin geplant.“"
+        },
+        {
+          "rank": 629,
+          "slot": "extra3",
+          "sentence": "Nachdem die Unterlagen verteilt worden waren, wiederholte Leo die entscheidenden Worte: „Die erste Version war okay, aber nicht perfekt.“"
+        },
+        {
+          "rank": 779,
+          "slot": "extra3",
+          "sentence": "Nachdem die Unterlagen verteilt worden waren, erklärte der Gast seinen Standpunkt: „Sie ist ständiges Mitglied des Ausschusses.“"
+        },
+        {
+          "rank": 876,
+          "slot": "extra1",
+          "sentence": "Nachdem die Unterlagen verteilt worden waren, zitierte der Moderator eine frühere Aussage: „Wir verwenden ein neues Verfahren zur Messung.“"
+        },
+        {
+          "rank": 1038,
+          "slot": "main",
+          "sentence": "Nachdem die Unterlagen verteilt worden waren, fügte Jonas noch einen Gedanken hinzu: „Für die Reise ist ein Ausweis nötig.“"
+        },
+        {
+          "rank": 1040,
+          "slot": "extra1",
+          "sentence": "Nachdem die Unterlagen verteilt worden waren, wiederholte Leo die entscheidenden Worte: „Der Sieg über den Favoriten überraschte alle.“"
+        },
+        {
+          "rank": 1219,
+          "slot": "extra2",
+          "sentence": "Nachdem die Unterlagen verteilt worden waren, formulierte Lina ihre Antwort sorgfältig: „Vor dem Eingang sammelten sich die Gäste.“"
+        }
+      ]
+    },
+    {
+      "opening": "als es im raum",
+      "count": 13,
+      "examples": [
+        {
+          "rank": 121,
+          "slot": "extra1",
+          "sentence": "Als es im Raum still wurde, las Nora den Satz vor: „Ihr Mann arbeitet im Krankenhaus.“"
+        },
+        {
+          "rank": 257,
+          "slot": "extra1",
+          "sentence": "Als es im Raum still wurde, formulierte Lina ihre Antwort sorgfältig: „Die Entscheidung fällt mir schwer.“"
+        },
+        {
+          "rank": 614,
+          "slot": "extra1",
+          "sentence": "Als es im Raum still wurde, brachte der Gast sein Argument auf den Punkt: „Dieses Tier ist nachts aktiv.“"
+        },
+        {
+          "rank": 680,
+          "slot": "extra2",
+          "sentence": "Als es im Raum still wurde, erklärte der Gast seinen Standpunkt: „Statt zu lernen, sah er einen Film.“"
+        },
+        {
+          "rank": 684,
+          "slot": "extra3",
+          "sentence": "Als es im Raum still wurde, fügte Jonas noch einen Gedanken hinzu: „Er hat mehrere Jahre bei der Marine gedient.“"
+        },
+        {
+          "rank": 810,
+          "slot": "main",
+          "sentence": "Als es im Raum still wurde, las Nora den Satz vor: „Der Vortrag war sehr interessant.“"
+        },
+        {
+          "rank": 870,
+          "slot": "extra2",
+          "sentence": "Als es im Raum still wurde, formulierte Lina ihre Antwort sorgfältig: „Die Partei stellte ihr neues Programm vor.“"
+        },
+        {
+          "rank": 876,
+          "slot": "main",
+          "sentence": "Als es im Raum still wurde, schrieb der Reporter in sein Notizbuch: „Das Verfahren dauert mehrere Monate.“"
+        },
+        {
+          "rank": 908,
+          "slot": "extra1",
+          "sentence": "Als es im Raum still wurde, formulierte Lina ihre Antwort sorgfältig: „Die Daten stammen aus einer aktuellen Studie.“"
+        },
+        {
+          "rank": 966,
+          "slot": "main",
+          "sentence": "Als es im Raum still wurde, wiederholte Leo die entscheidenden Worte: „Ich stehe jeden Morgen um sechs Uhr auf.“"
+        },
+        {
+          "rank": 1124,
+          "slot": "extra2",
+          "sentence": "Als es im Raum still wurde, schrieb der Reporter in sein Notizbuch: „Bei starkem Wind bleiben die Fenster geschlossen.“"
+        },
+        {
+          "rank": 1161,
+          "slot": "main",
+          "sentence": "Als es im Raum still wurde, zitierte der Moderator eine frühere Aussage: „Im Gegensatz zu gestern ist es heute warm.“"
+        },
+        {
+          "rank": 1202,
+          "slot": "extra1",
+          "sentence": "Als es im Raum still wurde, erklärte der Gast seinen Standpunkt: „Wir prüfen regelmäßig die Qualität des Wassers.“"
+        }
+      ]
+    },
+    {
+      "opening": "bevor das gespräch zu",
+      "count": 10,
+      "examples": [
+        {
+          "rank": 154,
+          "slot": "extra1",
+          "sentence": "Bevor das Gespräch zu Ende ging, sagte Ava schließlich: „Herr Bauer ist heute nicht im Büro.“"
+        },
+        {
+          "rank": 511,
+          "slot": "extra3",
+          "sentence": "Bevor das Gespräch zu Ende ging, schrieb der Reporter in sein Notizbuch: „Der Weg führt ein Stück durch den Wald.“"
+        },
+        {
+          "rank": 823,
+          "slot": "extra1",
+          "sentence": "Bevor das Gespräch zu Ende ging, erklärte der Gast seinen Standpunkt: „Im Raum herrschte absolute Stille.“"
+        },
+        {
+          "rank": 870,
+          "slot": "main",
+          "sentence": "Bevor das Gespräch zu Ende ging, stellte sich die Erzählerin eine Frage: „Was steht heute auf dem Programm?“"
+        },
+        {
+          "rank": 960,
+          "slot": "main",
+          "sentence": "Bevor das Gespräch zu Ende ging, sagte Ava schließlich: „Dieses Material eignet sich gut für draußen.“"
+        },
+        {
+          "rank": 1027,
+          "slot": "extra1",
+          "sentence": "Bevor das Gespräch zu Ende ging, fasste Mia ihren Gedanken zusammen: „Sie ist diejenige, die den Fehler entdeckt hat.“"
+        },
+        {
+          "rank": 1039,
+          "slot": "extra2",
+          "sentence": "Bevor das Gespräch zu Ende ging, sagte Ava schließlich: „Der König herrschte viele Jahre über das Land.“"
+        },
+        {
+          "rank": 1112,
+          "slot": "extra3",
+          "sentence": "Bevor das Gespräch zu Ende ging, sagte Ava schließlich: „An warmen Samstagen ist das Schwimmbad voll.“"
+        },
+        {
+          "rank": 1140,
+          "slot": "extra2",
+          "sentence": "Bevor das Gespräch zu Ende ging, sagte Ava schließlich: „Mehrere Politiker nahmen an der Diskussion teil.“"
+        },
+        {
+          "rank": 1238,
+          "slot": "extra1",
+          "sentence": "Bevor das Gespräch zu Ende ging, las Nora den Satz vor: „Zwischen den Größen besteht ein linearer Zusammenhang.“"
+        }
+      ]
+    },
+    {
+      "opening": "sie interessiert sich für",
+      "count": 5,
+      "examples": [
+        {
+          "rank": 262,
+          "slot": "main",
+          "sentence": "Sie interessiert sich für deutsche Geschichte."
+        },
+        {
+          "rank": 335,
+          "slot": "extra2",
+          "sentence": "Sie interessiert sich für europäische Geschichte."
+        },
+        {
+          "rank": 656,
+          "slot": "extra2",
+          "sentence": "Sie interessiert sich für technische Berufe."
+        },
+        {
+          "rank": 747,
+          "slot": "extra2",
+          "sentence": "Sie interessiert sich für moderne Geschichte."
+        },
+        {
+          "rank": 913,
+          "slot": "main",
+          "sentence": "Sie interessiert sich für deutsche Literatur."
+        }
+      ]
+    },
+    {
+      "opening": "nach kurzem zögern erklärte",
+      "count": 4,
+      "examples": [
+        {
+          "rank": 60,
+          "slot": "main",
+          "sentence": "Nach kurzem Zögern erklärte der Gast seinen Standpunkt: „Du sollst deine Medikamente regelmäßig nehmen.“"
+        },
+        {
+          "rank": 107,
+          "slot": "extra3",
+          "sentence": "Nach kurzem Zögern erklärte die Sprecherin des Naturfilms: „Das Hotel hat ruhig am Waldrand gelegen.“"
+        },
+        {
+          "rank": 352,
+          "slot": "extra2",
+          "sentence": "Nach kurzem Zögern erklärte der Gast seinen Standpunkt: „Der Hund legte sich vor die Tür.“"
+        },
+        {
+          "rank": 363,
+          "slot": "main",
+          "sentence": "Nach kurzem Zögern erklärte der Gast seinen Standpunkt: „Die Gesellschaft verändert sich ständig.“"
+        }
+      ]
+    },
+    {
+      "opening": "die nachricht verbreitete sich",
+      "count": 3,
+      "examples": [
+        {
+          "rank": 756,
+          "slot": "extra3",
+          "sentence": "Die Nachricht verbreitete sich überall im Land."
+        },
+        {
+          "rank": 1289,
+          "slot": "extra2",
+          "sentence": "Die Nachricht verbreitete sich nur in einem kleinen Kreis."
+        },
+        {
+          "rank": 1488,
+          "slot": "extra2",
+          "sentence": "Die Nachricht verbreitete sich schnell in der ganzen Runde."
+        }
+      ]
+    },
+    {
+      "opening": "nach kurzem zögern brachte",
+      "count": 3,
+      "examples": [
+        {
+          "rank": 468,
+          "slot": "main",
+          "sentence": "Nach kurzem Zögern brachte der Gast sein Argument auf den Punkt: „Auf diese Weise vermeiden wir unnötige Fehler.“"
+        },
+        {
+          "rank": 579,
+          "slot": "main",
+          "sentence": "Nach kurzem Zögern brachte der Gast sein Argument auf den Punkt: „Wir planen eine Reise nach Österreich.“"
+        },
+        {
+          "rank": 754,
+          "slot": "extra3",
+          "sentence": "Nach kurzem Zögern brachte der Gast sein Argument auf den Punkt: „Der Film basiert übrigens auf einer wahren Geschichte.“"
+        }
+      ]
+    },
+    {
+      "opening": "nach kurzem zögern fasste",
+      "count": 3,
+      "examples": [
+        {
+          "rank": 203,
+          "slot": "extra3",
+          "sentence": "Nach kurzem Zögern fasste Mia ihren Gedanken zusammen: „Keine Sorge, das geht schnell.“"
+        },
+        {
+          "rank": 307,
+          "slot": "extra2",
+          "sentence": "Nach kurzem Zögern fasste Mia ihren Gedanken zusammen: „Das Verb kommt in verschiedenen Formen vor.“"
+        },
+        {
+          "rank": 414,
+          "slot": "main",
+          "sentence": "Nach kurzem Zögern fasste Mia ihren Gedanken zusammen: „Wir müssen heute über den Vorschlag entscheiden.“"
+        }
+      ]
+    },
+    {
+      "opening": "nach kurzem zögern formulierte",
+      "count": 3,
+      "examples": [
+        {
+          "rank": 611,
+          "slot": "extra1",
+          "sentence": "Nach kurzem Zögern formulierte Lina ihre Antwort sorgfältig: „Unser Zimmer liegt im siebten Stock.“"
+        },
+        {
+          "rank": 858,
+          "slot": "main",
+          "sentence": "Nach kurzem Zögern formulierte Lina ihre Antwort sorgfältig: „Die Kosten betragen insgesamt zweihundert Euro.“"
+        },
+        {
+          "rank": 957,
+          "slot": "extra3",
+          "sentence": "Nach kurzem Zögern formulierte Lina ihre Antwort sorgfältig: „Auf dem Bahnhof herrscht morgens reger Betrieb.“"
+        }
+      ]
+    },
+    {
+      "opening": "nach kurzem zögern wiederholte",
+      "count": 3,
+      "examples": [
+        {
+          "rank": 17,
+          "slot": "extra3",
+          "sentence": "Nach kurzem Zögern wiederholte Leo die entscheidenden Worte: „Sie hält den Plan für sinnvoll.“"
+        },
+        {
+          "rank": 433,
+          "slot": "extra1",
+          "sentence": "Nach kurzem Zögern wiederholte Leo die entscheidenden Worte: „Mancher braucht morgens etwas mehr Zeit.“"
+        },
+        {
+          "rank": 786,
+          "slot": "extra2",
+          "sentence": "Nach kurzem Zögern wiederholte Leo die entscheidenden Worte: „Sie glaubt, das Rechte getan zu haben.“"
+        }
+      ]
+    },
+    {
+      "opening": "wir treffen uns nächsten",
+      "count": 3,
+      "examples": [
+        {
+          "rank": 981,
+          "slot": "extra1",
+          "sentence": "Wir treffen uns nächsten Freitag."
+        },
+        {
+          "rank": 1044,
+          "slot": "extra2",
+          "sentence": "Wir treffen uns nächsten Montag."
+        },
+        {
+          "rank": 1244,
+          "slot": "extra2",
+          "sentence": "Wir treffen uns nächsten Donnerstag."
+        }
+      ]
+    }
+  ]
+}

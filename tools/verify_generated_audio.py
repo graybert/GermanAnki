@@ -38,6 +38,11 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--headword-language-code", default="de")
     parser.add_argument("--output-format", default="mp3_44100_128")
     parser.add_argument(
+        "--allow-extra-files",
+        action="store_true",
+        help="permit MP3s outside the selected rank range in a shared directory",
+    )
+    parser.add_argument(
         "--ffprobe",
         action="store_true",
         help="require ffprobe and decode-probe every expected MP3",
@@ -84,8 +89,9 @@ def main() -> None:
     actual_files = {path.name for path in args.audio_dir.glob("*.mp3") if path.is_file()}
     for filename in sorted(expected_files - actual_files):
         errors.append(f"missing MP3: {filename}")
-    for filename in sorted(actual_files - expected_files):
-        errors.append(f"unexpected MP3: {filename}")
+    if not args.allow_extra_files:
+        for filename in sorted(actual_files - expected_files):
+            errors.append(f"unexpected MP3: {filename}")
 
     ffprobe = shutil.which("ffprobe") if args.ffprobe else None
     if args.ffprobe and not ffprobe:
@@ -154,7 +160,7 @@ def main() -> None:
         raise SystemExit(f"Generated-audio verification failed ({len(errors)} errors):\n{preview}")
 
     print(
-        f"Verified {len(jobs)} jobs and {len(actual_files)} MP3s for ranks "
+        f"Verified {len(jobs)} jobs and {len(expected_files)} selected MP3s for ranks "
         f"{args.start_rank}-{args.end_rank}; receipts, voices, model, output, "
         f"and file sizes match" + ("; ffprobe passed." if ffprobe else ".")
     )
