@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "card_count": 2500,
+  "card_count": 2550,
   "active_units": [
     {
       "unit_id": "weekdays",
@@ -15068,6 +15068,306 @@
       "curriculum_order": 2500,
       "semantic_id": "de-DE:noun:Spektrum:2500",
       "frequency_rank": 2500,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2501,
+      "semantic_id": "de-DE:verb:vergeben:2501",
+      "frequency_rank": 2501,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2502,
+      "semantic_id": "de-DE:noun:Weber:2502",
+      "frequency_rank": 2502,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2503,
+      "semantic_id": "de-DE:adjective-adverb:effektiv:2503",
+      "frequency_rank": 2503,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2504,
+      "semantic_id": "de-DE:noun:Eingang:2504",
+      "frequency_rank": 2504,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2505,
+      "semantic_id": "de-DE:noun:Erbe:2505",
+      "frequency_rank": 2505,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2506,
+      "semantic_id": "de-DE:adjective:islamisch:2506",
+      "frequency_rank": 2506,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2507,
+      "semantic_id": "de-DE:verb:zustimmen:2507",
+      "frequency_rank": 2507,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2508,
+      "semantic_id": "de-DE:adjective-adverb:radikal:2508",
+      "frequency_rank": 2508,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2509,
+      "semantic_id": "de-DE:noun:Ausbau:2509",
+      "frequency_rank": 2509,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2510,
+      "semantic_id": "de-DE:noun:Kanal:2510",
+      "frequency_rank": 2510,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2511,
+      "semantic_id": "de-DE:verb:registrieren:2511",
+      "frequency_rank": 2511,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2512,
+      "semantic_id": "de-DE:verb:verhandeln:2512",
+      "frequency_rank": 2512,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2513,
+      "semantic_id": "de-DE:noun:Wandel:2513",
+      "frequency_rank": 2513,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2514,
+      "semantic_id": "de-DE:noun:Ast:2514",
+      "frequency_rank": 2514,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2515,
+      "semantic_id": "de-DE:verb:ausüben:2515",
+      "frequency_rank": 2515,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2516,
+      "semantic_id": "de-DE:preposition-adverb:jenseits:2516",
+      "frequency_rank": 2516,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2517,
+      "semantic_id": "de-DE:verb:unterliegen:2517",
+      "frequency_rank": 2517,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2518,
+      "semantic_id": "de-DE:noun:Wähler:2518",
+      "frequency_rank": 2518,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2519,
+      "semantic_id": "de-DE:adjective-interjection:willkommen:2519",
+      "frequency_rank": 2519,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2520,
+      "semantic_id": "de-DE:noun:Gedächtnis:2520",
+      "frequency_rank": 2520,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2521,
+      "semantic_id": "de-DE:adjective-adverb:gelegentlich:2521",
+      "frequency_rank": 2521,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2522,
+      "semantic_id": "de-DE:verb:bedürfen:2522",
+      "frequency_rank": 2522,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2523,
+      "semantic_id": "de-DE:noun:Gefängnis:2523",
+      "frequency_rank": 2523,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2524,
+      "semantic_id": "de-DE:noun:Überraschung:2524",
+      "frequency_rank": 2524,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2525,
+      "semantic_id": "de-DE:noun:Wechsel:2525",
+      "frequency_rank": 2525,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2526,
+      "semantic_id": "de-DE:noun:Wurzel:2526",
+      "frequency_rank": 2526,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2527,
+      "semantic_id": "de-DE:adjective-adverb:formal:2527",
+      "frequency_rank": 2527,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2528,
+      "semantic_id": "de-DE:adjective-adverb:sanft:2528",
+      "frequency_rank": 2528,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2529,
+      "semantic_id": "de-DE:verb:aushalten:2529",
+      "frequency_rank": 2529,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2530,
+      "semantic_id": "de-DE:verb:bedrohen:2530",
+      "frequency_rank": 2530,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2531,
+      "semantic_id": "de-DE:adverb:keineswegs:2531",
+      "frequency_rank": 2531,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2532,
+      "semantic_id": "de-DE:adjective-adverb:klug:2532",
+      "frequency_rank": 2532,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2533,
+      "semantic_id": "de-DE:noun:Arbeitnehmer:2533",
+      "frequency_rank": 2533,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2534,
+      "semantic_id": "de-DE:verb:beugen:2534",
+      "frequency_rank": 2534,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2535,
+      "semantic_id": "de-DE:verb:einbringen:2535",
+      "frequency_rank": 2535,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2536,
+      "semantic_id": "de-DE:noun:Materie:2536",
+      "frequency_rank": 2536,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2537,
+      "semantic_id": "de-DE:noun:Personal:2537",
+      "frequency_rank": 2537,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2538,
+      "semantic_id": "de-DE:adjective-adverb:scheinbar:2538",
+      "frequency_rank": 2538,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2539,
+      "semantic_id": "de-DE:noun:Frequenz:2539",
+      "frequency_rank": 2539,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2540,
+      "semantic_id": "de-DE:verb:lehren:2540",
+      "frequency_rank": 2540,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2541,
+      "semantic_id": "de-DE:adjective-adverb:selbstständig:2541",
+      "frequency_rank": 2541,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2542,
+      "semantic_id": "de-DE:verb:überwinden:2542",
+      "frequency_rank": 2542,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2543,
+      "semantic_id": "de-DE:adjective:unklar:2543",
+      "frequency_rank": 2543,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2544,
+      "semantic_id": "de-DE:adjective:verfügbar:2544",
+      "frequency_rank": 2544,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2545,
+      "semantic_id": "de-DE:pronoun-adverb:wozu:2545",
+      "frequency_rank": 2545,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2546,
+      "semantic_id": "de-DE:adjective-adverb:schlicht:2546",
+      "frequency_rank": 2546,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2547,
+      "semantic_id": "de-DE:adjective-adverb:angemessen:2547",
+      "frequency_rank": 2547,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2548,
+      "semantic_id": "de-DE:noun:Arbeitsmarkt:2548",
+      "frequency_rank": 2548,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2549,
+      "semantic_id": "de-DE:noun:Pass:2549",
+      "frequency_rank": 2549,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2550,
+      "semantic_id": "de-DE:noun:Bedarf:2550",
+      "frequency_rank": 2550,
       "unit_id": null
     }
   ]
