@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "card_count": 2600,
+  "card_count": 2650,
   "active_units": [
     {
       "unit_id": "weekdays",
@@ -19,7 +19,7 @@
     {
       "unit_id": "numbers-core",
       "title": "Core numbers",
-      "available": 18,
+      "available": 19,
       "required": 29,
       "missing": [
         {
@@ -53,10 +53,6 @@
         {
           "label": "vierzig",
           "frequency_rank": 2907
-        },
-        {
-          "label": "siebzig",
-          "frequency_rank": 2609
         },
         {
           "label": "achtzig",
@@ -15668,6 +15664,306 @@
       "curriculum_order": 2600,
       "semantic_id": "de-DE:noun:Frühstück:2600",
       "frequency_rank": 2600,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2601,
+      "semantic_id": "de-DE:verb:klettern:2601",
+      "frequency_rank": 2601,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2602,
+      "semantic_id": "de-DE:noun:Mittelpunkt:2602",
+      "frequency_rank": 2602,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2603,
+      "semantic_id": "de-DE:verb:bereiten:2603",
+      "frequency_rank": 2603,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2604,
+      "semantic_id": "de-DE:noun:Entstehung:2604",
+      "frequency_rank": 2604,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2605,
+      "semantic_id": "de-DE:adjective-adverb:konservativ:2605",
+      "frequency_rank": 2605,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2606,
+      "semantic_id": "de-DE:noun:Magen:2606",
+      "frequency_rank": 2606,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2607,
+      "semantic_id": "de-DE:adjective-adverb:psychisch:2607",
+      "frequency_rank": 2607,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2608,
+      "semantic_id": "de-DE:noun:Salz:2608",
+      "frequency_rank": 2608,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2609,
+      "semantic_id": "de-DE:numeral:siebzig:2609",
+      "frequency_rank": 2609,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2610,
+      "semantic_id": "de-DE:verb:versichern:2610",
+      "frequency_rank": 2610,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2611,
+      "semantic_id": "de-DE:noun:Brite:2611",
+      "frequency_rank": 2611,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2612,
+      "semantic_id": "de-DE:adjective-adverb:erkennbar:2612",
+      "frequency_rank": 2612,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2613,
+      "semantic_id": "de-DE:adverb-preposition:namens:2613",
+      "frequency_rank": 2613,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2614,
+      "semantic_id": "de-DE:noun:Achse:2614",
+      "frequency_rank": 2614,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2615,
+      "semantic_id": "de-DE:verb:klingeln:2615",
+      "frequency_rank": 2615,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2616,
+      "semantic_id": "de-DE:verb:speichern:2616",
+      "frequency_rank": 2616,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2617,
+      "semantic_id": "de-DE:noun:Tee:2617",
+      "frequency_rank": 2617,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2618,
+      "semantic_id": "de-DE:noun:Zeuge:2618",
+      "frequency_rank": 2618,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2619,
+      "semantic_id": "de-DE:noun:Aufwand:2619",
+      "frequency_rank": 2619,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2620,
+      "semantic_id": "de-DE:noun:Kooperation:2620",
+      "frequency_rank": 2620,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2621,
+      "semantic_id": "de-DE:noun:Kritiker:2621",
+      "frequency_rank": 2621,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2622,
+      "semantic_id": "de-DE:noun:Tal:2622",
+      "frequency_rank": 2622,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2623,
+      "semantic_id": "de-DE:adjective-pronoun:derartig:2623",
+      "frequency_rank": 2623,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2624,
+      "semantic_id": "de-DE:noun:Erste:2624",
+      "frequency_rank": 2624,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2625,
+      "semantic_id": "de-DE:adjective-adverb:vielfach:2625",
+      "frequency_rank": 2625,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2626,
+      "semantic_id": "de-DE:verb:empfangen:2626",
+      "frequency_rank": 2626,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2627,
+      "semantic_id": "de-DE:noun:Ernährung:2627",
+      "frequency_rank": 2627,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2628,
+      "semantic_id": "de-DE:noun:Küste:2628",
+      "frequency_rank": 2628,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2629,
+      "semantic_id": "de-DE:verb:mitkommen:2629",
+      "frequency_rank": 2629,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2630,
+      "semantic_id": "de-DE:noun:Republik:2630",
+      "frequency_rank": 2630,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2631,
+      "semantic_id": "de-DE:verb:zucken:2631",
+      "frequency_rank": 2631,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2632,
+      "semantic_id": "de-DE:verb:anschließen:2632",
+      "frequency_rank": 2632,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2633,
+      "semantic_id": "de-DE:verb:austauschen:2633",
+      "frequency_rank": 2633,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2634,
+      "semantic_id": "de-DE:verb:beschleunigen:2634",
+      "frequency_rank": 2634,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2635,
+      "semantic_id": "de-DE:noun:Norm:2635",
+      "frequency_rank": 2635,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2636,
+      "semantic_id": "de-DE:verb:anstellen:2636",
+      "frequency_rank": 2636,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2637,
+      "semantic_id": "de-DE:verb:decken:2637",
+      "frequency_rank": 2637,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2638,
+      "semantic_id": "de-DE:adjective-adverb:grob:2638",
+      "frequency_rank": 2638,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2639,
+      "semantic_id": "de-DE:noun:Protest:2639",
+      "frequency_rank": 2639,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2640,
+      "semantic_id": "de-DE:noun:Tour:2640",
+      "frequency_rank": 2640,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2641,
+      "semantic_id": "de-DE:noun:Überblick:2641",
+      "frequency_rank": 2641,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2642,
+      "semantic_id": "de-DE:noun:Geschäftsführer:2642",
+      "frequency_rank": 2642,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2643,
+      "semantic_id": "de-DE:noun:Griff:2643",
+      "frequency_rank": 2643,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2644,
+      "semantic_id": "de-DE:verb:küssen:2644",
+      "frequency_rank": 2644,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2645,
+      "semantic_id": "de-DE:noun:Liter:2645",
+      "frequency_rank": 2645,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2646,
+      "semantic_id": "de-DE:noun:Subjekt:2646",
+      "frequency_rank": 2646,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2647,
+      "semantic_id": "de-DE:noun:Außenminister:2647",
+      "frequency_rank": 2647,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2648,
+      "semantic_id": "de-DE:noun:Faser:2648",
+      "frequency_rank": 2648,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2649,
+      "semantic_id": "de-DE:noun:Schatz:2649",
+      "frequency_rank": 2649,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2650,
+      "semantic_id": "de-DE:adjective-adverb:sekundär:2650",
+      "frequency_rank": 2650,
       "unit_id": null
     }
   ]
