@@ -47,6 +47,7 @@ def main() -> None:
             design = card.setdefault("sentence_design", {})
             contextual = design.setdefault("contextual_rewrite", {})
             if args.start <= rank <= args.end:
+                rewritten_slots = [item["slot"] for item in by_rank.get(rank, [])]
                 for item in by_rank.get(rank, []):
                     if item["semantic_id"] != card["semantic_id"]:
                         raise SystemExit(f"semantic identity mismatch at rank {rank}")
@@ -54,12 +55,16 @@ def main() -> None:
                     changed += 1
                 covered.add(rank)
                 design["policy_version"] = 3
+                # The compact batch builder records all already-rich slots in
+                # ``enriched_slots``. At finalization this field instead tracks
+                # the slots that actually required contextual replacement.
+                design["enriched_slots"] = rewritten_slots
                 contextual.update({
                     "status": "finalized",
                     "finalized_through_rank": args.end,
                     "selection_seed": "semantic-diversity-v3",
                     "selected": bool(by_rank.get(rank)),
-                    "rewritten_slots": [item["slot"] for item in by_rank.get(rank, [])],
+                    "rewritten_slots": rewritten_slots,
                     "retained_policy1_slots": [],
                     "slot_audit": {
                         item["slot"]: {

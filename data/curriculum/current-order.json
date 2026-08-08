@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "card_count": 1650,
+  "card_count": 1700,
   "active_units": [
     {
       "unit_id": "weekdays",
@@ -9986,6 +9986,306 @@
       "curriculum_order": 1650,
       "semantic_id": "de-DE:noun:Tradition:1650",
       "frequency_rank": 1650,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1651,
+      "semantic_id": "de-DE:verb:brennen:1651",
+      "frequency_rank": 1651,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1652,
+      "semantic_id": "de-DE:adjective-adverb:freiwillig:1652",
+      "frequency_rank": 1652,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1653,
+      "semantic_id": "de-DE:adverb:umso:1653",
+      "frequency_rank": 1653,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1654,
+      "semantic_id": "de-DE:noun:Antrag:1654",
+      "frequency_rank": 1654,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1655,
+      "semantic_id": "de-DE:noun:Reich:1655",
+      "frequency_rank": 1655,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1656,
+      "semantic_id": "de-DE:verb:investieren:1656",
+      "frequency_rank": 1656,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1657,
+      "semantic_id": "de-DE:verb:bestellen:1657",
+      "frequency_rank": 1657,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1658,
+      "semantic_id": "de-DE:noun:Gelegenheit:1658",
+      "frequency_rank": 1658,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1659,
+      "semantic_id": "de-DE:noun:Mauer:1659",
+      "frequency_rank": 1659,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1660,
+      "semantic_id": "de-DE:pronominal-adverb:stattdessen:1660",
+      "frequency_rank": 1660,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1661,
+      "semantic_id": "de-DE:noun:Stuhl:1661",
+      "frequency_rank": 1661,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1662,
+      "semantic_id": "de-DE:noun:Ton:1662",
+      "frequency_rank": 1662,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1663,
+      "semantic_id": "de-DE:noun:Büro:1663",
+      "frequency_rank": 1663,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1664,
+      "semantic_id": "de-DE:noun:Umwelt:1664",
+      "frequency_rank": 1664,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1665,
+      "semantic_id": "de-DE:verb:rauchen:1665",
+      "frequency_rank": 1665,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1666,
+      "semantic_id": "de-DE:noun:Beschreibung:1666",
+      "frequency_rank": 1666,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1667,
+      "semantic_id": "de-DE:noun:Pflanze:1667",
+      "frequency_rank": 1667,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1668,
+      "semantic_id": "de-DE:noun:Tätigkeit:1668",
+      "frequency_rank": 1668,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1669,
+      "semantic_id": "de-DE:noun:Landschaft:1669",
+      "frequency_rank": 1669,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1670,
+      "semantic_id": "de-DE:verb:verweisen:1670",
+      "frequency_rank": 1670,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1671,
+      "semantic_id": "de-DE:noun:Arbeitsplatz:1671",
+      "frequency_rank": 1671,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1672,
+      "semantic_id": "de-DE:verb:erfassen:1672",
+      "frequency_rank": 1672,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1673,
+      "semantic_id": "de-DE:noun:Komponente:1673",
+      "frequency_rank": 1673,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1674,
+      "semantic_id": "de-DE:noun:Ion:1674",
+      "frequency_rank": 1674,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1675,
+      "semantic_id": "de-DE:noun:Laden:1675",
+      "frequency_rank": 1675,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1676,
+      "semantic_id": "de-DE:adjective-adverb:fein:1676",
+      "frequency_rank": 1676,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1677,
+      "semantic_id": "de-DE:noun:Stern:1677",
+      "frequency_rank": 1677,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1678,
+      "semantic_id": "de-DE:noun:Schuh:1678",
+      "frequency_rank": 1678,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1679,
+      "semantic_id": "de-DE:noun:Knie:1679",
+      "frequency_rank": 1679,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1680,
+      "semantic_id": "de-DE:numeral-noun:null:1680",
+      "frequency_rank": 1680,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1681,
+      "semantic_id": "de-DE:noun:Schicht:1681",
+      "frequency_rank": 1681,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1682,
+      "semantic_id": "de-DE:adjective-adverb:unglaublich:1682",
+      "frequency_rank": 1682,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1683,
+      "semantic_id": "de-DE:adverb:zurück:1683",
+      "frequency_rank": 1683,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1684,
+      "semantic_id": "de-DE:noun:Realität:1684",
+      "frequency_rank": 1684,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1685,
+      "semantic_id": "de-DE:conjunction:sobald:1685",
+      "frequency_rank": 1685,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1686,
+      "semantic_id": "de-DE:verb:belegen:1686",
+      "frequency_rank": 1686,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1687,
+      "semantic_id": "de-DE:noun:Fluss:1687",
+      "frequency_rank": 1687,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1688,
+      "semantic_id": "de-DE:noun-adjective:Alternative:1688",
+      "frequency_rank": 1688,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1689,
+      "semantic_id": "de-DE:verb:verpflichten:1689",
+      "frequency_rank": 1689,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1690,
+      "semantic_id": "de-DE:verb:begrüßen:1690",
+      "frequency_rank": 1690,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1691,
+      "semantic_id": "de-DE:noun:Führung:1691",
+      "frequency_rank": 1691,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1692,
+      "semantic_id": "de-DE:adjective:untere (r, s):1692",
+      "frequency_rank": 1692,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1693,
+      "semantic_id": "de-DE:noun:Handy:1693",
+      "frequency_rank": 1693,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1694,
+      "semantic_id": "de-DE:noun:Hauptstadt:1694",
+      "frequency_rank": 1694,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1695,
+      "semantic_id": "de-DE:noun:Experiment:1695",
+      "frequency_rank": 1695,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1696,
+      "semantic_id": "de-DE:noun:Frieden:1696",
+      "frequency_rank": 1696,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1697,
+      "semantic_id": "de-DE:noun:Verlauf:1697",
+      "frequency_rank": 1697,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1698,
+      "semantic_id": "de-DE:noun:Potenzial:1698",
+      "frequency_rank": 1698,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1699,
+      "semantic_id": "de-DE:noun:Verlag:1699",
+      "frequency_rank": 1699,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1700,
+      "semantic_id": "de-DE:noun:Ministerpräsident:1700",
+      "frequency_rank": 1700,
       "unit_id": null
     }
   ]
