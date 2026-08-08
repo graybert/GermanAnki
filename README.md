@@ -1,6 +1,6 @@
 # German Core Deck
 
-This repository contains a complete formatting prototype plus the first 2,650
+This repository contains a complete formatting prototype plus the first 2,700
 fully developed draft cards from a 5,009-entry frequency curriculum. Verified
 dual-voice word and sentence audio is verified through rank 2,200.
 

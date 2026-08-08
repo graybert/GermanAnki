@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "card_count": 2650,
+  "card_count": 2700,
   "active_units": [
     {
       "unit_id": "weekdays",
@@ -15964,6 +15964,306 @@
       "curriculum_order": 2650,
       "semantic_id": "de-DE:adjective-adverb:sekundär:2650",
       "frequency_rank": 2650,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2651,
+      "semantic_id": "de-DE:noun:Zentralbank:2651",
+      "frequency_rank": 2651,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2652,
+      "semantic_id": "de-DE:noun:Alte:2652",
+      "frequency_rank": 2652,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2653,
+      "semantic_id": "de-DE:noun:Angestellte:2653",
+      "frequency_rank": 2653,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2654,
+      "semantic_id": "de-DE:adjective:dankbar:2654",
+      "frequency_rank": 2654,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2655,
+      "semantic_id": "de-DE:verb:faszinieren:2655",
+      "frequency_rank": 2655,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2656,
+      "semantic_id": "de-DE:noun:Flur:2656",
+      "frequency_rank": 2656,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2657,
+      "semantic_id": "de-DE:noun:Hemd:2657",
+      "frequency_rank": 2657,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2658,
+      "semantic_id": "de-DE:adjective-adverb:inhaltlich:2658",
+      "frequency_rank": 2658,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2659,
+      "semantic_id": "de-DE:noun:Begründung:2659",
+      "frequency_rank": 2659,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2660,
+      "semantic_id": "de-DE:adverb:dreimal:2660",
+      "frequency_rank": 2660,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2661,
+      "semantic_id": "de-DE:adverb-adjective:momentan:2661",
+      "frequency_rank": 2661,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2662,
+      "semantic_id": "de-DE:verb:zögern:2662",
+      "frequency_rank": 2662,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2663,
+      "semantic_id": "de-DE:adverb:derart:2663",
+      "frequency_rank": 2663,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2664,
+      "semantic_id": "de-DE:adjective-adverb:kreativ:2664",
+      "frequency_rank": 2664,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2665,
+      "semantic_id": "de-DE:verb:einziehen:2665",
+      "frequency_rank": 2665,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2666,
+      "semantic_id": "de-DE:noun:Ausmaß:2666",
+      "frequency_rank": 2666,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2667,
+      "semantic_id": "de-DE:noun:Feind:2667",
+      "frequency_rank": 2667,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2668,
+      "semantic_id": "de-DE:verb:verbrennen:2668",
+      "frequency_rank": 2668,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2669,
+      "semantic_id": "de-DE:noun:Vorstand:2669",
+      "frequency_rank": 2669,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2670,
+      "semantic_id": "de-DE:noun:Atem:2670",
+      "frequency_rank": 2670,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2671,
+      "semantic_id": "de-DE:noun:Distanz:2671",
+      "frequency_rank": 2671,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2672,
+      "semantic_id": "de-DE:noun:Händler:2672",
+      "frequency_rank": 2672,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2673,
+      "semantic_id": "de-DE:verb:hassen:2673",
+      "frequency_rank": 2673,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2674,
+      "semantic_id": "de-DE:noun:Muster:2674",
+      "frequency_rank": 2674,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2675,
+      "semantic_id": "de-DE:adjective-adverb:ausführlich:2675",
+      "frequency_rank": 2675,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2676,
+      "semantic_id": "de-DE:verb:bedenken:2676",
+      "frequency_rank": 2676,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2677,
+      "semantic_id": "de-DE:noun:Terror:2677",
+      "frequency_rank": 2677,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2678,
+      "semantic_id": "de-DE:noun:Verfassung:2678",
+      "frequency_rank": 2678,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2679,
+      "semantic_id": "de-DE:adjective-adverb:blind:2679",
+      "frequency_rank": 2679,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2680,
+      "semantic_id": "de-DE:verb:einschlafen:2680",
+      "frequency_rank": 2680,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2681,
+      "semantic_id": "de-DE:noun:Flüchtlingskrise:2681",
+      "frequency_rank": 2681,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2682,
+      "semantic_id": "de-DE:noun:Ärger:2682",
+      "frequency_rank": 2682,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2683,
+      "semantic_id": "de-DE:adjective-adverb:allmählich:2683",
+      "frequency_rank": 2683,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2684,
+      "semantic_id": "de-DE:noun:Führer:2684",
+      "frequency_rank": 2684,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2685,
+      "semantic_id": "de-DE:noun:Vitamin:2685",
+      "frequency_rank": 2685,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2686,
+      "semantic_id": "de-DE:noun:Abschied:2686",
+      "frequency_rank": 2686,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2687,
+      "semantic_id": "de-DE:noun:Hafen:2687",
+      "frequency_rank": 2687,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2688,
+      "semantic_id": "de-DE:noun:Niere:2688",
+      "frequency_rank": 2688,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2689,
+      "semantic_id": "de-DE:verb:abbilden:2689",
+      "frequency_rank": 2689,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2690,
+      "semantic_id": "de-DE:noun:Rezeptor:2690",
+      "frequency_rank": 2690,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2691,
+      "semantic_id": "de-DE:verb:etablieren:2691",
+      "frequency_rank": 2691,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2692,
+      "semantic_id": "de-DE:noun:Messer:2692",
+      "frequency_rank": 2692,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2693,
+      "semantic_id": "de-DE:adverb:teils:2693",
+      "frequency_rank": 2693,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2694,
+      "semantic_id": "de-DE:proper-noun:Brasilien:2694",
+      "frequency_rank": 2694,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2695,
+      "semantic_id": "de-DE:verb:ergreifen:2695",
+      "frequency_rank": 2695,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2696,
+      "semantic_id": "de-DE:noun:Grundgesetz:2696",
+      "frequency_rank": 2696,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2697,
+      "semantic_id": "de-DE:noun:Herkunft:2697",
+      "frequency_rank": 2697,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2698,
+      "semantic_id": "de-DE:verb:hinausgehen:2698",
+      "frequency_rank": 2698,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2699,
+      "semantic_id": "de-DE:noun:Katastrophe:2699",
+      "frequency_rank": 2699,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2700,
+      "semantic_id": "de-DE:verb:lehnen:2700",
+      "frequency_rank": 2700,
       "unit_id": null
     }
   ]
