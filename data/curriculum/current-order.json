@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "card_count": 2850,
+  "card_count": 2900,
   "active_units": [
     {
       "unit_id": "weekdays",
@@ -19,7 +19,7 @@
     {
       "unit_id": "numbers-core",
       "title": "Core numbers",
-      "available": 19,
+      "available": 20,
       "required": 29,
       "missing": [
         {
@@ -29,10 +29,6 @@
         {
           "label": "vierzehn",
           "frequency_rank": 3950
-        },
-        {
-          "label": "fünfzehn",
-          "frequency_rank": 2858
         },
         {
           "label": "sechzehn",
@@ -17164,6 +17160,306 @@
       "curriculum_order": 2850,
       "semantic_id": "de-DE:noun:Anordnung:2850",
       "frequency_rank": 2850,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2851,
+      "semantic_id": "de-DE:verb:aufwachen:2851",
+      "frequency_rank": 2851,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2852,
+      "semantic_id": "de-DE:noun:Kasse:2852",
+      "frequency_rank": 2852,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2853,
+      "semantic_id": "de-DE:plural-noun:Schulden:2853",
+      "frequency_rank": 2853,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2854,
+      "semantic_id": "de-DE:noun:Hinblick:2854",
+      "frequency_rank": 2854,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2855,
+      "semantic_id": "de-DE:noun:Last:2855",
+      "frequency_rank": 2855,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2856,
+      "semantic_id": "de-DE:noun-adverb:Zuhause:2856",
+      "frequency_rank": 2856,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2857,
+      "semantic_id": "de-DE:adjective-adverb:einheitlich:2857",
+      "frequency_rank": 2857,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2858,
+      "semantic_id": "de-DE:numeral:fünfzehn:2858",
+      "frequency_rank": 2858,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2859,
+      "semantic_id": "de-DE:verb:überschreiten:2859",
+      "frequency_rank": 2859,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2860,
+      "semantic_id": "de-DE:noun:Version:2860",
+      "frequency_rank": 2860,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2861,
+      "semantic_id": "de-DE:noun:Zunge:2861",
+      "frequency_rank": 2861,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2862,
+      "semantic_id": "de-DE:adjective-adverb:dänisch:2862",
+      "frequency_rank": 2862,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2863,
+      "semantic_id": "de-DE:noun:Einladung:2863",
+      "frequency_rank": 2863,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2864,
+      "semantic_id": "de-DE:noun:Vielzahl:2864",
+      "frequency_rank": 2864,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2865,
+      "semantic_id": "de-DE:noun:Arbeitgeber:2865",
+      "frequency_rank": 2865,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2866,
+      "semantic_id": "de-DE:noun:Höhle:2866",
+      "frequency_rank": 2866,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2867,
+      "semantic_id": "de-DE:noun:Lücke:2867",
+      "frequency_rank": 2867,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2868,
+      "semantic_id": "de-DE:adverb:mehrmals:2868",
+      "frequency_rank": 2868,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2869,
+      "semantic_id": "de-DE:adjective-adverb:subjektiv:2869",
+      "frequency_rank": 2869,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2870,
+      "semantic_id": "de-DE:adjective-adverb:unangenehm:2870",
+      "frequency_rank": 2870,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2871,
+      "semantic_id": "de-DE:noun:Wirtschaftsforum:2871",
+      "frequency_rank": 2871,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2872,
+      "semantic_id": "de-DE:noun:Angelegenheit:2872",
+      "frequency_rank": 2872,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2873,
+      "semantic_id": "de-DE:adjective-adverb:charakteristisch:2873",
+      "frequency_rank": 2873,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2874,
+      "semantic_id": "de-DE:noun:Einnahme:2874",
+      "frequency_rank": 2874,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2875,
+      "semantic_id": "de-DE:proper-noun:Islam:2875",
+      "frequency_rank": 2875,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2876,
+      "semantic_id": "de-DE:verb:basieren:2876",
+      "frequency_rank": 2876,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2877,
+      "semantic_id": "de-DE:verb:einkaufen:2877",
+      "frequency_rank": 2877,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2878,
+      "semantic_id": "de-DE:verb:eintragen:2878",
+      "frequency_rank": 2878,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2879,
+      "semantic_id": "de-DE:noun:Vortrag:2879",
+      "frequency_rank": 2879,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2880,
+      "semantic_id": "de-DE:noun:Zelt:2880",
+      "frequency_rank": 2880,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2881,
+      "semantic_id": "de-DE:verb:zusammensetzen:2881",
+      "frequency_rank": 2881,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2882,
+      "semantic_id": "de-DE:verb:bedanken (sich):2882",
+      "frequency_rank": 2882,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2883,
+      "semantic_id": "de-DE:noun:Brille:2883",
+      "frequency_rank": 2883,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2884,
+      "semantic_id": "de-DE:noun:Sammlung:2884",
+      "frequency_rank": 2884,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2885,
+      "semantic_id": "de-DE:verb:verschließen:2885",
+      "frequency_rank": 2885,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2886,
+      "semantic_id": "de-DE:noun:Entwurf:2886",
+      "frequency_rank": 2886,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2887,
+      "semantic_id": "de-DE:adverb:seither:2887",
+      "frequency_rank": 2887,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2888,
+      "semantic_id": "de-DE:verb:ansagen:2888",
+      "frequency_rank": 2888,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2889,
+      "semantic_id": "de-DE:verb:hemmen:2889",
+      "frequency_rank": 2889,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2890,
+      "semantic_id": "de-DE:noun:Intelligenz:2890",
+      "frequency_rank": 2890,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2891,
+      "semantic_id": "de-DE:adjective-adverb:senkrecht:2891",
+      "frequency_rank": 2891,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2892,
+      "semantic_id": "de-DE:verb:dringen:2892",
+      "frequency_rank": 2892,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2893,
+      "semantic_id": "de-DE:noun:Migrant:2893",
+      "frequency_rank": 2893,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2894,
+      "semantic_id": "de-DE:verb:probieren:2894",
+      "frequency_rank": 2894,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2895,
+      "semantic_id": "de-DE:noun:Turnier:2895",
+      "frequency_rank": 2895,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2896,
+      "semantic_id": "de-DE:verb:verschaffen:2896",
+      "frequency_rank": 2896,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2897,
+      "semantic_id": "de-DE:noun:Volkswirtschaft:2897",
+      "frequency_rank": 2897,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2898,
+      "semantic_id": "de-DE:verb:bearbeiten:2898",
+      "frequency_rank": 2898,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2899,
+      "semantic_id": "de-DE:adjective-adverb:flexibel:2899",
+      "frequency_rank": 2899,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2900,
+      "semantic_id": "de-DE:pronoun-adverb:hierfür:2900",
+      "frequency_rank": 2900,
       "unit_id": null
     }
   ]
