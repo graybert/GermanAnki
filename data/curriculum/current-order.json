@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "card_count": 2200,
+  "card_count": 2250,
   "active_units": [
     {
       "unit_id": "weekdays",
@@ -13276,6 +13276,306 @@
       "curriculum_order": 2200,
       "semantic_id": "de-DE:adjective-adverb:schrecklich:2200",
       "frequency_rank": 2200,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2201,
+      "semantic_id": "de-DE:adjective-adverb:weich:2201",
+      "frequency_rank": 2201,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2202,
+      "semantic_id": "de-DE:noun:Klinik:2202",
+      "frequency_rank": 2202,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2203,
+      "semantic_id": "de-DE:adjective-adverb:bedeutend:2203",
+      "frequency_rank": 2203,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2204,
+      "semantic_id": "de-DE:noun:Organ:2204",
+      "frequency_rank": 2204,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2205,
+      "semantic_id": "de-DE:verb:besprechen:2205",
+      "frequency_rank": 2205,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2206,
+      "semantic_id": "de-DE:noun:Oberfläche:2206",
+      "frequency_rank": 2206,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2207,
+      "semantic_id": "de-DE:noun:Standort:2207",
+      "frequency_rank": 2207,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2208,
+      "semantic_id": "de-DE:noun:Zufall:2208",
+      "frequency_rank": 2208,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2209,
+      "semantic_id": "de-DE:noun:Armee:2209",
+      "frequency_rank": 2209,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2210,
+      "semantic_id": "de-DE:adjective-adverb:kräftig:2210",
+      "frequency_rank": 2210,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2211,
+      "semantic_id": "de-DE:noun:Nerv:2211",
+      "frequency_rank": 2211,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2212,
+      "semantic_id": "de-DE:noun:Niederlage:2212",
+      "frequency_rank": 2212,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2213,
+      "semantic_id": "de-DE:noun:Termin:2213",
+      "frequency_rank": 2213,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2214,
+      "semantic_id": "de-DE:adjective-adverb:angenehm:2214",
+      "frequency_rank": 2214,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2215,
+      "semantic_id": "de-DE:noun:Synthese:2215",
+      "frequency_rank": 2215,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2216,
+      "semantic_id": "de-DE:noun:Drama:2216",
+      "frequency_rank": 2216,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2217,
+      "semantic_id": "de-DE:noun:Konsum:2217",
+      "frequency_rank": 2217,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2218,
+      "semantic_id": "de-DE:noun:Vorschrift:2218",
+      "frequency_rank": 2218,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2219,
+      "semantic_id": "de-DE:adjective-adverb:winzig:2219",
+      "frequency_rank": 2219,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2220,
+      "semantic_id": "de-DE:noun:Flug:2220",
+      "frequency_rank": 2220,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2221,
+      "semantic_id": "de-DE:noun:Holz:2221",
+      "frequency_rank": 2221,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2222,
+      "semantic_id": "de-DE:adjective-adverb:künstlerisch:2222",
+      "frequency_rank": 2222,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2223,
+      "semantic_id": "de-DE:noun:Förderung:2223",
+      "frequency_rank": 2223,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2224,
+      "semantic_id": "de-DE:noun:Impuls:2224",
+      "frequency_rank": 2224,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2225,
+      "semantic_id": "de-DE:noun:Planung:2225",
+      "frequency_rank": 2225,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2226,
+      "semantic_id": "de-DE:noun:Verdacht:2226",
+      "frequency_rank": 2226,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2227,
+      "semantic_id": "de-DE:verb:vorgeben:2227",
+      "frequency_rank": 2227,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2228,
+      "semantic_id": "de-DE:noun:Witz:2228",
+      "frequency_rank": 2228,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2229,
+      "semantic_id": "de-DE:adjective-adverb:aufmerksam:2229",
+      "frequency_rank": 2229,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2230,
+      "semantic_id": "de-DE:noun:Mangel:2230",
+      "frequency_rank": 2230,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2231,
+      "semantic_id": "de-DE:verb:ausführen:2231",
+      "frequency_rank": 2231,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2232,
+      "semantic_id": "de-DE:adjective-adverb:analog:2232",
+      "frequency_rank": 2232,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2233,
+      "semantic_id": "de-DE:verb:befürchten:2233",
+      "frequency_rank": 2233,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2234,
+      "semantic_id": "de-DE:preposition:hinsichtlich:2234",
+      "frequency_rank": 2234,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2235,
+      "semantic_id": "de-DE:noun:Katze:2235",
+      "frequency_rank": 2235,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2236,
+      "semantic_id": "de-DE:adjective:äußere (r, s):2236",
+      "frequency_rank": 2236,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2237,
+      "semantic_id": "de-DE:noun:Halle:2237",
+      "frequency_rank": 2237,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2238,
+      "semantic_id": "de-DE:noun:Häufigkeit:2238",
+      "frequency_rank": 2238,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2239,
+      "semantic_id": "de-DE:noun:Kapital:2239",
+      "frequency_rank": 2239,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2240,
+      "semantic_id": "de-DE:noun:Revolution:2240",
+      "frequency_rank": 2240,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2241,
+      "semantic_id": "de-DE:verb:zuordnen:2241",
+      "frequency_rank": 2241,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2242,
+      "semantic_id": "de-DE:verb:aussetzen:2242",
+      "frequency_rank": 2242,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2243,
+      "semantic_id": "de-DE:noun:Lohn:2243",
+      "frequency_rank": 2243,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2244,
+      "semantic_id": "de-DE:noun:Vermögen:2244",
+      "frequency_rank": 2244,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2245,
+      "semantic_id": "de-DE:noun:Verwaltung:2245",
+      "frequency_rank": 2245,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2246,
+      "semantic_id": "de-DE:conjunction-adverb:zumal:2246",
+      "frequency_rank": 2246,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2247,
+      "semantic_id": "de-DE:noun:Kohlenstoffdioxid:2247",
+      "frequency_rank": 2247,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2248,
+      "semantic_id": "de-DE:adjective-adverb:ordentlich:2248",
+      "frequency_rank": 2248,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2249,
+      "semantic_id": "de-DE:verb:stoppen:2249",
+      "frequency_rank": 2249,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2250,
+      "semantic_id": "de-DE:noun:Bundeskanzler:2250",
+      "frequency_rank": 2250,
       "unit_id": null
     }
   ]
