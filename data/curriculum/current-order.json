@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "card_count": 2700,
+  "card_count": 2750,
   "active_units": [
     {
       "unit_id": "weekdays",
@@ -16264,6 +16264,306 @@
       "curriculum_order": 2700,
       "semantic_id": "de-DE:verb:lehnen:2700",
       "frequency_rank": 2700,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2701,
+      "semantic_id": "de-DE:verb:beraten:2701",
+      "frequency_rank": 2701,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2702,
+      "semantic_id": "de-DE:adjective-adverb:bürgerlich:2702",
+      "frequency_rank": 2702,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2703,
+      "semantic_id": "de-DE:noun:Erlebnis:2703",
+      "frequency_rank": 2703,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2704,
+      "semantic_id": "de-DE:adverb:nachher:2704",
+      "frequency_rank": 2704,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2705,
+      "semantic_id": "de-DE:verb:übergehen:2705",
+      "frequency_rank": 2705,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2706,
+      "semantic_id": "de-DE:noun:Wut:2706",
+      "frequency_rank": 2706,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2707,
+      "semantic_id": "de-DE:verb:aufrufen:2707",
+      "frequency_rank": 2707,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2708,
+      "semantic_id": "de-DE:adjective-adverb:quer:2708",
+      "frequency_rank": 2708,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2709,
+      "semantic_id": "de-DE:noun:Kapitän:2709",
+      "frequency_rank": 2709,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2710,
+      "semantic_id": "de-DE:verb:zusammenhängen:2710",
+      "frequency_rank": 2710,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2711,
+      "semantic_id": "de-DE:noun:Ausländer:2711",
+      "frequency_rank": 2711,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2712,
+      "semantic_id": "de-DE:noun:Beschäftigte:2712",
+      "frequency_rank": 2712,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2713,
+      "semantic_id": "de-DE:noun:Bundesliga:2713",
+      "frequency_rank": 2713,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2714,
+      "semantic_id": "de-DE:verb:nähern (sich):2714",
+      "frequency_rank": 2714,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2715,
+      "semantic_id": "de-DE:adjective-adverb:übel:2715",
+      "frequency_rank": 2715,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2716,
+      "semantic_id": "de-DE:noun:Ufer:2716",
+      "frequency_rank": 2716,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2717,
+      "semantic_id": "de-DE:noun:Dichte:2717",
+      "frequency_rank": 2717,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2718,
+      "semantic_id": "de-DE:conjunction:ehe:2718",
+      "frequency_rank": 2718,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2719,
+      "semantic_id": "de-DE:noun:Strahlung:2719",
+      "frequency_rank": 2719,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2720,
+      "semantic_id": "de-DE:noun:Virus:2720",
+      "frequency_rank": 2720,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2721,
+      "semantic_id": "de-DE:noun:Kontinent:2721",
+      "frequency_rank": 2721,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2722,
+      "semantic_id": "de-DE:noun:Milligramm:2722",
+      "frequency_rank": 2722,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2723,
+      "semantic_id": "de-DE:adjective-adverb:schwedisch:2723",
+      "frequency_rank": 2723,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2724,
+      "semantic_id": "de-DE:adjective-adverb:sexuell:2724",
+      "frequency_rank": 2724,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2725,
+      "semantic_id": "de-DE:adverb:hierher:2725",
+      "frequency_rank": 2725,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2726,
+      "semantic_id": "de-DE:adjective-adverb:ironisch:2726",
+      "frequency_rank": 2726,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2727,
+      "semantic_id": "de-DE:noun:Sprung:2727",
+      "frequency_rank": 2727,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2728,
+      "semantic_id": "de-DE:adverb:vorerst:2728",
+      "frequency_rank": 2728,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2729,
+      "semantic_id": "de-DE:adjective-adverb:experimentell:2729",
+      "frequency_rank": 2729,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2730,
+      "semantic_id": "de-DE:adjective-adverb:kühl:2730",
+      "frequency_rank": 2730,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2731,
+      "semantic_id": "de-DE:noun:Maler:2731",
+      "frequency_rank": 2731,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2732,
+      "semantic_id": "de-DE:noun:Opposition:2732",
+      "frequency_rank": 2732,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2733,
+      "semantic_id": "de-DE:noun:Saal:2733",
+      "frequency_rank": 2733,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2734,
+      "semantic_id": "de-DE:adjective-adverb:syrisch:2734",
+      "frequency_rank": 2734,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2735,
+      "semantic_id": "de-DE:noun:Grundsatz:2735",
+      "frequency_rank": 2735,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2736,
+      "semantic_id": "de-DE:verb:loben:2736",
+      "frequency_rank": 2736,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2737,
+      "semantic_id": "de-DE:noun:Zustimmung:2737",
+      "frequency_rank": 2737,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2738,
+      "semantic_id": "de-DE:noun:Absicht:2738",
+      "frequency_rank": 2738,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2739,
+      "semantic_id": "de-DE:noun:Adresse:2739",
+      "frequency_rank": 2739,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2740,
+      "semantic_id": "de-DE:noun:Akzent:2740",
+      "frequency_rank": 2740,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2741,
+      "semantic_id": "de-DE:verb:verlängern:2741",
+      "frequency_rank": 2741,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2742,
+      "semantic_id": "de-DE:noun:Nahrung:2742",
+      "frequency_rank": 2742,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2743,
+      "semantic_id": "de-DE:adjective-adverb:niederländisch:2743",
+      "frequency_rank": 2743,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2744,
+      "semantic_id": "de-DE:noun:Planet:2744",
+      "frequency_rank": 2744,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2745,
+      "semantic_id": "de-DE:noun:Stress:2745",
+      "frequency_rank": 2745,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2746,
+      "semantic_id": "de-DE:adjective-adverb:vermeintlich:2746",
+      "frequency_rank": 2746,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2747,
+      "semantic_id": "de-DE:verb:zusammenarbeiten:2747",
+      "frequency_rank": 2747,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2748,
+      "semantic_id": "de-DE:noun:Parameter:2748",
+      "frequency_rank": 2748,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2749,
+      "semantic_id": "de-DE:adjective-adverb:steil:2749",
+      "frequency_rank": 2749,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2750,
+      "semantic_id": "de-DE:noun:Europäer:2750",
+      "frequency_rank": 2750,
       "unit_id": null
     }
   ]
