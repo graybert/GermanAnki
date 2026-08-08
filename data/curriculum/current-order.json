@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "card_count": 1950,
+  "card_count": 2000,
   "active_units": [
     {
       "unit_id": "weekdays",
@@ -11780,6 +11780,306 @@
       "curriculum_order": 1950,
       "semantic_id": "de-DE:noun:Treppe:1950",
       "frequency_rank": 1950,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1951,
+      "semantic_id": "de-DE:noun:Decke:1951",
+      "frequency_rank": 1951,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1952,
+      "semantic_id": "de-DE:noun:Einstellung:1952",
+      "frequency_rank": 1952,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1953,
+      "semantic_id": "de-DE:verb:heiraten:1953",
+      "frequency_rank": 1953,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1954,
+      "semantic_id": "de-DE:preposition:mittels:1954",
+      "frequency_rank": 1954,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1955,
+      "semantic_id": "de-DE:noun:Unfall:1955",
+      "frequency_rank": 1955,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1956,
+      "semantic_id": "de-DE:noun:Bestandteil:1956",
+      "frequency_rank": 1956,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1957,
+      "semantic_id": "de-DE:noun:Regen:1957",
+      "frequency_rank": 1957,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1958,
+      "semantic_id": "de-DE:verb:entschuldigen:1958",
+      "frequency_rank": 1958,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1959,
+      "semantic_id": "de-DE:noun:Fisch:1959",
+      "frequency_rank": 1959,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1960,
+      "semantic_id": "de-DE:noun:Medizin:1960",
+      "frequency_rank": 1960,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1961,
+      "semantic_id": "de-DE:noun:Schicksal:1961",
+      "frequency_rank": 1961,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1962,
+      "semantic_id": "de-DE:verb:aufgehen:1962",
+      "frequency_rank": 1962,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1963,
+      "semantic_id": "de-DE:noun:Video:1963",
+      "frequency_rank": 1963,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1964,
+      "semantic_id": "de-DE:verb:zugehen:1964",
+      "frequency_rank": 1964,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1965,
+      "semantic_id": "de-DE:adjective-adverb:durchschnittlich:1965",
+      "frequency_rank": 1965,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1966,
+      "semantic_id": "de-DE:noun:Strand:1966",
+      "frequency_rank": 1966,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1967,
+      "semantic_id": "de-DE:noun:Zins:1967",
+      "frequency_rank": 1967,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1968,
+      "semantic_id": "de-DE:verb:bewerten:1968",
+      "frequency_rank": 1968,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1969,
+      "semantic_id": "de-DE:preposition:bezüglich:1969",
+      "frequency_rank": 1969,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1970,
+      "semantic_id": "de-DE:verb:begeistern:1970",
+      "frequency_rank": 1970,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1971,
+      "semantic_id": "de-DE:noun:Ladung:1971",
+      "frequency_rank": 1971,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1972,
+      "semantic_id": "de-DE:adverb:äußerst:1972",
+      "frequency_rank": 1972,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1973,
+      "semantic_id": "de-DE:adjective-adverb:lustig:1973",
+      "frequency_rank": 1973,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1974,
+      "semantic_id": "de-DE:adjective-adverb:potenziell:1974",
+      "frequency_rank": 1974,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1975,
+      "semantic_id": "de-DE:noun:Dichter:1975",
+      "frequency_rank": 1975,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1976,
+      "semantic_id": "de-DE:noun:Religion:1976",
+      "frequency_rank": 1976,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1977,
+      "semantic_id": "de-DE:adjective-adverb:religiös:1977",
+      "frequency_rank": 1977,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1978,
+      "semantic_id": "de-DE:adjective-adverb:nackt:1978",
+      "frequency_rank": 1978,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1979,
+      "semantic_id": "de-DE:noun:Ware:1979",
+      "frequency_rank": 1979,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1980,
+      "semantic_id": "de-DE:adjective-adverb:beruflich:1980",
+      "frequency_rank": 1980,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1981,
+      "semantic_id": "de-DE:adjective-adverb-noun:lokal:1981",
+      "frequency_rank": 1981,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1982,
+      "semantic_id": "de-DE:noun:Standard:1982",
+      "frequency_rank": 1982,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1983,
+      "semantic_id": "de-DE:noun:Kanzler:1983",
+      "frequency_rank": 1983,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1984,
+      "semantic_id": "de-DE:adverb:nochmal:1984",
+      "frequency_rank": 1984,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1985,
+      "semantic_id": "de-DE:verb:auflösen:1985",
+      "frequency_rank": 1985,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1986,
+      "semantic_id": "de-DE:verb:aufregen:1986",
+      "frequency_rank": 1986,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1987,
+      "semantic_id": "de-DE:noun:Abhängigkeit:1987",
+      "frequency_rank": 1987,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1988,
+      "semantic_id": "de-DE:noun:Einrichtung:1988",
+      "frequency_rank": 1988,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1989,
+      "semantic_id": "de-DE:verb:vereinigen:1989",
+      "frequency_rank": 1989,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1990,
+      "semantic_id": "de-DE:adjective-verb-form:vereinigten:1990",
+      "frequency_rank": 1990,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1991,
+      "semantic_id": "de-DE:verb:verschieben:1991",
+      "frequency_rank": 1991,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1992,
+      "semantic_id": "de-DE:verb:bewirken:1992",
+      "frequency_rank": 1992,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1993,
+      "semantic_id": "de-DE:noun:Bundesland:1993",
+      "frequency_rank": 1993,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1994,
+      "semantic_id": "de-DE:verb:erleichtern:1994",
+      "frequency_rank": 1994,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1995,
+      "semantic_id": "de-DE:noun:Institution:1995",
+      "frequency_rank": 1995,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1996,
+      "semantic_id": "de-DE:adjective-adverb:rechtlich:1996",
+      "frequency_rank": 1996,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1997,
+      "semantic_id": "de-DE:noun:Viertel:1997",
+      "frequency_rank": 1997,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1998,
+      "semantic_id": "de-DE:noun:Dimension:1998",
+      "frequency_rank": 1998,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1999,
+      "semantic_id": "de-DE:noun:Ei:1999",
+      "frequency_rank": 1999,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2000,
+      "semantic_id": "de-DE:adjective:müde:2000",
+      "frequency_rank": 2000,
       "unit_id": null
     }
   ]

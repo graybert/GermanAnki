@@ -7798,5 +7798,205 @@ const audioFiles = {
   "1950": [
     "ga_word_treppe_475a77bebf.mp3",
     "ga_f1950_treppe_475a77bebf.mp3"
+  ],
+  "1951": [
+    "ga_word_decke_1ace25d8d9.mp3",
+    "ga_f1951_decke_1ace25d8d9.mp3"
+  ],
+  "1952": [
+    "ga_word_einstellung_0c88b2b770.mp3",
+    "ga_f1952_einstellung_0c88b2b770.mp3"
+  ],
+  "1953": [
+    "ga_word_heiraten_3212b6b806.mp3",
+    "ga_f1953_heiraten_3212b6b806.mp3"
+  ],
+  "1954": [
+    "ga_word_mittels_1c95e7f083.mp3",
+    "ga_f1954_mittels_1c95e7f083.mp3"
+  ],
+  "1955": [
+    "ga_word_unfall_09af8d35f7.mp3",
+    "ga_f1955_unfall_09af8d35f7.mp3"
+  ],
+  "1956": [
+    "ga_word_bestandteil_2e83312fca.mp3",
+    "ga_f1956_bestandteil_2e83312fca.mp3"
+  ],
+  "1957": [
+    "ga_word_regen_1ddc1d678e.mp3",
+    "ga_f1957_regen_1ddc1d678e.mp3"
+  ],
+  "1958": [
+    "ga_word_entschuldigen_0a321e0cae.mp3",
+    "ga_f1958_entschuldigen_0a321e0cae.mp3"
+  ],
+  "1959": [
+    "ga_word_fisch_ee09720773.mp3",
+    "ga_f1959_fisch_ee09720773.mp3"
+  ],
+  "1960": [
+    "ga_word_medizin_1893c3b3c4.mp3",
+    "ga_f1960_medizin_1893c3b3c4.mp3"
+  ],
+  "1961": [
+    "ga_word_schicksal_e59e8c3962.mp3",
+    "ga_f1961_schicksal_e59e8c3962.mp3"
+  ],
+  "1962": [
+    "ga_word_aufgehen_ab37970be6.mp3",
+    "ga_f1962_aufgehen_ab37970be6.mp3"
+  ],
+  "1963": [
+    "ga_word_video_5aabfdf846.mp3",
+    "ga_f1963_video_5aabfdf846.mp3"
+  ],
+  "1964": [
+    "ga_word_zugehen_a0a4a89f78.mp3",
+    "ga_f1964_zugehen_a0a4a89f78.mp3"
+  ],
+  "1965": [
+    "ga_word_durchschnittlich_3c50bbea8e.mp3",
+    "ga_f1965_durchschnittlich_3c50bbea8e.mp3"
+  ],
+  "1966": [
+    "ga_word_strand_c2ff9f6777.mp3",
+    "ga_f1966_strand_c2ff9f6777.mp3"
+  ],
+  "1967": [
+    "ga_word_zins_2e87ddff75.mp3",
+    "ga_f1967_zins_2e87ddff75.mp3"
+  ],
+  "1968": [
+    "ga_word_bewerten_d662bdda05.mp3",
+    "ga_f1968_bewerten_d662bdda05.mp3"
+  ],
+  "1969": [
+    "ga_word_bez-glich_57998d899b.mp3",
+    "ga_f1969_bez-glich_57998d899b.mp3"
+  ],
+  "1970": [
+    "ga_word_begeistern_99a5445dac.mp3",
+    "ga_f1970_begeistern_99a5445dac.mp3"
+  ],
+  "1971": [
+    "ga_word_ladung_61995f10db.mp3",
+    "ga_f1971_ladung_61995f10db.mp3"
+  ],
+  "1972": [
+    "ga_word_usserst_a8f7dde9f2.mp3",
+    "ga_f1972_usserst_a8f7dde9f2.mp3"
+  ],
+  "1973": [
+    "ga_word_lustig_7ab0524ceb.mp3",
+    "ga_f1973_lustig_7ab0524ceb.mp3"
+  ],
+  "1974": [
+    "ga_word_potenziell_c005fea08e.mp3",
+    "ga_f1974_potenziell_c005fea08e.mp3"
+  ],
+  "1975": [
+    "ga_word_dichter_429ba97a71.mp3",
+    "ga_f1975_dichter_429ba97a71.mp3"
+  ],
+  "1976": [
+    "ga_word_religion_757b6a2314.mp3",
+    "ga_f1976_religion_757b6a2314.mp3"
+  ],
+  "1977": [
+    "ga_word_religi-s_d2f82ec88f.mp3",
+    "ga_f1977_religi-s_d2f82ec88f.mp3"
+  ],
+  "1978": [
+    "ga_word_nackt_24f3146811.mp3",
+    "ga_f1978_nackt_24f3146811.mp3"
+  ],
+  "1979": [
+    "ga_word_ware_18c4bd5457.mp3",
+    "ga_f1979_ware_18c4bd5457.mp3"
+  ],
+  "1980": [
+    "ga_word_beruflich_ca9722cc1c.mp3",
+    "ga_f1980_beruflich_ca9722cc1c.mp3"
+  ],
+  "1981": [
+    "ga_word_lokal_2c0e4c17e3.mp3",
+    "ga_f1981_lokal_2c0e4c17e3.mp3"
+  ],
+  "1982": [
+    "ga_word_standard_1bb08baa04.mp3",
+    "ga_f1982_standard_1bb08baa04.mp3"
+  ],
+  "1983": [
+    "ga_word_kanzler_120e7a50db.mp3",
+    "ga_f1983_kanzler_120e7a50db.mp3"
+  ],
+  "1984": [
+    "ga_word_nochmal_43861e419f.mp3",
+    "ga_f1984_nochmal_43861e419f.mp3"
+  ],
+  "1985": [
+    "ga_word_aufl-sen_819376577a.mp3",
+    "ga_f1985_aufl-sen_819376577a.mp3"
+  ],
+  "1986": [
+    "ga_word_aufregen_28fb07e8f2.mp3",
+    "ga_f1986_aufregen_28fb07e8f2.mp3"
+  ],
+  "1987": [
+    "ga_word_abh-ngigkeit_e82a6c753a.mp3",
+    "ga_f1987_abh-ngigkeit_e82a6c753a.mp3"
+  ],
+  "1988": [
+    "ga_word_einrichtung_a5ac32bd10.mp3",
+    "ga_f1988_einrichtung_a5ac32bd10.mp3"
+  ],
+  "1989": [
+    "ga_word_vereinigen_917bed49e4.mp3",
+    "ga_f1989_vereinigen_917bed49e4.mp3"
+  ],
+  "1990": [
+    "ga_word_vereinigten_d238a3a074.mp3",
+    "ga_f1990_vereinigten_d238a3a074.mp3"
+  ],
+  "1991": [
+    "ga_word_verschieben_f6a5c8ceae.mp3",
+    "ga_f1991_verschieben_f6a5c8ceae.mp3"
+  ],
+  "1992": [
+    "ga_word_bewirken_f8648b8661.mp3",
+    "ga_f1992_bewirken_f8648b8661.mp3"
+  ],
+  "1993": [
+    "ga_word_bundesland_dc93086ff5.mp3",
+    "ga_f1993_bundesland_dc93086ff5.mp3"
+  ],
+  "1994": [
+    "ga_word_erleichtern_1ec06e6e3c.mp3",
+    "ga_f1994_erleichtern_1ec06e6e3c.mp3"
+  ],
+  "1995": [
+    "ga_word_institution_a1bc583373.mp3",
+    "ga_f1995_institution_a1bc583373.mp3"
+  ],
+  "1996": [
+    "ga_word_rechtlich_512bc66cbf.mp3",
+    "ga_f1996_rechtlich_512bc66cbf.mp3"
+  ],
+  "1997": [
+    "ga_word_viertel_01cf7924a3.mp3",
+    "ga_f1997_viertel_01cf7924a3.mp3"
+  ],
+  "1998": [
+    "ga_word_dimension_b637a2e8fe.mp3",
+    "ga_f1998_dimension_b637a2e8fe.mp3"
+  ],
+  "1999": [
+    "ga_word_ei_456a503628.mp3",
+    "ga_f1999_ei_456a503628.mp3"
+  ],
+  "2000": [
+    "ga_word_m-de_ec82909636.mp3",
+    "ga_f2000_m-de_ec82909636.mp3"
   ]
 };
