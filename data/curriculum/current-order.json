@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "card_count": 2100,
+  "card_count": 2150,
   "active_units": [
     {
       "unit_id": "weekdays",
@@ -12676,6 +12676,306 @@
       "curriculum_order": 2100,
       "semantic_id": "de-DE:adverb:allzu:2100",
       "frequency_rank": 2100,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2101,
+      "semantic_id": "de-DE:noun:Graf:2101",
+      "frequency_rank": 2101,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2102,
+      "semantic_id": "de-DE:proper-noun:Indien:2102",
+      "frequency_rank": 2102,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2103,
+      "semantic_id": "de-DE:verb:lohnen (sich):2103",
+      "frequency_rank": 2103,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2104,
+      "semantic_id": "de-DE:adjective-adverb:optisch:2104",
+      "frequency_rank": 2104,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2105,
+      "semantic_id": "de-DE:adjective-adverb:militärisch:2105",
+      "frequency_rank": 2105,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2106,
+      "semantic_id": "de-DE:noun:Mühe:2106",
+      "frequency_rank": 2106,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2107,
+      "semantic_id": "de-DE:verb:unterbrechen:2107",
+      "frequency_rank": 2107,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2108,
+      "semantic_id": "de-DE:adjective-adverb:grundlegend:2108",
+      "frequency_rank": 2108,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2109,
+      "semantic_id": "de-DE:noun:Boot:2109",
+      "frequency_rank": 2109,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2110,
+      "semantic_id": "de-DE:noun:Dutzend:2110",
+      "frequency_rank": 2110,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2111,
+      "semantic_id": "de-DE:verb:zurückziehen:2111",
+      "frequency_rank": 2111,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2112,
+      "semantic_id": "de-DE:verb:klopfen:2112",
+      "frequency_rank": 2112,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2113,
+      "semantic_id": "de-DE:verb:nachweisen:2113",
+      "frequency_rank": 2113,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2114,
+      "semantic_id": "de-DE:noun:Wolke:2114",
+      "frequency_rank": 2114,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2115,
+      "semantic_id": "de-DE:verb:aufmachen:2115",
+      "frequency_rank": 2115,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2116,
+      "semantic_id": "de-DE:verb:kennzeichnen:2116",
+      "frequency_rank": 2116,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2117,
+      "semantic_id": "de-DE:noun:Jugend:2117",
+      "frequency_rank": 2117,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2118,
+      "semantic_id": "de-DE:verb:wundern (sich):2118",
+      "frequency_rank": 2118,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2119,
+      "semantic_id": "de-DE:noun:Interpretation:2119",
+      "frequency_rank": 2119,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2120,
+      "semantic_id": "de-DE:noun:Leber:2120",
+      "frequency_rank": 2120,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2121,
+      "semantic_id": "de-DE:noun:Stellung:2121",
+      "frequency_rank": 2121,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2122,
+      "semantic_id": "de-DE:verb:aufheben:2122",
+      "frequency_rank": 2122,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2123,
+      "semantic_id": "de-DE:noun:Belastung:2123",
+      "frequency_rank": 2123,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2124,
+      "semantic_id": "de-DE:adjective:heilig:2124",
+      "frequency_rank": 2124,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2125,
+      "semantic_id": "de-DE:noun:Umfang:2125",
+      "frequency_rank": 2125,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2126,
+      "semantic_id": "de-DE:noun:Beobachtung:2126",
+      "frequency_rank": 2126,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2127,
+      "semantic_id": "de-DE:verb:erfinden:2127",
+      "frequency_rank": 2127,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2128,
+      "semantic_id": "de-DE:verb:erfordern:2128",
+      "frequency_rank": 2128,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2129,
+      "semantic_id": "de-DE:noun:Gebrauch:2129",
+      "frequency_rank": 2129,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2130,
+      "semantic_id": "de-DE:noun:Landtag:2130",
+      "frequency_rank": 2130,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2131,
+      "semantic_id": "de-DE:noun:Verkehr:2131",
+      "frequency_rank": 2131,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2132,
+      "semantic_id": "de-DE:verb:aufhalten:2132",
+      "frequency_rank": 2132,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2133,
+      "semantic_id": "de-DE:verb:schneiden:2133",
+      "frequency_rank": 2133,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2134,
+      "semantic_id": "de-DE:noun:Kauf:2134",
+      "frequency_rank": 2134,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2135,
+      "semantic_id": "de-DE:noun:Öl:2135",
+      "frequency_rank": 2135,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2136,
+      "semantic_id": "de-DE:noun:Betrag:2136",
+      "frequency_rank": 2136,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2137,
+      "semantic_id": "de-DE:verb:herauskommen, rauskommen:2137",
+      "frequency_rank": 2137,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2138,
+      "semantic_id": "de-DE:noun:Fahrrad:2138",
+      "frequency_rank": 2138,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2139,
+      "semantic_id": "de-DE:noun:Koordination:2139",
+      "frequency_rank": 2139,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2140,
+      "semantic_id": "de-DE:noun:Nutzung:2140",
+      "frequency_rank": 2140,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2141,
+      "semantic_id": "de-DE:noun:Park:2141",
+      "frequency_rank": 2141,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2142,
+      "semantic_id": "de-DE:verb:resultieren:2142",
+      "frequency_rank": 2142,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2143,
+      "semantic_id": "de-DE:verb:schmecken:2143",
+      "frequency_rank": 2143,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2144,
+      "semantic_id": "de-DE:verb:starren:2144",
+      "frequency_rank": 2144,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2145,
+      "semantic_id": "de-DE:verb:verpassen:2145",
+      "frequency_rank": 2145,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2146,
+      "semantic_id": "de-DE:verb:vorwerfen:2146",
+      "frequency_rank": 2146,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2147,
+      "semantic_id": "de-DE:noun:Bauch:2147",
+      "frequency_rank": 2147,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2148,
+      "semantic_id": "de-DE:noun:Verkauf:2148",
+      "frequency_rank": 2148,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2149,
+      "semantic_id": "de-DE:noun:Vorbereitung:2149",
+      "frequency_rank": 2149,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2150,
+      "semantic_id": "de-DE:verb:ausrichten:2150",
+      "frequency_rank": 2150,
       "unit_id": null
     }
   ]
