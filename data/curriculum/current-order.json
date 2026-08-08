@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "card_count": 2750,
+  "card_count": 2800,
   "active_units": [
     {
       "unit_id": "weekdays",
@@ -16564,6 +16564,306 @@
       "curriculum_order": 2750,
       "semantic_id": "de-DE:noun:Europäer:2750",
       "frequency_rank": 2750,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2751,
+      "semantic_id": "de-DE:adjective-adverb:heimisch:2751",
+      "frequency_rank": 2751,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2752,
+      "semantic_id": "de-DE:adjective-adverb:interkulturell:2752",
+      "frequency_rank": 2752,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2753,
+      "semantic_id": "de-DE:noun:Stille:2753",
+      "frequency_rank": 2753,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2754,
+      "semantic_id": "de-DE:noun:Bildschirm:2754",
+      "frequency_rank": 2754,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2755,
+      "semantic_id": "de-DE:verb:erwischen:2755",
+      "frequency_rank": 2755,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2756,
+      "semantic_id": "de-DE:noun:Proton:2756",
+      "frequency_rank": 2756,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2757,
+      "semantic_id": "de-DE:noun:Schweizer:2757",
+      "frequency_rank": 2757,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2758,
+      "semantic_id": "de-DE:adjective-adverb:unheimlich:2758",
+      "frequency_rank": 2758,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2759,
+      "semantic_id": "de-DE:adjective-adverb:magnetisch:2759",
+      "frequency_rank": 2759,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2760,
+      "semantic_id": "de-DE:verb:versehen:2760",
+      "frequency_rank": 2760,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2761,
+      "semantic_id": "de-DE:noun:Beteiligung:2761",
+      "frequency_rank": 2761,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2762,
+      "semantic_id": "de-DE:noun:Frühjahr:2762",
+      "frequency_rank": 2762,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2763,
+      "semantic_id": "de-DE:noun:Hut:2763",
+      "frequency_rank": 2763,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2764,
+      "semantic_id": "de-DE:noun:Medium:2764",
+      "frequency_rank": 2764,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2765,
+      "semantic_id": "de-DE:noun:Verpflichtung:2765",
+      "frequency_rank": 2765,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2766,
+      "semantic_id": "de-DE:noun:Abteilung:2766",
+      "frequency_rank": 2766,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2767,
+      "semantic_id": "de-DE:adjective-adverb:alternativ:2767",
+      "frequency_rank": 2767,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2768,
+      "semantic_id": "de-DE:noun:Mittag:2768",
+      "frequency_rank": 2768,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2769,
+      "semantic_id": "de-DE:verb:befassen (sich):2769",
+      "frequency_rank": 2769,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2770,
+      "semantic_id": "de-DE:noun:Finale:2770",
+      "frequency_rank": 2770,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2771,
+      "semantic_id": "de-DE:verb:gewähren:2771",
+      "frequency_rank": 2771,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2772,
+      "semantic_id": "de-DE:verb:aussagen:2772",
+      "frequency_rank": 2772,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2773,
+      "semantic_id": "de-DE:noun:Tendenz:2773",
+      "frequency_rank": 2773,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2774,
+      "semantic_id": "de-DE:noun:Terrorist:2774",
+      "frequency_rank": 2774,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2775,
+      "semantic_id": "de-DE:adverb:jemals:2775",
+      "frequency_rank": 2775,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2776,
+      "semantic_id": "de-DE:noun:Opa:2776",
+      "frequency_rank": 2776,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2777,
+      "semantic_id": "de-DE:adjective-adverb:arbeitslos:2777",
+      "frequency_rank": 2777,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2778,
+      "semantic_id": "de-DE:noun:Auswertung:2778",
+      "frequency_rank": 2778,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2779,
+      "semantic_id": "de-DE:noun:Gras:2779",
+      "frequency_rank": 2779,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2780,
+      "semantic_id": "de-DE:adjective-adverb:logisch:2780",
+      "frequency_rank": 2780,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2781,
+      "semantic_id": "de-DE:noun:Nachfolger:2781",
+      "frequency_rank": 2781,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2782,
+      "semantic_id": "de-DE:verb:verzweifeln:2782",
+      "frequency_rank": 2782,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2783,
+      "semantic_id": "de-DE:verb:bewältigen:2783",
+      "frequency_rank": 2783,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2784,
+      "semantic_id": "de-DE:noun:Emotion:2784",
+      "frequency_rank": 2784,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2785,
+      "semantic_id": "de-DE:noun:Armut:2785",
+      "frequency_rank": 2785,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2786,
+      "semantic_id": "de-DE:proper-noun:Australien:2786",
+      "frequency_rank": 2786,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2787,
+      "semantic_id": "de-DE:verb:klagen:2787",
+      "frequency_rank": 2787,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2788,
+      "semantic_id": "de-DE:adverb-adjective:schade:2788",
+      "frequency_rank": 2788,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2789,
+      "semantic_id": "de-DE:noun:Scheibe:2789",
+      "frequency_rank": 2789,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2790,
+      "semantic_id": "de-DE:verb:verbleiben:2790",
+      "frequency_rank": 2790,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2791,
+      "semantic_id": "de-DE:noun:Widerspruch:2791",
+      "frequency_rank": 2791,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2792,
+      "semantic_id": "de-DE:verb:dastehen:2792",
+      "frequency_rank": 2792,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2793,
+      "semantic_id": "de-DE:adjective-adverb:nervös:2793",
+      "frequency_rank": 2793,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2794,
+      "semantic_id": "de-DE:verb:regieren:2794",
+      "frequency_rank": 2794,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2795,
+      "semantic_id": "de-DE:noun:Regisseur:2795",
+      "frequency_rank": 2795,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2796,
+      "semantic_id": "de-DE:adjective-adverb:süß:2796",
+      "frequency_rank": 2796,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2797,
+      "semantic_id": "de-DE:noun:Villa:2797",
+      "frequency_rank": 2797,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2798,
+      "semantic_id": "de-DE:adjective-adverb:weh:2798",
+      "frequency_rank": 2798,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2799,
+      "semantic_id": "de-DE:verb:entlassen:2799",
+      "frequency_rank": 2799,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2800,
+      "semantic_id": "de-DE:noun:Presse:2800",
+      "frequency_rank": 2800,
       "unit_id": null
     }
   ]
