@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "card_count": 2350,
+  "card_count": 2400,
   "active_units": [
     {
       "unit_id": "weekdays",
@@ -19,7 +19,7 @@
     {
       "unit_id": "numbers-core",
       "title": "Core numbers",
-      "available": 16,
+      "available": 17,
       "required": 29,
       "missing": [
         {
@@ -53,10 +53,6 @@
         {
           "label": "vierzig",
           "frequency_rank": 2907
-        },
-        {
-          "label": "fünfzig",
-          "frequency_rank": 2390
         },
         {
           "label": "sechzig",
@@ -14176,6 +14172,306 @@
       "curriculum_order": 2350,
       "semantic_id": "de-DE:noun:Konzert:2350",
       "frequency_rank": 2350,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2351,
+      "semantic_id": "de-DE:noun:Kontext:2351",
+      "frequency_rank": 2351,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2352,
+      "semantic_id": "de-DE:noun:Transport:2352",
+      "frequency_rank": 2352,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2353,
+      "semantic_id": "de-DE:verb:abbauen:2353",
+      "frequency_rank": 2353,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2354,
+      "semantic_id": "de-DE:verb:anregen:2354",
+      "frequency_rank": 2354,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2355,
+      "semantic_id": "de-DE:verb:aufwachsen:2355",
+      "frequency_rank": 2355,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2356,
+      "semantic_id": "de-DE:verb:beherrschen:2356",
+      "frequency_rank": 2356,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2357,
+      "semantic_id": "de-DE:proper-noun:Island:2357",
+      "frequency_rank": 2357,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2358,
+      "semantic_id": "de-DE:noun:Kreuz:2358",
+      "frequency_rank": 2358,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2359,
+      "semantic_id": "de-DE:noun:Motor:2359",
+      "frequency_rank": 2359,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2360,
+      "semantic_id": "de-DE:noun:Sendung:2360",
+      "frequency_rank": 2360,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2361,
+      "semantic_id": "de-DE:noun:Aktie:2361",
+      "frequency_rank": 2361,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2362,
+      "semantic_id": "de-DE:adverb:höchstens:2362",
+      "frequency_rank": 2362,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2363,
+      "semantic_id": "de-DE:adjective-adverb:trocken:2363",
+      "frequency_rank": 2363,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2364,
+      "semantic_id": "de-DE:proper-noun:Ukraine:2364",
+      "frequency_rank": 2364,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2365,
+      "semantic_id": "de-DE:noun:Wechselwirkung:2365",
+      "frequency_rank": 2365,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2366,
+      "semantic_id": "de-DE:noun:Bibliothek:2366",
+      "frequency_rank": 2366,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2367,
+      "semantic_id": "de-DE:adverb:ebenda:2367",
+      "frequency_rank": 2367,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2368,
+      "semantic_id": "de-DE:adverb:hoffentlich:2368",
+      "frequency_rank": 2368,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2369,
+      "semantic_id": "de-DE:noun-adjective:Erwachsene:2369",
+      "frequency_rank": 2369,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2370,
+      "semantic_id": "de-DE:noun-abbreviation:Weltmeisterschaft, WM:2370",
+      "frequency_rank": 2370,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2371,
+      "semantic_id": "de-DE:verb:zurückführen:2371",
+      "frequency_rank": 2371,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2372,
+      "semantic_id": "de-DE:noun:Bruttoinlandsprodukt:2372",
+      "frequency_rank": 2372,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2373,
+      "semantic_id": "de-DE:adjective-adverb:friedlich:2373",
+      "frequency_rank": 2373,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2374,
+      "semantic_id": "de-DE:noun:Verkäufer:2374",
+      "frequency_rank": 2374,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2375,
+      "semantic_id": "de-DE:adjective-adverb:vernünftig:2375",
+      "frequency_rank": 2375,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2376,
+      "semantic_id": "de-DE:noun:Matrix:2376",
+      "frequency_rank": 2376,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2377,
+      "semantic_id": "de-DE:verb:abholen:2377",
+      "frequency_rank": 2377,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2378,
+      "semantic_id": "de-DE:adjective-adverb:gegenwärtig:2378",
+      "frequency_rank": 2378,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2379,
+      "semantic_id": "de-DE:noun:Organismus:2379",
+      "frequency_rank": 2379,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2380,
+      "semantic_id": "de-DE:noun:Ressource:2380",
+      "frequency_rank": 2380,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2381,
+      "semantic_id": "de-DE:verb:trauen:2381",
+      "frequency_rank": 2381,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2382,
+      "semantic_id": "de-DE:noun:Vorbild:2382",
+      "frequency_rank": 2382,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2383,
+      "semantic_id": "de-DE:verb:vorlegen:2383",
+      "frequency_rank": 2383,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2384,
+      "semantic_id": "de-DE:adjective-adverb:wahnsinnig:2384",
+      "frequency_rank": 2384,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2385,
+      "semantic_id": "de-DE:adjective-adverb:erstaunlich:2385",
+      "frequency_rank": 2385,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2386,
+      "semantic_id": "de-DE:verb:grinsen:2386",
+      "frequency_rank": 2386,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2387,
+      "semantic_id": "de-DE:noun:Koffer:2387",
+      "frequency_rank": 2387,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2388,
+      "semantic_id": "de-DE:adjective-adverb:emotional:2388",
+      "frequency_rank": 2388,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2389,
+      "semantic_id": "de-DE:verb:erstellen:2389",
+      "frequency_rank": 2389,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2390,
+      "semantic_id": "de-DE:numeral:fünfzig:2390",
+      "frequency_rank": 2390,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2391,
+      "semantic_id": "de-DE:noun:Kugel:2391",
+      "frequency_rank": 2391,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2392,
+      "semantic_id": "de-DE:noun:Rad:2392",
+      "frequency_rank": 2392,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2393,
+      "semantic_id": "de-DE:verb:ausbauen:2393",
+      "frequency_rank": 2393,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2394,
+      "semantic_id": "de-DE:verb:anzeigen:2394",
+      "frequency_rank": 2394,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2395,
+      "semantic_id": "de-DE:noun:Schwerpunkt:2395",
+      "frequency_rank": 2395,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2396,
+      "semantic_id": "de-DE:noun:Überzeugung:2396",
+      "frequency_rank": 2396,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2397,
+      "semantic_id": "de-DE:noun:Ableitung:2397",
+      "frequency_rank": 2397,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2398,
+      "semantic_id": "de-DE:verb:aussteigen:2398",
+      "frequency_rank": 2398,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2399,
+      "semantic_id": "de-DE:noun:Chromosom:2399",
+      "frequency_rank": 2399,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2400,
+      "semantic_id": "de-DE:adjective:vergleichbar:2400",
+      "frequency_rank": 2400,
       "unit_id": null
     }
   ]

@@ -17,7 +17,7 @@ new conversation can resume without relying on chat history.
 
 ## Current stage
 
-The **first 2,350 frequency cards** have been independently authored as complete
+The **first 2,400 frequency cards** have been independently authored as complete
 drafts, alongside the earlier `wer` prototype. All 5,009 continuous ranks and
 headwords have been extracted as local curriculum metadata. A fresh extraction
 on 2026-08-01 matched the saved 5,009 source rows exactly; canonical ranks
@@ -200,10 +200,10 @@ rank 2,200. The package contains 2,200 notes/cards and 4,400 MP3s. The public
 download remains the verified `v1600-audio` release until the 2,200-card package
 is uploaded as a release asset.
 
-The finalized canonical checkpoint reaches rank 2,350, while verified audio
+The finalized canonical checkpoint reaches rank 2,400, while verified audio
 reaches rank 2,200. ElevenLabs stopped during rank 2,201–2,250 generation with
 19 credits remaining, so no partial browser-audio checkpoint was published.
-Next, review and finalize the prepared source for ranks 2,351–2,400.
+Next, author and review new frequency-aligned source beginning at rank 2,401.
 Batch builders support `--through` plus `--preserve-existing` for safe bounded
 milestones.
 
