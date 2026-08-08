@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "card_count": 2900,
+  "card_count": 2950,
   "active_units": [
     {
       "unit_id": "weekdays",
@@ -19,7 +19,7 @@
     {
       "unit_id": "numbers-core",
       "title": "Core numbers",
-      "available": 20,
+      "available": 21,
       "required": 29,
       "missing": [
         {
@@ -45,10 +45,6 @@
         {
           "label": "neunzehn",
           "supplemental_id": "de-DE:number:neunzehn:supplemental"
-        },
-        {
-          "label": "vierzig",
-          "frequency_rank": 2907
         },
         {
           "label": "achtzig",
@@ -17460,6 +17456,306 @@
       "curriculum_order": 2900,
       "semantic_id": "de-DE:pronoun-adverb:hierfür:2900",
       "frequency_rank": 2900,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2901,
+      "semantic_id": "de-DE:adjective-adverb:mobil:2901",
+      "frequency_rank": 2901,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2902,
+      "semantic_id": "de-DE:noun:Übersetzer:2902",
+      "frequency_rank": 2902,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2903,
+      "semantic_id": "de-DE:pronoun-adverb:wodurch:2903",
+      "frequency_rank": 2903,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2904,
+      "semantic_id": "de-DE:verb:zusagen:2904",
+      "frequency_rank": 2904,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2905,
+      "semantic_id": "de-DE:noun:Buchstabe:2905",
+      "frequency_rank": 2905,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2906,
+      "semantic_id": "de-DE:verb:verdanken:2906",
+      "frequency_rank": 2906,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2907,
+      "semantic_id": "de-DE:numeral:vierzig:2907",
+      "frequency_rank": 2907,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2908,
+      "semantic_id": "de-DE:noun:Vordergrund:2908",
+      "frequency_rank": 2908,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2909,
+      "semantic_id": "de-DE:noun:Reiz:2909",
+      "frequency_rank": 2909,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2910,
+      "semantic_id": "de-DE:adjective-adverb:verständlich:2910",
+      "frequency_rank": 2910,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2911,
+      "semantic_id": "de-DE:noun:Wahlkampf:2911",
+      "frequency_rank": 2911,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2912,
+      "semantic_id": "de-DE:adjective-adverb:flüssig:2912",
+      "frequency_rank": 2912,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2913,
+      "semantic_id": "de-DE:noun:Sturm:2913",
+      "frequency_rank": 2913,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2914,
+      "semantic_id": "de-DE:noun:Akteur:2914",
+      "frequency_rank": 2914,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2915,
+      "semantic_id": "de-DE:verb:entnehmen:2915",
+      "frequency_rank": 2915,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2916,
+      "semantic_id": "de-DE:verb:räumen:2916",
+      "frequency_rank": 2916,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2917,
+      "semantic_id": "de-DE:adjective-adverb:konsequent:2917",
+      "frequency_rank": 2917,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2918,
+      "semantic_id": "de-DE:verb:bekämpfen:2918",
+      "frequency_rank": 2918,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2919,
+      "semantic_id": "de-DE:noun:Gehalt:2919",
+      "frequency_rank": 2919,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2920,
+      "semantic_id": "de-DE:adverb-conjunction:indes:2920",
+      "frequency_rank": 2920,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2921,
+      "semantic_id": "de-DE:noun:Motto:2921",
+      "frequency_rank": 2921,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2922,
+      "semantic_id": "de-DE:noun:Philosophie:2922",
+      "frequency_rank": 2922,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2923,
+      "semantic_id": "de-DE:noun:Sender:2923",
+      "frequency_rank": 2923,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2924,
+      "semantic_id": "de-DE:noun:Talent:2924",
+      "frequency_rank": 2924,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2925,
+      "semantic_id": "de-DE:adverb-adjective:extra:2925",
+      "frequency_rank": 2925,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2926,
+      "semantic_id": "de-DE:noun:Fleck:2926",
+      "frequency_rank": 2926,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2927,
+      "semantic_id": "de-DE:verb:fressen:2927",
+      "frequency_rank": 2927,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2928,
+      "semantic_id": "de-DE:noun:Klage:2928",
+      "frequency_rank": 2928,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2929,
+      "semantic_id": "de-DE:adverb:anfangs:2929",
+      "frequency_rank": 2929,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2930,
+      "semantic_id": "de-DE:noun:Beratung:2930",
+      "frequency_rank": 2930,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2931,
+      "semantic_id": "de-DE:noun:Gestaltung:2931",
+      "frequency_rank": 2931,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2932,
+      "semantic_id": "de-DE:adjective-adverb:katholisch:2932",
+      "frequency_rank": 2932,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2933,
+      "semantic_id": "de-DE:adjective-adverb:merkwürdig:2933",
+      "frequency_rank": 2933,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2934,
+      "semantic_id": "de-DE:verb:bedecken:2934",
+      "frequency_rank": 2934,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2935,
+      "semantic_id": "de-DE:noun:Kuh:2935",
+      "frequency_rank": 2935,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2936,
+      "semantic_id": "de-DE:verb:verknüpfen:2936",
+      "frequency_rank": 2936,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2937,
+      "semantic_id": "de-DE:noun:Vorgehen:2937",
+      "frequency_rank": 2937,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2938,
+      "semantic_id": "de-DE:adverb:drüben:2938",
+      "frequency_rank": 2938,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2939,
+      "semantic_id": "de-DE:verb:erschießen:2939",
+      "frequency_rank": 2939,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2940,
+      "semantic_id": "de-DE:noun:Nutzer:2940",
+      "frequency_rank": 2940,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2941,
+      "semantic_id": "de-DE:noun:Stabilität:2941",
+      "frequency_rank": 2941,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2942,
+      "semantic_id": "de-DE:verb:verringern:2942",
+      "frequency_rank": 2942,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2943,
+      "semantic_id": "de-DE:adjective-adverb:juristisch:2943",
+      "frequency_rank": 2943,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2944,
+      "semantic_id": "de-DE:adjective-adverb:peinlich:2944",
+      "frequency_rank": 2944,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2945,
+      "semantic_id": "de-DE:noun:Anstrengung:2945",
+      "frequency_rank": 2945,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2946,
+      "semantic_id": "de-DE:noun:Nationalsozialist, Nazi:2946",
+      "frequency_rank": 2946,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2947,
+      "semantic_id": "de-DE:verb:rechtfertigen:2947",
+      "frequency_rank": 2947,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2948,
+      "semantic_id": "de-DE:noun:Zitat:2948",
+      "frequency_rank": 2948,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2949,
+      "semantic_id": "de-DE:noun:Anpassung:2949",
+      "frequency_rank": 2949,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2950,
+      "semantic_id": "de-DE:adjective-adverb:kaputt:2950",
+      "frequency_rank": 2950,
       "unit_id": null
     }
   ]
