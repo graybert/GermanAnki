@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "card_count": 1800,
+  "card_count": 1850,
   "active_units": [
     {
       "unit_id": "weekdays",
@@ -10886,6 +10886,306 @@
       "curriculum_order": 1800,
       "semantic_id": "de-DE:adjective-adverb:ewig:1800",
       "frequency_rank": 1800,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1801,
+      "semantic_id": "de-DE:noun:Perspektive:1801",
+      "frequency_rank": 1801,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1802,
+      "semantic_id": "de-DE:noun:Restaurant:1802",
+      "frequency_rank": 1802,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1803,
+      "semantic_id": "de-DE:verb:wandern:1803",
+      "frequency_rank": 1803,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1804,
+      "semantic_id": "de-DE:noun:Tasche:1804",
+      "frequency_rank": 1804,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1805,
+      "semantic_id": "de-DE:verb:vornehmen (sich):1805",
+      "frequency_rank": 1805,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1806,
+      "semantic_id": "de-DE:noun:Beamte:1806",
+      "frequency_rank": 1806,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1807,
+      "semantic_id": "de-DE:verb:orientieren:1807",
+      "frequency_rank": 1807,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1808,
+      "semantic_id": "de-DE:adjective:schmal:1808",
+      "frequency_rank": 1808,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1809,
+      "semantic_id": "de-DE:noun:Streit:1809",
+      "frequency_rank": 1809,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1810,
+      "semantic_id": "de-DE:adjective:spannend:1810",
+      "frequency_rank": 1810,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1811,
+      "semantic_id": "de-DE:interrogative-adverb:wohin:1811",
+      "frequency_rank": 1811,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1812,
+      "semantic_id": "de-DE:noun:Dach:1812",
+      "frequency_rank": 1812,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1813,
+      "semantic_id": "de-DE:noun:Karriere:1813",
+      "frequency_rank": 1813,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1814,
+      "semantic_id": "de-DE:verb:regeln:1814",
+      "frequency_rank": 1814,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1815,
+      "semantic_id": "de-DE:adverb-conjunction:insofern:1815",
+      "frequency_rank": 1815,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1816,
+      "semantic_id": "de-DE:noun:Zigarette:1816",
+      "frequency_rank": 1816,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1817,
+      "semantic_id": "de-DE:adjective:bunt:1817",
+      "frequency_rank": 1817,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1818,
+      "semantic_id": "de-DE:noun:Falle:1818",
+      "frequency_rank": 1818,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1819,
+      "semantic_id": "de-DE:verb:verbreiten:1819",
+      "frequency_rank": 1819,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1820,
+      "semantic_id": "de-DE:noun:Auswirkung:1820",
+      "frequency_rank": 1820,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1821,
+      "semantic_id": "de-DE:reciprocal-pronoun:einander:1821",
+      "frequency_rank": 1821,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1822,
+      "semantic_id": "de-DE:interrogative-conjunctive-adverb:weshalb:1822",
+      "frequency_rank": 1822,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1823,
+      "semantic_id": "de-DE:noun:Unterricht:1823",
+      "frequency_rank": 1823,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1824,
+      "semantic_id": "de-DE:noun:Bedürfnis:1824",
+      "frequency_rank": 1824,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1825,
+      "semantic_id": "de-DE:noun:Niveau:1825",
+      "frequency_rank": 1825,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1826,
+      "semantic_id": "de-DE:noun:Tante:1826",
+      "frequency_rank": 1826,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1827,
+      "semantic_id": "de-DE:noun:Prüfung:1827",
+      "frequency_rank": 1827,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1828,
+      "semantic_id": "de-DE:verb:mitbringen:1828",
+      "frequency_rank": 1828,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1829,
+      "semantic_id": "de-DE:adjective-adverb:seltsam:1829",
+      "frequency_rank": 1829,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1830,
+      "semantic_id": "de-DE:noun:Gen:1830",
+      "frequency_rank": 1830,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1831,
+      "semantic_id": "de-DE:verb:engagieren:1831",
+      "frequency_rank": 1831,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1832,
+      "semantic_id": "de-DE:noun:Onkel:1832",
+      "frequency_rank": 1832,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1833,
+      "semantic_id": "de-DE:adverb-conjunction:soweit:1833",
+      "frequency_rank": 1833,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1834,
+      "semantic_id": "de-DE:adjective-adverb:mächtig:1834",
+      "frequency_rank": 1834,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1835,
+      "semantic_id": "de-DE:adverb:ausgerechnet:1835",
+      "frequency_rank": 1835,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1836,
+      "semantic_id": "de-DE:adverb:zweimal:1836",
+      "frequency_rank": 1836,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1837,
+      "semantic_id": "de-DE:noun:Störung:1837",
+      "frequency_rank": 1837,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1838,
+      "semantic_id": "de-DE:noun:Aktion:1838",
+      "frequency_rank": 1838,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1839,
+      "semantic_id": "de-DE:suffix:-jährig:1839",
+      "frequency_rank": 1839,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1840,
+      "semantic_id": "de-DE:adjective-adverb:künstlich:1840",
+      "frequency_rank": 1840,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1841,
+      "semantic_id": "de-DE:noun:Auseinandersetzung:1841",
+      "frequency_rank": 1841,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1842,
+      "semantic_id": "de-DE:verb:pflegen:1842",
+      "frequency_rank": 1842,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1843,
+      "semantic_id": "de-DE:noun:Ausgabe:1843",
+      "frequency_rank": 1843,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1844,
+      "semantic_id": "de-DE:adjective-adverb:online:1844",
+      "frequency_rank": 1844,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1845,
+      "semantic_id": "de-DE:verb:ableiten:1845",
+      "frequency_rank": 1845,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1846,
+      "semantic_id": "de-DE:abbreviation:etc.:1846",
+      "frequency_rank": 1846,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1847,
+      "semantic_id": "de-DE:verb:leuchten:1847",
+      "frequency_rank": 1847,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1848,
+      "semantic_id": "de-DE:noun:Anlage:1848",
+      "frequency_rank": 1848,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1849,
+      "semantic_id": "de-DE:verb:erweitern:1849",
+      "frequency_rank": 1849,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1850,
+      "semantic_id": "de-DE:verb:erweisen:1850",
+      "frequency_rank": 1850,
       "unit_id": null
     }
   ]
