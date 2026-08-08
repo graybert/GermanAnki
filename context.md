@@ -204,6 +204,9 @@ The finalized canonical checkpoint reaches rank 2,400, while verified audio
 reaches rank 2,200. ElevenLabs stopped during rank 2,201–2,250 generation with
 19 credits remaining, so no partial browser-audio checkpoint was published.
 Next, author and review new frequency-aligned source beginning at rank 2,401.
+Ranks 2,401–2,500 continue through `build_batch_008.py`; ranks 2,501–3,000
+use `build_batch_009.py`. Both builders reject any target that does not exactly
+match `data/source/frequency-all-5009.jsonl` at its rank.
 Batch builders support `--through` plus `--preserve-existing` for safe bounded
 milestones.
 
