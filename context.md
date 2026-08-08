@@ -17,7 +17,7 @@ new conversation can resume without relying on chat history.
 
 ## Current stage
 
-The **first 1,850 frequency cards** have been independently authored as complete
+The **first 1,900 frequency cards** have been independently authored as complete
 drafts, alongside the earlier `wer` prototype. All 5,009 continuous ranks and
 headwords have been extracted as local curriculum metadata. A fresh extraction
 on 2026-08-01 matched the saved 5,009 source rows exactly; canonical ranks
@@ -35,7 +35,7 @@ cards. Deterministic enrichment preserves useful short phrases and adds varied
 context only where a card lacks two longer examples.
 
 A public-preview landing page, continuous browser demo, validated 1,250-card
-text `.apkg`, verified 1,850-card dual-voice audio `.apkg`, and GitHub Pages
+text `.apkg`, verified 1,900-card dual-voice audio `.apkg`, and GitHub Pages
 deployment workflow are live. Repository
 changes should now be committed after each completed change and pushed whenever
 a remote is available.
@@ -196,12 +196,12 @@ For every material change:
 ## Next action
 
 Audio generation, receipt verification, and Anki packaging are complete through
-rank 1,850. The package contains 1,850 notes/cards and 3,700 MP3s. The public
-download remains the verified `v1600-audio` release until the 1,850-card package
+rank 1,900. The package contains 1,900 notes/cards and 3,800 MP3s. The public
+download remains the verified `v1600-audio` release until the 1,900-card package
 is uploaded as a release asset.
 
-The finalized canonical and audio checkpoint reaches rank 1,850. Next, review
-and finalize the structurally complete prepared source for ranks 1,851–1,900.
+The finalized canonical and audio checkpoint reaches rank 1,900. Next, rewrite,
+review, and finalize the prepared source for ranks 1,901–1,950.
 Batch builders support `--through` plus `--preserve-existing` for safe bounded
 milestones.
 

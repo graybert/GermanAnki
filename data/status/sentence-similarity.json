@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "example_count": 7400,
+  "example_count": 7600,
   "similarity_threshold": 0.82,
   "similar_pairs": [
     {
-      "score": 0.922,
+      "score": 0.9219,
       "left": {
         "rank": 839,
         "slot": "main",
@@ -17,7 +17,7 @@
       }
     },
     {
-      "score": 0.8696,
+      "score": 0.8701,
       "left": {
         "rank": 1105,
         "slot": "main",
@@ -30,7 +30,7 @@
       }
     },
     {
-      "score": 0.8693,
+      "score": 0.8679,
       "left": {
         "rank": 892,
         "slot": "main",
@@ -43,7 +43,7 @@
       }
     },
     {
-      "score": 0.8611,
+      "score": 0.8615,
       "left": {
         "rank": 1412,
         "slot": "extra1",
@@ -56,7 +56,7 @@
       }
     },
     {
-      "score": 0.853,
+      "score": 0.8528,
       "left": {
         "rank": 244,
         "slot": "extra1",
@@ -69,7 +69,7 @@
       }
     },
     {
-      "score": 0.8446,
+      "score": 0.8452,
       "left": {
         "rank": 924,
         "slot": "extra1",
@@ -82,7 +82,7 @@
       }
     },
     {
-      "score": 0.8257,
+      "score": 0.8254,
       "left": {
         "rank": 108,
         "slot": "extra2",

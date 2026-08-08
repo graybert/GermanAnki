@@ -7398,5 +7398,205 @@ const audioFiles = {
   "1850": [
     "ga_word_erweisen_8ca69341ac.mp3",
     "ga_f1850_erweisen_8ca69341ac.mp3"
+  ],
+  "1851": [
+    "ga_word_gesundheit_1d1fca1f5e.mp3",
+    "ga_f1851_gesundheit_1d1fca1f5e.mp3"
+  ],
+  "1852": [
+    "ga_word_zutreffen_e7ee2bf531.mp3",
+    "ga_f1852_zutreffen_e7ee2bf531.mp3"
+  ],
+  "1853": [
+    "ga_word_auff-hren_ddc39606b5.mp3",
+    "ga_f1853_auff-hren_ddc39606b5.mp3"
+  ],
+  "1854": [
+    "ga_word_kandidat_70a0a2ad61.mp3",
+    "ga_f1854_kandidat_70a0a2ad61.mp3"
+  ],
+  "1855": [
+    "ga_word_profitieren_80f6fd036d.mp3",
+    "ga_f1855_profitieren_80f6fd036d.mp3"
+  ],
+  "1856": [
+    "ga_word_rechnung_8f39b0bf12.mp3",
+    "ga_f1856_rechnung_8f39b0bf12.mp3"
+  ],
+  "1857": [
+    "ga_word_bergang_4ce6d4d1e6.mp3",
+    "ga_f1857_bergang_4ce6d4d1e6.mp3"
+  ],
+  "1858": [
+    "ga_word_zusammenfassen_0395dbbf89.mp3",
+    "ga_f1858_zusammenfassen_0395dbbf89.mp3"
+  ],
+  "1859": [
+    "ga_word_beeindrucken_c2a3b25dbc.mp3",
+    "ga_f1859_beeindrucken_c2a3b25dbc.mp3"
+  ],
+  "1860": [
+    "ga_word_einnehmen_f3969e6af6.mp3",
+    "ga_f1860_einnehmen_f3969e6af6.mp3"
+  ],
+  "1861": [
+    "ga_word_loch_dddedace0f.mp3",
+    "ga_f1861_loch_dddedace0f.mp3"
+  ],
+  "1862": [
+    "ga_word_management_fc383a69dc.mp3",
+    "ga_f1862_management_fc383a69dc.mp3"
+  ],
+  "1863": [
+    "ga_word_schwimmen_7bf010d881.mp3",
+    "ga_f1863_schwimmen_7bf010d881.mp3"
+  ],
+  "1864": [
+    "ga_word_erwartung_daab185cc4.mp3",
+    "ga_f1864_erwartung_daab185cc4.mp3"
+  ],
+  "1865": [
+    "ga_word_beantworten_097f12e0e8.mp3",
+    "ga_f1865_beantworten_097f12e0e8.mp3"
+  ],
+  "1866": [
+    "ga_word_beweis_fb2ff69c22.mp3",
+    "ga_f1866_beweis_fb2ff69c22.mp3"
+  ],
+  "1867": [
+    "ga_word_weltkrieg_b45beb0c4a.mp3",
+    "ga_f1867_weltkrieg_b45beb0c4a.mp3"
+  ],
+  "1868": [
+    "ga_word_kompliziert_47cf5cf8ff.mp3",
+    "ga_f1868_kompliziert_47cf5cf8ff.mp3"
+  ],
+  "1869": [
+    "ga_word_stirn_798eed3127.mp3",
+    "ga_f1869_stirn_798eed3127.mp3"
+  ],
+  "1870": [
+    "ga_word_behandlung_8af395852f.mp3",
+    "ga_f1870_behandlung_8af395852f.mp3"
+  ],
+  "1871": [
+    "ga_word_zahn_968387ab9a.mp3",
+    "ga_f1871_zahn_968387ab9a.mp3"
+  ],
+  "1872": [
+    "ga_word_aussprechen_d2f50cfe85.mp3",
+    "ga_f1872_aussprechen_d2f50cfe85.mp3"
+  ],
+  "1873": [
+    "ga_word_beliebt_d4b6780111.mp3",
+    "ga_f1873_beliebt_d4b6780111.mp3"
+  ],
+  "1874": [
+    "ga_word_eis_32ff4551d7.mp3",
+    "ga_f1874_eis_32ff4551d7.mp3"
+  ],
+  "1875": [
+    "ga_word_komisch_a1042edb0b.mp3",
+    "ga_f1875_komisch_a1042edb0b.mp3"
+  ],
+  "1876": [
+    "ga_word_westlich_70dda253bf.mp3",
+    "ga_f1876_westlich_70dda253bf.mp3"
+  ],
+  "1877": [
+    "ga_word_geistig_16ab48c3d3.mp3",
+    "ga_f1877_geistig_16ab48c3d3.mp3"
+  ],
+  "1878": [
+    "ga_word_l-nge_8431e4fcd9.mp3",
+    "ga_f1878_l-nge_8431e4fcd9.mp3"
+  ],
+  "1879": [
+    "ga_word_unm-glich_2ca64f4c17.mp3",
+    "ga_f1879_unm-glich_2ca64f4c17.mp3"
+  ],
+  "1880": [
+    "ga_word_optimal_17ac105114.mp3",
+    "ga_f1880_optimal_17ac105114.mp3"
+  ],
+  "1881": [
+    "ga_word_wetter_886035d2d1.mp3",
+    "ga_f1881_wetter_886035d2d1.mp3"
+  ],
+  "1882": [
+    "ga_word_erg-nzen_fb0cc9aefa.mp3",
+    "ga_f1882_erg-nzen_fb0cc9aefa.mp3"
+  ],
+  "1883": [
+    "ga_word_voneinander_477ea51fce.mp3",
+    "ga_f1883_voneinander_477ea51fce.mp3"
+  ],
+  "1884": [
+    "ga_word_ausw-hlen_8bde024905.mp3",
+    "ga_f1884_ausw-hlen_8bde024905.mp3"
+  ],
+  "1885": [
+    "ga_word_befragen_55b281819d.mp3",
+    "ga_f1885_befragen_55b281819d.mp3"
+  ],
+  "1886": [
+    "ga_word_r-cken_b3320df8e4.mp3",
+    "ga_f1886_r-cken_b3320df8e4.mp3"
+  ],
+  "1887": [
+    "ga_word_anwalt_66a626ee70.mp3",
+    "ga_f1887_anwalt_66a626ee70.mp3"
+  ],
+  "1888": [
+    "ga_word_dahinter_dddb95e21d.mp3",
+    "ga_f1888_dahinter_dddb95e21d.mp3"
+  ],
+  "1889": [
+    "ga_word_st-rke_5742d12e95.mp3",
+    "ga_f1889_st-rke_5742d12e95.mp3"
+  ],
+  "1890": [
+    "ga_word_ironie_bccfdefd78.mp3",
+    "ga_f1890_ironie_bccfdefd78.mp3"
+  ],
+  "1891": [
+    "ga_word_ansicht_434adf9859.mp3",
+    "ga_f1891_ansicht_434adf9859.mp3"
+  ],
+  "1892": [
+    "ga_word_aktiengesellschaft-ag_4b36642ffa.mp3",
+    "ga_f1892_aktiengesellschaft-ag_4b36642ffa.mp3"
+  ],
+  "1893": [
+    "ga_word_ausbilden_50c3e6001f.mp3",
+    "ga_f1893_ausbilden_50c3e6001f.mp3"
+  ],
+  "1894": [
+    "ga_word_empirisch_481091e492.mp3",
+    "ga_f1894_empirisch_481091e492.mp3"
+  ],
+  "1895": [
+    "ga_word_kombination_56d9f0bf0c.mp3",
+    "ga_f1895_kombination_56d9f0bf0c.mp3"
+  ],
+  "1896": [
+    "ga_word_ermittlung_16b04557c4.mp3",
+    "ga_f1896_ermittlung_16b04557c4.mp3"
+  ],
+  "1897": [
+    "ga_word_gedicht_3bba1e19ad.mp3",
+    "ga_f1897_gedicht_3bba1e19ad.mp3"
+  ],
+  "1898": [
+    "ga_word_unterhalten-sich_d8dbeb453b.mp3",
+    "ga_f1898_unterhalten-sich_d8dbeb453b.mp3"
+  ],
+  "1899": [
+    "ga_word_hochschule_b7689d9034.mp3",
+    "ga_f1899_hochschule_b7689d9034.mp3"
+  ],
+  "1900": [
+    "ga_word_umsetzung_0e22d110e0.mp3",
+    "ga_f1900_umsetzung_0e22d110e0.mp3"
   ]
 };

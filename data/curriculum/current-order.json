@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "card_count": 1850,
+  "card_count": 1900,
   "active_units": [
     {
       "unit_id": "weekdays",
@@ -11186,6 +11186,306 @@
       "curriculum_order": 1850,
       "semantic_id": "de-DE:verb:erweisen:1850",
       "frequency_rank": 1850,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1851,
+      "semantic_id": "de-DE:noun:Gesundheit:1851",
+      "frequency_rank": 1851,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1852,
+      "semantic_id": "de-DE:verb:zutreffen:1852",
+      "frequency_rank": 1852,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1853,
+      "semantic_id": "de-DE:verb:aufführen:1853",
+      "frequency_rank": 1853,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1854,
+      "semantic_id": "de-DE:noun:Kandidat:1854",
+      "frequency_rank": 1854,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1855,
+      "semantic_id": "de-DE:verb:profitieren:1855",
+      "frequency_rank": 1855,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1856,
+      "semantic_id": "de-DE:noun:Rechnung:1856",
+      "frequency_rank": 1856,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1857,
+      "semantic_id": "de-DE:noun:Übergang:1857",
+      "frequency_rank": 1857,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1858,
+      "semantic_id": "de-DE:verb:zusammenfassen:1858",
+      "frequency_rank": 1858,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1859,
+      "semantic_id": "de-DE:verb:beeindrucken:1859",
+      "frequency_rank": 1859,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1860,
+      "semantic_id": "de-DE:verb:einnehmen:1860",
+      "frequency_rank": 1860,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1861,
+      "semantic_id": "de-DE:noun:Loch:1861",
+      "frequency_rank": 1861,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1862,
+      "semantic_id": "de-DE:noun:Management:1862",
+      "frequency_rank": 1862,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1863,
+      "semantic_id": "de-DE:verb:schwimmen:1863",
+      "frequency_rank": 1863,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1864,
+      "semantic_id": "de-DE:noun:Erwartung:1864",
+      "frequency_rank": 1864,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1865,
+      "semantic_id": "de-DE:verb:beantworten:1865",
+      "frequency_rank": 1865,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1866,
+      "semantic_id": "de-DE:noun:Beweis:1866",
+      "frequency_rank": 1866,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1867,
+      "semantic_id": "de-DE:noun:Weltkrieg:1867",
+      "frequency_rank": 1867,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1868,
+      "semantic_id": "de-DE:adjective-adverb:kompliziert:1868",
+      "frequency_rank": 1868,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1869,
+      "semantic_id": "de-DE:noun:Stirn:1869",
+      "frequency_rank": 1869,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1870,
+      "semantic_id": "de-DE:noun:Behandlung:1870",
+      "frequency_rank": 1870,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1871,
+      "semantic_id": "de-DE:noun:Zahn:1871",
+      "frequency_rank": 1871,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1872,
+      "semantic_id": "de-DE:verb:aussprechen:1872",
+      "frequency_rank": 1872,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1873,
+      "semantic_id": "de-DE:adjective:beliebt:1873",
+      "frequency_rank": 1873,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1874,
+      "semantic_id": "de-DE:noun:Eis:1874",
+      "frequency_rank": 1874,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1875,
+      "semantic_id": "de-DE:adjective-adverb:komisch:1875",
+      "frequency_rank": 1875,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1876,
+      "semantic_id": "de-DE:adjective-adverb:westlich:1876",
+      "frequency_rank": 1876,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1877,
+      "semantic_id": "de-DE:adjective-adverb:geistig:1877",
+      "frequency_rank": 1877,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1878,
+      "semantic_id": "de-DE:noun:Länge:1878",
+      "frequency_rank": 1878,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1879,
+      "semantic_id": "de-DE:adjective-adverb:unmöglich:1879",
+      "frequency_rank": 1879,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1880,
+      "semantic_id": "de-DE:adjective-adverb:optimal:1880",
+      "frequency_rank": 1880,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1881,
+      "semantic_id": "de-DE:noun:Wetter:1881",
+      "frequency_rank": 1881,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1882,
+      "semantic_id": "de-DE:verb:ergänzen:1882",
+      "frequency_rank": 1882,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1883,
+      "semantic_id": "de-DE:pronominal-adverb:voneinander:1883",
+      "frequency_rank": 1883,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1884,
+      "semantic_id": "de-DE:verb:auswählen:1884",
+      "frequency_rank": 1884,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1885,
+      "semantic_id": "de-DE:verb:befragen:1885",
+      "frequency_rank": 1885,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1886,
+      "semantic_id": "de-DE:verb:rücken:1886",
+      "frequency_rank": 1886,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1887,
+      "semantic_id": "de-DE:noun:Anwalt:1887",
+      "frequency_rank": 1887,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1888,
+      "semantic_id": "de-DE:pronominal-adverb:dahinter:1888",
+      "frequency_rank": 1888,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1889,
+      "semantic_id": "de-DE:noun:Stärke:1889",
+      "frequency_rank": 1889,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1890,
+      "semantic_id": "de-DE:noun:Ironie:1890",
+      "frequency_rank": 1890,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1891,
+      "semantic_id": "de-DE:noun:Ansicht:1891",
+      "frequency_rank": 1891,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1892,
+      "semantic_id": "de-DE:noun:Aktiengesellschaft, AG:1892",
+      "frequency_rank": 1892,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1893,
+      "semantic_id": "de-DE:verb:ausbilden:1893",
+      "frequency_rank": 1893,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1894,
+      "semantic_id": "de-DE:adjective-adverb:empirisch:1894",
+      "frequency_rank": 1894,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1895,
+      "semantic_id": "de-DE:noun:Kombination:1895",
+      "frequency_rank": 1895,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1896,
+      "semantic_id": "de-DE:noun:Ermittlung:1896",
+      "frequency_rank": 1896,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1897,
+      "semantic_id": "de-DE:noun:Gedicht:1897",
+      "frequency_rank": 1897,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1898,
+      "semantic_id": "de-DE:verb:unterhalten (sich):1898",
+      "frequency_rank": 1898,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1899,
+      "semantic_id": "de-DE:noun:Hochschule:1899",
+      "frequency_rank": 1899,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1900,
+      "semantic_id": "de-DE:noun:Umsetzung:1900",
+      "frequency_rank": 1900,
       "unit_id": null
     }
   ]
