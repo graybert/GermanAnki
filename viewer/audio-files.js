@@ -7998,5 +7998,205 @@ const audioFiles = {
   "2000": [
     "ga_word_m-de_ec82909636.mp3",
     "ga_f2000_m-de_ec82909636.mp3"
+  ],
+  "2001": [
+    "ga_word_sparen_6e2e7e879c.mp3",
+    "ga_f2001_sparen_6e2e7e879c.mp3"
+  ],
+  "2002": [
+    "ga_word_quasi_1bec2ecdd7.mp3",
+    "ga_f2002_quasi_1bec2ecdd7.mp3"
+  ],
+  "2003": [
+    "ga_word_wiener_abf8065b0e.mp3",
+    "ga_f2003_wiener_abf8065b0e.mp3"
+  ],
+  "2004": [
+    "ga_word_bl-d_e26c4dc527.mp3",
+    "ga_f2004_bl-d_e26c4dc527.mp3"
+  ],
+  "2005": [
+    "ga_word_soziologie_7a94fb8c7f.mp3",
+    "ga_f2005_soziologie_7a94fb8c7f.mp3"
+  ],
+  "2006": [
+    "ga_word_t-tig_12672ca431.mp3",
+    "ga_f2006_t-tig_12672ca431.mp3"
+  ],
+  "2007": [
+    "ga_word_afghanistan_6981f64245.mp3",
+    "ga_f2007_afghanistan_6981f64245.mp3"
+  ],
+  "2008": [
+    "ga_word_flucht_fa657d6db9.mp3",
+    "ga_f2008_flucht_fa657d6db9.mp3"
+  ],
+  "2009": [
+    "ga_word_absehen_e3df8ec32c.mp3",
+    "ga_f2009_absehen_e3df8ec32c.mp3"
+  ],
+  "2010": [
+    "ga_word_afrika_32cb3e958d.mp3",
+    "ga_f2010_afrika_32cb3e958d.mp3"
+  ],
+  "2011": [
+    "ga_word_regional_f364bb1eab.mp3",
+    "ga_f2011_regional_f364bb1eab.mp3"
+  ],
+  "2012": [
+    "ga_word_strategisch_dbb35bb34a.mp3",
+    "ga_f2012_strategisch_dbb35bb34a.mp3"
+  ],
+  "2013": [
+    "ga_word_exakt_2561ef23bc.mp3",
+    "ga_f2013_exakt_2561ef23bc.mp3"
+  ],
+  "2014": [
+    "ga_word_fortsetzen_bdda39c281.mp3",
+    "ga_f2014_fortsetzen_bdda39c281.mp3"
+  ],
+  "2015": [
+    "ga_word_steigern_56fbcede9c.mp3",
+    "ga_f2015_steigern_56fbcede9c.mp3"
+  ],
+  "2016": [
+    "ga_word_bersetzung_571f8c4797.mp3",
+    "ga_f2016_bersetzung_571f8c4797.mp3"
+  ],
+  "2017": [
+    "ga_word_wom-glich_2deae30299.mp3",
+    "ga_f2017_wom-glich_2deae30299.mp3"
+  ],
+  "2018": [
+    "ga_word_argument_00a1dd76d5.mp3",
+    "ga_f2018_argument_00a1dd76d5.mp3"
+  ],
+  "2019": [
+    "ga_word_ber-hren_56e400f4a7.mp3",
+    "ga_f2019_ber-hren_56e400f4a7.mp3"
+  ],
+  "2020": [
+    "ga_word_kino_56635b2188.mp3",
+    "ga_f2020_kino_56635b2188.mp3"
+  ],
+  "2021": [
+    "ga_word_dauer_cf5a99c337.mp3",
+    "ga_f2021_dauer_cf5a99c337.mp3"
+  ],
+  "2022": [
+    "ga_word_klappen_b1abda881f.mp3",
+    "ga_f2022_klappen_b1abda881f.mp3"
+  ],
+  "2023": [
+    "ga_word_polen_ef9006b11a.mp3",
+    "ga_f2023_polen_ef9006b11a.mp3"
+  ],
+  "2024": [
+    "ga_word_golden_3a0058d5c5.mp3",
+    "ga_f2024_golden_3a0058d5c5.mp3"
+  ],
+  "2025": [
+    "ga_word_kl-ren_965d4d1cf2.mp3",
+    "ga_f2025_kl-ren_965d4d1cf2.mp3"
+  ],
+  "2026": [
+    "ga_word_sauber_7a4a69520d.mp3",
+    "ga_f2026_sauber_7a4a69520d.mp3"
+  ],
+  "2027": [
+    "ga_word_bahnhof_1eba472f8e.mp3",
+    "ga_f2027_bahnhof_1eba472f8e.mp3"
+  ],
+  "2028": [
+    "ga_word_bewertung_9d46ceec7d.mp3",
+    "ga_f2028_bewertung_9d46ceec7d.mp3"
+  ],
+  "2029": [
+    "ga_word_messung_9113daf769.mp3",
+    "ga_f2029_messung_9113daf769.mp3"
+  ],
+  "2030": [
+    "ga_word_gewaltig_07d286f2e3.mp3",
+    "ga_f2030_gewaltig_07d286f2e3.mp3"
+  ],
+  "2031": [
+    "ga_word_relevant_e04e41bb15.mp3",
+    "ga_f2031_relevant_e04e41bb15.mp3"
+  ],
+  "2032": [
+    "ga_word_israel_a9ad48a22b.mp3",
+    "ga_f2032_israel_a9ad48a22b.mp3"
+  ],
+  "2033": [
+    "ga_word_lippe_296fb2bb3c.mp3",
+    "ga_f2033_lippe_296fb2bb3c.mp3"
+  ],
+  "2034": [
+    "ga_word_bundesrepublik-brd_37e9c1a128.mp3",
+    "ga_f2034_bundesrepublik-brd_37e9c1a128.mp3"
+  ],
+  "2035": [
+    "ga_word_charakter_3154a94a9e.mp3",
+    "ga_f2035_charakter_3154a94a9e.mp3"
+  ],
+  "2036": [
+    "ga_word_antreten_030d6ddf56.mp3",
+    "ga_f2036_antreten_030d6ddf56.mp3"
+  ],
+  "2037": [
+    "ga_word_lehre_6d1c2db260.mp3",
+    "ga_f2037_lehre_6d1c2db260.mp3"
+  ],
+  "2038": [
+    "ga_word_aufpassen_6615478398.mp3",
+    "ga_f2038_aufpassen_6615478398.mp3"
+  ],
+  "2039": [
+    "ga_word_verletzung_6fc3f5c6e3.mp3",
+    "ga_f2039_verletzung_6fc3f5c6e3.mp3"
+  ],
+  "2040": [
+    "ga_word_csu-christlich-soziale-union_1086a94237.mp3",
+    "ga_f2040_csu-christlich-soziale-union_1086a94237.mp3"
+  ],
+  "2041": [
+    "ga_word_direktor_1d419e2257.mp3",
+    "ga_f2041_direktor_1d419e2257.mp3"
+  ],
+  "2042": [
+    "ga_word_entt-uschen_15ae63dacd.mp3",
+    "ga_f2042_entt-uschen_15ae63dacd.mp3"
+  ],
+  "2043": [
+    "ga_word_fangen_cf98a24a7d.mp3",
+    "ga_f2043_fangen_cf98a24a7d.mp3"
+  ],
+  "2044": [
+    "ga_word_tr-ne_2c7fd4042a.mp3",
+    "ga_f2044_tr-ne_2c7fd4042a.mp3"
+  ],
+  "2045": [
+    "ga_word_damalig_9a461999f2.mp3",
+    "ga_f2045_damalig_9a461999f2.mp3"
+  ],
+  "2046": [
+    "ga_word_dreissig_609ff12a2f.mp3",
+    "ga_f2046_dreissig_609ff12a2f.mp3"
+  ],
+  "2047": [
+    "ga_word_mathematisch_87f9fba4a6.mp3",
+    "ga_f2047_mathematisch_87f9fba4a6.mp3"
+  ],
+  "2048": [
+    "ga_word_pflicht_adad764b21.mp3",
+    "ga_f2048_pflicht_adad764b21.mp3"
+  ],
+  "2049": [
+    "ga_word_realisieren_a8882e2c3e.mp3",
+    "ga_f2049_realisieren_a8882e2c3e.mp3"
+  ],
+  "2050": [
+    "ga_word_einrichten_871ab23c57.mp3",
+    "ga_f2050_einrichten_871ab23c57.mp3"
   ]
 };

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "card_count": 2000,
+  "card_count": 2050,
   "active_units": [
     {
       "unit_id": "weekdays",
@@ -19,7 +19,7 @@
     {
       "unit_id": "numbers-core",
       "title": "Core numbers",
-      "available": 15,
+      "available": 16,
       "required": 29,
       "missing": [
         {
@@ -49,10 +49,6 @@
         {
           "label": "neunzehn",
           "supplemental_id": "de-DE:number:neunzehn:supplemental"
-        },
-        {
-          "label": "dreißig",
-          "frequency_rank": 2046
         },
         {
           "label": "vierzig",
@@ -12080,6 +12076,306 @@
       "curriculum_order": 2000,
       "semantic_id": "de-DE:adjective:müde:2000",
       "frequency_rank": 2000,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2001,
+      "semantic_id": "de-DE:verb:sparen:2001",
+      "frequency_rank": 2001,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2002,
+      "semantic_id": "de-DE:adverb:quasi:2002",
+      "frequency_rank": 2002,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2003,
+      "semantic_id": "de-DE:noun-adjective:Wiener:2003",
+      "frequency_rank": 2003,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2004,
+      "semantic_id": "de-DE:adjective-adverb:blöd:2004",
+      "frequency_rank": 2004,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2005,
+      "semantic_id": "de-DE:noun:Soziologie:2005",
+      "frequency_rank": 2005,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2006,
+      "semantic_id": "de-DE:adjective:tätig:2006",
+      "frequency_rank": 2006,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2007,
+      "semantic_id": "de-DE:proper-noun:Afghanistan:2007",
+      "frequency_rank": 2007,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2008,
+      "semantic_id": "de-DE:noun:Flucht:2008",
+      "frequency_rank": 2008,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2009,
+      "semantic_id": "de-DE:verb:absehen:2009",
+      "frequency_rank": 2009,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2010,
+      "semantic_id": "de-DE:proper-noun:Afrika:2010",
+      "frequency_rank": 2010,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2011,
+      "semantic_id": "de-DE:adjective-adverb:regional:2011",
+      "frequency_rank": 2011,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2012,
+      "semantic_id": "de-DE:adjective-adverb:strategisch:2012",
+      "frequency_rank": 2012,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2013,
+      "semantic_id": "de-DE:adjective-adverb:exakt:2013",
+      "frequency_rank": 2013,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2014,
+      "semantic_id": "de-DE:verb:fortsetzen:2014",
+      "frequency_rank": 2014,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2015,
+      "semantic_id": "de-DE:verb:steigern:2015",
+      "frequency_rank": 2015,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2016,
+      "semantic_id": "de-DE:noun:Übersetzung:2016",
+      "frequency_rank": 2016,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2017,
+      "semantic_id": "de-DE:adverb:womöglich:2017",
+      "frequency_rank": 2017,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2018,
+      "semantic_id": "de-DE:noun:Argument:2018",
+      "frequency_rank": 2018,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2019,
+      "semantic_id": "de-DE:verb:berühren:2019",
+      "frequency_rank": 2019,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2020,
+      "semantic_id": "de-DE:noun:Kino:2020",
+      "frequency_rank": 2020,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2021,
+      "semantic_id": "de-DE:noun:Dauer:2021",
+      "frequency_rank": 2021,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2022,
+      "semantic_id": "de-DE:verb:klappen:2022",
+      "frequency_rank": 2022,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2023,
+      "semantic_id": "de-DE:proper-noun:Polen:2023",
+      "frequency_rank": 2023,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2024,
+      "semantic_id": "de-DE:adjective:golden:2024",
+      "frequency_rank": 2024,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2025,
+      "semantic_id": "de-DE:verb:klären:2025",
+      "frequency_rank": 2025,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2026,
+      "semantic_id": "de-DE:adjective-adverb:sauber:2026",
+      "frequency_rank": 2026,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2027,
+      "semantic_id": "de-DE:noun:Bahnhof:2027",
+      "frequency_rank": 2027,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2028,
+      "semantic_id": "de-DE:noun:Bewertung:2028",
+      "frequency_rank": 2028,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2029,
+      "semantic_id": "de-DE:noun:Messung:2029",
+      "frequency_rank": 2029,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2030,
+      "semantic_id": "de-DE:adjective-adverb:gewaltig:2030",
+      "frequency_rank": 2030,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2031,
+      "semantic_id": "de-DE:adjective:relevant:2031",
+      "frequency_rank": 2031,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2032,
+      "semantic_id": "de-DE:proper-noun:Israel:2032",
+      "frequency_rank": 2032,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2033,
+      "semantic_id": "de-DE:noun:Lippe:2033",
+      "frequency_rank": 2033,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2034,
+      "semantic_id": "de-DE:proper-noun-abbreviation:Bundesrepublik, BRD:2034",
+      "frequency_rank": 2034,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2035,
+      "semantic_id": "de-DE:noun:Charakter:2035",
+      "frequency_rank": 2035,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2036,
+      "semantic_id": "de-DE:verb:antreten:2036",
+      "frequency_rank": 2036,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2037,
+      "semantic_id": "de-DE:noun:Lehre:2037",
+      "frequency_rank": 2037,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2038,
+      "semantic_id": "de-DE:verb:aufpassen:2038",
+      "frequency_rank": 2038,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2039,
+      "semantic_id": "de-DE:noun:Verletzung:2039",
+      "frequency_rank": 2039,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2040,
+      "semantic_id": "de-DE:proper-noun-abbreviation:CSU (Christlich-Soziale Union):2040",
+      "frequency_rank": 2040,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2041,
+      "semantic_id": "de-DE:noun:Direktor:2041",
+      "frequency_rank": 2041,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2042,
+      "semantic_id": "de-DE:verb:enttäuschen:2042",
+      "frequency_rank": 2042,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2043,
+      "semantic_id": "de-DE:verb:fangen:2043",
+      "frequency_rank": 2043,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2044,
+      "semantic_id": "de-DE:noun:Träne:2044",
+      "frequency_rank": 2044,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2045,
+      "semantic_id": "de-DE:adjective:damalig:2045",
+      "frequency_rank": 2045,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2046,
+      "semantic_id": "de-DE:numeral:dreißig:2046",
+      "frequency_rank": 2046,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2047,
+      "semantic_id": "de-DE:adjective-adverb:mathematisch:2047",
+      "frequency_rank": 2047,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2048,
+      "semantic_id": "de-DE:noun:Pflicht:2048",
+      "frequency_rank": 2048,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2049,
+      "semantic_id": "de-DE:verb:realisieren:2049",
+      "frequency_rank": 2049,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2050,
+      "semantic_id": "de-DE:verb:einrichten:2050",
+      "frequency_rank": 2050,
       "unit_id": null
     }
   ]
