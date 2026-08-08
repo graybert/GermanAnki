@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "card_count": 2450,
+  "card_count": 2500,
   "active_units": [
     {
       "unit_id": "weekdays",
@@ -14768,6 +14768,306 @@
       "curriculum_order": 2450,
       "semantic_id": "de-DE:noun:Bilanz:2450",
       "frequency_rank": 2450,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2451,
+      "semantic_id": "de-DE:noun:Geheimnis:2451",
+      "frequency_rank": 2451,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2452,
+      "semantic_id": "de-DE:adverb:spätestens:2452",
+      "frequency_rank": 2452,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2453,
+      "semantic_id": "de-DE:adjective-adverb:dramatisch:2453",
+      "frequency_rank": 2453,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2454,
+      "semantic_id": "de-DE:noun:Ehre:2454",
+      "frequency_rank": 2454,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2455,
+      "semantic_id": "de-DE:verb:entschließen (sich):2455",
+      "frequency_rank": 2455,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2456,
+      "semantic_id": "de-DE:verb:gewöhnen:2456",
+      "frequency_rank": 2456,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2457,
+      "semantic_id": "de-DE:verb:hingehen:2457",
+      "frequency_rank": 2457,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2458,
+      "semantic_id": "de-DE:verb:zittern:2458",
+      "frequency_rank": 2458,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2459,
+      "semantic_id": "de-DE:noun:Dialog:2459",
+      "frequency_rank": 2459,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2460,
+      "semantic_id": "de-DE:noun:Schuss:2460",
+      "frequency_rank": 2460,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2461,
+      "semantic_id": "de-DE:noun:Seminar:2461",
+      "frequency_rank": 2461,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2462,
+      "semantic_id": "de-DE:noun:Werbung:2462",
+      "frequency_rank": 2462,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2463,
+      "semantic_id": "de-DE:noun:Blume:2463",
+      "frequency_rank": 2463,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2464,
+      "semantic_id": "de-DE:noun:Schreibtisch:2464",
+      "frequency_rank": 2464,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2465,
+      "semantic_id": "de-DE:verb:verlieben (sich):2465",
+      "frequency_rank": 2465,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2466,
+      "semantic_id": "de-DE:verb:winken:2466",
+      "frequency_rank": 2466,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2467,
+      "semantic_id": "de-DE:verb:fliehen:2467",
+      "frequency_rank": 2467,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2468,
+      "semantic_id": "de-DE:verb:interpretieren:2468",
+      "frequency_rank": 2468,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2469,
+      "semantic_id": "de-DE:adjective:olympisch:2469",
+      "frequency_rank": 2469,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2470,
+      "semantic_id": "de-DE:adjective-adverb:verdammt:2470",
+      "frequency_rank": 2470,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2471,
+      "semantic_id": "de-DE:verb:anerkennen:2471",
+      "frequency_rank": 2471,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2472,
+      "semantic_id": "de-DE:verb:bewahren:2472",
+      "frequency_rank": 2472,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2473,
+      "semantic_id": "de-DE:adjective-adverb:illegal:2473",
+      "frequency_rank": 2473,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2474,
+      "semantic_id": "de-DE:noun:Sand:2474",
+      "frequency_rank": 2474,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2475,
+      "semantic_id": "de-DE:verb:umbringen:2475",
+      "frequency_rank": 2475,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2476,
+      "semantic_id": "de-DE:noun:Fraktion:2476",
+      "frequency_rank": 2476,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2477,
+      "semantic_id": "de-DE:noun:Gesellschafter:2477",
+      "frequency_rank": 2477,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2478,
+      "semantic_id": "de-DE:noun:Schweden:2478",
+      "frequency_rank": 2478,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2479,
+      "semantic_id": "de-DE:noun:Verbesserung:2479",
+      "frequency_rank": 2479,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2480,
+      "semantic_id": "de-DE:pronoun-adverb:worauf:2480",
+      "frequency_rank": 2480,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2481,
+      "semantic_id": "de-DE:adjective:einsam:2481",
+      "frequency_rank": 2481,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2482,
+      "semantic_id": "de-DE:noun:Innovation:2482",
+      "frequency_rank": 2482,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2483,
+      "semantic_id": "de-DE:noun:Landwirtschaft:2483",
+      "frequency_rank": 2483,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2484,
+      "semantic_id": "de-DE:noun:Therapie:2484",
+      "frequency_rank": 2484,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2485,
+      "semantic_id": "de-DE:noun:Ablauf:2485",
+      "frequency_rank": 2485,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2486,
+      "semantic_id": "de-DE:verb:anstehen:2486",
+      "frequency_rank": 2486,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2487,
+      "semantic_id": "de-DE:noun:Bemerkung:2487",
+      "frequency_rank": 2487,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2488,
+      "semantic_id": "de-DE:adjective-noun:Frankfurter:2488",
+      "frequency_rank": 2488,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2489,
+      "semantic_id": "de-DE:adjective:identisch:2489",
+      "frequency_rank": 2489,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2490,
+      "semantic_id": "de-DE:verb:rollen:2490",
+      "frequency_rank": 2490,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2491,
+      "semantic_id": "de-DE:noun:Angehörige:2491",
+      "frequency_rank": 2491,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2492,
+      "semantic_id": "de-DE:noun:Café:2492",
+      "frequency_rank": 2492,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2493,
+      "semantic_id": "de-DE:adjective-adverb:dauerhaft:2493",
+      "frequency_rank": 2493,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2494,
+      "semantic_id": "de-DE:verb:garantieren:2494",
+      "frequency_rank": 2494,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2495,
+      "semantic_id": "de-DE:noun:Not:2495",
+      "frequency_rank": 2495,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2496,
+      "semantic_id": "de-DE:adjective-adverb:räumlich:2496",
+      "frequency_rank": 2496,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2497,
+      "semantic_id": "de-DE:adjective-adverb:jahrelang:2497",
+      "frequency_rank": 2497,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2498,
+      "semantic_id": "de-DE:noun:Respekt:2498",
+      "frequency_rank": 2498,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2499,
+      "semantic_id": "de-DE:verb:gefährden:2499",
+      "frequency_rank": 2499,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2500,
+      "semantic_id": "de-DE:noun:Spektrum:2500",
+      "frequency_rank": 2500,
       "unit_id": null
     }
   ]
