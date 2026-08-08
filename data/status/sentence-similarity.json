@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "example_count": 6800,
+  "example_count": 7000,
   "similarity_threshold": 0.82,
   "similar_pairs": [
     {
-      "score": 0.9241,
+      "score": 0.9226,
       "left": {
         "rank": 839,
         "slot": "main",
@@ -17,20 +17,7 @@
       }
     },
     {
-      "score": 0.8691,
-      "left": {
-        "rank": 892,
-        "slot": "main",
-        "sentence": "Die alte Kirche steht in der Mitte des Dorfes."
-      },
-      "right": {
-        "rank": 959,
-        "slot": "extra3",
-        "sentence": "Die Kirche steht in der Mitte des Dorfes."
-      }
-    },
-    {
-      "score": 0.8688,
+      "score": 0.8699,
       "left": {
         "rank": 1105,
         "slot": "main",
@@ -43,7 +30,20 @@
       }
     },
     {
-      "score": 0.858,
+      "score": 0.8692,
+      "left": {
+        "rank": 892,
+        "slot": "main",
+        "sentence": "Die alte Kirche steht in der Mitte des Dorfes."
+      },
+      "right": {
+        "rank": 959,
+        "slot": "extra3",
+        "sentence": "Die Kirche steht in der Mitte des Dorfes."
+      }
+    },
+    {
+      "score": 0.8597,
       "left": {
         "rank": 1412,
         "slot": "extra1",
@@ -56,7 +56,7 @@
       }
     },
     {
-      "score": 0.8532,
+      "score": 0.853,
       "left": {
         "rank": 244,
         "slot": "extra1",
@@ -69,7 +69,7 @@
       }
     },
     {
-      "score": 0.8444,
+      "score": 0.8449,
       "left": {
         "rank": 924,
         "slot": "extra1",

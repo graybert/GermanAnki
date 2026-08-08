@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "card_count": 1700,
+  "card_count": 1750,
   "active_units": [
     {
       "unit_id": "weekdays",
@@ -10286,6 +10286,306 @@
       "curriculum_order": 1700,
       "semantic_id": "de-DE:noun:Ministerpräsident:1700",
       "frequency_rank": 1700,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1701,
+      "semantic_id": "de-DE:noun:Vogel:1701",
+      "frequency_rank": 1701,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1702,
+      "semantic_id": "de-DE:verb:beschränken:1702",
+      "frequency_rank": 1702,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1703,
+      "semantic_id": "de-DE:noun:Branche:1703",
+      "frequency_rank": 1703,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1704,
+      "semantic_id": "de-DE:noun:Schauspieler:1704",
+      "frequency_rank": 1704,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1705,
+      "semantic_id": "de-DE:verb:vorschlagen:1705",
+      "frequency_rank": 1705,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1706,
+      "semantic_id": "de-DE:adverb:beinahe:1706",
+      "frequency_rank": 1706,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1707,
+      "semantic_id": "de-DE:adjective-adverb:jährlich:1707",
+      "frequency_rank": 1707,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1708,
+      "semantic_id": "de-DE:noun:Botschaft:1708",
+      "frequency_rank": 1708,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1709,
+      "semantic_id": "de-DE:noun:Alltag:1709",
+      "frequency_rank": 1709,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1710,
+      "semantic_id": "de-DE:noun:Umsatz:1710",
+      "frequency_rank": 1710,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1711,
+      "semantic_id": "de-DE:noun:Verband:1711",
+      "frequency_rank": 1711,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1712,
+      "semantic_id": "de-DE:verb:betreten:1712",
+      "frequency_rank": 1712,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1713,
+      "semantic_id": "de-DE:noun:Regelung:1713",
+      "frequency_rank": 1713,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1714,
+      "semantic_id": "de-DE:verb:teilnehmen:1714",
+      "frequency_rank": 1714,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1715,
+      "semantic_id": "de-DE:verb:überwiegen:1715",
+      "frequency_rank": 1715,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1716,
+      "semantic_id": "de-DE:verb:bedingen:1716",
+      "frequency_rank": 1716,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1717,
+      "semantic_id": "de-DE:noun:Gestalt:1717",
+      "frequency_rank": 1717,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1718,
+      "semantic_id": "de-DE:verb:zukommen:1718",
+      "frequency_rank": 1718,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1719,
+      "semantic_id": "de-DE:verb:ablaufen:1719",
+      "frequency_rank": 1719,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1720,
+      "semantic_id": "de-DE:noun:Minister:1720",
+      "frequency_rank": 1720,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1721,
+      "semantic_id": "de-DE:noun:Fahrzeug:1721",
+      "frequency_rank": 1721,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1722,
+      "semantic_id": "de-DE:verb:fließen:1722",
+      "frequency_rank": 1722,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1723,
+      "semantic_id": "de-DE:preposition-adjective:gemäß:1723",
+      "frequency_rank": 1723,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1724,
+      "semantic_id": "de-DE:noun:Vorwurf:1724",
+      "frequency_rank": 1724,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1725,
+      "semantic_id": "de-DE:adjective:erforderlich:1725",
+      "frequency_rank": 1725,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1726,
+      "semantic_id": "de-DE:noun:Haltung:1726",
+      "frequency_rank": 1726,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1727,
+      "semantic_id": "de-DE:noun:Schriftsteller:1727",
+      "frequency_rank": 1727,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1728,
+      "semantic_id": "de-DE:noun:Stimmung:1728",
+      "frequency_rank": 1728,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1729,
+      "semantic_id": "de-DE:adjective-adverb:zufällig:1729",
+      "frequency_rank": 1729,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1730,
+      "semantic_id": "de-DE:adjective-adverb:enorm:1730",
+      "frequency_rank": 1730,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1731,
+      "semantic_id": "de-DE:noun:Fach:1731",
+      "frequency_rank": 1731,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1732,
+      "semantic_id": "de-DE:verb:begrenzen:1732",
+      "frequency_rank": 1732,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1733,
+      "semantic_id": "de-DE:noun:Lied:1733",
+      "frequency_rank": 1733,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1734,
+      "semantic_id": "de-DE:noun:Nation:1734",
+      "frequency_rank": 1734,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1735,
+      "semantic_id": "de-DE:noun:Verhandlung:1735",
+      "frequency_rank": 1735,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1736,
+      "semantic_id": "de-DE:noun:Wein:1736",
+      "frequency_rank": 1736,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1737,
+      "semantic_id": "de-DE:noun:Auflage:1737",
+      "frequency_rank": 1737,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1738,
+      "semantic_id": "de-DE:adjective-adverb:billig:1738",
+      "frequency_rank": 1738,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1739,
+      "semantic_id": "de-DE:adjective-adverb:dünn:1739",
+      "frequency_rank": 1739,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1740,
+      "semantic_id": "de-DE:verb:achten:1740",
+      "frequency_rank": 1740,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1741,
+      "semantic_id": "de-DE:noun:Amerikaner:1741",
+      "frequency_rank": 1741,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1742,
+      "semantic_id": "de-DE:noun:Anbieter:1742",
+      "frequency_rank": 1742,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1743,
+      "semantic_id": "de-DE:noun:Industrie:1743",
+      "frequency_rank": 1743,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1744,
+      "semantic_id": "de-DE:proper-noun:Spanien:1744",
+      "frequency_rank": 1744,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1745,
+      "semantic_id": "de-DE:preposition-adverb:ab:1745",
+      "frequency_rank": 1745,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1746,
+      "semantic_id": "de-DE:noun:Jude:1746",
+      "frequency_rank": 1746,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1747,
+      "semantic_id": "de-DE:noun:Vorgang:1747",
+      "frequency_rank": 1747,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1748,
+      "semantic_id": "de-DE:verb:ausgeben:1748",
+      "frequency_rank": 1748,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1749,
+      "semantic_id": "de-DE:noun:Meister:1749",
+      "frequency_rank": 1749,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 1750,
+      "semantic_id": "de-DE:verb:umdrehen:1750",
+      "frequency_rank": 1750,
       "unit_id": null
     }
   ]
