@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "card_count": 2400,
+  "card_count": 2450,
   "active_units": [
     {
       "unit_id": "weekdays",
@@ -19,7 +19,7 @@
     {
       "unit_id": "numbers-core",
       "title": "Core numbers",
-      "available": 17,
+      "available": 18,
       "required": 29,
       "missing": [
         {
@@ -53,10 +53,6 @@
         {
           "label": "vierzig",
           "frequency_rank": 2907
-        },
-        {
-          "label": "sechzig",
-          "frequency_rank": 2448
         },
         {
           "label": "siebzig",
@@ -14472,6 +14468,306 @@
       "curriculum_order": 2400,
       "semantic_id": "de-DE:adjective:vergleichbar:2400",
       "frequency_rank": 2400,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2401,
+      "semantic_id": "de-DE:verb:anhören:2401",
+      "frequency_rank": 2401,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2402,
+      "semantic_id": "de-DE:noun:Tonne:2402",
+      "frequency_rank": 2402,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2403,
+      "semantic_id": "de-DE:verb:verleihen:2403",
+      "frequency_rank": 2403,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2404,
+      "semantic_id": "de-DE:noun:Arbeiter:2404",
+      "frequency_rank": 2404,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2405,
+      "semantic_id": "de-DE:noun:Bord:2405",
+      "frequency_rank": 2405,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2406,
+      "semantic_id": "de-DE:verb:entspannen:2406",
+      "frequency_rank": 2406,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2407,
+      "semantic_id": "de-DE:adverb:kürzlich:2407",
+      "frequency_rank": 2407,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2408,
+      "semantic_id": "de-DE:verb:beurteilen:2408",
+      "frequency_rank": 2408,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2409,
+      "semantic_id": "de-DE:verb:raten:2409",
+      "frequency_rank": 2409,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2410,
+      "semantic_id": "de-DE:noun:Schnitt:2410",
+      "frequency_rank": 2410,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2411,
+      "semantic_id": "de-DE:adjective:wertvoll:2411",
+      "frequency_rank": 2411,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2412,
+      "semantic_id": "de-DE:noun:Erzähler:2412",
+      "frequency_rank": 2412,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2413,
+      "semantic_id": "de-DE:noun:Gold:2413",
+      "frequency_rank": 2413,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2414,
+      "semantic_id": "de-DE:adjective:umstritten:2414",
+      "frequency_rank": 2414,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2415,
+      "semantic_id": "de-DE:verb:aufsteigen:2415",
+      "frequency_rank": 2415,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2416,
+      "semantic_id": "de-DE:adjective-adverb:biologisch:2416",
+      "frequency_rank": 2416,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2417,
+      "semantic_id": "de-DE:adjective:vielfältig:2417",
+      "frequency_rank": 2417,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2418,
+      "semantic_id": "de-DE:adjective-adverb:wirksam:2418",
+      "frequency_rank": 2418,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2419,
+      "semantic_id": "de-DE:verb:überlassen:2419",
+      "frequency_rank": 2419,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2420,
+      "semantic_id": "de-DE:verb:identifizieren:2420",
+      "frequency_rank": 2420,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2421,
+      "semantic_id": "de-DE:noun:Mittelwert:2421",
+      "frequency_rank": 2421,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2422,
+      "semantic_id": "de-DE:noun:Stil:2422",
+      "frequency_rank": 2422,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2423,
+      "semantic_id": "de-DE:noun:Atmosphäre:2423",
+      "frequency_rank": 2423,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2424,
+      "semantic_id": "de-DE:noun:Beschäftigung:2424",
+      "frequency_rank": 2424,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2425,
+      "semantic_id": "de-DE:verb:hinzufügen:2425",
+      "frequency_rank": 2425,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2426,
+      "semantic_id": "de-DE:adjective-adverb:indirekt:2426",
+      "frequency_rank": 2426,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2427,
+      "semantic_id": "de-DE:noun:Zeitraum:2427",
+      "frequency_rank": 2427,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2428,
+      "semantic_id": "de-DE:verb:aufkommen:2428",
+      "frequency_rank": 2428,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2429,
+      "semantic_id": "de-DE:noun:Plus:2429",
+      "frequency_rank": 2429,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2430,
+      "semantic_id": "de-DE:noun:Schwingung:2430",
+      "frequency_rank": 2430,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2431,
+      "semantic_id": "de-DE:noun:Vektor:2431",
+      "frequency_rank": 2431,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2432,
+      "semantic_id": "de-DE:noun:Sauerstoff:2432",
+      "frequency_rank": 2432,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2433,
+      "semantic_id": "de-DE:noun:Äußerung:2433",
+      "frequency_rank": 2433,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2434,
+      "semantic_id": "de-DE:verb:ausziehen:2434",
+      "frequency_rank": 2434,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2435,
+      "semantic_id": "de-DE:noun:Gewerkschaft:2435",
+      "frequency_rank": 2435,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2436,
+      "semantic_id": "de-DE:noun:Tourismus:2436",
+      "frequency_rank": 2436,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2437,
+      "semantic_id": "de-DE:adjective-adverb:flach:2437",
+      "frequency_rank": 2437,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2438,
+      "semantic_id": "de-DE:verb:transportieren:2438",
+      "frequency_rank": 2438,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2439,
+      "semantic_id": "de-DE:adjective:einheimisch:2439",
+      "frequency_rank": 2439,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2440,
+      "semantic_id": "de-DE:noun:Winkel:2440",
+      "frequency_rank": 2440,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2441,
+      "semantic_id": "de-DE:adjective:sauer:2441",
+      "frequency_rank": 2441,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2442,
+      "semantic_id": "de-DE:verb:vermissen:2442",
+      "frequency_rank": 2442,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2443,
+      "semantic_id": "de-DE:noun:Geschlecht:2443",
+      "frequency_rank": 2443,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2444,
+      "semantic_id": "de-DE:adjective:attraktiv:2444",
+      "frequency_rank": 2444,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2445,
+      "semantic_id": "de-DE:noun:Aussicht:2445",
+      "frequency_rank": 2445,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2446,
+      "semantic_id": "de-DE:noun:Betriebswirtschaftslehre:2446",
+      "frequency_rank": 2446,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2447,
+      "semantic_id": "de-DE:noun:Held:2447",
+      "frequency_rank": 2447,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2448,
+      "semantic_id": "de-DE:numeral:sechzig:2448",
+      "frequency_rank": 2448,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2449,
+      "semantic_id": "de-DE:noun:Base:2449",
+      "frequency_rank": 2449,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2450,
+      "semantic_id": "de-DE:noun:Bilanz:2450",
+      "frequency_rank": 2450,
       "unit_id": null
     }
   ]
