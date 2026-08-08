@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "card_count": 2800,
+  "card_count": 2850,
   "active_units": [
     {
       "unit_id": "weekdays",
@@ -16864,6 +16864,306 @@
       "curriculum_order": 2800,
       "semantic_id": "de-DE:noun:Presse:2800",
       "frequency_rank": 2800,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2801,
+      "semantic_id": "de-DE:pronoun-adverb:womit:2801",
+      "frequency_rank": 2801,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2802,
+      "semantic_id": "de-DE:verb:abstimmen:2802",
+      "frequency_rank": 2802,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2803,
+      "semantic_id": "de-DE:adjective-adverb:fair:2803",
+      "frequency_rank": 2803,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2804,
+      "semantic_id": "de-DE:adjective-adverb:hervorragend:2804",
+      "frequency_rank": 2804,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2805,
+      "semantic_id": "de-DE:adjective-adverb:umfangreich:2805",
+      "frequency_rank": 2805,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2806,
+      "semantic_id": "de-DE:proper-noun:EZB (Europäische Zentralbank):2806",
+      "frequency_rank": 2806,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2807,
+      "semantic_id": "de-DE:noun:Infrastruktur:2807",
+      "frequency_rank": 2807,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2808,
+      "semantic_id": "de-DE:noun:Konkurrent:2808",
+      "frequency_rank": 2808,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2809,
+      "semantic_id": "de-DE:noun:Party:2809",
+      "frequency_rank": 2809,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2810,
+      "semantic_id": "de-DE:noun:Wellenlänge:2810",
+      "frequency_rank": 2810,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2811,
+      "semantic_id": "de-DE:noun:Anhänger:2811",
+      "frequency_rank": 2811,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2812,
+      "semantic_id": "de-DE:adjective-adverb:betrieblich:2812",
+      "frequency_rank": 2812,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2813,
+      "semantic_id": "de-DE:noun:Finanzierung:2813",
+      "frequency_rank": 2813,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2814,
+      "semantic_id": "de-DE:noun:Inflation:2814",
+      "frequency_rank": 2814,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2815,
+      "semantic_id": "de-DE:verb:murmeln:2815",
+      "frequency_rank": 2815,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2816,
+      "semantic_id": "de-DE:noun:Plattform:2816",
+      "frequency_rank": 2816,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2817,
+      "semantic_id": "de-DE:verb:dominieren:2817",
+      "frequency_rank": 2817,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2818,
+      "semantic_id": "de-DE:verb:einräumen:2818",
+      "frequency_rank": 2818,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2819,
+      "semantic_id": "de-DE:verb:herausstellen (sich):2819",
+      "frequency_rank": 2819,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2820,
+      "semantic_id": "de-DE:noun:Kleidung:2820",
+      "frequency_rank": 2820,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2821,
+      "semantic_id": "de-DE:verb:vereinen:2821",
+      "frequency_rank": 2821,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2822,
+      "semantic_id": "de-DE:noun:Bundesrat:2822",
+      "frequency_rank": 2822,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2823,
+      "semantic_id": "de-DE:verb:abbrechen:2823",
+      "frequency_rank": 2823,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2824,
+      "semantic_id": "de-DE:noun:Aufklärung:2824",
+      "frequency_rank": 2824,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2825,
+      "semantic_id": "de-DE:verb:auskommen:2825",
+      "frequency_rank": 2825,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2826,
+      "semantic_id": "de-DE:adjective-adverb:denkbar:2826",
+      "frequency_rank": 2826,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2827,
+      "semantic_id": "de-DE:noun:Fernseher:2827",
+      "frequency_rank": 2827,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2828,
+      "semantic_id": "de-DE:noun:Italiener:2828",
+      "frequency_rank": 2828,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2829,
+      "semantic_id": "de-DE:verb:mangeln:2829",
+      "frequency_rank": 2829,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2830,
+      "semantic_id": "de-DE:noun:Schönheit:2830",
+      "frequency_rank": 2830,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2831,
+      "semantic_id": "de-DE:verb:verarbeiten:2831",
+      "frequency_rank": 2831,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2832,
+      "semantic_id": "de-DE:verb:verkünden:2832",
+      "frequency_rank": 2832,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2833,
+      "semantic_id": "de-DE:proper-noun:Dänemark:2833",
+      "frequency_rank": 2833,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2834,
+      "semantic_id": "de-DE:pronoun-adverb:dazwischen:2834",
+      "frequency_rank": 2834,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2835,
+      "semantic_id": "de-DE:verb:einsteigen:2835",
+      "frequency_rank": 2835,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2836,
+      "semantic_id": "de-DE:proper-noun:Tibet:2836",
+      "frequency_rank": 2836,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2837,
+      "semantic_id": "de-DE:noun:Webseite:2837",
+      "frequency_rank": 2837,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2838,
+      "semantic_id": "de-DE:verb:widersprechen:2838",
+      "frequency_rank": 2838,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2839,
+      "semantic_id": "de-DE:noun:Besitzer:2839",
+      "frequency_rank": 2839,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2840,
+      "semantic_id": "de-DE:adjective-adverb:japanisch:2840",
+      "frequency_rank": 2840,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2841,
+      "semantic_id": "de-DE:verb:ärgern:2841",
+      "frequency_rank": 2841,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2842,
+      "semantic_id": "de-DE:noun:Persönlichkeit:2842",
+      "frequency_rank": 2842,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2843,
+      "semantic_id": "de-DE:noun:Truppe:2843",
+      "frequency_rank": 2843,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2844,
+      "semantic_id": "de-DE:adjective-adverb:ausdrücklich:2844",
+      "frequency_rank": 2844,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2845,
+      "semantic_id": "de-DE:noun:Einschätzung:2845",
+      "frequency_rank": 2845,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2846,
+      "semantic_id": "de-DE:adjective-adverb:funktionell:2846",
+      "frequency_rank": 2846,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2847,
+      "semantic_id": "de-DE:noun:Gewebe:2847",
+      "frequency_rank": 2847,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2848,
+      "semantic_id": "de-DE:noun:Resultat:2848",
+      "frequency_rank": 2848,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2849,
+      "semantic_id": "de-DE:noun:Verwandte:2849",
+      "frequency_rank": 2849,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2850,
+      "semantic_id": "de-DE:noun:Anordnung:2850",
+      "frequency_rank": 2850,
       "unit_id": null
     }
   ]
