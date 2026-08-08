@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "card_count": 2550,
+  "card_count": 2600,
   "active_units": [
     {
       "unit_id": "weekdays",
@@ -15368,6 +15368,306 @@
       "curriculum_order": 2550,
       "semantic_id": "de-DE:noun:Bedarf:2550",
       "frequency_rank": 2550,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2551,
+      "semantic_id": "de-DE:adjective-adverb:ernsthaft:2551",
+      "frequency_rank": 2551,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2552,
+      "semantic_id": "de-DE:verb:werben:2552",
+      "frequency_rank": 2552,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2553,
+      "semantic_id": "de-DE:verb:errichten:2553",
+      "frequency_rank": 2553,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2554,
+      "semantic_id": "de-DE:noun:Kredit:2554",
+      "frequency_rank": 2554,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2555,
+      "semantic_id": "de-DE:noun:Wohnzimmer:2555",
+      "frequency_rank": 2555,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2556,
+      "semantic_id": "de-DE:noun:Kompetenz:2556",
+      "frequency_rank": 2556,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2557,
+      "semantic_id": "de-DE:noun:Leitung:2557",
+      "frequency_rank": 2557,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2558,
+      "semantic_id": "de-DE:verb:strahlen:2558",
+      "frequency_rank": 2558,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2559,
+      "semantic_id": "de-DE:noun:Zucker:2559",
+      "frequency_rank": 2559,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2560,
+      "semantic_id": "de-DE:noun:Austausch:2560",
+      "frequency_rank": 2560,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2561,
+      "semantic_id": "de-DE:verb:gleichen:2561",
+      "frequency_rank": 2561,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2562,
+      "semantic_id": "de-DE:noun:Station:2562",
+      "frequency_rank": 2562,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2563,
+      "semantic_id": "de-DE:noun:Kaiser:2563",
+      "frequency_rank": 2563,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2564,
+      "semantic_id": "de-DE:verb:sperren:2564",
+      "frequency_rank": 2564,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2565,
+      "semantic_id": "de-DE:noun:Sportler:2565",
+      "frequency_rank": 2565,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2566,
+      "semantic_id": "de-DE:noun:Differenz:2566",
+      "frequency_rank": 2566,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2567,
+      "semantic_id": "de-DE:noun:Fakt:2567",
+      "frequency_rank": 2567,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2568,
+      "semantic_id": "de-DE:noun:Herstellung:2568",
+      "frequency_rank": 2568,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2569,
+      "semantic_id": "de-DE:noun:Individuum:2569",
+      "frequency_rank": 2569,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2570,
+      "semantic_id": "de-DE:noun:Symbol:2570",
+      "frequency_rank": 2570,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2571,
+      "semantic_id": "de-DE:verb:ausbreiten:2571",
+      "frequency_rank": 2571,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2572,
+      "semantic_id": "de-DE:noun:Versorgung:2572",
+      "frequency_rank": 2572,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2573,
+      "semantic_id": "de-DE:noun:Kommentar:2573",
+      "frequency_rank": 2573,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2574,
+      "semantic_id": "de-DE:adjective-adverb:kontinuierlich:2574",
+      "frequency_rank": 2574,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2575,
+      "semantic_id": "de-DE:noun:Radio:2575",
+      "frequency_rank": 2575,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2576,
+      "semantic_id": "de-DE:adjective-noun:Münchner:2576",
+      "frequency_rank": 2576,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2577,
+      "semantic_id": "de-DE:noun:Musiker:2577",
+      "frequency_rank": 2577,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2578,
+      "semantic_id": "de-DE:verb:wecken:2578",
+      "frequency_rank": 2578,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2579,
+      "semantic_id": "de-DE:verb:ansteigen:2579",
+      "frequency_rank": 2579,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2580,
+      "semantic_id": "de-DE:noun:Rückkehr:2580",
+      "frequency_rank": 2580,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2581,
+      "semantic_id": "de-DE:verb:auszeichnen:2581",
+      "frequency_rank": 2581,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2582,
+      "semantic_id": "de-DE:noun:Bar:2582",
+      "frequency_rank": 2582,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2583,
+      "semantic_id": "de-DE:noun:Betrachtung:2583",
+      "frequency_rank": 2583,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2584,
+      "semantic_id": "de-DE:noun:Kommission:2584",
+      "frequency_rank": 2584,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2585,
+      "semantic_id": "de-DE:noun:Star:2585",
+      "frequency_rank": 2585,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2586,
+      "semantic_id": "de-DE:adjective:wütend:2586",
+      "frequency_rank": 2586,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2587,
+      "semantic_id": "de-DE:adjective:christlich:2587",
+      "frequency_rank": 2587,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2588,
+      "semantic_id": "de-DE:adjective-noun:Hamburger:2588",
+      "frequency_rank": 2588,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2589,
+      "semantic_id": "de-DE:noun:Leiche:2589",
+      "frequency_rank": 2589,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2590,
+      "semantic_id": "de-DE:adverb:nochmals:2590",
+      "frequency_rank": 2590,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2591,
+      "semantic_id": "de-DE:verb:wehren (sich):2591",
+      "frequency_rank": 2591,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2592,
+      "semantic_id": "de-DE:noun:Abbau:2592",
+      "frequency_rank": 2592,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2593,
+      "semantic_id": "de-DE:noun:Staatsanwaltschaft:2593",
+      "frequency_rank": 2593,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2594,
+      "semantic_id": "de-DE:noun:Freizeit:2594",
+      "frequency_rank": 2594,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2595,
+      "semantic_id": "de-DE:noun:Geschenk:2595",
+      "frequency_rank": 2595,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2596,
+      "semantic_id": "de-DE:adjective:hübsch:2596",
+      "frequency_rank": 2596,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2597,
+      "semantic_id": "de-DE:noun:Moslem:2597",
+      "frequency_rank": 2597,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2598,
+      "semantic_id": "de-DE:adjective-adverb:spontan:2598",
+      "frequency_rank": 2598,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2599,
+      "semantic_id": "de-DE:adverb:dorthin:2599",
+      "frequency_rank": 2599,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2600,
+      "semantic_id": "de-DE:noun:Frühstück:2600",
+      "frequency_rank": 2600,
       "unit_id": null
     }
   ]
