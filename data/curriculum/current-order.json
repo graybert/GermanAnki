@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "card_count": 2300,
+  "card_count": 2350,
   "active_units": [
     {
       "unit_id": "weekdays",
@@ -13876,6 +13876,306 @@
       "curriculum_order": 2300,
       "semantic_id": "de-DE:noun:Wärme:2300",
       "frequency_rank": 2300,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2301,
+      "semantic_id": "de-DE:adjective-adverb:eventuell:2301",
+      "frequency_rank": 2301,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2302,
+      "semantic_id": "de-DE:noun:Gemeinschaft:2302",
+      "frequency_rank": 2302,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2303,
+      "semantic_id": "de-DE:verb:kennenlernen:2303",
+      "frequency_rank": 2303,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2304,
+      "semantic_id": "de-DE:noun:Unternehmer:2304",
+      "frequency_rank": 2304,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2305,
+      "semantic_id": "de-DE:noun:Dienstleistung:2305",
+      "frequency_rank": 2305,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2306,
+      "semantic_id": "de-DE:adjective-adverb:intern:2306",
+      "frequency_rank": 2306,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2307,
+      "semantic_id": "de-DE:noun:Investor:2307",
+      "frequency_rank": 2307,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2308,
+      "semantic_id": "de-DE:noun:Periode:2308",
+      "frequency_rank": 2308,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2309,
+      "semantic_id": "de-DE:adjective-adverb:schriftlich:2309",
+      "frequency_rank": 2309,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2310,
+      "semantic_id": "de-DE:adjective-adverb:genetisch:2310",
+      "frequency_rank": 2310,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2311,
+      "semantic_id": "de-DE:noun:Einwohner:2311",
+      "frequency_rank": 2311,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2312,
+      "semantic_id": "de-DE:verb:testen:2312",
+      "frequency_rank": 2312,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2313,
+      "semantic_id": "de-DE:verb-adjective:umgeben:2313",
+      "frequency_rank": 2313,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2314,
+      "semantic_id": "de-DE:adjective-adverb:lebendig:2314",
+      "frequency_rank": 2314,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2315,
+      "semantic_id": "de-DE:verb:waschen:2315",
+      "frequency_rank": 2315,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2316,
+      "semantic_id": "de-DE:noun:Hormon:2316",
+      "frequency_rank": 2316,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2317,
+      "semantic_id": "de-DE:noun:Lebensmittel:2317",
+      "frequency_rank": 2317,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2318,
+      "semantic_id": "de-DE:noun:Zeile:2318",
+      "frequency_rank": 2318,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2319,
+      "semantic_id": "de-DE:verb:belasten:2319",
+      "frequency_rank": 2319,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2320,
+      "semantic_id": "de-DE:adjective:braun:2320",
+      "frequency_rank": 2320,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2321,
+      "semantic_id": "de-DE:noun:Ehe:2321",
+      "frequency_rank": 2321,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2322,
+      "semantic_id": "de-DE:noun:Passagier:2322",
+      "frequency_rank": 2322,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2323,
+      "semantic_id": "de-DE:noun:Kindheit:2323",
+      "frequency_rank": 2323,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2324,
+      "semantic_id": "de-DE:proper-noun:Ungarn:2324",
+      "frequency_rank": 2324,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2325,
+      "semantic_id": "de-DE:noun:Verbraucher:2325",
+      "frequency_rank": 2325,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2326,
+      "semantic_id": "de-DE:noun:Vielfalt:2326",
+      "frequency_rank": 2326,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2327,
+      "semantic_id": "de-DE:noun-interjection:Entschuldigung:2327",
+      "frequency_rank": 2327,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2328,
+      "semantic_id": "de-DE:verb:flüstern:2328",
+      "frequency_rank": 2328,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2329,
+      "semantic_id": "de-DE:adverb:geradezu:2329",
+      "frequency_rank": 2329,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2330,
+      "semantic_id": "de-DE:noun:Koalition:2330",
+      "frequency_rank": 2330,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2331,
+      "semantic_id": "de-DE:noun:Mischung:2331",
+      "frequency_rank": 2331,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2332,
+      "semantic_id": "de-DE:adjective-adverb:zukünftig:2332",
+      "frequency_rank": 2332,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2333,
+      "semantic_id": "de-DE:verb:erledigen:2333",
+      "frequency_rank": 2333,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2334,
+      "semantic_id": "de-DE:noun:Existenz:2334",
+      "frequency_rank": 2334,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2335,
+      "semantic_id": "de-DE:noun:Geruch:2335",
+      "frequency_rank": 2335,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2336,
+      "semantic_id": "de-DE:verb:herkommen:2336",
+      "frequency_rank": 2336,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2337,
+      "semantic_id": "de-DE:noun:Sitz:2337",
+      "frequency_rank": 2337,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2338,
+      "semantic_id": "de-DE:noun:Serie:2338",
+      "frequency_rank": 2338,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2339,
+      "semantic_id": "de-DE:verb:ahnen:2339",
+      "frequency_rank": 2339,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2340,
+      "semantic_id": "de-DE:noun:Entfernung:2340",
+      "frequency_rank": 2340,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2341,
+      "semantic_id": "de-DE:verb:stützen:2341",
+      "frequency_rank": 2341,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2342,
+      "semantic_id": "de-DE:noun:Wahrnehmung:2342",
+      "frequency_rank": 2342,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2343,
+      "semantic_id": "de-DE:noun:Liga:2343",
+      "frequency_rank": 2343,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2344,
+      "semantic_id": "de-DE:noun:Schlaf:2344",
+      "frequency_rank": 2344,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2345,
+      "semantic_id": "de-DE:verb:einschränken:2345",
+      "frequency_rank": 2345,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2346,
+      "semantic_id": "de-DE:noun:Kette:2346",
+      "frequency_rank": 2346,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2347,
+      "semantic_id": "de-DE:noun:Säure:2347",
+      "frequency_rank": 2347,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2348,
+      "semantic_id": "de-DE:noun:Strafe:2348",
+      "frequency_rank": 2348,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2349,
+      "semantic_id": "de-DE:noun:Franzose:2349",
+      "frequency_rank": 2349,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2350,
+      "semantic_id": "de-DE:noun:Konzert:2350",
+      "frequency_rank": 2350,
       "unit_id": null
     }
   ]
