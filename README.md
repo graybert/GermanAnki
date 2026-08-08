@@ -1,14 +1,14 @@
 # German Core Deck
 
-This repository contains a complete formatting prototype plus the first 1,900
+This repository contains a complete formatting prototype plus the first 1,950
 fully developed draft cards from a 5,009-entry frequency curriculum. Verified
-dual-voice word and sentence audio is verified through rank 1,900.
+dual-voice word and sentence audio is verified through rank 1,950.
 
 Try the public browser demo at
 [graybert.github.io/GermanAnki](https://graybert.github.io/GermanAnki/).
 The landing page offers an importable 1,250-card text preview and a verified
 1,600-card dual-voice audio deck published as a GitHub Release asset; the next
-1,900-card package is locally validated and awaiting release publication.
+1,950-card package is locally validated and awaiting release publication.
 
 Open `prototype/card-preview.html` to review the proposed front, back, light,
 dark, desktop, and mobile layouts. The Anki-native templates are in
