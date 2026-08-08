@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "card_count": 2050,
+  "card_count": 2100,
   "active_units": [
     {
       "unit_id": "weekdays",
@@ -12376,6 +12376,306 @@
       "curriculum_order": 2050,
       "semantic_id": "de-DE:verb:einrichten:2050",
       "frequency_rank": 2050,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2051,
+      "semantic_id": "de-DE:noun:Käufer:2051",
+      "frequency_rank": 2051,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2052,
+      "semantic_id": "de-DE:noun:Rennen:2052",
+      "frequency_rank": 2052,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2053,
+      "semantic_id": "de-DE:noun:Täter:2053",
+      "frequency_rank": 2053,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2054,
+      "semantic_id": "de-DE:verb:befreien:2054",
+      "frequency_rank": 2054,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2055,
+      "semantic_id": "de-DE:verb:ordnen:2055",
+      "frequency_rank": 2055,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2056,
+      "semantic_id": "de-DE:noun:Bezeichnung:2056",
+      "frequency_rank": 2056,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2057,
+      "semantic_id": "de-DE:verb:verteidigen:2057",
+      "frequency_rank": 2057,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2058,
+      "semantic_id": "de-DE:noun:Anlass:2058",
+      "frequency_rank": 2058,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2059,
+      "semantic_id": "de-DE:adjective-adverb:medial:2059",
+      "frequency_rank": 2059,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2060,
+      "semantic_id": "de-DE:adverb-adjective:hauptsächlich:2060",
+      "frequency_rank": 2060,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2061,
+      "semantic_id": "de-DE:noun:Hersteller:2061",
+      "frequency_rank": 2061,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2062,
+      "semantic_id": "de-DE:adverb:normalerweise:2062",
+      "frequency_rank": 2062,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2063,
+      "semantic_id": "de-DE:noun:Motiv:2063",
+      "frequency_rank": 2063,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2064,
+      "semantic_id": "de-DE:noun:Auswahl:2064",
+      "frequency_rank": 2064,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2065,
+      "semantic_id": "de-DE:verb:markieren:2065",
+      "frequency_rank": 2065,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2066,
+      "semantic_id": "de-DE:adjective-adverb:mehrfach:2066",
+      "frequency_rank": 2066,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2067,
+      "semantic_id": "de-DE:noun:Rang:2067",
+      "frequency_rank": 2067,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2068,
+      "semantic_id": "de-DE:verb:rennen:2068",
+      "frequency_rank": 2068,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2069,
+      "semantic_id": "de-DE:verb:herausfinden:2069",
+      "frequency_rank": 2069,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2070,
+      "semantic_id": "de-DE:adverb:nahezu:2070",
+      "frequency_rank": 2070,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2071,
+      "semantic_id": "de-DE:verb:benennen:2071",
+      "frequency_rank": 2071,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2072,
+      "semantic_id": "de-DE:noun:Schrift:2072",
+      "frequency_rank": 2072,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2073,
+      "semantic_id": "de-DE:noun:Silbe:2073",
+      "frequency_rank": 2073,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2074,
+      "semantic_id": "de-DE:noun:Anstieg:2074",
+      "frequency_rank": 2074,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2075,
+      "semantic_id": "de-DE:noun:Kurve:2075",
+      "frequency_rank": 2075,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2076,
+      "semantic_id": "de-DE:noun:Auftritt:2076",
+      "frequency_rank": 2076,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2077,
+      "semantic_id": "de-DE:verb:integrieren:2077",
+      "frequency_rank": 2077,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2078,
+      "semantic_id": "de-DE:noun:Saga:2078",
+      "frequency_rank": 2078,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2079,
+      "semantic_id": "de-DE:verb:anmelden:2079",
+      "frequency_rank": 2079,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2080,
+      "semantic_id": "de-DE:adjective-adverb:gerecht:2080",
+      "frequency_rank": 2080,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2081,
+      "semantic_id": "de-DE:adjective-adverb:unendlich:2081",
+      "frequency_rank": 2081,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2082,
+      "semantic_id": "de-DE:noun:Bundestag:2082",
+      "frequency_rank": 2082,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2083,
+      "semantic_id": "de-DE:adjective-adverb:literarisch:2083",
+      "frequency_rank": 2083,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2084,
+      "semantic_id": "de-DE:noun:Bewusstsein:2084",
+      "frequency_rank": 2084,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2085,
+      "semantic_id": "de-DE:noun:Stiftung:2085",
+      "frequency_rank": 2085,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2086,
+      "semantic_id": "de-DE:noun:Erhöhung:2086",
+      "frequency_rank": 2086,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2087,
+      "semantic_id": "de-DE:noun-abbreviation:GmbH:2087",
+      "frequency_rank": 2087,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2088,
+      "semantic_id": "de-DE:adjective-adverb:ungewöhnlich:2088",
+      "frequency_rank": 2088,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2089,
+      "semantic_id": "de-DE:noun:Fest:2089",
+      "frequency_rank": 2089,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2090,
+      "semantic_id": "de-DE:noun:Anforderung:2090",
+      "frequency_rank": 2090,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2091,
+      "semantic_id": "de-DE:adjective:männlich:2091",
+      "frequency_rank": 2091,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2092,
+      "semantic_id": "de-DE:noun:Training:2092",
+      "frequency_rank": 2092,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2093,
+      "semantic_id": "de-DE:verb:vorgehen:2093",
+      "frequency_rank": 2093,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2094,
+      "semantic_id": "de-DE:noun:Arbeitslosigkeit:2094",
+      "frequency_rank": 2094,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2095,
+      "semantic_id": "de-DE:noun:Brot:2095",
+      "frequency_rank": 2095,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2096,
+      "semantic_id": "de-DE:noun:Geburt:2096",
+      "frequency_rank": 2096,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2097,
+      "semantic_id": "de-DE:noun:Hunger:2097",
+      "frequency_rank": 2097,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2098,
+      "semantic_id": "de-DE:adjective:jüdisch:2098",
+      "frequency_rank": 2098,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2099,
+      "semantic_id": "de-DE:noun:Umfeld:2099",
+      "frequency_rank": 2099,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2100,
+      "semantic_id": "de-DE:adverb:allzu:2100",
+      "frequency_rank": 2100,
       "unit_id": null
     }
   ]
