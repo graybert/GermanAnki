@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "card_count": 2150,
+  "card_count": 2200,
   "active_units": [
     {
       "unit_id": "weekdays",
@@ -12976,6 +12976,306 @@
       "curriculum_order": 2150,
       "semantic_id": "de-DE:verb:ausrichten:2150",
       "frequency_rank": 2150,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2151,
+      "semantic_id": "de-DE:verb:rühren:2151",
+      "frequency_rank": 2151,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2152,
+      "semantic_id": "de-DE:noun:Trend:2152",
+      "frequency_rank": 2152,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2153,
+      "semantic_id": "de-DE:verb:aktivieren:2153",
+      "frequency_rank": 2153,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2154,
+      "semantic_id": "de-DE:noun:Mechanismus:2154",
+      "frequency_rank": 2154,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2155,
+      "semantic_id": "de-DE:noun:Nutzen:2155",
+      "frequency_rank": 2155,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2156,
+      "semantic_id": "de-DE:noun:Hose:2156",
+      "frequency_rank": 2156,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2157,
+      "semantic_id": "de-DE:verb:lügen:2157",
+      "frequency_rank": 2157,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2158,
+      "semantic_id": "de-DE:verb:ansetzen:2158",
+      "frequency_rank": 2158,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2159,
+      "semantic_id": "de-DE:adjective-adverb:arabisch:2159",
+      "frequency_rank": 2159,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2160,
+      "semantic_id": "de-DE:verb:mischen:2160",
+      "frequency_rank": 2160,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2161,
+      "semantic_id": "de-DE:verb:beruhen:2161",
+      "frequency_rank": 2161,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2162,
+      "semantic_id": "de-DE:proper-noun:Japan:2162",
+      "frequency_rank": 2162,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2163,
+      "semantic_id": "de-DE:noun:City:2163",
+      "frequency_rank": 2163,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2164,
+      "semantic_id": "de-DE:noun:Klausur:2164",
+      "frequency_rank": 2164,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2165,
+      "semantic_id": "de-DE:adverb:innen:2165",
+      "frequency_rank": 2165,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2166,
+      "semantic_id": "de-DE:noun:Membran:2166",
+      "frequency_rank": 2166,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2167,
+      "semantic_id": "de-DE:noun:Metall:2167",
+      "frequency_rank": 2167,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2168,
+      "semantic_id": "de-DE:noun:Netzwerk:2168",
+      "frequency_rank": 2168,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2169,
+      "semantic_id": "de-DE:adjective-adverb:systematisch:2169",
+      "frequency_rank": 2169,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2170,
+      "semantic_id": "de-DE:noun:Technologie:2170",
+      "frequency_rank": 2170,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2171,
+      "semantic_id": "de-DE:noun:Trennung:2171",
+      "frequency_rank": 2171,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2172,
+      "semantic_id": "de-DE:noun:E-Mail:2172",
+      "frequency_rank": 2172,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2173,
+      "semantic_id": "de-DE:verb:mitmachen:2173",
+      "frequency_rank": 2173,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2174,
+      "semantic_id": "de-DE:noun:Manager:2174",
+      "frequency_rank": 2174,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2175,
+      "semantic_id": "de-DE:noun:Oma:2175",
+      "frequency_rank": 2175,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2176,
+      "semantic_id": "de-DE:noun:Umfrage:2176",
+      "frequency_rank": 2176,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2177,
+      "semantic_id": "de-DE:noun:Operation:2177",
+      "frequency_rank": 2177,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2178,
+      "semantic_id": "de-DE:noun:Probe:2178",
+      "frequency_rank": 2178,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2179,
+      "semantic_id": "de-DE:verb:bedienen:2179",
+      "frequency_rank": 2179,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2180,
+      "semantic_id": "de-DE:noun:Mut:2180",
+      "frequency_rank": 2180,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2181,
+      "semantic_id": "de-DE:adjective-adverb:nachhaltig:2181",
+      "frequency_rank": 2181,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2182,
+      "semantic_id": "de-DE:verb:zusehen:2182",
+      "frequency_rank": 2182,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2183,
+      "semantic_id": "de-DE:verb:bevorzugen:2183",
+      "frequency_rank": 2183,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2184,
+      "semantic_id": "de-DE:adverb:hierzu:2184",
+      "frequency_rank": 2184,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2185,
+      "semantic_id": "de-DE:noun:Fischer:2185",
+      "frequency_rank": 2185,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2186,
+      "semantic_id": "de-DE:noun:Ruf:2186",
+      "frequency_rank": 2186,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2187,
+      "semantic_id": "de-DE:noun:Überlegung:2187",
+      "frequency_rank": 2187,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2188,
+      "semantic_id": "de-DE:noun:Begegnung:2188",
+      "frequency_rank": 2188,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2189,
+      "semantic_id": "de-DE:noun:Schlag:2189",
+      "frequency_rank": 2189,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2190,
+      "semantic_id": "de-DE:adverb:daraufhin:2190",
+      "frequency_rank": 2190,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2191,
+      "semantic_id": "de-DE:noun:Handlung:2191",
+      "frequency_rank": 2191,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2192,
+      "semantic_id": "de-DE:noun:Marke:2192",
+      "frequency_rank": 2192,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2193,
+      "semantic_id": "de-DE:verb:angreifen:2193",
+      "frequency_rank": 2193,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2194,
+      "semantic_id": "de-DE:verb:finanzieren:2194",
+      "frequency_rank": 2194,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2195,
+      "semantic_id": "de-DE:adverb:freilich:2195",
+      "frequency_rank": 2195,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2196,
+      "semantic_id": "de-DE:noun:Hinsicht:2196",
+      "frequency_rank": 2196,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2197,
+      "semantic_id": "de-DE:noun:Schlüssel:2197",
+      "frequency_rank": 2197,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2198,
+      "semantic_id": "de-DE:verb:deuten:2198",
+      "frequency_rank": 2198,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2199,
+      "semantic_id": "de-DE:adjective-adverb:glatt:2199",
+      "frequency_rank": 2199,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2200,
+      "semantic_id": "de-DE:adjective-adverb:schrecklich:2200",
+      "frequency_rank": 2200,
       "unit_id": null
     }
   ]

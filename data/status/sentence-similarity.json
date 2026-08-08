@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "example_count": 8600,
+  "example_count": 8800,
   "similarity_threshold": 0.82,
   "similar_pairs": [
     {
-      "score": 0.9211,
+      "score": 0.921,
       "left": {
         "rank": 839,
         "slot": "main",
@@ -17,20 +17,7 @@
       }
     },
     {
-      "score": 0.8699,
-      "left": {
-        "rank": 1105,
-        "slot": "main",
-        "sentence": "Einerseits ist die Wohnung günstig, andererseits liegt sie weit draußen."
-      },
-      "right": {
-        "rank": 1633,
-        "slot": "main",
-        "sentence": "Einerseits ist die Wohnung günstig, andererseits liegt sie weit entfernt."
-      }
-    },
-    {
-      "score": 0.8695,
+      "score": 0.87,
       "left": {
         "rank": 892,
         "slot": "main",
@@ -43,7 +30,20 @@
       }
     },
     {
-      "score": 0.8631,
+      "score": 0.8695,
+      "left": {
+        "rank": 1105,
+        "slot": "main",
+        "sentence": "Einerseits ist die Wohnung günstig, andererseits liegt sie weit draußen."
+      },
+      "right": {
+        "rank": 1633,
+        "slot": "main",
+        "sentence": "Einerseits ist die Wohnung günstig, andererseits liegt sie weit entfernt."
+      }
+    },
+    {
+      "score": 0.8638,
       "left": {
         "rank": 1412,
         "slot": "extra1",
@@ -69,7 +69,7 @@
       }
     },
     {
-      "score": 0.846,
+      "score": 0.8464,
       "left": {
         "rank": 924,
         "slot": "extra1",
@@ -82,7 +82,7 @@
       }
     },
     {
-      "score": 0.8253,
+      "score": 0.8248,
       "left": {
         "rank": 108,
         "slot": "extra2",
