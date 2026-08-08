@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "card_count": 2950,
+  "card_count": 3000,
   "active_units": [
     {
       "unit_id": "weekdays",
@@ -17756,6 +17756,306 @@
       "curriculum_order": 2950,
       "semantic_id": "de-DE:adjective-adverb:kaputt:2950",
       "frequency_rank": 2950,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2951,
+      "semantic_id": "de-DE:noun:Menschheit:2951",
+      "frequency_rank": 2951,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2952,
+      "semantic_id": "de-DE:noun:Note:2952",
+      "frequency_rank": 2952,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2953,
+      "semantic_id": "de-DE:verb:seufzen:2953",
+      "frequency_rank": 2953,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2954,
+      "semantic_id": "de-DE:noun-interjection:Achtung:2954",
+      "frequency_rank": 2954,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2955,
+      "semantic_id": "de-DE:verb:ausgleichen:2955",
+      "frequency_rank": 2955,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2956,
+      "semantic_id": "de-DE:noun:Pilot:2956",
+      "frequency_rank": 2956,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2957,
+      "semantic_id": "de-DE:noun:Vereinbarung:2957",
+      "frequency_rank": 2957,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2958,
+      "semantic_id": "de-DE:verb:aufbrechen:2958",
+      "frequency_rank": 2958,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2959,
+      "semantic_id": "de-DE:noun:Labor:2959",
+      "frequency_rank": 2959,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2960,
+      "semantic_id": "de-DE:verb:voraussetzen:2960",
+      "frequency_rank": 2960,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2961,
+      "semantic_id": "de-DE:adjective:divers:2961",
+      "frequency_rank": 2961,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2962,
+      "semantic_id": "de-DE:noun:Höhepunkt:2962",
+      "frequency_rank": 2962,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2963,
+      "semantic_id": "de-DE:noun:Wiese:2963",
+      "frequency_rank": 2963,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2964,
+      "semantic_id": "de-DE:noun:Anerkennung:2964",
+      "frequency_rank": 2964,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2965,
+      "semantic_id": "de-DE:adjective-adverb:ausgeprägt:2965",
+      "frequency_rank": 2965,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2966,
+      "semantic_id": "de-DE:noun:Autobahn:2966",
+      "frequency_rank": 2966,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2967,
+      "semantic_id": "de-DE:noun:Formulierung:2967",
+      "frequency_rank": 2967,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2968,
+      "semantic_id": "de-DE:noun:Berücksichtigung:2968",
+      "frequency_rank": 2968,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2969,
+      "semantic_id": "de-DE:adjective-adverb:dementsprechend:2969",
+      "frequency_rank": 2969,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2970,
+      "semantic_id": "de-DE:noun:Schreck:2970",
+      "frequency_rank": 2970,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2971,
+      "semantic_id": "de-DE:noun:Weihnachten:2971",
+      "frequency_rank": 2971,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2972,
+      "semantic_id": "de-DE:noun:Anschluss:2972",
+      "frequency_rank": 2972,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2973,
+      "semantic_id": "de-DE:verb:entziehen:2973",
+      "frequency_rank": 2973,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2974,
+      "semantic_id": "de-DE:noun:Reduktion:2974",
+      "frequency_rank": 2974,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2975,
+      "semantic_id": "de-DE:noun:Schwein:2975",
+      "frequency_rank": 2975,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2976,
+      "semantic_id": "de-DE:noun:Komplex:2976",
+      "frequency_rank": 2976,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2977,
+      "semantic_id": "de-DE:conjunction:sofern:2977",
+      "frequency_rank": 2977,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2978,
+      "semantic_id": "de-DE:verb:anstreben:2978",
+      "frequency_rank": 2978,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2979,
+      "semantic_id": "de-DE:verb:beklagen:2979",
+      "frequency_rank": 2979,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2980,
+      "semantic_id": "de-DE:verb:einigen:2980",
+      "frequency_rank": 2980,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2981,
+      "semantic_id": "de-DE:noun:Freundschaft:2981",
+      "frequency_rank": 2981,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2982,
+      "semantic_id": "de-DE:noun:Hütte:2982",
+      "frequency_rank": 2982,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2983,
+      "semantic_id": "de-DE:noun:Mantel:2983",
+      "frequency_rank": 2983,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2984,
+      "semantic_id": "de-DE:noun:Prognose:2984",
+      "frequency_rank": 2984,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2985,
+      "semantic_id": "de-DE:adjective-adverb:zugehörig:2985",
+      "frequency_rank": 2985,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2986,
+      "semantic_id": "de-DE:adjective-adverb:analytisch:2986",
+      "frequency_rank": 2986,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2987,
+      "semantic_id": "de-DE:noun:Anliegen:2987",
+      "frequency_rank": 2987,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2988,
+      "semantic_id": "de-DE:adjective-adverb:locker:2988",
+      "frequency_rank": 2988,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2989,
+      "semantic_id": "de-DE:adjective:sonstig:2989",
+      "frequency_rank": 2989,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2990,
+      "semantic_id": "de-DE:verb:abwarten:2990",
+      "frequency_rank": 2990,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2991,
+      "semantic_id": "de-DE:adjective-adverb:bitter:2991",
+      "frequency_rank": 2991,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2992,
+      "semantic_id": "de-DE:adjective-adverb:permanent:2992",
+      "frequency_rank": 2992,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2993,
+      "semantic_id": "de-DE:noun:Abkommen:2993",
+      "frequency_rank": 2993,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2994,
+      "semantic_id": "de-DE:noun:Abstimmung:2994",
+      "frequency_rank": 2994,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2995,
+      "semantic_id": "de-DE:noun:Geschmack:2995",
+      "frequency_rank": 2995,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2996,
+      "semantic_id": "de-DE:verb:nachfolgen:2996",
+      "frequency_rank": 2996,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2997,
+      "semantic_id": "de-DE:verb:neigen:2997",
+      "frequency_rank": 2997,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2998,
+      "semantic_id": "de-DE:noun:Rente:2998",
+      "frequency_rank": 2998,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 2999,
+      "semantic_id": "de-DE:noun:Taxi:2999",
+      "frequency_rank": 2999,
+      "unit_id": null
+    },
+    {
+      "curriculum_order": 3000,
+      "semantic_id": "de-DE:adverb:vorhin:3000",
+      "frequency_rank": 3000,
       "unit_id": null
     }
   ]

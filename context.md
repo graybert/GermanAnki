@@ -17,7 +17,7 @@ new conversation can resume without relying on chat history.
 
 ## Current stage
 
-The **first 2,950 frequency cards** have been independently authored as complete
+The **first 3,000 frequency cards** have been independently authored as complete
 drafts, alongside the earlier `wer` prototype. All 5,009 continuous ranks and
 headwords have been extracted as local curriculum metadata. A fresh extraction
 on 2026-08-01 matched the saved 5,009 source rows exactly; canonical ranks
@@ -200,10 +200,13 @@ rank 2,200. The package contains 2,200 notes/cards and 4,400 MP3s. The public
 download remains the verified `v1600-audio` release until the 2,200-card package
 is uploaded as a release asset.
 
-The finalized canonical checkpoint reaches rank 2,950, while verified audio
+The finalized canonical checkpoint reaches rank 3,000, while verified audio
 reaches rank 2,200. ElevenLabs stopped during rank 2,201–2,250 generation with
 19 credits remaining, so no partial browser-audio checkpoint was published.
-Next, author and review new frequency-aligned source beginning at rank 2,951.
+Text authoring has reached the requested rank-3,000 boundary. Continue audio
+generation from rank 2,201 only after the dedicated API key quota is increased
+or reset; its key-specific balance remains 19 credits despite available account
+plan capacity.
 Ranks 2,401–2,500 continue through `build_batch_008.py`; ranks 2,501–3,000
 use `build_batch_009.py`. Both builders reject any target that does not exactly
 match `data/source/frequency-all-5009.jsonl` at its rank.
